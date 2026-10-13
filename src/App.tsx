@@ -4,21 +4,12 @@ import { itinerary, stores, wishlist, itemsForStore } from './lib/data';
 import type { TripDay } from './types';
 import { usePurchasedItems } from './hooks/usePurchasedItems';
 import { ProductCard } from './components/ProductCard';
+import { WishlistPage } from './components/WishlistPage';
 import { Timeline } from './components/Timeline';
 import { ItineraryImport } from './components/ItineraryImport';
 import { ITINERARY_KEY, loadDays } from './lib/itineraryStorage';
 function DayTabs({ days, selected, onSelect }: { days: TripDay[]; selected: number; onSelect: (day: number) => void }) {
   return <div className="day-tabs" aria-label="選擇旅行日期">{days.map(day => <button key={day.id} aria-pressed={selected === day.day} className={selected === day.day ? 'selected' : ''} onClick={() => onSelect(day.day)}>Day {day.day}<span>{day.date.slice(5).replace('-', '/')}</span></button>)}</div>;
-}
-function WishlistPage() {
-  const [status, setStatus] = useState('all'); const [category, setCategory] = useState('all');
-  const { isPurchased, clearPurchased } = usePurchasedItems();
-  const filtered = wishlist.filter(item => (category === 'all' || item.category === category) && (status === 'all' || (status === 'purchased' ? isPurchased(item.id) : !isPurchased(item.id))));
-  return <><p className="eyebrow">SHOPPING LIST</p><h1>想帶回家的好物</h1><p className="muted mb-5">{wishlist.filter(item => isPurchased(item.id)).length} / {wishlist.length} 件已購買 · 主店與備案一起看</p>
-    <div className="filter-row">{[['all','全部'],['pending','未購買'],['purchased','已購買']].map(([value,label]) => <button key={value} className={status === value ? 'selected' : ''} aria-pressed={status === value} onClick={() => setStatus(value)}>{label}</button>)}</div>
-    <label className="block my-5">商品分類 <select className="ml-2" value={category} onChange={event => setCategory(event.target.value)}><option value="all">所有分類</option>{[...new Set(wishlist.map(item => item.category))].map(name => <option key={name}>{name}</option>)}</select></label>
-    <div className="product-grid">{filtered.map(item => <ProductCard key={item.id} item={item}/>)}</div>{!filtered.length && <p className="card p-8">這個分類沒有商品，換個篩選看看。</p>}
-    <p className="muted my-6">購買記錄只保存在此瀏覽器，不會同步到其他裝置。清除瀏覽器資料也會清除記錄。</p><button className="button secondary" onClick={() => { if (window.confirm('清除所有已購買標記？')) clearPurchased(); }}>清除已購買標記</button></>;
 }
 function StoresPage() {
   const { isPurchased } = usePurchasedItems();
@@ -39,7 +30,7 @@ function AppContent() {
   function save(next: TripDay[]) { setDays(next); try { localStorage.setItem(ITINERARY_KEY, JSON.stringify(next)); setSaveError(false); } catch { setSaveError(true); } }
   const dayPage = (full: boolean) => <><p className="eyebrow">{full ? 'SIX DAYS IN FUKUOKA' : 'YOUR DAILY COMPANION'}</p><h1>{full ? '六天，一路慢慢玩' : '今天，去哪裡？'}</h1><p className="muted mb-5">{full ? '12/12 — 12/17 · 博多出發的六日旅程' : '旅程外預設顯示 Day 5，也可以自由切換日期。'}</p><DayTabs days={days} selected={selected} onSelect={setSelected}/><div className="day-heading"><span className="eyebrow">{day.date} · DAY {day.day}</span><h2>{day.title}</h2><p className="muted">{day.stops.length} 個停靠點 · 時間與營業資訊請出發前確認</p></div><Timeline day={day}/>{full && <ItineraryImport overridden={JSON.stringify(days) !== JSON.stringify(itinerary)} onApply={updates => save(days.map(original => updates.find(update => update.id === original.id) ?? original))} onReset={() => { setDays(itinerary); try { localStorage.removeItem(ITINERARY_KEY); setSaveError(false); } catch { setSaveError(true); } }}/>}</>;
   return <><header className="site-header"><Link to="/" className="brand"><span className="brand-icon">福</span><span>Fukuoka<span className="brand-sub">TRIP COMPANION</span></span></Link><Link to="/wishlist" className="header-count">🛍 {wishlist.filter(item => !isPurchased(item.id)).length} 件待買</Link></header>
-    <main>{(storageError || saveError) && <p role="alert" className="card p-4 mb-4">瀏覽器無法儲存資料。目前的操作仍有效，但重新整理後可能遺失；請允許此網站使用本機儲存空間。</p>}<Routes><Route path="/" element={dayPage(false)}/><Route path="/itinerary" element={dayPage(true)}/><Route path="/wishlist" element={<WishlistPage/>}/><Route path="/stores" element={<StoresPage/>}/><Route path="/stores/:id" element={<StoreDetail/>}/><Route path="*" element={<><h1>找不到頁面</h1><Link to="/">回到今天</Link></>}/></Routes></main>
+    <main>{(storageError || saveError) && <p role="alert" className="card p-4 mb-4">瀏覽器無法儲存資料。目前的操作仍有效，但重新整理後可能遺失；請允許此網站使用本機儲存空間。</p>}<Routes><Route path="/" element={dayPage(false)}/><Route path="/itinerary" element={dayPage(true)}/><Route path="/wishlist" element={<WishlistPage days={days}/>}/><Route path="/stores" element={<StoresPage/>}/><Route path="/stores/:id" element={<StoreDetail/>}/><Route path="*" element={<><h1>找不到頁面</h1><Link to="/">回到今天</Link></>}/></Routes></main>
     <nav className="bottom-nav" aria-label="主要導覽">{[['/','☀','今天'],['/itinerary','▤','行程'],['/wishlist','♡','購物'],['/stores','⌂','店家']].map(([path,icon,label]) => <NavLink end={path === '/'} to={path} key={path}><span aria-hidden="true">{icon}</span>{label}</NavLink>)}</nav></>;
 }
 export default function App() { return <HashRouter><AppContent/></HashRouter>; }
