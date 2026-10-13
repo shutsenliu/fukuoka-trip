@@ -1,0 +1,481 @@
+[
+  {
+    "id": "day-1",
+    "day": 1,
+    "date": "2026-12-12",
+    "title": "抵達福岡、JR Pass 兌換、咖啡甜點、運河城與地雞炭火燒",
+    "stops": [
+      {
+        "id": "day-1-stop-1",
+        "startTime": "11:15",
+        "endTime": "12:30",
+        "name": "抵達福岡、入境、領行李",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-1-stop-2",
+        "startTime": "12:30",
+        "endTime": "12:50",
+        "name": "福岡機場兌換 JR 北九州 Pass ＆ 領取指定席券",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-1-stop-3",
+        "startTime": "12:50",
+        "endTime": "13:30",
+        "name": "福岡機場 → 博多站",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-1-stop-4",
+        "startTime": "13:30",
+        "endTime": "13:45",
+        "name": "博多站 → 飯店寄放行李",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-1-stop-5",
+        "startTime": "13:45",
+        "endTime": "15:00",
+        "name": "午餐：兼虎沾麵 博多 DEITOS 店（麵屋兼虎 博多デイトス店）",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-1-stop-6",
+        "startTime": "15:00",
+        "endTime": "15:15",
+        "name": "前往 FUK COFFEE",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-1-stop-7",
+        "startTime": "15:15",
+        "endTime": "15:55",
+        "name": "下午茶：FUK COFFEE",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-1-stop-8",
+        "startTime": "16:05",
+        "endTime": "18:00",
+        "name": "博多運河城（Canal City Hakata）",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-1-stop-9",
+        "startTime": "18:00",
+        "endTime": "18:10",
+        "name": "步行前往晚餐餐廳",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-1-stop-10",
+        "startTime": "18:15",
+        "endTime": "19:45",
+        "name": "晚餐：地雞屋 大和 本館（ぢどり屋 大和 本館）",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-1-stop-11",
+        "startTime": "19:45",
+        "endTime": "20:15",
+        "name": "返回飯店 Check-in、休息",
+        "type": "行程",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "day-2",
+    "day": 2,
+    "date": "2026-12-13",
+    "title": "門司港、下關與唐戶市場",
+    "stops": [
+      {
+        "id": "day-2-stop-1",
+        "startTime": "07:30",
+        "endTime": "09:00",
+        "name": "前往門司港",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-2-stop-2",
+        "startTime": "09:00",
+        "endTime": "10:00",
+        "name": "門司港車站 ＆ 門司港懷舊區",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-2-stop-3",
+        "startTime": "10:00",
+        "endTime": "11:00",
+        "name": "關門連絡船前往下關 ＆ 赤間神宮",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-2-stop-4",
+        "startTime": "11:15",
+        "endTime": "13:00",
+        "name": "午餐：唐戶市場海鮮大餐",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-2-stop-5",
+        "startTime": "13:00",
+        "endTime": "16:30",
+        "name": "關門隧道人行道 ＆ 和布刈神社",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-2-stop-6",
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "name": "晚餐：門司港燒咖哩",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-2-stop-7",
+        "startTime": "18:30",
+        "endTime": "20:00",
+        "name": "返回福岡市區",
+        "type": "行程",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "day-3",
+    "day": 3,
+    "date": "2026-12-14",
+    "title": "由布院童話村與烤雞皮神店",
+    "stops": [
+      {
+        "id": "day-3-stop-1",
+        "startTime": "09:00",
+        "endTime": "11:30",
+        "name": "搭乘由布院之森前往由布院",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-3-stop-2",
+        "startTime": "11:45",
+        "endTime": "13:00",
+        "name": "午餐：由布まぶし 心",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-3-stop-3",
+        "startTime": "13:00",
+        "endTime": "15:30",
+        "name": "湯之坪街道 ＆ 湯布院花卉村",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-3-stop-4",
+        "startTime": "15:30",
+        "endTime": "16:30",
+        "name": "金鱗湖漫步",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-3-stop-5",
+        "startTime": "17:00",
+        "endTime": "19:20",
+        "name": "返回博多",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-3-stop-6",
+        "startTime": "20:00",
+        "endTime": "21:30",
+        "name": "晚餐：かわ屋 祇園店",
+        "type": "行程",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "day-4",
+    "day": 4,
+    "date": "2026-12-15",
+    "title": "太宰府與水炊鍋",
+    "stops": [
+      {
+        "id": "day-4-stop-1",
+        "startTime": "08:30",
+        "endTime": "09:15",
+        "name": "前往太宰府",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-4-stop-2",
+        "startTime": "09:30",
+        "endTime": "11:00",
+        "name": "竈門神社",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-4-stop-3",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "name": "午餐：一蘭 太宰府參道店",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-4-stop-4",
+        "startTime": "12:15",
+        "endTime": "14:30",
+        "name": "太宰府天滿宮 ＆ 天開稻荷神社",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-4-stop-5",
+        "startTime": "14:30",
+        "endTime": "16:00",
+        "name": "太宰府表參道小吃",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-4-stop-6",
+        "startTime": "16:30",
+        "endTime": "17:30",
+        "name": "返回福岡市區",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-4-stop-7",
+        "startTime": "18:00",
+        "endTime": "20:00",
+        "name": "晚餐：博多水炊鍋二選一",
+        "type": "行程",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "day-5",
+    "day": 5,
+    "date": "2026-12-16",
+    "title": "博多、天神購物日＋HOKA",
+    "stops": [
+      {
+        "id": "day-5-stop-1",
+        "startTime": "09:30",
+        "endTime": "11:30",
+        "name": "博多站購物",
+        "type": "行程",
+        "notes": "GU、UNIQLO、Nintendo FUKUOKA、博多丸井、伴手禮。"
+      },
+      {
+        "id": "day-5-stop-2",
+        "startTime": "11:30",
+        "endTime": "12:00",
+        "name": "回飯店放東西",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-5-stop-3",
+        "startTime": "12:15",
+        "endTime": "13:30",
+        "name": "博多鐵人",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-5-stop-4",
+        "startTime": "13:30",
+        "endTime": "14:00",
+        "name": "博多 → 天神",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-5-stop-5",
+        "startTime": "14:00",
+        "endTime": "14:45",
+        "name": "福岡 PARCO",
+        "type": "購物",
+        "notes": "",
+        "storeId": "parco"
+      },
+      {
+        "id": "day-5-stop-6",
+        "startTime": "14:45",
+        "endTime": "15:25",
+        "name": "HOKA 福岡天神店",
+        "type": "購物",
+        "notes": "",
+        "storeId": "hoka"
+      },
+      {
+        "id": "day-5-stop-7",
+        "startTime": "15:25",
+        "endTime": "16:05",
+        "name": "Mina 天神",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-5-stop-8",
+        "startTime": "16:05",
+        "endTime": "16:25",
+        "name": "animate LACHIC 福岡天神",
+        "type": "購物",
+        "notes": "",
+        "storeId": "animate"
+      },
+      {
+        "id": "day-5-stop-9",
+        "startTime": "16:30",
+        "endTime": "17:00",
+        "name": "前往 FULL FULL",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-5-stop-10",
+        "startTime": "17:00",
+        "endTime": "17:15",
+        "name": "FULL FULL 天神店",
+        "type": "購物",
+        "notes": "17:00 取明太子法國麵包；事先確認預訂與店休。",
+        "storeId": "fullfull"
+      },
+      {
+        "id": "day-5-stop-11",
+        "startTime": "17:15",
+        "endTime": "17:45",
+        "name": "UPTOWN Deluxe Fukuoka",
+        "type": "購物",
+        "notes": "",
+        "storeId": "uptown"
+      },
+      {
+        "id": "day-5-stop-12",
+        "startTime": "17:45",
+        "endTime": "18:20",
+        "name": "SEAM 天神大名店",
+        "type": "購物",
+        "notes": "",
+        "storeId": "seam"
+      },
+      {
+        "id": "day-5-stop-13",
+        "startTime": "18:20",
+        "endTime": "19:10",
+        "name": "大名商圈",
+        "type": "行程",
+        "notes": "可彈性補看 HOKA 備案店家。"
+      },
+      {
+        "id": "day-5-stop-14",
+        "startTime": "19:30",
+        "endTime": "21:00",
+        "name": "爐端 百式",
+        "type": "行程",
+        "notes": "建議預約 19:30；出發前再確認。"
+      },
+      {
+        "id": "day-5-stop-15",
+        "startTime": "21:00",
+        "endTime": "22:15",
+        "name": "藥妝 / 唐吉訶德",
+        "type": "購物",
+        "notes": "",
+        "storeId": "donki"
+      },
+      {
+        "id": "day-5-stop-16",
+        "startTime": "22:15",
+        "endTime": "22:45",
+        "name": "返回飯店",
+        "type": "行程",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "day-6",
+    "day": 6,
+    "date": "2026-12-17",
+    "title": "早餐快閃、福岡機場、回台灣",
+    "stops": [
+      {
+        "id": "day-6-stop-1",
+        "startTime": "07:00",
+        "endTime": "08:00",
+        "name": "起床、整理行李、退房",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-6-stop-2",
+        "startTime": "08:00",
+        "endTime": "08:40",
+        "name": "早餐：Dacomecca（選擇性）",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-6-stop-3",
+        "startTime": "08:40",
+        "endTime": "09:30",
+        "name": "博多站筑紫口 → 福岡機場國際線",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-6-stop-4",
+        "startTime": "09:30",
+        "endTime": "10:30",
+        "name": "報到、托運行李、安檢",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-6-stop-5",
+        "startTime": "10:30",
+        "endTime": "11:40",
+        "name": "福岡機場伴手禮補買 ＆ THE MATCHA TOKYO",
+        "type": "行程",
+        "notes": ""
+      },
+      {
+        "id": "day-6-stop-6",
+        "startTime": "12:15",
+        "endTime": "13:50",
+        "name": "搭機返回台灣",
+        "type": "行程",
+        "notes": ""
+      }
+    ]
+  }
+]

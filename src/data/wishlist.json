@@ -1,0 +1,54 @@
+[
+  {
+    "id": "ora-primo",
+    "name": "HOKA ORA PRIMO",
+    "category": "鞋子",
+    "priority": 5,
+    "storeIds": [
+      "hoka",
+      "beams",
+      "uptown"
+    ],
+    "notes": "看到喜歡的淺色＋合適尺寸就直接買。",
+    "image": "products/placeholder.svg",
+    "color": "奶油白 → 米白 → SESAME → Beige",
+    "size": "女生 23.5 / 24 / 24.5 cm"
+  },
+  {
+    "id": "ora-primo-ext",
+    "name": "HOKA ORA PRIMO EXT",
+    "category": "鞋子",
+    "priority": 5,
+    "storeIds": [
+      "hoka",
+      "beams",
+      "uptown"
+    ],
+    "notes": "看到喜歡的淺色＋合適尺寸就直接買。",
+    "image": "products/placeholder.svg",
+    "color": "奶油白 → 米白 → SESAME → Beige",
+    "size": "女生 23.5 / 24 / 24.5 cm"
+  },
+  {
+    "id": "kyogoku",
+    "name": "KYOGOKU 護髮產品",
+    "category": "護髮",
+    "priority": 4,
+    "storeIds": [
+      "seam"
+    ],
+    "notes": "優先看金色噴霧與金色髮油。",
+    "image": "products/placeholder.svg"
+  },
+  {
+    "id": "godzilla-sanrio",
+    "name": "哥吉拉 × 三麗鷗聯名絨毛吊飾",
+    "category": "角色周邊",
+    "priority": 4,
+    "storeIds": [
+      "marui"
+    ],
+    "notes": "於博多丸井哥吉拉商店博多店尋找，款式與庫存以現場為準。",
+    "image": "products/placeholder.svg"
+  }
+]
