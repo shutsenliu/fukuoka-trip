@@ -3,7 +3,7 @@ import { itinerary } from './data';
 export const ITINERARY_KEY = 'fukuoka-trip-itinerary';
 function isRecord(value: unknown): value is Record<string, unknown> { return typeof value === 'object' && value !== null; }
 function isStop(value: unknown): value is ItineraryStop {
-  return isRecord(value) && ['id','startTime','endTime','name','type','notes'].every(key => typeof value[key] === 'string') && (value.storeId === undefined || typeof value.storeId === 'string');
+  return isRecord(value) && ['id','startTime','endTime','name','type','notes'].every(key => typeof value[key] === 'string') && (value.storeId === undefined || typeof value.storeId === 'string') && (value.storeIds === undefined || (Array.isArray(value.storeIds) && (value.storeIds as unknown[]).every(id => typeof id === 'string')));
 }
 function isDay(value: unknown): value is TripDay {
   return isRecord(value) && typeof value.id === 'string' && typeof value.day === 'number' && typeof value.date === 'string' && typeof value.title === 'string' && Array.isArray(value.stops) && (value.stops as unknown[]).every(isStop);

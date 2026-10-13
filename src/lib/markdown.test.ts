@@ -24,3 +24,18 @@ describe('bundled relationships', () => {
     expect(itinerary[4].stops).toHaveLength(16);
   });
 });
+
+describe('shopping at itinerary stops', () => {
+  it('includes grouped stores and counts products only once across backup locations', async () => {
+    const { itemsForStop } = await import('./data');
+    expect(itemsForStop(itinerary[4].stops[0]).map(item => item.id)).toEqual(['godzilla-sanrio']);
+    expect(itemsForStop(itinerary[4].stops[4]).map(item => item.id)).toEqual(['ora-primo','ora-primo-ext']);
+    expect(itemsForStop({ id: 'custom', startTime: '09:00', endTime: '10:00', name: '試鞋', type: '購物', notes: '', storeIds: ['hoka','beams','uptown'] })).toHaveLength(2);
+    expect(itemsForStop(itinerary[4].stops[1])).toHaveLength(0);
+  });
+  it('retains grouped stores when importing the original Markdown', () => {
+    const day = parseItineraryMarkdown(readFileSync('docs/itinerary-source.md', 'utf8'))[4];
+    expect(day.stops[0].storeIds).toEqual(['nintendo','marui']);
+    expect(day.stops[4].storeIds).toEqual(['parco','beams']);
+  });
+});

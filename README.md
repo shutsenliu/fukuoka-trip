@@ -23,7 +23,7 @@ npm run preview
 ## 頁面
 
 - **今天**：所選日期的行程與每站待買數量；旅程期間依日本日期選擇當天，其他時間預設 Day 5。
-- **行程**：Day 1～6 切換、新版 `.md` 匯入與原始行程恢復。
+- **行程**：Day 1～6 切換，點擊停留點展開可買商品並直接勾選購買、新版 `.md` 匯入與原始行程恢復。
 - **購物**：全部／未購買／已購買、分類篩選、商品資訊與勾選購買。
 - **店家**：區域列表與店家商品詳情。
 
@@ -31,7 +31,7 @@ HashRouter 使用 `/#/itinerary` 等網址，GitHub Pages 直接重新整理也�
 
 ## 資料檔案與模型
 
-- `src/data/itinerary.json`：`TripDay`（id、day、date、title、stops）。每個 `ItineraryStop` 有 id、startTime、endTime、name、type、notes 與選填 storeId。
+- `src/data/itinerary.json`：`TripDay`（id、day、date、title、stops）。每個 `ItineraryStop` 有 id、startTime、endTime、name、type、notes 與選填 storeId／storeIds（同一停留點可連結多間店）。
 - `src/data/stores.json`：`Store`（id、name、area、address、notes、選填 mapUrl）。
 - `src/data/wishlist.json`：`WishlistItem`（id、name、category、priority、image、notes、storeIds、選填 color／size）。優先度 1～5；storeIds 第一個為主要店家，其餘依序為備案。
 - `src/types.ts`：共用 TypeScript 型別。
@@ -84,4 +84,4 @@ HashRouter 使用 `/#/itinerary` 等網址，GitHub Pages 直接重新整理也�
 
 Vite base 從 Actions 的 GITHUB_REPOSITORY 或本機 origin remote 推導 repository 名稱；一般 repo 使用 `/REPO_NAME/`，username.github.io 使用 `/`。不要手動把商品圖片路徑加上 repository 名稱。
 
-本版尚未由 Codex commit、push 或部署。GitHub Pages 與 Actions 需由 repository 設定允許。localStorage 不包含登入資訊或遠端資料。
+程式碼已提交至 main；部署結果請查看 GitHub Actions。GitHub Pages 與 Actions 需由 repository 設定允許。localStorage 不包含登入資訊或遠端資料。

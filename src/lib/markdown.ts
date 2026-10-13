@@ -1,5 +1,5 @@
 import type { TripDay } from '../types';
-import { stores } from './data';
+import { stores, itinerary } from './data';
 export function parseItineraryMarkdown(text: string): TripDay[] {
   const days: TripDay[] = [];
   let current: TripDay | undefined;
@@ -21,7 +21,8 @@ export function parseItineraryMarkdown(text: string): TripDay[] {
       if (current.stops.some(existing => existing.startTime === stop[1] && existing.endTime === stop[2] && existing.name === name)) { collectingNotes = false; continue; }
       if (current.stops.length && stop[1] < current.stops.at(-1)!.endTime) throw new Error(`Day ${current.day} ${stop[1]} 與上一站 ${current.stops.at(-1)!.endTime} 重疊或順序錯誤。`);
       const store = stores.find(s => name.includes(s.name));
-      current.stops.push({ id: `${current.id}-stop-${current.stops.length + 1}`, startTime: stop[1], endTime: stop[2], name, type: store ? '購物' : '行程', ...(store ? { storeId: store.id } : {}), notes: '' });
+      const group = itinerary.flatMap(day => day.stops).find(entry => entry.storeIds && name.includes(entry.name));
+      current.stops.push({ id: `${current.id}-stop-${current.stops.length + 1}`, startTime: stop[1], endTime: stop[2], name, type: store ? '購物' : '行程', ...(store ? { storeId: store.id } : {}), ...(group?.storeIds ? { storeIds: group.storeIds } : {}), notes: '' });
       collectingNotes = true;
     } else if (/^#{1,6}\s|^---/.test(line)) collectingNotes = false;
     else if (collectingNotes && line.trim()) {

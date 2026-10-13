@@ -10,3 +10,9 @@ main { max-width: 920px; margin: 18px auto 0; padding: 0 20px calc(120px + env(s
 .bottom-nav { position: fixed; bottom: 0; left: 0; right: 0; display: flex; justify-content: center; background: #fffefaf5; border-top: 1px solid #e1e3d8; padding: 8px 12px calc(8px + env(safe-area-inset-bottom)); backdrop-filter: blur(10px); z-index: 10; } .bottom-nav a { flex: 1; max-width: 180px; text-align: center; color: #707b6b; font-size: 14px; font-weight: 600; padding: 5px 0; border-radius: 12px; } .bottom-nav span { display: block; font-size: 24px; line-height: 1.2; margin-bottom: 3px; } .bottom-nav .active { color: #43634b; background: #e9eee1; }
 @media(min-width:700px) { .product-grid, .store-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } main { margin-top: 32px; } .site-header { padding-top: 30px; } .timeline { max-width: 760px; } }
 @media(prefers-reduced-motion:reduce) { *, *:before, *:after { scroll-behavior: auto !important; } }
+.stop-summary { cursor: pointer; list-style: none; }
+.stop-summary::-webkit-details-marker { display: none; }
+.stop-summary:focus-visible { outline: 3px solid #bd7149; outline-offset: 2px; border-radius: 20px; }
+.stop-card[open] .expand-icon { transform: rotate(180deg); }
+.stop-card[open] .stop-summary .buy-link { background: #e1ebdd; }
+.stop-products .product-image { height: 170px; }

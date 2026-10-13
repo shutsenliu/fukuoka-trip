@@ -291,7 +291,11 @@
         "endTime": "11:30",
         "name": "博多站購物",
         "type": "行程",
-        "notes": "GU、UNIQLO、Nintendo FUKUOKA、博多丸井、伴手禮。"
+        "notes": "GU、UNIQLO、Nintendo FUKUOKA、博多丸井、伴手禮。",
+        "storeIds": [
+          "nintendo",
+          "marui"
+        ]
       },
       {
         "id": "day-5-stop-2",
@@ -324,7 +328,11 @@
         "name": "福岡 PARCO",
         "type": "購物",
         "notes": "",
-        "storeId": "parco"
+        "storeId": "parco",
+        "storeIds": [
+          "parco",
+          "beams"
+        ]
       },
       {
         "id": "day-5-stop-6",
@@ -393,7 +401,11 @@
         "endTime": "19:10",
         "name": "大名商圈",
         "type": "行程",
-        "notes": "可彈性補看 HOKA 備案店家。"
+        "notes": "可彈性補看 HOKA 備案店家。",
+        "storeIds": [
+          "uptown",
+          "seam"
+        ]
       },
       {
         "id": "day-5-stop-14",
