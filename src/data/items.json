@@ -11,5 +11,18 @@
       "yufuin-milch"
     ],
     "imageCaption": "AI 包裝插圖，非官方實拍；實際外觀以店家為準。"
+  },
+  {
+    "id": "telato-matcha-gelato",
+    "name": "telato 濃抹茶義式冰淇淋",
+    "type": "food",
+    "category": "冰淇淋",
+    "priority": 3,
+    "image": "items/telato-matcha-illustration.png",
+    "imageCaption": "AI 包裝插圖，非官方實拍；實際外觀以店家為準。",
+    "notes": "推薦濃抹茶口味。店家提供五段抹茶濃度，依現場供應選擇；在由布院散步時順路品嚐。",
+    "placeIds": [
+      "yufuin-telato"
+    ]
   }
 ]
