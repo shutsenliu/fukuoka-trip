@@ -5,10 +5,11 @@
     "type": "food",
     "category": "甜點",
     "priority": 3,
-    "image": "items/placeholder.svg",
+    "image": "items/milch-desserts-illustration.png",
     "notes": "湯之坪街道散步時，想試試半熟起司蛋糕與牛奶布丁。",
     "placeIds": [
       "yufuin-milch"
-    ]
+    ],
+    "imageCaption": "AI 示意圖，非 Milch 實拍；實際商品外觀以店家為準。"
   }
 ]
