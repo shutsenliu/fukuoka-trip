@@ -189,11 +189,12 @@
         "endTime": "15:30",
         "name": "湯之坪街道 ＆ 湯布院花卉村",
         "type": "行程",
-        "notes": "順路品嚐 Milch 甜點與 telato 濃抹茶冰淇淋；依排隊與供應情況安排。",
+        "notes": "順路品嚐 Milch 甜點、telato 濃抹茶冰淇淋與日本茶 5toku 茶飲；依食量、排隊與供應情況選擇。",
         "placeIds": [
           "yufuin",
           "yufuin-milch",
-          "yufuin-telato"
+          "yufuin-telato",
+          "yufuin-5toku"
         ]
       },
       {

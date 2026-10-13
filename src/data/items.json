@@ -24,5 +24,18 @@
     "placeIds": [
       "yufuin-telato"
     ]
+  },
+  {
+    "id": "5toku-matcha-latte",
+    "name": "日本茶 5toku 抹茶拿鐵／日本茶",
+    "type": "food",
+    "category": "茶飲",
+    "priority": 3,
+    "image": "items/5toku-matcha-latte-illustration.png",
+    "imageCaption": "AI 包裝插圖，非官方實拍；實際外觀以店家為準。",
+    "notes": "推薦：8 號無糖拿鐵。此編號與無糖選項依使用者指定，尚未由店家菜單核實，請點餐時確認。也可依現場供應選擇抹茶拿鐵或日本茶飲。",
+    "placeIds": [
+      "yufuin-5toku"
+    ]
   }
 ]
