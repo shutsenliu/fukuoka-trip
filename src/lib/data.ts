@@ -1,17 +1,23 @@
 import itineraryJson from '../data/itinerary.json';
-import storesJson from '../data/stores.json';
-import wishlistJson from '../data/wishlist.json';
-import type { TripDay, Store, WishlistItem, ItineraryStop } from '../types';
+import placesJson from '../data/places.json';
+import itemsJson from '../data/items.json';
+import type { TripDay, Place, TripItem, ItineraryStop } from '../types';
 export const itinerary: TripDay[] = itineraryJson;
-export const stores: Store[] = storesJson;
-export const wishlist: WishlistItem[] = wishlistJson;
-export const storesById = new Map(stores.map(store => [store.id, store]));
-export const itemsForStore = (id: string) => wishlist.filter(item => item.storeIds.includes(id));
+export const places: Place[] = placesJson.map(place => {
+  if (place.type !== 'shop' && place.type !== 'restaurant' && place.type !== 'attraction') throw new Error(`Invalid place type: ${place.id}`);
+  return { ...place, type: place.type };
+});
+export const items: TripItem[] = itemsJson.map((item: Omit<TripItem, 'type'> & { type: string }) => {
+  if (item.type !== 'shopping' && item.type !== 'food' && item.type !== 'experience') throw new Error(`Invalid item type: ${item.id}`);
+  return { ...item, type: item.type };
+});
+export const placesById = new Map(places.map(store => [store.id, store]));
+export const itemsForPlace = (id: string) => items.filter(item => item.placeIds.includes(id));
 
-export function storeIdsForStop(stop: ItineraryStop): string[] {
-  return [...new Set([...(stop.storeIds ?? []), ...(stop.storeId ? [stop.storeId] : [])])];
+export function placeIdsForStop(stop: ItineraryStop): string[] {
+  return [...new Set([...(stop.placeIds ?? []), ...(stop.placeId ? [stop.placeId] : [])])];
 }
-export function itemsForStop(stop: ItineraryStop): WishlistItem[] {
-  const ids = new Set(storeIdsForStop(stop));
-  return wishlist.filter(item => item.storeIds.some(id => ids.has(id)));
+export function itemsForStop(stop: ItineraryStop, source: TripItem[] = items): TripItem[] {
+  const ids = new Set(placeIdsForStop(stop));
+  return source.filter(item => item.placeIds.some(id => ids.has(id)));
 }

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "hoka",
+    "name": "HOKA 福岡天神店",
+    "area": "天神",
+    "address": "福岡市中央區天神（出發前確認門牌）",
+    "notes": "優先試穿 ORA PRIMO 淺色款，庫存以現場為準。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=HOKA%20%E7%A6%8F%E5%B2%A1%E5%A4%A9%E7%A5%9E%E5%BA%97",
+    "type": "shop"
+  },
+  {
+    "id": "beams",
+    "name": "BEAMS 福岡",
+    "area": "天神",
+    "address": "福岡 PARCO（請以店家官方資訊確認樓層）",
+    "notes": "HOKA 備案購買點，出發前確認款式與庫存。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=BEAMS%20%E7%A6%8F%E5%B2%A1",
+    "type": "shop"
+  },
+  {
+    "id": "uptown",
+    "name": "UPTOWN Deluxe Fukuoka",
+    "area": "大名",
+    "address": "福岡市中央區大名（出發前確認門牌）",
+    "notes": "HOKA 第二輪補找。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=UPTOWN%20Deluxe%20Fukuoka",
+    "type": "shop"
+  },
+  {
+    "id": "seam",
+    "name": "SEAM 天神大名店",
+    "area": "大名",
+    "address": "福岡市中央區大名（出發前確認門牌）",
+    "notes": "KYOGOKU 金色噴霧與金色髮油。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=SEAM%20%E5%A4%A9%E7%A5%9E%E5%A4%A7%E5%90%8D%E5%BA%97",
+    "type": "shop"
+  },
+  {
+    "id": "parco",
+    "name": "福岡 PARCO",
+    "area": "天神",
+    "address": "福岡市中央區天神 2-11-1",
+    "notes": "動漫周邊、ONE PIECE，活動以當期公告為準。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%B2%A1%20PARCO",
+    "type": "shop"
+  },
+  {
+    "id": "marui",
+    "name": "博多丸井",
+    "area": "博多",
+    "address": "福岡市博多區博多駅中央街 9-1",
+    "notes": "哥吉拉商店博多店，出發前確認櫃位與營業資訊。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E4%B8%B8%E4%BA%95",
+    "type": "shop"
+  },
+  {
+    "id": "nintendo",
+    "name": "Nintendo FUKUOKA",
+    "area": "博多",
+    "address": "JR 博多城 AMU PLAZA 博多 8F",
+    "notes": "任天堂周邊，營業資訊請出發前確認。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nintendo%20FUKUOKA",
+    "type": "shop"
+  },
+  {
+    "id": "animate",
+    "name": "animate LACHIC 福岡天神",
+    "area": "天神",
+    "address": "福岡市中央區天神 2-1-1 福岡三越 LACHIC B1F",
+    "notes": "依當期活動與時間彈性安排。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=animate%20LACHIC%20%E7%A6%8F%E5%B2%A1%E5%A4%A9%E7%A5%9E",
+    "type": "shop"
+  },
+  {
+    "id": "fullfull",
+    "name": "FULL FULL 天神店",
+    "area": "天神",
+    "address": "福岡市中央區天神（出發前確認門牌）",
+    "notes": "17:00 取明太子法國麵包，先確認預訂與店休。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=FULL%20FULL%20%E5%A4%A9%E7%A5%9E%E5%BA%97",
+    "type": "restaurant"
+  },
+  {
+    "id": "donki",
+    "name": "唐吉訶德 天神本店",
+    "area": "天神",
+    "address": "福岡市中央區今泉 1-20-17",
+    "notes": "藥妝、零食與伴手禮最後補貨。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%94%90%E5%90%89%E8%A8%B6%E5%BE%B7%20%E5%A4%A9%E7%A5%9E%E6%9C%AC%E5%BA%97",
+    "type": "shop"
+  },
+  {
+    "id": "mojiko",
+    "name": "門司港懷舊區",
+    "area": "門司港",
+    "type": "attraction",
+    "address": "出發前請以地圖及官方資訊確認地址。",
+    "notes": "行程中的停留地點，尚未指定想買、想吃或想體驗的項目。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%96%80%E5%8F%B8%E6%B8%AF%E6%87%B7%E8%88%8A%E5%8D%80"
+  },
+  {
+    "id": "karato",
+    "name": "唐戶市場",
+    "area": "下關",
+    "type": "restaurant",
+    "address": "出發前請以地圖及官方資訊確認地址。",
+    "notes": "行程中的停留地點，尚未指定想買、想吃或想體驗的項目。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%94%90%E6%88%B6%E5%B8%82%E5%A0%B4"
+  },
+  {
+    "id": "yufuin",
+    "name": "湯之坪街道與湯布院花卉村",
+    "area": "由布院",
+    "type": "attraction",
+    "address": "出發前請以地圖及官方資訊確認地址。",
+    "notes": "行程中的停留地點，尚未指定想買、想吃或想體驗的項目。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%AF%E4%B9%8B%E5%9D%AA%E8%A1%97%E9%81%93%E8%88%87%E6%B9%AF%E5%B8%83%E9%99%A2%E8%8A%B1%E5%8D%89%E6%9D%91"
+  },
+  {
+    "id": "kinrin",
+    "name": "金鱗湖",
+    "area": "由布院",
+    "type": "attraction",
+    "address": "出發前請以地圖及官方資訊確認地址。",
+    "notes": "行程中的停留地點，尚未指定想買、想吃或想體驗的項目。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E9%B1%97%E6%B9%96"
+  },
+  {
+    "id": "kamado",
+    "name": "竈門神社",
+    "area": "太宰府",
+    "type": "attraction",
+    "address": "出發前請以地圖及官方資訊確認地址。",
+    "notes": "行程中的停留地點，尚未指定想買、想吃或想體驗的項目。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%88%E9%96%80%E7%A5%9E%E7%A4%BE"
+  },
+  {
+    "id": "dazaifu",
+    "name": "太宰府天滿宮",
+    "area": "太宰府",
+    "type": "attraction",
+    "address": "出發前請以地圖及官方資訊確認地址。",
+    "notes": "行程中的停留地點，尚未指定想買、想吃或想體驗的項目。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%AA%E5%AE%B0%E5%BA%9C%E5%A4%A9%E6%BB%BF%E5%AE%AE"
+  },
+  {
+    "id": "ironman",
+    "name": "博多鐵人",
+    "area": "博多",
+    "type": "restaurant",
+    "address": "出發前請以地圖及官方資訊確認地址。",
+    "notes": "行程中的停留地點，尚未指定想買、想吃或想體驗的項目。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E5%A4%9A%E9%90%B5%E4%BA%BA"
+  },
+  {
+    "id": "hyakushiki",
+    "name": "爐端 百式",
+    "area": "天神",
+    "type": "restaurant",
+    "address": "出發前請以地圖及官方資訊確認地址。",
+    "notes": "行程中的停留地點，尚未指定想買、想吃或想體驗的項目。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%88%90%E7%AB%AF%20%E7%99%BE%E5%BC%8F"
+  }
+]

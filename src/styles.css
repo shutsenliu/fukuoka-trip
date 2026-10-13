@@ -32,3 +32,8 @@ main { max-width: 920px; margin: 18px auto 0; padding: 0 20px calc(120px + env(s
 .filter-actions button { margin-left: auto; }
 .shopping-context { margin: 0 0 16px; font-weight: 650; }
 @media(min-width:700px) { .shopping-filters .shopping-selects { grid-template-columns: 1fr 1fr 1fr; } .shopping-filters .category-select { grid-column: auto; } }
+.type-filters { margin-top: 16px; gap: 6px; }
+.type-filters button { flex: 1; padding: 9px 5px; font-size: 14px; white-space: nowrap; }
+.type-shopping { background: #e8efdf; }
+.type-food { background: #fae8d4; color: #82512e; }
+.type-experience { background: #eee6f6; color: #69527d; }

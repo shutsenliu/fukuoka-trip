@@ -115,7 +115,8 @@
         "endTime": "10:00",
         "name": "門司港車站 ＆ 門司港懷舊區",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "placeId": "mojiko"
       },
       {
         "id": "day-2-stop-3",
@@ -131,7 +132,8 @@
         "endTime": "13:00",
         "name": "午餐：唐戶市場海鮮大餐",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "placeId": "karato"
       },
       {
         "id": "day-2-stop-5",
@@ -187,7 +189,8 @@
         "endTime": "15:30",
         "name": "湯之坪街道 ＆ 湯布院花卉村",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "placeId": "yufuin"
       },
       {
         "id": "day-3-stop-4",
@@ -195,7 +198,8 @@
         "endTime": "16:30",
         "name": "金鱗湖漫步",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "placeId": "kinrin"
       },
       {
         "id": "day-3-stop-5",
@@ -235,7 +239,8 @@
         "endTime": "11:00",
         "name": "竈門神社",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "placeId": "kamado"
       },
       {
         "id": "day-4-stop-3",
@@ -251,7 +256,8 @@
         "endTime": "14:30",
         "name": "太宰府天滿宮 ＆ 天開稻荷神社",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "placeId": "dazaifu"
       },
       {
         "id": "day-4-stop-5",
@@ -292,7 +298,7 @@
         "name": "博多站購物",
         "type": "行程",
         "notes": "GU、UNIQLO、Nintendo FUKUOKA、博多丸井、伴手禮。",
-        "storeIds": [
+        "placeIds": [
           "nintendo",
           "marui"
         ]
@@ -311,7 +317,8 @@
         "endTime": "13:30",
         "name": "博多鐵人",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "placeId": "ironman"
       },
       {
         "id": "day-5-stop-4",
@@ -328,8 +335,8 @@
         "name": "福岡 PARCO",
         "type": "購物",
         "notes": "",
-        "storeId": "parco",
-        "storeIds": [
+        "placeId": "parco",
+        "placeIds": [
           "parco",
           "beams"
         ]
@@ -341,7 +348,7 @@
         "name": "HOKA 福岡天神店",
         "type": "購物",
         "notes": "",
-        "storeId": "hoka"
+        "placeId": "hoka"
       },
       {
         "id": "day-5-stop-7",
@@ -358,7 +365,7 @@
         "name": "animate LACHIC 福岡天神",
         "type": "購物",
         "notes": "",
-        "storeId": "animate"
+        "placeId": "animate"
       },
       {
         "id": "day-5-stop-9",
@@ -375,7 +382,7 @@
         "name": "FULL FULL 天神店",
         "type": "購物",
         "notes": "17:00 取明太子法國麵包；事先確認預訂與店休。",
-        "storeId": "fullfull"
+        "placeId": "fullfull"
       },
       {
         "id": "day-5-stop-11",
@@ -384,7 +391,7 @@
         "name": "UPTOWN Deluxe Fukuoka",
         "type": "購物",
         "notes": "",
-        "storeId": "uptown"
+        "placeId": "uptown"
       },
       {
         "id": "day-5-stop-12",
@@ -393,7 +400,7 @@
         "name": "SEAM 天神大名店",
         "type": "購物",
         "notes": "",
-        "storeId": "seam"
+        "placeId": "seam"
       },
       {
         "id": "day-5-stop-13",
@@ -402,7 +409,7 @@
         "name": "大名商圈",
         "type": "行程",
         "notes": "可彈性補看 HOKA 備案店家。",
-        "storeIds": [
+        "placeIds": [
           "uptown",
           "seam"
         ]
@@ -413,7 +420,8 @@
         "endTime": "21:00",
         "name": "爐端 百式",
         "type": "行程",
-        "notes": "建議預約 19:30；出發前再確認。"
+        "notes": "建議預約 19:30；出發前再確認。",
+        "placeId": "hyakushiki"
       },
       {
         "id": "day-5-stop-15",
@@ -422,7 +430,7 @@
         "name": "藥妝 / 唐吉訶德",
         "type": "購物",
         "notes": "",
-        "storeId": "donki"
+        "placeId": "donki"
       },
       {
         "id": "day-5-stop-16",
