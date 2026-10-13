@@ -6,8 +6,6 @@ import { usePurchasedItems } from './hooks/usePurchasedItems';
 import { ProductCard } from './components/ProductCard';
 import { WishlistPage } from './components/WishlistPage';
 import { Timeline } from './components/Timeline';
-import { ItineraryImport } from './components/ItineraryImport';
-import { ITINERARY_KEY, loadDays } from './lib/itineraryStorage';
 function DayTabs({ days, selected, onSelect }: { days: TripDay[]; selected: number; onSelect: (day: number) => void }) {
   return <div className="day-tabs" aria-label="選擇旅行日期">{days.map(day => <button key={day.id} aria-pressed={selected === day.day} className={selected === day.day ? 'selected' : ''} onClick={() => onSelect(day.day)}>Day {day.day}<span>{day.date.slice(5).replace('-', '/')}</span></button>)}</div>;
 }
@@ -21,16 +19,14 @@ function StoreDetail() {
   return <><Link className="back-link" to="/stores">← 所有店家</Link><span className="eyebrow block mt-5">{store.area}</span><h1>{store.name}</h1><p className="muted">{store.address}</p><p className="my-3">{store.notes}</p>{store.mapUrl && <a className="button mb-6" href={store.mapUrl} target="_blank" rel="noreferrer">在地圖搜尋 ↗</a>}<div className="product-grid">{itemsForStore(store.id).map(item => <ProductCard key={item.id} item={item}/>)}</div>{!itemsForStore(store.id).length && <p className="card p-5">這站可以隨意逛逛，目前沒有指定商品。</p>}</>;
 }
 function AppContent() {
-  const [days, setDays] = useState(loadDays);
+  const days = itinerary;
   const japanDate = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo' }).format(new Date());
   const [selected, setSelected] = useState(() => days.find(day => day.date === japanDate)?.day ?? 5);
-  const [saveError, setSaveError] = useState(false);
   const { isPurchased, storageError } = usePurchasedItems();
   const day = days.find(d => d.day === selected) ?? days[0];
-  function save(next: TripDay[]) { setDays(next); try { localStorage.setItem(ITINERARY_KEY, JSON.stringify(next)); setSaveError(false); } catch { setSaveError(true); } }
-  const dayPage = () => <><p className="eyebrow">SIX DAYS IN FUKUOKA</p><h1>六天，一路慢慢玩</h1><p className="muted mb-5">12/12 — 12/17 · 博多出發的六日旅程</p><DayTabs days={days} selected={selected} onSelect={setSelected}/><div className="day-heading"><span className="eyebrow">{day.date} · DAY {day.day}</span><h2>{day.title}</h2><p className="muted">{day.stops.length} 個停靠點 · 時間與營業資訊請出發前確認</p></div><Timeline day={day}/>{<ItineraryImport overridden={JSON.stringify(days) !== JSON.stringify(itinerary)} onApply={updates => save(days.map(original => updates.find(update => update.id === original.id) ?? original))} onReset={() => { setDays(itinerary); try { localStorage.removeItem(ITINERARY_KEY); setSaveError(false); } catch { setSaveError(true); } }}/>}</>;
+  const dayPage = () => <><p className="eyebrow">SIX DAYS IN FUKUOKA</p><h1>六天，一路慢慢玩</h1><p className="muted mb-5">12/12 — 12/17 · 博多出發的六日旅程</p><DayTabs days={days} selected={selected} onSelect={setSelected}/><div className="day-heading"><span className="eyebrow">{day.date} · DAY {day.day}</span><h2>{day.title}</h2><p className="muted">{day.stops.length} 個停靠點 · 時間與營業資訊請出發前確認</p></div><Timeline day={day}/></>;
   return <><header className="site-header"><Link to="/" className="brand"><span className="brand-icon">福</span><span>Fukuoka<span className="brand-sub">TRIP COMPANION</span></span></Link><Link to="/wishlist" className="header-count">🛍 {wishlist.filter(item => !isPurchased(item.id)).length} 件待買</Link></header>
-    <main>{(storageError || saveError) && <p role="alert" className="card p-4 mb-4">瀏覽器無法儲存資料。目前的操作仍有效，但重新整理後可能遺失；請允許此網站使用本機儲存空間。</p>}<Routes><Route path="/" element={<Navigate to="/itinerary" replace/>}/><Route path="/itinerary" element={dayPage()}/><Route path="/wishlist" element={<WishlistPage days={days}/>}/><Route path="/stores" element={<StoresPage/>}/><Route path="/stores/:id" element={<StoreDetail/>}/><Route path="*" element={<><h1>找不到頁面</h1><Link to="/">回到行程</Link></>}/></Routes></main>
+    <main>{storageError && <p role="alert" className="card p-4 mb-4">瀏覽器無法儲存資料。目前的操作仍有效，但重新整理後可能遺失；請允許此網站使用本機儲存空間。</p>}<Routes><Route path="/" element={<Navigate to="/itinerary" replace/>}/><Route path="/itinerary" element={dayPage()}/><Route path="/wishlist" element={<WishlistPage days={days}/>}/><Route path="/stores" element={<StoresPage/>}/><Route path="/stores/:id" element={<StoreDetail/>}/><Route path="*" element={<><h1>找不到頁面</h1><Link to="/">回到行程</Link></>}/></Routes></main>
     <nav className="bottom-nav" aria-label="主要導覽">{[['/itinerary','▤','行程'],['/wishlist','♡','購物'],['/stores','⌂','店家']].map(([path,icon,label]) => <NavLink end={path === '/'} to={path} key={path}><span aria-hidden="true">{icon}</span>{label}</NavLink>)}</nav></>;
 }
 export default function App() { return <HashRouter><AppContent/></HashRouter>; }

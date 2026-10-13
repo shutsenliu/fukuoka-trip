@@ -1,6 +1,6 @@
 # Fukuoka Trip Companion
 
-手機優先、繁體中文的福岡旅遊購物網站，旅程為 **2026/12/12～12/17**。首頁為行程，底部導覽提供行程、購物、店家三個頁籤。提供每日時間軸、店家與商品清單、主要與備案購買點、已購買標記，以及新版行程 Markdown 匯入。純靜態 React + TypeScript + Vite + Tailwind CSS；無後端、資料庫或登入，使用 GitHub Pages 免費部署。
+手機優先、繁體中文的福岡旅遊購物網站，旅程為 **2026/12/12～12/17**。首頁為行程，底部導覽提供行程、購物、店家三個頁籤。提供每日時間軸、店家與商品清單、主要與備案購買點、已購買標記，以及透過 Codex 對話更新行程與商品。純靜態 React + TypeScript + Vite + Tailwind CSS；無後端、資料庫或登入，使用 GitHub Pages 免費部署。
 
 ## Local development
 
@@ -22,7 +22,7 @@ npm run preview
 
 ## 頁面
 
-- **行程**：Day 1～6 切換，購物停留點以綠色標示，點擊連到購物頁並自動篩選該站商品、新版 `.md` 匯入與原始行程恢復。
+- **行程**：Day 1～6 切換，購物停留點以綠色標示，點擊連到購物頁並自動篩選該站商品。
 - **購物**：旅行日期／購物站點、全部／未購買／已購買、分類篩選、商品資訊與勾選購買。
 - **店家**：區域列表與店家商品詳情。
 
@@ -35,7 +35,7 @@ HashRouter 使用 `/#/itinerary` 等網址，GitHub Pages 直接重新整理也�
 - `src/data/wishlist.json`：`WishlistItem`（id、name、category、priority、image、notes、storeIds、選填 color／size）。優先度 1～5；storeIds 第一個為主要店家，其餘依序為備案。
 - `src/types.ts`：共用 TypeScript 型別。
 - `public/products/`：商品圖片；目前使用明確標示的示意佔位圖，尚未放入商品實拍圖。
-- `docs/itinerary-source.md`：你提供的原始行程，作為後續編輯與匯入測試參考。Day 1～4、6 初版保留主要站點，詳細提醒請參考原檔。
+- `docs/itinerary-source.md`：你提供的原始行程，僅作為後續行程編輯參考。Day 1～4、6 初版保留主要站點，詳細提醒請參考原檔。
 
 店家部分門牌尚待確認，已明確標示；Google Maps 按鈕為店名搜尋，不代表營業、位置或庫存已驗證。
 
@@ -52,21 +52,13 @@ HashRouter 使用 `/#/itinerary` 等網址，GitHub Pages 直接重新整理也�
 
 **後續商品資料主要由 Codex 對話協助更新 wishlist.json / stores.json / public/products。**
 
-### 更新行程 Markdown
+### 在 Codex 對話更新資料
 
-也可以在 Codex 對話上傳新版行程 `.md`，請 Codex 更新 itinerary.json 與原始行程，再經 GitHub Actions 部署到所有裝置。
+商品只依使用者在對話上傳的圖片或明確指定內容新增、修改；不要从行程 Markdown 擷取、推測或自動新增商品。現有四件商品皆為使用者最初明確指定。
 
-旅途中可在「行程 → 更新行程」上傳檔案，預覽日期與站數後確認套用。只更新此瀏覽器的 localStorage，不會修改 repo 或發布網站；未包含的日期保留原內容。支援本次上傳的原檔格式，也支援：
+行程有變動時，在 Codex 對話上傳新版 `.md`，更新 `src/data/itinerary.json` 與原始行程文件。網站不提供檔案上傳，也不再讀取舊版瀏覽器儲存的行程；各裝置統一使用 repo 部署的行程。已購買狀態仍保存在 localStorage。
 
-```md
-## 12/16 Day 5：天神購物日
-- 09:30 - 11:30｜博多站購物
-  GU、UNIQLO、Nintendo FUKUOKA、伴手禮。
-- 14:45 - 15:25｜HOKA 福岡天神店
-  看到淺色合適尺寸就買。
-```
-
-標題需包含 12/12～12/17 的日期、對應 Day 1～6 與冒號。時間使用 24 小時格式，以 `｜` 或 `|` 隔開時間與地點。每一天時間需按順序、不重疊。店家名稱包含 stores.json 的完整 name 時，自動連結商品；Markdown 內容以純文字顯示，不執行 HTML 或指令。
+商品與行程透過明確設定的 storeId／storeIds 關聯，不從地點名稱或備註推測商品。
 
 ## 購買狀態
 

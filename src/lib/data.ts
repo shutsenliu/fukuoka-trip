@@ -9,9 +9,7 @@ export const storesById = new Map(stores.map(store => [store.id, store]));
 export const itemsForStore = (id: string) => wishlist.filter(item => item.storeIds.includes(id));
 
 export function storeIdsForStop(stop: ItineraryStop): string[] {
-  // Retain bundled shopping groups for previously saved itineraries with the same stop name.
-  const bundled = itinerary.flatMap(day => day.stops).find(entry => entry.name === stop.name);
-  return [...new Set([...(stop.storeIds ?? bundled?.storeIds ?? []), ...(stop.storeId ? [stop.storeId] : [])])];
+  return [...new Set([...(stop.storeIds ?? []), ...(stop.storeId ? [stop.storeId] : [])])];
 }
 export function itemsForStop(stop: ItineraryStop): WishlistItem[] {
   const ids = new Set(storeIdsForStop(stop));
