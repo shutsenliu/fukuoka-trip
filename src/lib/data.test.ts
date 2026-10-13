@@ -13,12 +13,12 @@ describe('bundled relationships', () => {
 
 describe('user-provided goals', () => {
   it('links the approved Yufuin food goals only to the assigned Day 3 stop', () => {
-    expect(items.map(item => item.id)).toEqual(['yufuin-milch-desserts','telato-matcha-gelato','5toku-matcha-latte']);
+    expect(items.map(item => item.id)).toEqual(['yufuin-milch-desserts','telato-matcha-gelato','5toku-matcha-latte','kichigo-karaage']);
     const matches = itinerary.flatMap(day => day.stops.filter(stop => itemsForStop(stop).length).map(stop => ({day:day.day,stop})));
     expect(matches).toHaveLength(1);
     expect(matches[0].day).toBe(3);
     expect(matches[0].stop.name).toContain('湯之坪街道');
-    expect(itemsForStop(matches[0].stop).map(item => item.id)).toEqual(['yufuin-milch-desserts','telato-matcha-gelato','5toku-matcha-latte']);
+    expect(itemsForStop(matches[0].stop).map(item => item.id)).toEqual(['yufuin-milch-desserts','telato-matcha-gelato','5toku-matcha-latte','kichigo-karaage']);
     expect(itemsForStop({id:'test',startTime:'09:00',endTime:'10:00',name:'Milch',type:'行程',notes:''})).toEqual([]);
   });
 });

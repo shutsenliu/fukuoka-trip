@@ -37,5 +37,18 @@
     "placeIds": [
       "yufuin-5toku"
     ]
+  },
+  {
+    "id": "kichigo-karaage",
+    "name": "吉吾 元祖炸雞",
+    "type": "food",
+    "category": "炸雞",
+    "priority": 3,
+    "image": "items/kichigo-karaage-illustration.png",
+    "imageCaption": "AI 示意插圖，非官方實拍或包裝；實際商品以店家為準。",
+    "notes": "推薦招牌「元祖からあげ」。由布院散步時順路品嚐，依食量與排隊情況選擇。",
+    "placeIds": [
+      "yufuin-kichigo"
+    ]
   }
 ]
