@@ -190,7 +190,10 @@
         "name": "湯之坪街道 ＆ 湯布院花卉村",
         "type": "行程",
         "notes": "",
-        "placeId": "yufuin"
+        "placeIds": [
+          "yufuin",
+          "yufuin-milch"
+        ]
       },
       {
         "id": "day-3-stop-4",

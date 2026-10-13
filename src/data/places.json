@@ -160,5 +160,14 @@
     "address": "出發前請以地圖及官方資訊確認地址。",
     "notes": "行程中的停留地點，尚未指定想買、想吃或想體驗的項目。",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%88%90%E7%AB%AF%20%E7%99%BE%E5%BC%8F"
+  },
+  {
+    "id": "yufuin-milch",
+    "name": "由布院 Milch",
+    "type": "restaurant",
+    "area": "由布院",
+    "address": "湯之坪街道周邊；詳細地址請出發前確認。",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%B1%E5%B8%83%E9%99%A2%20Milch",
+    "notes": "由布院甜點店；想嘗試半熟起司蛋糕與牛奶布丁。"
   }
 ]

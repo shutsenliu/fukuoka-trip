@@ -37,7 +37,7 @@ HashRouter 避免 GitHub Pages 重新整理時出現 404。舊 /wishlist 與 /st
 - `public/items/`：項目圖片，使用 `items/photo.webp` 相對路徑，不加 repo base path。
 - `docs/itinerary-source.md`：使用者提供的行程參考文件，不是項目來源。
 
-清單目前為空。**只依使用者在 Codex 對話提供的圖片或明確指定新增項目，不從行程 Markdown、地點名稱或備註擷取或推測商品、小吃或體驗。**
+目前第一個項目為使用者提供的 Milch 半熟起司蛋糕／牛奶布丁。**只依使用者在 Codex 對話提供的圖片或明確指定新增項目，不從行程 Markdown、地點名稱或備註擷取或推測商品、小吃或體驗。**
 
 ### 如何新增項目
 
