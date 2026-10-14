@@ -63,11 +63,17 @@
     "id": "nintendo",
     "name": "Nintendo FUKUOKA",
     "area": "博多",
-    "address": "JR 博多城 AMU PLAZA 博多 8F",
-    "notes": "任天堂周邊，營業資訊請出發前確認。",
+    "address": "福岡県福岡市博多区博多駅中央街1-1 アミュプラザ博多8F",
+    "notes": "2026/10/14 核對任天堂官網；繁忙日可能需整理券，入場方式與庫存以官方當日資訊為準。",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nintendo%20FUKUOKA",
     "type": "shop",
-    "mapQuery": "日本 福岡県福岡市博多区 Nintendo FUKUOKA"
+    "mapQuery": "日本 福岡県福岡市博多区 Nintendo FUKUOKA",
+    "shortAddress": "AMU PLAZA 博多 8F",
+    "navigationDestination": "日本 福岡県福岡市博多区博多駅中央街1-1 Nintendo FUKUOKA",
+    "hours": "10:00–20:00",
+    "sourceUrls": [
+      "https://www.nintendo.com/jp/officialstore/index.html"
+    ]
   },
   {
     "id": "animate",
@@ -283,6 +289,35 @@
     "notes": "住宿期間：2026/12/12 入住，12/17 退房，共 5 晚。官網：博多站筑紫口步行約 8 分鐘，地下鐵博多站東 5 出口步行約 7 分鐘。寄放行李與入住／退房時間請依訂單及飯店規定。2026/10/14 核對官網地址；此為博多店，非福岡天神店。",
     "sourceUrls": [
       "https://www.tokyustay.co.jp/hotel/HT/"
+    ]
+  },
+  {
+    "id": "gu-hakata",
+    "name": "GU ヨドバシ博多店",
+    "type": "shop",
+    "area": "博多",
+    "address": "福岡県福岡市博多区博多駅中央街6-12 ヨドバシ博多3F",
+    "shortAddress": "Yodobashi 博多 3F",
+    "navigationDestination": "日本 福岡県福岡市博多区博多駅中央街6-12 ヨドバシ博多3F",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%9C%AC%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%9A%E5%A4%9A%E9%A7%85%E4%B8%AD%E5%A4%AE%E8%A1%976-12%20%E3%83%A8%E3%83%89%E3%83%90%E3%82%B7%E5%8D%9A%E5%A4%9A3F",
+    "notes": "位於博多站周邊，購物與試衣時間依現場情況調整。2026/10/14 核對館方樓層資訊。",
+    "sourceUrls": [
+      "https://www.yodobashi-hakata.com/fashion2/fashion_gugu.html"
+    ],
+    "hours": "10:00–21:00"
+  },
+  {
+    "id": "uniqlo-hakata",
+    "name": "UNIQLO KITTE 博多店",
+    "type": "shop",
+    "area": "博多",
+    "address": "福岡県福岡市博多区博多駅中央街9-1 KITTE博多8F",
+    "shortAddress": "KITTE 博多 8F",
+    "navigationDestination": "日本 福岡県福岡市博多区博多駅中央街9-1 KITTE博多8F",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%9C%AC%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%9A%E5%A4%9A%E9%A7%85%E4%B8%AD%E5%A4%AE%E8%A1%979-1%20KITTE%E5%8D%9A%E5%A4%9A8F",
+    "notes": "位於博多站周邊，購物與試衣時間依現場情況調整。2026/10/14 核對館方樓層資訊。",
+    "sourceUrls": [
+      "https://hakata.jp-kitte.jp/shop/"
     ]
   }
 ]

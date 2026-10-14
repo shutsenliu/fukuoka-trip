@@ -7,7 +7,7 @@ describe('bundled relationships', () => {
     expect(itinerary).toHaveLength(6);
     for (const item of items) for (const id of item.placeIds) expect(placesById.has(id)).toBe(true);
     for (const day of itinerary) for (const stop of day.stops) if (stop.placeId) expect(placesById.has(stop.placeId)).toBe(true);
-    expect(itinerary[4].stops).toHaveLength(16);
+    expect(itinerary[4].stops.map(stop => stop.id)).toEqual(expect.arrayContaining(['day-5-stop-1','day-5-uniqlo','day-5-nintendo']));
   });
 });
 

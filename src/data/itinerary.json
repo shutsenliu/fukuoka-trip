@@ -705,29 +705,70 @@
     "title": "博多、天神購物日＋HOKA",
     "stops": [
       {
-        "id": "day-5-stop-1",
+        "id": "day-5-shopping-depart",
         "startTime": "09:30",
-        "endTime": "11:30",
-        "name": "博多站購物",
-        "type": "行程",
-        "notes": "GU、UNIQLO、Nintendo FUKUOKA、博多丸井、伴手禮。",
-        "placeIds": [
-          "nintendo",
-          "marui"
-        ],
+        "endTime": "10:00",
+        "name": "飯店出發 → GU，步行與等開店",
+        "type": "交通",
+        "notes": "從東急 STAY 博多出發，前往 Yodobashi 博多 3F；GU 10:00 開門。",
+        "placeId": "gu-hakata",
         "details": [
           {
             "title": "交通",
             "content": [
-              "飯店 → 博多站，步行或地下街移動。"
+              "東急 STAY 博多 → Yodobashi 博多，步行前往。",
+              "保留步行、搭電梯與等開店的時間。"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "day-5-stop-1",
+        "startTime": "10:00",
+        "endTime": "10:30",
+        "name": "GU ヨドバシ博多店",
+        "type": "購物",
+        "notes": "約 30 分鐘，試衣或結帳排隊時彈性調整。",
+        "placeId": "gu-hakata"
+      },
+      {
+        "id": "day-5-uniqlo",
+        "startTime": "10:35",
+        "endTime": "11:05",
+        "name": "UNIQLO KITTE 博多店",
+        "type": "購物",
+        "notes": "約 30 分鐘；位於 KITTE 博多 8F。",
+        "placeId": "uniqlo-hakata",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "從 Yodobashi 博多步行至 KITTE 博多，再搭電梯前往 8F。"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "day-5-nintendo",
+        "startTime": "11:10",
+        "endTime": "11:45",
+        "name": "Nintendo FUKUOKA",
+        "type": "購物",
+        "notes": "約 35 分鐘；位於 AMU PLAZA 博多 8F。繁忙日可能需整理券。",
+        "placeId": "nintendo",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "KITTE 博多 → AMU PLAZA 博多，步行並搭電梯至 8F。"
             ]
           }
         ]
       },
       {
         "id": "day-5-stop-2",
-        "startTime": "11:30",
-        "endTime": "12:00",
+        "startTime": "11:45",
+        "endTime": "12:10",
         "name": "回東急 STAY 博多放東西",
         "type": "行程",
         "notes": "返回住宿飯店放下購物物品後再出發。",
@@ -736,7 +777,7 @@
           {
             "title": "交通",
             "content": [
-              "博多站 → 飯店，步行或地下街移動。"
+              "從博多站筑紫口返回東急 STAY 博多，步行約 8 分鐘，再放下購物物品。"
             ]
           }
         ]
