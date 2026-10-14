@@ -271,7 +271,11 @@
         "endTime": "16:00",
         "name": "太宰府表參道小吃",
         "type": "行程",
-        "notes": ""
+        "notes": "表參道散步時品嚐天山太宰府布丁與安武梅枝餅；依食量、排隊與供應情況安排。",
+        "placeIds": [
+          "dazaifu-tenzan-pudding",
+          "dazaifu-yasutake"
+        ]
       },
       {
         "id": "day-4-stop-6",

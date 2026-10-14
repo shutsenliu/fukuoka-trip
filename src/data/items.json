@@ -50,5 +50,31 @@
     "placeIds": [
       "yufuin-kichigo"
     ]
+  },
+  {
+    "id": "dazaifu-tenzan-pudding",
+    "name": "天山 太宰府布丁",
+    "type": "food",
+    "category": "布丁",
+    "priority": 3,
+    "image": "items/tenzan-pudding-illustration.png",
+    "imageCaption": "AI 包裝插圖，非官方實拍；實際外觀以店家為準。",
+    "notes": "先試原味「太宰府ぷりん」，在表參道散步時品嚐；口味與供應以現場為準。",
+    "placeIds": [
+      "dazaifu-tenzan-pudding"
+    ]
+  },
+  {
+    "id": "yasutake-umegaemochi",
+    "name": "安武 梅枝餅",
+    "type": "food",
+    "category": "和菓子",
+    "priority": 3,
+    "image": "items/yasutake-mochi-illustration.png",
+    "imageCaption": "AI 包裝插圖，非官方實拍；實際外觀以店家為準。",
+    "notes": "現場品嚐梅ヶ枝餅，依食量與排隊情況安排。",
+    "placeIds": [
+      "dazaifu-yasutake"
+    ]
   }
 ]
