@@ -142,22 +142,24 @@
       {
         "id": "day-1-station-souvenirs",
         "startTime": "15:25",
-        "endTime": "16:05",
+        "endTime": "16:15",
         "name": "博多站伴手禮・LeClerc",
         "type": "購物",
-        "notes": "マイング：BUTTER&bee、博多明太子蝦餅；DEITOS：花福堂；いっぴん東通り：LeClerc。Honey Chocolat Sand 供應待現場確認。",
+        "notes": "マイング：福砂屋、福太郎原味めんべい、BUTTER&bee、博多明太子蝦餅；DEITOS：花福堂；いっぴん東通り：LeClerc。Honey Chocolat Sand 供應待現場確認。",
         "placeIds": [
           "butterbee-ming",
           "fubian-ming",
           "hanafukudo-deitos",
-          "leclerc-hakata"
+          "leclerc-hakata",
+          "fukusaya-ming",
+          "fukutaro-ming"
         ],
         "details": [
           {
             "title": "交通",
             "content": [
               "博多阪急 B1 → 博多站 1F 的マイング與 DEITOS，再到いっぴん東通り。",
-              "全部位於站內／站旁；依館內樓層圖與櫃位排隊調整順序，16:05 左右離開。"
+              "全部位於站內／站旁；依館內樓層圖與排隊調整順序，16:15 左右離開。"
             ]
           }
         ],
@@ -171,8 +173,8 @@
       },
       {
         "id": "day-1-stop-6",
-        "startTime": "16:05",
-        "endTime": "16:20",
+        "startTime": "16:15",
+        "endTime": "16:30",
         "name": "前往 FUK COFFEE",
         "type": "行程",
         "notes": "",
@@ -194,8 +196,8 @@
       },
       {
         "id": "day-1-stop-7",
-        "startTime": "16:20",
-        "endTime": "16:45",
+        "startTime": "16:30",
+        "endTime": "16:50",
         "name": "下午茶：FUK COFFEE",
         "type": "行程",
         "notes": "",
@@ -208,8 +210,8 @@
       },
       {
         "id": "day-1-walk-to-canal",
-        "startTime": "16:45",
-        "endTime": "16:55",
+        "startTime": "16:50",
+        "endTime": "17:00",
         "name": "FUK COFFEE → 博多運河城",
         "type": "交通",
         "notes": "步行移動，依當天路線與腳程調整。",
@@ -230,7 +232,7 @@
       },
       {
         "id": "day-1-stop-8",
-        "startTime": "16:55",
+        "startTime": "17:00",
         "endTime": "18:00",
         "name": "博多運河城（Canal City Hakata）",
         "type": "行程",
@@ -923,12 +925,38 @@
         ]
       },
       {
-        "id": "day-5-stop-5",
+        "id": "day-5-moma",
         "startTime": "14:00",
+        "endTime": "14:20",
+        "name": "MoMA Design Store 福岡",
+        "type": "購物",
+        "placeId": "moma-fukuoka",
+        "notes": "ONE FUKUOKA BLDG. 2F；先詢問 PAMPSHADE 麵包燈，福岡店供應待確認。",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "天神站 → ONE FUKUOKA BLDG.，進入館內後前往 2F。"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "day-5-moma-to-parco",
+        "startTime": "14:20",
+        "endTime": "14:25",
+        "name": "MoMA → 福岡 PARCO",
+        "type": "交通",
+        "placeId": "parco",
+        "notes": "預留 5 分鐘步行移動；依館內動線與腳程調整。"
+      },
+      {
+        "id": "day-5-stop-5",
+        "startTime": "14:25",
         "endTime": "14:45",
         "name": "福岡 PARCO",
         "type": "購物",
-        "notes": "",
+        "notes": "保留約 20 分鐘，依購物目標快速逛店；14:45 前往 HOKA。",
         "placeId": "parco",
         "placeIds": [
           "parco",
@@ -938,7 +966,7 @@
           {
             "title": "交通",
             "content": [
-              "天神站出站後直接進入福岡 PARCO。"
+              "ONE FUKUOKA BLDG. → 福岡 PARCO，步行移動。"
             ]
           }
         ]

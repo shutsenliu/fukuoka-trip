@@ -442,5 +442,48 @@
     "sourceUrls": [
       "https://www.hankyu-dept.co.jp/hakata/shopnews/detail/1226441_1813.html"
     ]
+  },
+  {
+    "id": "fukusaya-ming",
+    "name": "福砂屋 マイング店",
+    "type": "shop",
+    "area": "博多",
+    "address": "福岡県福岡市博多区博多駅中央街1-1 博多駅マイング内",
+    "shortAddress": "博多站 1F・マイング",
+    "hours": "9:00–21:00（依館方）",
+    "navigationDestination": "日本 福岡県福岡市博多区博多駅中央街1-1 博多駅マイング カステラ本家 福砂屋",
+    "notes": "長崎蛋糕依現場盒裝、入數與庫存選擇；營業依館方。",
+    "sourceUrls": [
+      "https://www.ming.or.jp/floorguide/shop37.html"
+    ]
+  },
+  {
+    "id": "fukutaro-ming",
+    "name": "福太郎 マイング店",
+    "type": "shop",
+    "area": "博多",
+    "address": "福岡県福岡市博多区博多駅中央街1-1 博多駅マイング内",
+    "shortAddress": "博多站 1F・マイング",
+    "hours": "9:00–21:00（依館方）",
+    "navigationDestination": "日本 福岡県福岡市博多区博多駅中央街1-1 博多駅マイング 福太郎",
+    "notes": "館方確認販售めんべい原味；盒裝與庫存依現場。",
+    "sourceUrls": [
+      "https://www.ming.or.jp/floorguide/shop33.html"
+    ]
+  },
+  {
+    "id": "moma-fukuoka",
+    "name": "MoMA Design Store 福岡",
+    "type": "shop",
+    "area": "天神",
+    "address": "福岡県福岡市中央区天神1-11-1 ONE FUKUOKA BLDG. 2F",
+    "shortAddress": "ONE FUKUOKA BLDG. 2F",
+    "hours": "平日 11:00–20:00／週末及假日 10:00–20:00（依館方）",
+    "navigationDestination": "日本 福岡県福岡市中央区天神1-11-1 ONE FUKUOKA BLDG. MoMA Design Store 福岡",
+    "notes": "店家與 2F 樓層已確認；尚未確認福岡店販售 PAMPSHADE，先詢問店員。",
+    "sourceUrls": [
+      "https://onefukuoka-building.jp/shop/",
+      "https://yukikomorita.com/shop/"
+    ]
   }
 ]

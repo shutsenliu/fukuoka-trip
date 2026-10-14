@@ -180,5 +180,55 @@
     "placeIds": [
       "amanberry-hankyu"
     ]
+  },
+  {
+    "id": "fukusaya-castella",
+    "name": "福砂屋 長崎カステラ／福砂屋長崎蛋糕",
+    "type": "shopping",
+    "category": "伴手禮",
+    "priority": 3,
+    "image": "items/fukusaya-illustration.png",
+    "imageCaption": "AI 概念插圖，非官方實拍；款式、包裝與供應以門市為準。",
+    "notes": "福砂屋經典長崎蛋糕；依送禮需求選擇盒裝，購買時確認保存期限。",
+    "placeIds": [
+      "fukusaya-ming"
+    ]
+  },
+  {
+    "id": "menbei-plain",
+    "name": "めんべい プレーン／明太子仙貝原味",
+    "type": "shopping",
+    "category": "伴手禮",
+    "priority": 3,
+    "image": "items/menbei-illustration.png",
+    "imageCaption": "AI 概念插圖，非官方實拍；款式、包裝與供應以門市為準。",
+    "notes": "指定原味「プレーン」，不要拿成其他口味；依送禮需求選擇入數。",
+    "placeIds": [
+      "fukutaro-ming"
+    ]
+  },
+  {
+    "id": "pampshade-bread-lamp",
+    "name": "PAMPSHADE 麵包燈",
+    "type": "shopping",
+    "category": "居家設計",
+    "priority": 3,
+    "image": "items/pampshade-illustration.png",
+    "imageCaption": "AI 概念插圖，非官方實拍；款式、包裝與供應以門市為準。",
+    "notes": "福岡店供應待確認：到 MoMA 詢問 PAMPSHADE（Yukiko Morita）的麵包燈，不以其他品牌的麵包造型燈替代。款式依現場供應選擇。",
+    "placeIds": [
+      "moma-fukuoka"
+    ]
+  },
+  {
+    "id": "lush-sanrio-soap",
+    "name": "LUSH 三麗鷗角色造型香皂",
+    "type": "shopping",
+    "category": "香皂",
+    "priority": 3,
+    "image": "items/lush-illustration.png",
+    "imageCaption": "AI 概念插圖，非官方實拍；款式、包裝與供應以門市為準。",
+    "notes": "待安排：尚未確認福岡販售分店。官方目前有酷企鵝固體香皂，角色依現場選擇；數量限定，12 月供應待確認。只找固體香皂，不以沐浴果凍或泡澡球替代。",
+    "placeIds": []
   }
 ]

@@ -57,16 +57,24 @@ describe('itinerary map audit', () => {
 });
 
 describe('approved Hakata shopping plan', () => {
-  it('assigns seven station purchases to Day 1 and Imonne to Day 5', () => {
+  it('assigns nine station purchases to Day 1 and Imonne to Day 5', () => {
     const day1 = itinerary[0];
     const hankyu = day1.stops.find(stop => stop.id === 'day-1-hankyu-souvenirs')!;
     const station = day1.stops.find(stop => stop.id === 'day-1-station-souvenirs')!;
     expect(itemsForStop(hankyu).map(item => item.id)).toEqual(['ivorish-financier','sugarbutter-amaou','amanberry-strawberry']);
-    expect(itemsForStop(station).map(item => item.id)).toEqual(['leclerc-caneles','hanafukudo-ichigo-langue','butterbee-honey-chocolat','hakata-mentai-ebi']);
+    expect(itemsForStop(station).map(item => item.id)).toEqual(['leclerc-caneles','hanafukudo-ichigo-langue','butterbee-honey-chocolat','hakata-mentai-ebi','fukusaya-castella','menbei-plain']);
     const imonne = itinerary[4].stops.find(stop => stop.id === 'day-5-imonne')!;
     expect(itemsForStop(imonne).map(item => item.id)).toEqual(['imonne-matcha-mochi']);
     expect(imonne.startTime).toBe('10:55');
     expect(items.find(item => item.id === 'butterbee-honey-chocolat')?.notes).toContain('供應待確認');
+  });
+  it('keeps the approved MoMA goal in Day 5 and unlocated LUSH off the itinerary', () => {
+    const moma = itinerary[4].stops.find(stop => stop.id === 'day-5-moma')!;
+    expect(itemsForStop(moma).map(item => item.id)).toEqual(['pampshade-bread-lamp']);
+    expect(placesById.get('moma-fukuoka')?.navigationDestination).toContain('天神1-11-1');
+    const lush = items.find(item => item.id === 'lush-sanrio-soap')!;
+    expect(lush.placeIds).toEqual([]);
+    expect(itinerary.flatMap(day => day.stops).some(stop => itemsForStop(stop).includes(lush))).toBe(false);
   });
   it('retains ordered non-overlapping times and real image assets', () => {
     for (const day of itinerary) {
