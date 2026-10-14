@@ -184,7 +184,8 @@
     "sourceUrls": [
       "https://yufuin.gr.jp/spot/spot-1218/",
       "https://www.fukuoka-navi.jp/415803"
-    ]
+    ],
+    "navigationDestination": "日本 大分県由布市湯布院町川上2939-4"
   },
   {
     "id": "yufuin-5toku",
@@ -199,7 +200,8 @@
     "closedDays": "不定休",
     "sourceUrls": [
       "https://yufuin.gr.jp/spot/spot-1220/"
-    ]
+    ],
+    "navigationDestination": "日本 大分県由布市湯布院町川上1080-1"
   },
   {
     "id": "yufuin-kichigo",
@@ -230,7 +232,8 @@
     "closedDays": "不定休",
     "sourceUrls": [
       "https://dazaifupudding.com/"
-    ]
+    ],
+    "navigationDestination": "日本 福岡県太宰府市宰府3丁目1-28"
   },
   {
     "id": "dazaifu-yasutake",
@@ -245,6 +248,7 @@
     "closedDays": "不定休",
     "sourceUrls": [
       "https://www.umegaemochi.com/"
-    ]
+    ],
+    "navigationDestination": "日本 福岡県太宰府市宰府2-7-16"
   }
 ]

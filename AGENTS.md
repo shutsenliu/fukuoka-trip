@@ -8,3 +8,4 @@ This is a static travel companion with itinerary, places, and shopping/food/expe
 - A new itinerary Markdown uploaded in the conversation updates itinerary data, not goal data. The website has no upload UI.
 - Preserve item IDs for browser completion records. Place references use IDs; the first placeIds entry is primary and subsequent entries are backups.
 - Run npm test and npm run build for functional changes. Use the existing checkout; do not create worktrees unless asked.
+- Navigation requires an explicitly verified navigationDestination. Never generate navigation from itinerary titles, rest/transport text, generic place names, or disputed addresses. Unverified places may offer a clearly labeled map search scoped to Japan and the relevant area.

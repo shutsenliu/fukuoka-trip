@@ -75,4 +75,4 @@ useCompletedItems() 提供 isCompleted(id)、toggleCompleted(id)、clearComplete
 
 Vite base 從 GITHUB_REPOSITORY 或 origin 推導 repository 名称；一般 repo 使用 /REPO_NAME/，username.github.io 使用 /。不要在圖片路徑硬寫 repository 名稱。
 
-Google Maps 導航省略起點，由手機使用目前位置；有地址疑義的地點沿用店名搜尋。未關聯地點的行程提供站名路線搜尋，使用者需在地圖確認目的地。
+Google Maps 導航僅使用明確核對並設定的 navigationDestination，省略起點由手機使用目前位置。未核對或地址有疑義的地點只提供「地圖查找（請確認位置）」。未關聯地點的休息、返飯店、交通等行程不會自動產生地圖按鈕，也不以行程文字推測目的地。

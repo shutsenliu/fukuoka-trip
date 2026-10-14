@@ -15,9 +15,9 @@ describe('trip goal completion', () => {
       fireEvent.click(screen.getByRole('checkbox'));
       expect(screen.getByText(itemLabels[type].done)).toBeTruthy();
       expect(JSON.parse(localStorage.getItem('fukuoka-trip-completed-items')!)).toContain(item.id);
-      expect(screen.getByRole('link', { name: '導航至 HOKA 福岡天神店' })).toBeTruthy();
+      expect(screen.getByRole('link', { name: '地圖查找 HOKA 福岡天神店' })).toBeTruthy();
       fireEvent.click(screen.getByText('其他可買／體驗地點（1）'));
-      expect(screen.getByRole('link', { name: '導航至 BEAMS 福岡' })).toBeTruthy();
+      expect(screen.getByRole('link', { name: '地圖查找 BEAMS 福岡' })).toBeTruthy();
       view.unmount();
       render(<MemoryRouter><ItemCard item={item}/></MemoryRouter>);
       expect((screen.getByRole('checkbox') as HTMLInputElement).checked).toBe(true);
