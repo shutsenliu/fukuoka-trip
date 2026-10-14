@@ -17,6 +17,7 @@ export function Timeline({ day }: { day: TripDay }) {
         <span className="eyebrow">{items.length ? '📍 這站有心願' : stop.type}</span>
         <h3 className="text-lg font-semibold mt-1">{stop.name}</h3>
         {stop.notes && <p className="muted mt-2 whitespace-pre-line">{stop.notes}</p>}
+        {!!stop.details?.length && <details className="stop-places itinerary-details"><summary>詳細資訊 · 交通方式</summary><div className="space-y-3 mt-3">{stop.details.map((detail,index) => <section key={`${detail.title}-${index}`}><h4 className="font-semibold">{detail.title}</h4><ul className="travel-steps">{detail.content.map((text,i) => <li key={i}>{text}</li>)}</ul></section>)}</div></details>}
         {!!items.length && <Link className="buy-link" to={`/items?${new URLSearchParams({day:day.id,stop:stop.id})}`}><span>{pending ? goals.map(group => `${itemLabels[group.type].icon} ${group.count} 項${itemLabels[group.type].goal}`).join(' · ') : '全部已完成'} · 查看清單</span><span aria-hidden="true">→</span></Link>}
         {places.length === 1 ? <div className="mt-3"><PlaceInfo place={places[0]}/></div> : places.length > 1 ? <details className="stop-places"><summary>店家與導航（{places.length} 個地點）</summary><div className="space-y-3 mt-3">{places.map(place => <PlaceInfo key={place.id} place={place}/>)}</div></details> : null}
       </div>

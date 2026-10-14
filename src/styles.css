@@ -46,3 +46,5 @@ main { max-width: 920px; margin: 18px auto 0; padding: 0 20px calc(120px + env(s
 .source-link { display: inline-flex; min-height: 44px; align-items: center; margin-right: 16px; color: #43634b; text-decoration: underline; }
 .stop-places { margin-top: 12px; }
 .stop-places > summary { cursor: pointer; border: 1px solid #cad4be; border-radius: 12px; padding: 12px; min-height: 48px; font-weight: 600; color: #43634b; }
+.travel-steps { margin: 6px 0 0; padding-left: 20px; list-style: disc; color: #646d63; }
+.travel-steps li { padding: 3px 0; }

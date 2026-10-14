@@ -27,7 +27,39 @@
         "endTime": "13:30",
         "name": "福岡機場 → 博多站",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "辦完 JR Pass 後，跟著 「Bus／バス」 指標前往出口。",
+              "前往福岡機場國際線巴士乘車處。",
+              "搭乘往 「博多駅／Hakata Station」 的 Airport Bus。",
+              "→ 博多駅（筑紫口）"
+            ]
+          },
+          {
+            "title": "車程",
+            "content": [
+              "車程最快約 15 分鐘。",
+              "考量等車及路況，建議抓約 20～30 分鐘。"
+            ]
+          },
+          {
+            "title": "⚠️ 注意",
+            "content": [
+              "不用搭免費接駁巴士前往國內線。",
+              "不用轉搭地下鐵。",
+              "上車前再次確認車頭／站牌顯示 「博多駅」。"
+            ]
+          },
+          {
+            "title": "付款提醒",
+            "content": [
+              "可準備 Suica／ICOCA／nimoca 等交通 IC 卡或現場可使用的付款方式。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-1-stop-4",
@@ -36,7 +68,16 @@
         "name": "博多站 → 東急 STAY 博多寄放行李",
         "type": "行程",
         "notes": "博多站筑紫口出發，步行約 8 分鐘；先寄放行李，實際受理方式依飯店規定。",
-        "placeId": "tokyu-stay-hakata"
+        "placeId": "tokyu-stay-hakata",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "博多站筑紫口 → 東急 Stay 博多",
+              "步行約 7～10 分鐘。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-1-stop-5",
@@ -44,7 +85,16 @@
         "endTime": "15:00",
         "name": "午餐：兼虎沾麵 博多 DEITOS 店（麵屋兼虎 博多デイトス店）",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "東急 Stay 博多 → 博多站，步行約 7～10 分鐘。",
+              "進入博多站後前往 DEITOS 2F。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-1-stop-6",
@@ -52,7 +102,16 @@
         "endTime": "15:15",
         "name": "前往 FUK COFFEE",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "博多站 → FUK COFFEE",
+              "步行約 10～15 分鐘，方向正好往博多運河城移動。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-1-stop-7",
@@ -76,7 +135,16 @@
         "endTime": "18:10",
         "name": "步行前往晚餐餐廳",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "博多運河城 → 地雞屋 大和 本館",
+              "步行約 2～5 分鐘。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-1-stop-10",
@@ -93,7 +161,16 @@
         "name": "返回東急 STAY 博多 Check-in、休息",
         "type": "行程",
         "notes": "入住東急 STAY 博多，住宿至 12/17，共 5 晚。",
-        "placeId": "tokyu-stay-hakata"
+        "placeId": "tokyu-stay-hakata",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "地雞屋 大和 本館 → 博多站周邊 東急 Stay 博多",
+              "步行約 15～20 分鐘。"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -109,7 +186,15 @@
         "endTime": "09:00",
         "name": "前往門司港",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "博多站搭 JR 特急 Sonic 至小倉站，再轉 JR 鹿兒島本線至門司港站。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-2-stop-2",
@@ -118,7 +203,15 @@
         "name": "門司港車站 ＆ 門司港懷舊區",
         "type": "行程",
         "notes": "",
-        "placeId": "mojiko"
+        "placeId": "mojiko",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "門司港站周邊步行。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-2-stop-3",
@@ -126,7 +219,15 @@
         "endTime": "11:00",
         "name": "關門連絡船前往下關 ＆ 赤間神宮",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "門司港碼頭搭關門連絡船至唐戶 / 下關，下船後步行約 10 分鐘至赤間神宮。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-2-stop-4",
@@ -135,7 +236,15 @@
         "name": "午餐：唐戶市場海鮮大餐",
         "type": "行程",
         "notes": "",
-        "placeId": "karato"
+        "placeId": "karato",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "赤間神宮 → 唐戶市場，步行約 5 分鐘。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-2-stop-5",
@@ -143,7 +252,15 @@
         "endTime": "16:30",
         "name": "關門隧道人行道 ＆ 和布刈神社",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "唐戶市場 → 關門隧道人行道下關端入口，步行前往。走隧道回福岡縣門司端後，再步行至和布刈神社。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-2-stop-6",
@@ -151,7 +268,15 @@
         "endTime": "18:30",
         "name": "晚餐：門司港燒咖哩",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "和布刈神社周邊搭巴士或步行回門司港懷舊區。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-2-stop-7",
@@ -159,7 +284,15 @@
         "endTime": "20:00",
         "name": "返回福岡市區",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "門司港站 → 小倉站 → 博多站，JR 返回。"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -175,7 +308,15 @@
         "endTime": "11:30",
         "name": "搭乘由布院之森前往由布院",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "博多站搭「特急 由布院之森」直達由布院站。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-3-stop-2",
@@ -183,7 +324,15 @@
         "endTime": "13:00",
         "name": "午餐：由布まぶし 心",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "由布院站 → 由布まぶし 心 駅前店，步行前往。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-3-stop-3",
@@ -198,6 +347,14 @@
           "yufuin-telato",
           "yufuin-5toku",
           "yufuin-kichigo"
+        ],
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "由布院站周邊、湯之坪街道全程步行。"
+            ]
+          }
         ]
       },
       {
@@ -207,7 +364,15 @@
         "name": "金鱗湖漫步",
         "type": "行程",
         "notes": "",
-        "placeId": "kinrin"
+        "placeId": "kinrin",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "湯之坪街道 → 金鱗湖，步行前往。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-3-stop-5",
@@ -215,7 +380,15 @@
         "endTime": "19:20",
         "name": "返回博多",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "由布院站搭特急由布號 / 由布院之森回博多站。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-3-stop-6",
@@ -223,7 +396,15 @@
         "endTime": "21:30",
         "name": "晚餐：かわ屋 祇園店",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "博多站 → かわ屋祇園店，步行約 10～15 分鐘；或搭地下鐵至祇園站。"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -239,7 +420,15 @@
         "endTime": "09:15",
         "name": "前往太宰府",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "博多站搭地下鐵至天神站，步行至西鐵福岡（天神）站，搭西鐵天神大牟田線至西鐵二日市站，再轉乘至太宰府站。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-4-stop-2",
@@ -248,7 +437,15 @@
         "name": "竈門神社",
         "type": "行程",
         "notes": "",
-        "placeId": "kamado"
+        "placeId": "kamado",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "太宰府站搭社區巴士 Mahoroba 號前往竈門神社。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-4-stop-3",
@@ -256,7 +453,15 @@
         "endTime": "12:00",
         "name": "午餐：一蘭 太宰府參道店",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "竈門神社搭巴士回太宰府站 / 表參道。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-4-stop-4",
@@ -265,7 +470,15 @@
         "name": "太宰府天滿宮 ＆ 天開稻荷神社",
         "type": "行程",
         "notes": "",
-        "placeId": "dazaifu"
+        "placeId": "dazaifu",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "太宰府表參道步行前往太宰府天滿宮，再步行至天開稻荷神社。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-4-stop-5",
@@ -277,6 +490,14 @@
         "placeIds": [
           "dazaifu-tenzan-pudding",
           "dazaifu-yasutake"
+        ],
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "太宰府天滿宮 → 表參道 → 太宰府站方向，沿路步行逛街。"
+            ]
+          }
         ]
       },
       {
@@ -285,7 +506,15 @@
         "endTime": "17:30",
         "name": "返回福岡市區",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "太宰府站 → 西鐵二日市站 → 西鐵福岡（天神）站。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-4-stop-7",
@@ -293,7 +522,19 @@
         "endTime": "20:00",
         "name": "晚餐：博多水炊鍋二選一",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "天神 → 中洲川端 / 博多座周邊，步行或搭地下鐵 1 站。",
+              "選項 A：水炊鍋 とり田 博多本店",
+              "正式水炊鍋，建議預約。",
+              "選項 B：とりまぶし",
+              "雞肉飯三吃、水炊雞湯，較彈性。"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -313,6 +554,14 @@
         "placeIds": [
           "nintendo",
           "marui"
+        ],
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "飯店 → 博多站，步行或地下街移動。"
+            ]
+          }
         ]
       },
       {
@@ -322,7 +571,15 @@
         "name": "回東急 STAY 博多放東西",
         "type": "行程",
         "notes": "返回住宿飯店放下購物物品後再出發。",
-        "placeId": "tokyu-stay-hakata"
+        "placeId": "tokyu-stay-hakata",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "博多站 → 飯店，步行或地下街移動。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-5-stop-3",
@@ -331,7 +588,15 @@
         "name": "博多鐵人",
         "type": "行程",
         "notes": "",
-        "placeId": "ironman"
+        "placeId": "ironman",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "飯店 / 博多站 → 博多鐵人，步行前往。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-5-stop-4",
@@ -339,7 +604,15 @@
         "endTime": "14:00",
         "name": "博多 → 天神",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "博多站 → 天神站。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-5-stop-5",
@@ -352,6 +625,14 @@
         "placeIds": [
           "parco",
           "beams"
+        ],
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "天神站出站後直接進入福岡 PARCO。"
+            ]
+          }
         ]
       },
       {
@@ -361,7 +642,15 @@
         "name": "HOKA 福岡天神店",
         "type": "購物",
         "notes": "",
-        "placeId": "hoka"
+        "placeId": "hoka",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "福岡 PARCO → HOKA 福岡天神店，步行前往。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-5-stop-7",
@@ -369,7 +658,15 @@
         "endTime": "16:05",
         "name": "Mina 天神",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "HOKA 福岡天神店 → Mina 天神，步行前往。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-5-stop-8",
@@ -378,7 +675,15 @@
         "name": "animate LACHIC 福岡天神",
         "type": "購物",
         "notes": "",
-        "placeId": "animate"
+        "placeId": "animate",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "Mina 天神 → 福岡三越，步行前往。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-5-stop-9",
@@ -386,7 +691,15 @@
         "endTime": "17:00",
         "name": "前往 FULL FULL",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "福岡三越 / 天神 → FULL FULL 天神店，步行前往。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-5-stop-10",
@@ -404,7 +717,15 @@
         "name": "UPTOWN Deluxe Fukuoka",
         "type": "購物",
         "notes": "",
-        "placeId": "uptown"
+        "placeId": "uptown",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "FULL FULL → UPTOWN Deluxe Fukuoka，往大名方向步行。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-5-stop-12",
@@ -413,7 +734,15 @@
         "name": "SEAM 天神大名店",
         "type": "購物",
         "notes": "",
-        "placeId": "seam"
+        "placeId": "seam",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "UPTOWN Deluxe → SEAM 天神大名店，步行前往。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-5-stop-13",
@@ -425,6 +754,14 @@
         "placeIds": [
           "uptown",
           "seam"
+        ],
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "SEAM → 大名商圈 → 爐端 百式，全程步行。"
+            ]
+          }
         ]
       },
       {
@@ -434,7 +771,15 @@
         "name": "爐端 百式",
         "type": "行程",
         "notes": "建議預約 19:30；出發前再確認。",
-        "placeId": "hyakushiki"
+        "placeId": "hyakushiki",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "大名商圈 → 爐端 百式，步行或搭車前往。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-5-stop-15",
@@ -443,7 +788,15 @@
         "name": "藥妝 / 唐吉訶德",
         "type": "購物",
         "notes": "",
-        "placeId": "donki"
+        "placeId": "donki",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "爐端 百式 → 天神南 / 天神地下街 / 唐吉訶德天神本店，步行前往。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-5-stop-16",
@@ -452,7 +805,16 @@
         "name": "返回東急 STAY 博多",
         "type": "行程",
         "notes": "返回飯店整理行李，準備隔天退房。",
-        "placeId": "tokyu-stay-hakata"
+        "placeId": "tokyu-stay-hakata",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "天神站 → 博多站，搭地下鐵空港線。",
+              "如果東西太多、買了 HOKA 鞋或太累，直接搭計程車回飯店。"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -476,7 +838,15 @@
         "endTime": "08:40",
         "name": "早餐：Dacomecca（選擇性）",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "東急 Stay 博多 → Dacomecca，步行前往。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-6-stop-3",
@@ -484,7 +854,46 @@
         "endTime": "09:30",
         "name": "博多站筑紫口 → 福岡機場國際線",
         "type": "行程",
-        "notes": ""
+        "notes": "",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "Dacomecca／飯店 → 博多駅（筑紫口）Airport Bus 乘車處。",
+              "搭乘往 「福岡空港国際線／Fukuoka Airport International Terminal」 的 Airport Bus。",
+              "博多駅（筑紫口） → 福岡機場國際線，最快約 15 分鐘。",
+              "考量等車及市區路況，整段建議預留約 30～40 分鐘。"
+            ]
+          },
+          {
+            "title": "搭車方式",
+            "content": [
+              "找筑紫口的 Airport Bus 專用站牌。",
+              "上車前確認車頭電子看板顯示：",
+              "福岡空港国際線",
+              "或 Fukuoka Airport International Terminal",
+              "抵達後直接在 國際線航廈下車，不需要再轉免費接駁巴士。"
+            ]
+          },
+          {
+            "title": "付款提醒",
+            "content": [
+              "建議使用 Suica／ICOCA／nimoca 等交通 IC 卡或可使用的感應信用卡。"
+            ]
+          },
+          {
+            "title": "⚠️ 備案",
+            "content": [
+              "如果巴士等待時間太久、遇到大雨，或行李很多，可直接從博多站／飯店搭計程車前往福岡機場國際線。"
+            ]
+          },
+          {
+            "title": "建議抵達時間",
+            "content": [
+              "約 09:20～09:30 抵達福岡機場國際線。"
+            ]
+          }
+        ]
       },
       {
         "id": "day-6-stop-4",

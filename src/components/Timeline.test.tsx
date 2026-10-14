@@ -22,3 +22,13 @@ it('navigates hotel return stops only to the confirmed Hakata hotel', () => {
   expect(links).toHaveLength(2);
   for (const link of links) expect(new URL(link.getAttribute('href')!).searchParams.get('destination')).toContain('博多駅南1-11-11');
 });
+it('shows the airport-to-Hakata bus instructions in expandable details', () => {
+  const stop = itinerary[0].stops.find(stop => stop.id === 'day-1-stop-3')!;
+  const { container } = render(<MemoryRouter><Timeline day={{...itinerary[0],stops:[stop]}}/></MemoryRouter>);
+  const details = container.querySelector('details')!;
+  expect(details.open).toBe(false);
+  expect(details.textContent).toContain('Airport Bus');
+  expect(details.textContent).toContain('博多駅（筑紫口）');
+  expect(details.textContent).toContain('不用轉搭地下鐵');
+  expect(screen.queryByRole('link')).toBeNull();
+});
