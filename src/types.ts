@@ -1,6 +1,6 @@
 export interface TripDay { id: string; day: number; date: string; title: string; stops: ItineraryStop[] }
 export interface ItineraryDetail { title: string; content: string[] }
-export interface ItineraryMap { label: string; destination: string; origin?: string; transit?: boolean; walking?: boolean }
+export interface ItineraryMap { label: string; destination: string; confirmed?: boolean; origin?: string; transit?: boolean; walking?: boolean }
 export interface ItineraryStop { id: string; startTime: string; endTime: string; name: string; type: string; placeId?: string; placeIds?: string[]; details?: ItineraryDetail[]; maps?: ItineraryMap[]; notes: string }
 export type PlaceType = 'shop' | 'restaurant' | 'attraction' | 'hotel';
 export type ItemType = 'shopping' | 'food' | 'experience';

@@ -22,7 +22,7 @@ npm run preview
 
 ## 頁面
 
-- **行程**：Day 1～6 時間軸，交通方式及路線可在「詳細資訊」展開查看。旅程期間依日本日期預設當天；旅程外記住上次選擇，首次開啟顯示 Day 1。有目標的停留點以底色與購物／美食／體驗標籤標示；點擊「查看清單」進入該站清單；單一地點直接顯示資訊與 Google Maps 導航，多地點從「店家與導航」查看。
+- **行程**：Day 1～6 時間軸，交通方式及路線可在「詳細資訊」展開查看。旅程期間依日本日期預設當天；旅程外記住上次選擇，首次開啟顯示 Day 1。有目標的停留點以底色與購物／美食／體驗標籤標示；點擊「查看清單」進入該站清單；行程只顯示一個已確認目的地的 Google Maps 導航按鈕，店家摘要留在清單卡片。
 - **清單**：依日期、站點、類型（購物／美食／體驗）、細分類與完成狀態篩選。相同項目在多個備案地點不重複計算。
 - **地點詳情**：保留既有網址作次要入口，底部不再顯示地點頁籤。清單卡片直接顯示主要地點、時間、簡短地址與導航；備案與詳細資訊可展開查看，查證來源僅留在資料檔供維護，不顯示於介面。
 
@@ -75,6 +75,6 @@ useCompletedItems() 提供 isCompleted(id)、toggleCompleted(id)、clearComplete
 
 Vite base 從 GITHUB_REPOSITORY 或 origin 推導 repository 名称；一般 repo 使用 /REPO_NAME/，username.github.io 使用 /。不要在圖片路徑硬寫 repository 名稱。
 
-Google Maps 導航僅使用明確核對並設定的 navigationDestination，省略起點由手機使用目前位置。未核對或地址有疑義的地點只提供「地圖查找（請確認位置）」。未關聯地點的休息、返飯店、交通等行程不會自動產生地圖按鈕，也不以行程文字推測目的地。
+Google Maps 導航僅使用明確核對並設定的 navigationDestination，省略起點由手機使用目前位置。未核對或地址有疑義的地點不顯示地圖按鈕或佔位資訊。未關聯地點的休息、返飯店、交通等行程不會自動產生地圖按鈕，也不以行程文字推測目的地。
 
-移動段的 Google Maps 按鈕由 itinerary.json 的 maps 欄位明確指定：label、destination、選填 origin、transit／walking。跨站轉乘拆成分段，船班以碼頭查找及下船後步行路線呈現。班次與船班仍依詳細交通資訊及官方時刻表。
+移動段的 Google Maps 按鈕由 itinerary.json 的 maps 欄位明確指定：label、destination、選填 origin、transit／walking。轉乘路線留在詳細資訊，移動段只以一個按鈕導向最終目的地；maps 的 confirmed 欄位明確控制是否允許導航。班次與船班仍依詳細交通資訊及官方時刻表。

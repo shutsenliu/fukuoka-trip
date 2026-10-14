@@ -62,9 +62,9 @@
         ],
         "maps": [
           {
-            "label": "機場國際線 → 博多站",
-            "origin": "日本 福岡空港 国際線ターミナル",
+            "label": "Google Maps 導航",
             "destination": "日本 福岡県福岡市 博多駅",
+            "confirmed": true,
             "transit": true
           }
         ]
@@ -241,15 +241,9 @@
         ],
         "maps": [
           {
-            "label": "博多 → 小倉（JR）",
-            "origin": "日本 福岡県福岡市 博多駅",
-            "destination": "日本 福岡県北九州市 小倉駅",
-            "transit": true
-          },
-          {
-            "label": "小倉 → 門司港（JR）",
-            "origin": "日本 福岡県北九州市 小倉駅",
+            "label": "Google Maps 導航",
             "destination": "日本 福岡県北九州市 門司港駅",
+            "confirmed": true,
             "transit": true
           }
         ]
@@ -288,17 +282,9 @@
         ],
         "maps": [
           {
-            "label": "門司港乘船碼頭",
-            "destination": "日本 福岡県北九州市 門司港桟橋 関門汽船"
-          },
-          {
-            "label": "唐戶下船碼頭",
-            "destination": "日本 山口県下関市 唐戸桟橋 関門汽船"
-          },
-          {
-            "label": "唐戶碼頭 → 赤間神宮",
-            "origin": "日本 山口県下関市 唐戸桟橋",
+            "label": "Google Maps 導航",
             "destination": "日本 山口県下関市 赤間神宮",
+            "confirmed": true,
             "walking": true
           }
         ]
@@ -389,15 +375,9 @@
         ],
         "maps": [
           {
-            "label": "門司港 → 小倉（JR）",
-            "origin": "日本 福岡県北九州市 門司港駅",
-            "destination": "日本 福岡県北九州市 小倉駅",
-            "transit": true
-          },
-          {
-            "label": "小倉 → 博多（JR）",
-            "origin": "日本 福岡県北九州市 小倉駅",
+            "label": "Google Maps 導航",
             "destination": "日本 福岡県福岡市 博多駅",
+            "confirmed": true,
             "transit": true
           }
         ]
@@ -427,9 +407,9 @@
         ],
         "maps": [
           {
-            "label": "博多 → 由布院（JR）",
-            "origin": "日本 福岡県福岡市 博多駅",
+            "label": "Google Maps 導航",
             "destination": "日本 大分県由布市 由布院駅",
+            "confirmed": true,
             "transit": true
           }
         ]
@@ -519,9 +499,9 @@
         ],
         "maps": [
           {
-            "label": "由布院 → 博多（JR）",
-            "origin": "日本 大分県由布市 由布院駅",
+            "label": "Google Maps 導航",
             "destination": "日本 福岡県福岡市 博多駅",
+            "confirmed": true,
             "transit": true
           }
         ]
@@ -573,27 +553,9 @@
         ],
         "maps": [
           {
-            "label": "博多 → 天神（地下鐵）",
-            "origin": "日本 福岡県福岡市 博多駅",
-            "destination": "日本 福岡県福岡市 天神駅",
-            "transit": true
-          },
-          {
-            "label": "天神 → 西鐵福岡站",
-            "origin": "日本 福岡県福岡市 天神駅",
-            "destination": "日本 福岡県福岡市 西鉄福岡 天神駅",
-            "walking": true
-          },
-          {
-            "label": "西鐵福岡 → 西鐵二日市",
-            "origin": "日本 福岡県福岡市 西鉄福岡 天神駅",
-            "destination": "日本 福岡県筑紫野市 西鉄二日市駅",
-            "transit": true
-          },
-          {
-            "label": "西鐵二日市 → 太宰府",
-            "origin": "日本 福岡県筑紫野市 西鉄二日市駅",
+            "label": "Google Maps 導航",
             "destination": "日本 福岡県太宰府市 太宰府駅",
+            "confirmed": true,
             "transit": true
           }
         ]
@@ -697,15 +659,9 @@
         ],
         "maps": [
           {
-            "label": "太宰府 → 西鐵二日市",
-            "origin": "日本 福岡県太宰府市 太宰府駅",
-            "destination": "日本 福岡県筑紫野市 西鉄二日市駅",
-            "transit": true
-          },
-          {
-            "label": "西鐵二日市 → 西鐵福岡",
-            "origin": "日本 福岡県筑紫野市 西鉄二日市駅",
+            "label": "Google Maps 導航",
             "destination": "日本 福岡県福岡市 西鉄福岡 天神駅",
+            "confirmed": true,
             "transit": true
           }
         ]
@@ -819,9 +775,9 @@
         ],
         "maps": [
           {
-            "label": "博多 → 天神（地下鐵）",
-            "origin": "日本 福岡県福岡市 博多駅",
+            "label": "Google Maps 導航",
             "destination": "日本 福岡県福岡市 天神駅",
+            "confirmed": true,
             "transit": true
           }
         ]
@@ -1126,13 +1082,9 @@
         ],
         "maps": [
           {
-            "label": "博多站筑紫口乘車位置",
-            "destination": "日本 福岡県福岡市 博多駅 筑紫口"
-          },
-          {
-            "label": "博多站 → 福岡機場國際線",
-            "origin": "日本 福岡県福岡市 博多駅",
+            "label": "Google Maps 導航",
             "destination": "日本 福岡空港 国際線ターミナル",
+            "confirmed": true,
             "transit": true
           }
         ]

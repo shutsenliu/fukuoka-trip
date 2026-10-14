@@ -6,7 +6,7 @@ import { useCompletedItems } from './hooks/useCompletedItems';
 import { ItemCard } from './components/ItemCard';
 import { ChecklistPage } from './components/ChecklistPage';
 import { initialDay, rememberDay } from './lib/selectedDay';
-import { placeSearchUrl } from './lib/navigation';
+import { placeDirectionsUrl } from './lib/navigation';
 import { Timeline } from './components/Timeline';
 function DayTabs({ days, selected, onSelect }: { days: TripDay[]; selected: number; onSelect: (day: number) => void }) {
   return <div className="day-tabs" aria-label="選擇旅行日期">{days.map(day => <button key={day.id} aria-pressed={selected === day.day} className={selected === day.day ? 'selected' : ''} onClick={() => onSelect(day.day)}>Day {day.day}<span>{day.date.slice(5).replace('-', '/')}</span></button>)}</div>;
@@ -18,7 +18,7 @@ function PlacesPage() {
 function PlaceDetail() {
   const { id } = useParams(); const store = places.find(s => s.id === id);
   if (!store) return <><h1>找不到這個地點</h1><Link className="button" to="/places">返回地點</Link></>;
-  return <><Link className="back-link" to="/places">← 所有地點</Link><span className="eyebrow block mt-5">{store.area}</span><h1>{store.name}</h1><p className="muted">{store.address}</p><p className="my-3">{store.notes}</p>{store.mapUrl && <a className="button mb-6" href={placeSearchUrl(store)} target="_blank" rel="noreferrer">在地圖搜尋 ↗</a>}<div className="product-grid">{itemsForPlace(store.id).map(item => <ItemCard key={item.id} item={item}/>)}</div>{!itemsForPlace(store.id).length && <p className="card p-5">這站可以隨意走走，目前沒有指定項目。</p>}</>;
+  return <><Link className="back-link" to="/places">← 所有地點</Link><span className="eyebrow block mt-5">{store.area}</span><h1>{store.name}</h1><p className="muted">{store.address}</p><p className="my-3">{store.notes}</p>{store.navigationDestination && <a className="button mb-6" href={placeDirectionsUrl(store)} target="_blank" rel="noreferrer">Google Maps 導航 ↗</a>}<div className="product-grid">{itemsForPlace(store.id).map(item => <ItemCard key={item.id} item={item}/>)}</div>{!itemsForPlace(store.id).length && <p className="card p-5">這站可以隨意走走，目前沒有指定項目。</p>}</>;
 }
 function AppContent() {
   const location = useLocation();

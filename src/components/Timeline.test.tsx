@@ -5,32 +5,30 @@ import { MemoryRouter } from 'react-router-dom';
 import { Timeline } from './Timeline';
 import { itinerary } from '../lib/data';
 afterEach(cleanup);
-it('does not produce navigation buttons from unassigned activity text', () => {
-  render(<MemoryRouter><Timeline day={{...itinerary[0], stops: itinerary[0].stops.filter(stop => !stop.placeId && !stop.maps?.length)}}/></MemoryRouter>);
-  expect(screen.getByText('抵達福岡、入境、領行李')).toBeTruthy();
-  expect(screen.queryByRole('link')).toBeNull();
-});
-it('separates confirmed destination navigation from uncertain location lookup', () => {
+it('hides unconfirmed locations and removes the place panel from itinerary cards', () => {
   render(<MemoryRouter><Timeline day={itinerary[2]}/></MemoryRouter>);
-  expect(screen.getByRole('link',{name:'導航至 日本茶 5toku',hidden:true}).getAttribute('href')).toContain('destination=');
-  expect(screen.getByRole('link',{name:'地圖查找 中津からあげ専門店 吉吾 湯布院店',hidden:true}).getAttribute('href')).toContain('/maps/search/');
+  expect(screen.queryByText(/店家與導航/)).toBeNull();
+  expect(screen.queryByText(/營業時間待確認/)).toBeNull();
+  expect(screen.queryByText(/地圖查找/)).toBeNull();
 });
-
-it('navigates hotel return stops only to the confirmed Hakata hotel', () => {
-  render(<MemoryRouter><Timeline day={itinerary[0]}/></MemoryRouter>);
-  const links = screen.getAllByRole('link',{name:'導航至 東急 STAY 博多（TOKYU STAY HAKATA）'});
-  expect(links).toHaveLength(2);
-  for (const link of links) expect(new URL(link.getAttribute('href')!).searchParams.get('destination')).toContain('博多駅南1-11-11');
+it('shows exactly one destination button for travel to Dazaifu', () => {
+  const {container} = render(<MemoryRouter><Timeline day={{...itinerary[3],stops:[itinerary[3].stops[0]]}}/></MemoryRouter>);
+  const link = screen.getByRole('link',{name:'Google Maps 導航 ↗'});
+  expect(screen.getAllByRole('link')).toHaveLength(1);
+  const url = new URL(link.getAttribute('href')!);
+  expect(url.searchParams.get('destination')).toBe('日本 福岡県太宰府市 太宰府駅');
+  expect(url.searchParams.has('origin')).toBe(false);
+  expect(container.querySelector('summary')?.textContent).toBe('詳細資訊');
 });
-it('shows the airport-to-Hakata bus instructions in expandable details', () => {
-  const stop = itinerary[0].stops.find(stop => stop.id === 'day-1-stop-3')!;
-  const { container } = render(<MemoryRouter><Timeline day={{...itinerary[0],stops:[stop]}}/></MemoryRouter>);
-  const details = container.querySelector('details')!;
-  expect(details.open).toBe(false);
-  expect(details.textContent).toContain('Airport Bus');
-  expect(details.textContent).toContain('博多駅（筑紫口）');
-  expect(details.textContent).toContain('不用轉搭地下鐵');
-  const url = new URL(screen.getByRole('link',{name:'機場國際線 → 博多站 ↗'}).getAttribute('href')!);
+it('keeps the confirmed hotel destination without showing a duplicate place card', () => {
+  render(<MemoryRouter><Timeline day={{...itinerary[0],stops:[itinerary[0].stops[10]]}}/></MemoryRouter>);
+  expect(screen.getAllByRole('link')).toHaveLength(1);
+  const url = new URL(screen.getByRole('link').getAttribute('href')!);
+  expect(url.searchParams.get('destination')).toContain('博多駅南1-11-11');
+});
+it('preserves airport bus details with one confirmed destination link', () => {
+  const {container} = render(<MemoryRouter><Timeline day={{...itinerary[0],stops:[itinerary[0].stops[2]]}}/></MemoryRouter>);
+  expect(container.querySelector('details')?.textContent).toContain('Airport Bus');
+  const url = new URL(screen.getByRole('link').getAttribute('href')!);
   expect(url.searchParams.get('destination')).toBe('日本 福岡県福岡市 博多駅');
-  expect(url.searchParams.get('travelmode')).toBe('transit');
 });
