@@ -6,7 +6,7 @@ import { Timeline } from './Timeline';
 import { itinerary } from '../lib/data';
 afterEach(cleanup);
 it('does not produce navigation buttons from unassigned activity text', () => {
-  render(<MemoryRouter><Timeline day={{...itinerary[0], stops: itinerary[0].stops.filter(stop => !stop.placeId)}}/></MemoryRouter>);
+  render(<MemoryRouter><Timeline day={{...itinerary[0], stops: itinerary[0].stops.filter(stop => !stop.placeId && !stop.maps?.length)}}/></MemoryRouter>);
   expect(screen.getByText('抵達福岡、入境、領行李')).toBeTruthy();
   expect(screen.queryByRole('link')).toBeNull();
 });
@@ -30,5 +30,7 @@ it('shows the airport-to-Hakata bus instructions in expandable details', () => {
   expect(details.textContent).toContain('Airport Bus');
   expect(details.textContent).toContain('博多駅（筑紫口）');
   expect(details.textContent).toContain('不用轉搭地下鐵');
-  expect(screen.queryByRole('link')).toBeNull();
+  const url = new URL(screen.getByRole('link',{name:'機場國際線 → 博多站 ↗'}).getAttribute('href')!);
+  expect(url.searchParams.get('destination')).toBe('日本 福岡県福岡市 博多駅');
+  expect(url.searchParams.get('travelmode')).toBe('transit');
 });

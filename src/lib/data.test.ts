@@ -37,3 +37,17 @@ describe('goal relationships', () => {
     expect(itemsForStop({...stop, placeIds: []},source)).toEqual([]);
   });
 });
+
+describe('itinerary map audit', () => {
+  it('gives every location or movement stop a curated map, without guessing activity titles', () => {
+    const noMapNeeded = new Set(['day-1-stop-1','day-1-stop-2','day-6-stop-1','day-6-stop-4','day-6-stop-6']);
+    for (const day of itinerary) for (const stop of day.stops) {
+      if (noMapNeeded.has(stop.id)) expect(stop.maps).toBeUndefined();
+      else expect(Boolean(stop.placeId || stop.placeIds?.length || stop.maps?.length)).toBe(true);
+      for (const map of stop.maps ?? []) {
+        expect(map.destination).toMatch(/^日本 /);
+        expect(map.destination).not.toBe(stop.name);
+      }
+    }
+  });
+});
