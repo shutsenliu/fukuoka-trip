@@ -33,9 +33,10 @@
         "id": "day-1-stop-4",
         "startTime": "13:30",
         "endTime": "13:45",
-        "name": "博多站 → 飯店寄放行李",
+        "name": "博多站 → 東急 STAY 博多寄放行李",
         "type": "行程",
-        "notes": ""
+        "notes": "博多站筑紫口出發，步行約 8 分鐘；先寄放行李，實際受理方式依飯店規定。",
+        "placeId": "tokyu-stay-hakata"
       },
       {
         "id": "day-1-stop-5",
@@ -89,9 +90,10 @@
         "id": "day-1-stop-11",
         "startTime": "19:45",
         "endTime": "20:15",
-        "name": "返回飯店 Check-in、休息",
+        "name": "返回東急 STAY 博多 Check-in、休息",
         "type": "行程",
-        "notes": ""
+        "notes": "入住東急 STAY 博多，住宿至 12/17，共 5 晚。",
+        "placeId": "tokyu-stay-hakata"
       }
     ]
   },
@@ -317,9 +319,10 @@
         "id": "day-5-stop-2",
         "startTime": "11:30",
         "endTime": "12:00",
-        "name": "回飯店放東西",
+        "name": "回東急 STAY 博多放東西",
         "type": "行程",
-        "notes": ""
+        "notes": "返回住宿飯店放下購物物品後再出發。",
+        "placeId": "tokyu-stay-hakata"
       },
       {
         "id": "day-5-stop-3",
@@ -446,9 +449,10 @@
         "id": "day-5-stop-16",
         "startTime": "22:15",
         "endTime": "22:45",
-        "name": "返回飯店",
+        "name": "返回東急 STAY 博多",
         "type": "行程",
-        "notes": ""
+        "notes": "返回飯店整理行李，準備隔天退房。",
+        "placeId": "tokyu-stay-hakata"
       }
     ]
   },
@@ -464,7 +468,7 @@
         "endTime": "08:00",
         "name": "起床、整理行李、退房",
         "type": "行程",
-        "notes": ""
+        "notes": "在東急 STAY 博多整理行李並退房；時間依訂單及飯店規定。"
       },
       {
         "id": "day-6-stop-2",

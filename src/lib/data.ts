@@ -4,7 +4,7 @@ import itemsJson from '../data/items.json';
 import type { TripDay, Place, TripItem, ItineraryStop } from '../types';
 export const itinerary: TripDay[] = itineraryJson;
 export const places: Place[] = placesJson.map(place => {
-  if (place.type !== 'shop' && place.type !== 'restaurant' && place.type !== 'attraction') throw new Error(`Invalid place type: ${place.id}`);
+  if (place.type !== 'shop' && place.type !== 'restaurant' && place.type !== 'attraction' && place.type !== 'hotel') throw new Error(`Invalid place type: ${place.id}`);
   return { ...place, type: place.type };
 });
 export const items: TripItem[] = itemsJson.map((item: Omit<TripItem, 'type'> & { type: string }) => {
