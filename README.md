@@ -22,16 +22,16 @@ npm run preview
 
 ## 頁面
 
-- **行程**：Day 1～6 時間軸。旅程期間依日本日期預設當天；旅程外記住上次選擇，首次開啟顯示 Day 1。有目標的停留點以底色與購物／美食／體驗標籤標示；點擊進入該站清單。
+- **行程**：Day 1～6 時間軸。旅程期間依日本日期預設當天；旅程外記住上次選擇，首次開啟顯示 Day 1。有目標的停留點以底色與購物／美食／體驗標籤標示；點擊「查看清單」進入該站清單；單一地點直接顯示資訊與 Google Maps 導航，多地點從「店家與導航」查看。
 - **清單**：依日期、站點、類型（購物／美食／體驗）、細分類與完成狀態篩選。相同項目在多個備案地點不重複計算。
-- **地點**：依區域整合店家、餐廳與景點，查看每個地點的項目。
+- **地點詳情**：保留既有網址作次要入口，底部不再顯示地點頁籤。清單卡片直接顯示主要地點、時間、簡短地址與導航；備案、詳細資訊及查證來源可展開查看。
 
 HashRouter 避免 GitHub Pages 重新整理時出現 404。舊 /wishlist 與 /stores 入口仍能開啟對應頁面。
 
 ## 資料與 UI 分離
 
 - `src/data/itinerary.json`：TripDay（id、day、date、title、stops），ItineraryStop（id、startTime、endTime、name、type、notes、選填 placeId／placeIds）。
-- `src/data/places.json`：Place（id、name、type、area、address、notes、選填 mapUrl）。type 為 shop／restaurant／attraction。
+- `src/data/places.json`：Place（id、name、type、area、address、notes、選填 mapUrl／shortAddress／hours／closedDays／sourceUrls）。type 為 shop／restaurant／attraction。
 - `src/data/items.json`：TripItem（id、name、type、category、priority、image、notes、placeIds、選填 color／size）。type 為 shopping／food／experience，priority 為 1～5。
 - `src/types.ts`：共用 TypeScript 型別。
 - `public/items/`：項目圖片，使用 `items/photo.webp` 相對路徑，不加 repo base path。
@@ -74,3 +74,5 @@ useCompletedItems() 提供 isCompleted(id)、toggleCompleted(id)、clearComplete
 .github/workflows/deploy.yml 執行 npm ci、npm run build，以官方 configure-pages、upload-pages-artifact、deploy-pages Actions 部署 dist。權限包含 contents: read、pages: write、id-token: write。
 
 Vite base 從 GITHUB_REPOSITORY 或 origin 推導 repository 名称；一般 repo 使用 /REPO_NAME/，username.github.io 使用 /。不要在圖片路徑硬寫 repository 名稱。
+
+Google Maps 導航省略起點，由手機使用目前位置；有地址疑義的地點沿用店名搜尋。未關聯地點的行程提供站名路線搜尋，使用者需在地圖確認目的地。

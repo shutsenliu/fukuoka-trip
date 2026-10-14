@@ -37,3 +37,12 @@ main { max-width: 920px; margin: 18px auto 0; padding: 0 20px calc(120px + env(s
 .type-shopping { background: #e8efdf; }
 .type-food { background: #fae8d4; color: #82512e; }
 .type-experience { background: #eee6f6; color: #69527d; }
+.place-info { background: #f3f3eb; border: 1px solid #e3e5d9; border-radius: 14px; padding: 14px; overflow-wrap: anywhere; }
+.navigation-button { width: 100%; }
+.place-more { margin-top: 10px; }
+.place-more summary, .backup-places summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; color: #43634b; }
+.place-more summary::before, .backup-places summary::before { content: '＋'; margin-right: 8px; }
+.place-more[open] > summary::before, .backup-places[open] > summary::before { content: '−'; }
+.source-link { display: inline-flex; min-height: 44px; align-items: center; margin-right: 16px; color: #43634b; text-decoration: underline; }
+.stop-places { margin-top: 12px; }
+.stop-places > summary { cursor: pointer; border: 1px solid #cad4be; border-radius: 12px; padding: 12px; min-height: 48px; font-weight: 600; color: #43634b; }

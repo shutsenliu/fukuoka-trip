@@ -177,7 +177,14 @@
     "area": "由布院",
     "address": "大分県由布市湯布院町川上2939-4",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=telato%20%E5%A4%A7%E5%88%86%E7%9C%8C%E7%94%B1%E5%B8%83%E5%B8%82%E6%B9%AF%E5%B8%83%E9%99%A2%E7%94%BA%E5%B7%9D%E4%B8%8A2939-4",
-    "notes": "營業時間 10:30–16:30，不定休；抹茶濃度可選五個等級。2026/10/13 核對由布市官方旅遊指南與ふくおかナビ；12/14 當日營業與供應請出發前再確認。資料來源：https://yufuin.gr.jp/spot/spot-1218/ ｜ https://www.fukuoka-navi.jp/415803"
+    "notes": "營業時間 10:30–16:30，不定休；抹茶濃度可選五個等級。2026/10/13 核對由布市官方旅遊指南與ふくおかナビ；12/14 當日營業與供應請出發前再確認。",
+    "shortAddress": "湯布院町川上 2939-4",
+    "hours": "10:30–16:30",
+    "closedDays": "不定休",
+    "sourceUrls": [
+      "https://yufuin.gr.jp/spot/spot-1218/",
+      "https://www.fukuoka-navi.jp/415803"
+    ]
   },
   {
     "id": "yufuin-5toku",
@@ -186,7 +193,13 @@
     "area": "由布院",
     "address": "大分県由布市湯布院町川上1080-1",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%9C%AC%E8%8C%B6%205toku%20%E5%A4%A7%E5%88%86%E7%9C%8C%E7%94%B1%E5%B8%83%E5%B8%82%E6%B9%AF%E5%B8%83%E9%99%A2%E7%94%BA%E5%B7%9D%E4%B8%8A1080-1",
-    "notes": "營業時間 10:30–17:00，不定休。提供抹茶、玉露、煎茶、焙茶與和紅茶等茶飲。2026/10/13 核對由布市官方旅遊指南；12/14 當日營業與供應請出發前再確認。資料來源：https://yufuin.gr.jp/spot/spot-1220/"
+    "notes": "營業時間 10:30–17:00，不定休。提供抹茶、玉露、煎茶、焙茶與和紅茶等茶飲。2026/10/13 核對由布市官方旅遊指南；12/14 當日營業與供應請出發前再確認。",
+    "shortAddress": "湯布院町川上 1080-1",
+    "hours": "10:30–17:00",
+    "closedDays": "不定休",
+    "sourceUrls": [
+      "https://yufuin.gr.jp/spot/spot-1220/"
+    ]
   },
   {
     "id": "yufuin-kichigo",
@@ -195,7 +208,14 @@
     "area": "由布院",
     "address": "大分県由布市湯布院町川上（官網：1100-8；食べログ／Yahoo 地圖：1110-8，門牌待確認）",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E6%B4%A5%E3%81%8B%E3%82%89%E3%81%82%E3%81%92%E5%B0%82%E9%96%80%E5%BA%97%20%E5%90%89%E5%90%BE%20%E6%B9%AF%E5%B8%83%E9%99%A2%E5%BA%97",
-    "notes": "官網列平日 11:00–16:00、祝日 11:00–16:30、無固定公休。12/14 為星期一，當日營業與供應仍請出發前确认。電話：0977-84-5678。地址來源有差異，請以店名搜尋地圖並確認。資料來源：https://www.kichigo.com/store/store_164/ ｜ https://tabelog.com/oita/A4402/A440201/44011926/"
+    "notes": "官網列平日 11:00–16:00、祝日 11:00–16:30、無固定公休。12/14 為星期一，當日營業與供應仍請出發前确认。電話：0977-84-5678。地址來源有差異，請以店名搜尋地圖並確認。",
+    "shortAddress": "川上（1100-8／1110-8，門牌待確認）",
+    "hours": "11:00–16:00（平日）",
+    "closedDays": "無固定公休",
+    "sourceUrls": [
+      "https://www.kichigo.com/store/store_164/",
+      "https://tabelog.com/oita/A4402/A440201/44011926/"
+    ]
   },
   {
     "id": "dazaifu-tenzan-pudding",
@@ -204,7 +224,13 @@
     "area": "太宰府",
     "address": "福岡県太宰府市宰府3丁目1-28",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E5%B1%B1%E5%A4%AA%E5%AE%B0%E5%BA%9C%E3%81%B7%E3%82%8A%E3%82%93%E5%BA%97%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E5%A4%AA%E5%AE%B0%E5%BA%9C%E5%B8%82%E5%AE%B0%E5%BA%9C3%E4%B8%81%E7%9B%AE1-28",
-    "notes": "營業時間 10:00–17:00，不定休。2026/10/14 核對店家官網；12/15 當日營業與供應請出發前再確認。資料來源：https://dazaifupudding.com/"
+    "notes": "營業時間 10:00–17:00，不定休。2026/10/14 核對店家官網；12/15 當日營業與供應請出發前再確認。",
+    "shortAddress": "宰府 3-1-28",
+    "hours": "10:00–17:00",
+    "closedDays": "不定休",
+    "sourceUrls": [
+      "https://dazaifupudding.com/"
+    ]
   },
   {
     "id": "dazaifu-yasutake",
@@ -213,6 +239,12 @@
     "area": "太宰府",
     "address": "福岡県太宰府市宰府2-7-16",
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A2%85%E3%83%B6%E6%9E%9D%E9%A4%85%20%E3%82%84%E3%81%99%E6%AD%A6%E6%9C%AC%E5%BA%97%EF%BC%88%E5%AE%89%E6%AD%A6%EF%BC%89%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E5%A4%AA%E5%AE%B0%E5%BA%9C%E5%B8%82%E5%AE%B0%E5%BA%9C2-7-16",
-    "notes": "營業時間 8:30–18:00，不定休。2026/10/14 核對店家官網；12/15 當日營業與供應請出發前再確認。資料來源：https://www.umegaemochi.com/"
+    "notes": "營業時間 8:30–18:00，不定休。2026/10/14 核對店家官網；12/15 當日營業與供應請出發前再確認。",
+    "shortAddress": "宰府 2-7-16",
+    "hours": "8:30–18:00",
+    "closedDays": "不定休",
+    "sourceUrls": [
+      "https://www.umegaemochi.com/"
+    ]
   }
 ]

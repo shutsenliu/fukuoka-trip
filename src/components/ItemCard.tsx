@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { PlaceInfo } from './PlaceInfo';
 import type { TripItem } from '../types';
 import { itemLabels } from '../lib/itemLabels';
 import { placesById } from '../lib/data';
@@ -13,7 +13,9 @@ export function ItemCard({ item }: { item: TripItem }) {
     <div className="p-5 space-y-3"><div className="flex flex-wrap gap-2"><span className={`tag type-${item.type}`}>{labels.icon} {labels.name}</span><span className="tag">{item.category}</span><span className="tag priority">優先度 {item.priority} / 5</span></div>
       <h3 className="text-xl font-semibold">{item.name}</h3>
       {item.color && <p>🎨 {item.color}</p>}{item.size && <p>尺寸：{item.size}</p>}<p className="muted whitespace-pre-line">{item.notes}</p>
-      <div className="space-y-2">{item.placeIds.map((id, index) => <Link className="store-link" key={id} to={`/places/${id}`}><span>{index === 0 ? '主要地點' : `備案 ${index}`} · {placesById.get(id)?.name ?? id}</span><span aria-hidden="true">↗</span></Link>)}</div>
+      {item.placeIds[0] && placesById.get(item.placeIds[0]) && <PlaceInfo place={placesById.get(item.placeIds[0])!}/>}
+      {item.placeIds.length > 1 && <details className="backup-places"><summary>其他可買／體驗地點（{item.placeIds.length - 1}）</summary><div className="space-y-3 mt-3">{item.placeIds.slice(1).map(id => { const place = placesById.get(id); return place ? <PlaceInfo key={id} place={place}/> : null; })}</div></details>}
+
       <label className={`purchase-button ${purchased ? 'checked' : ''}`}><input type="checkbox" checked={purchased} onChange={() => toggleCompleted(item.id)}/>{purchased ? labels.done : `標記為${labels.done}`}</label>
     </div>
   </article>;
