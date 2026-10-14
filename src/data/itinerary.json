@@ -90,10 +90,10 @@
       {
         "id": "day-1-stop-5",
         "startTime": "13:45",
-        "endTime": "15:00",
+        "endTime": "14:45",
         "name": "午餐：兼虎沾麵 博多 DEITOS 店（麵屋兼虎 博多デイトス店）",
         "type": "行程",
-        "notes": "",
+        "notes": "午餐預留 1 小時；若排隊過長，採用原有餐廳備案，避免壓縮後續採買。",
         "details": [
           {
             "title": "交通",
@@ -111,9 +111,68 @@
         ]
       },
       {
+        "id": "day-1-hankyu-souvenirs",
+        "startTime": "14:45",
+        "endTime": "15:25",
+        "name": "博多阪急 B1 伴手禮",
+        "type": "購物",
+        "notes": "Ivorish、甘王草莓砂糖樹、AMANBERRY；優先買清單品項，依排隊與庫存彈性調整。",
+        "placeIds": [
+          "ivorish-hakata",
+          "sugarbutter-hakata",
+          "amanberry-hankyu"
+        ],
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "午餐後從博多 DEITOS 移動至博多阪急 B1。",
+              "同樓層依櫃位順路採買，不另排獨立店家行程。"
+            ]
+          }
+        ],
+        "maps": [
+          {
+            "label": "Google Maps 導航",
+            "destination": "日本 福岡県福岡市博多区博多駅中央街1-1 博多阪急",
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "id": "day-1-station-souvenirs",
+        "startTime": "15:25",
+        "endTime": "16:05",
+        "name": "博多站伴手禮・LeClerc",
+        "type": "購物",
+        "notes": "マイング：BUTTER&bee、博多明太子蝦餅；DEITOS：花福堂；いっぴん東通り：LeClerc。Honey Chocolat Sand 供應待現場確認。",
+        "placeIds": [
+          "butterbee-ming",
+          "fubian-ming",
+          "hanafukudo-deitos",
+          "leclerc-hakata"
+        ],
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "博多阪急 B1 → 博多站 1F 的マイング與 DEITOS，再到いっぴん東通り。",
+              "全部位於站內／站旁；依館內樓層圖與櫃位排隊調整順序，16:05 左右離開。"
+            ]
+          }
+        ],
+        "maps": [
+          {
+            "label": "Google Maps 導航",
+            "destination": "日本 福岡県福岡市博多区博多駅中央街1-1 博多駅",
+            "confirmed": true
+          }
+        ]
+      },
+      {
         "id": "day-1-stop-6",
-        "startTime": "15:00",
-        "endTime": "15:15",
+        "startTime": "16:05",
+        "endTime": "16:20",
         "name": "前往 FUK COFFEE",
         "type": "行程",
         "notes": "",
@@ -135,8 +194,8 @@
       },
       {
         "id": "day-1-stop-7",
-        "startTime": "15:15",
-        "endTime": "15:55",
+        "startTime": "16:20",
+        "endTime": "16:45",
         "name": "下午茶：FUK COFFEE",
         "type": "行程",
         "notes": "",
@@ -148,12 +207,34 @@
         ]
       },
       {
+        "id": "day-1-walk-to-canal",
+        "startTime": "16:45",
+        "endTime": "16:55",
+        "name": "FUK COFFEE → 博多運河城",
+        "type": "交通",
+        "notes": "步行移動，依當天路線與腳程調整。",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "離開 FUK COFFEE 後步行前往博多運河城。"
+            ]
+          }
+        ],
+        "maps": [
+          {
+            "label": "博多運河城",
+            "destination": "日本 福岡県福岡市博多区 キャナルシティ博多"
+          }
+        ]
+      },
+      {
         "id": "day-1-stop-8",
-        "startTime": "16:05",
+        "startTime": "16:55",
         "endTime": "18:00",
         "name": "博多運河城（Canal City Hakata）",
         "type": "行程",
-        "notes": "",
+        "notes": "伴手禮採買後，運河城保留約 1 小時；18:00 出發前往晚餐。",
         "maps": [
           {
             "label": "博多運河城地圖",
@@ -734,10 +815,10 @@
       {
         "id": "day-5-uniqlo",
         "startTime": "10:35",
-        "endTime": "11:05",
+        "endTime": "10:55",
         "name": "UNIQLO KITTE 博多店",
         "type": "購物",
-        "notes": "約 30 分鐘；位於 KITTE 博多 8F。",
+        "notes": "先快速挑選目標衣物；之後搭電梯至同棟 1F 吃 Imonne。",
         "placeId": "uniqlo-hakata",
         "details": [
           {
@@ -749,12 +830,30 @@
         ]
       },
       {
+        "id": "day-5-imonne",
+        "startTime": "10:55",
+        "endTime": "11:10",
+        "name": "Imonne Hakata 抹茶麻糬冰淇淋",
+        "type": "美食",
+        "notes": "KITTE 博多／博多丸井 1F，與 UNIQLO 同棟；依現場口味與排隊決定。",
+        "placeId": "imonne-hakata",
+        "details": [
+          {
+            "title": "交通",
+            "content": [
+              "UNIQLO 所在的 KITTE 博多 8F → 博多丸井 1F，搭電梯／手扶梯下樓。",
+              "甜點後步行前往 AMU PLAZA 博多 8F 的 Nintendo FUKUOKA。"
+            ]
+          }
+        ]
+      },
+      {
         "id": "day-5-nintendo",
-        "startTime": "11:10",
+        "startTime": "11:15",
         "endTime": "11:45",
         "name": "Nintendo FUKUOKA",
         "type": "購物",
-        "notes": "約 35 分鐘；位於 AMU PLAZA 博多 8F。繁忙日可能需整理券。",
+        "notes": "約 30 分鐘；繁忙日可能需整理券，排隊或試衣超時就彈性縮短購物，不影響午餐。",
         "placeId": "nintendo",
         "details": [
           {

@@ -1,3 +1,4 @@
+import { existsSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import type { TripItem } from '../types';
 import { itemsForStop, itinerary, items, placesById } from './data';
@@ -6,7 +7,10 @@ describe('bundled relationships', () => {
     expect(new Set(items.map(item => item.id)).size).toBe(items.length);
     expect(itinerary).toHaveLength(6);
     for (const item of items) for (const id of item.placeIds) expect(placesById.has(id)).toBe(true);
-    for (const day of itinerary) for (const stop of day.stops) if (stop.placeId) expect(placesById.has(stop.placeId)).toBe(true);
+    for (const day of itinerary) for (const stop of day.stops) {
+      if (stop.placeId) expect(placesById.has(stop.placeId)).toBe(true);
+      for (const id of stop.placeIds ?? []) expect(placesById.has(id)).toBe(true);
+    }
     expect(itinerary[4].stops.map(stop => stop.id)).toEqual(expect.arrayContaining(['day-5-stop-1','day-5-uniqlo','day-5-nintendo']));
   });
 });
@@ -49,5 +53,31 @@ describe('itinerary map audit', () => {
         expect(map.destination).not.toBe(stop.name);
       }
     }
+  });
+});
+
+describe('approved Hakata shopping plan', () => {
+  it('assigns seven station purchases to Day 1 and Imonne to Day 5', () => {
+    const day1 = itinerary[0];
+    const hankyu = day1.stops.find(stop => stop.id === 'day-1-hankyu-souvenirs')!;
+    const station = day1.stops.find(stop => stop.id === 'day-1-station-souvenirs')!;
+    expect(itemsForStop(hankyu).map(item => item.id)).toEqual(['ivorish-financier','sugarbutter-amaou','amanberry-strawberry']);
+    expect(itemsForStop(station).map(item => item.id)).toEqual(['leclerc-caneles','hanafukudo-ichigo-langue','butterbee-honey-chocolat','hakata-mentai-ebi']);
+    const imonne = itinerary[4].stops.find(stop => stop.id === 'day-5-imonne')!;
+    expect(itemsForStop(imonne).map(item => item.id)).toEqual(['imonne-matcha-mochi']);
+    expect(imonne.startTime).toBe('10:55');
+    expect(items.find(item => item.id === 'butterbee-honey-chocolat')?.notes).toContain('供應待確認');
+  });
+  it('retains ordered non-overlapping times and real image assets', () => {
+    for (const day of itinerary) {
+      expect(new Set(day.stops.map(stop => stop.id)).size).toBe(day.stops.length);
+      for (let index = 0; index < day.stops.length; index++) {
+        const stop = day.stops[index];
+        expect(stop.startTime).toMatch(/^([01]\d|2[0-3]):[0-5]\d$/);
+        expect(stop.endTime > stop.startTime).toBe(true);
+        if (index) expect(stop.startTime >= day.stops[index - 1].endTime).toBe(true);
+      }
+    }
+    for (const item of items) expect(existsSync(`public/${item.image}`)).toBe(true);
   });
 });

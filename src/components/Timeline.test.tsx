@@ -21,7 +21,7 @@ it('shows exactly one destination button for travel to Dazaifu', () => {
   expect(container.querySelector('summary')?.textContent).toBe('詳細資訊');
 });
 it('keeps the confirmed hotel destination without showing a duplicate place card', () => {
-  render(<MemoryRouter><Timeline day={{...itinerary[0],stops:[itinerary[0].stops[10]]}}/></MemoryRouter>);
+  render(<MemoryRouter><Timeline day={{...itinerary[0],stops:[itinerary[0].stops.find(stop => stop.id === 'day-1-stop-11')!]}}/></MemoryRouter>);
   expect(screen.getAllByRole('link')).toHaveLength(1);
   const url = new URL(screen.getByRole('link').getAttribute('href')!);
   expect(url.searchParams.get('destination')).toContain('博多駅南1-11-11');

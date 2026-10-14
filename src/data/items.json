@@ -76,5 +76,109 @@
     "placeIds": [
       "dazaifu-yasutake"
     ]
+  },
+  {
+    "id": "imonne-matcha-mochi",
+    "name": "Imonne 抹茶麻糬冰淇淋",
+    "type": "food",
+    "category": "冰淇淋",
+    "priority": 3,
+    "image": "items/hakata-imonne-illustration.png",
+    "imageCaption": "AI 示意插圖，非官方實拍；實際商品與包裝以門市為準。",
+    "notes": "想試抹茶麻糬冰淇淋甜點；口味由使用者指定，現場確認抹茶口味與供應。",
+    "placeIds": [
+      "imonne-hakata"
+    ]
+  },
+  {
+    "id": "leclerc-caneles",
+    "name": "LeClerc 可麗露／法式甜點",
+    "type": "shopping",
+    "category": "法式甜點",
+    "priority": 3,
+    "image": "items/hakata-leclerc-illustration.png",
+    "imageCaption": "AI 示意插圖，非官方實拍；實際商品與包裝以門市為準。",
+    "notes": "以可麗露為主，其他法式甜點依現場品項選擇；先挑喜歡的口味與份量。",
+    "placeIds": [
+      "leclerc-hakata"
+    ]
+  },
+  {
+    "id": "ivorish-financier",
+    "name": "Ivorish French Toast Financier 法式吐司費南雪",
+    "type": "shopping",
+    "category": "伴手禮",
+    "priority": 3,
+    "image": "items/hakata-ivorish-illustration.png",
+    "imageCaption": "AI 示意插圖，非官方實拍；實際商品與包裝以門市為準。",
+    "notes": "吐司造型的費南雪；依送禮人數挑選盒裝入數。",
+    "placeIds": [
+      "ivorish-hakata"
+    ]
+  },
+  {
+    "id": "sugarbutter-amaou",
+    "name": "SUGAR BUTTER TREE あまおう苺バター／甘王草莓砂糖樹",
+    "type": "shopping",
+    "category": "伴手禮",
+    "priority": 3,
+    "image": "items/hakata-sugar-illustration.png",
+    "imageCaption": "AI 示意插圖，非官方實拍；實際商品與包裝以門市為準。",
+    "notes": "優先找博多限定「あまおう苺バター」，不要拿成其他草莓口味；供應以門市為準。",
+    "placeIds": [
+      "sugarbutter-hakata"
+    ]
+  },
+  {
+    "id": "hanafukudo-ichigo-langue",
+    "name": "花福堂 博多まっかな苺のラングドシャ",
+    "type": "shopping",
+    "category": "伴手禮",
+    "priority": 3,
+    "image": "items/hakata-hana-illustration.png",
+    "imageCaption": "AI 示意插圖，非官方實拍；實際商品與包裝以門市為準。",
+    "notes": "依使用者確認改用此品項：薄餅乾夾甘王草莓巧克力，按送禮需求選入數。",
+    "placeIds": [
+      "hanafukudo-deitos"
+    ]
+  },
+  {
+    "id": "butterbee-honey-chocolat",
+    "name": "BUTTER&bee Honey Chocolat Sand 蜂蜜巧克力夾心餅乾",
+    "type": "shopping",
+    "category": "伴手禮",
+    "priority": 3,
+    "image": "items/hakata-bee-illustration.png",
+    "imageCaption": "AI 概念示意圖，非已核實商品或官方包裝；供應需現場確認。",
+    "notes": "供應待確認：現行官方商品頁未找到完全同名的 Honey Chocolat Sand。到門市詢問是否仍有販售；未確認前不改成其他商品。",
+    "placeIds": [
+      "butterbee-ming"
+    ]
+  },
+  {
+    "id": "hakata-mentai-ebi",
+    "name": "博多明太えびせんべい／博多明太子蝦餅",
+    "type": "shopping",
+    "category": "伴手禮",
+    "priority": 3,
+    "image": "items/hakata-ebi-illustration.png",
+    "imageCaption": "AI 示意插圖，非官方實拍；實際商品與包裝以門市為準。",
+    "notes": "博多風美庵的明太子蝦餅；依需求挑選盒裝，當日庫存以門市為準。",
+    "placeIds": [
+      "fubian-ming"
+    ]
+  },
+  {
+    "id": "amanberry-strawberry",
+    "name": "AMANBERRY 草莓奶油夾心餅乾",
+    "type": "shopping",
+    "category": "伴手禮",
+    "priority": 3,
+    "image": "items/hakata-aman-illustration.png",
+    "imageCaption": "AI 示意插圖，非官方實拍；實際商品與包裝以門市為準。",
+    "notes": "品牌 AMANBERRY：チュイール餅乾搭配白巧克力奶油與あまおう草莓，依需求選入數。",
+    "placeIds": [
+      "amanberry-hankyu"
+    ]
   }
 ]
