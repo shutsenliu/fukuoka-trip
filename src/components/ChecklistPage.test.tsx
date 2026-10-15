@@ -10,6 +10,7 @@ vi.mock('../lib/data', async importOriginal => {
     { id: 'fixture-food', name: '測試小吃', type: 'food', category: '點心', priority: 3, image: '', notes: '', placeIds: ['hoka'] },
     { id: 'fixture-seven', name: '測試超商冰', type: 'food', category: '冰淇淋', priority: 3, image: '', notes: '', placeIds: [], convenienceStore: '7-ELEVEN' },
     { id: 'fixture-lawson', name: '測試超商泡芙', type: 'food', category: '甜點', priority: 3, image: '', notes: '', placeIds: [], convenienceStore: 'Lawson' },
+    { id: 'fixture-protein', name: '測試乳清', type: 'shopping', category: '乳清蛋白', priority: 3, image: '', notes: '', placeIds: [], comparisonId: 'whey-protein' },
     { id: 'fixture-experience', name: '測試體驗', type: 'experience', category: '活動', priority: 3, image: '', notes: '', placeIds: ['fullfull'] },
   ];
   return { ...actual, items: fixtures, itemsForStop: (stop: ItineraryStop) => actual.itemsForStop(stop,fixtures) };
@@ -28,7 +29,7 @@ it('filters all three types, day/stop and completed status without duplicate bac
   fireEvent.click(screen.getByRole('button',{name:'未完成'}));
   expect(screen.queryByText('測試小吃')).toBeNull();
   fireEvent.click(screen.getByRole('button',{name:'重設篩選'}));
-  expect(screen.getAllByRole('checkbox')).toHaveLength(5);
+  expect(screen.getAllByRole('checkbox')).toHaveLength(6);
   fireEvent.click(screen.getByRole('button',{name:'✨ 體驗'})); expect(screen.getByText('測試體驗')).toBeTruthy();
 });
 
@@ -47,5 +48,19 @@ it('opens convenience goals from an itinerary filter, separates chains and persi
   fireEvent.click(screen.getByRole('button',{name:'未完成'}));
   expect(screen.queryByText('測試超商泡芙')).toBeNull();
   fireEvent.click(screen.getByRole('button',{name:'重設篩選'}));
-  expect(screen.getAllByRole('checkbox')).toHaveLength(5);
+  expect(screen.getAllByRole('checkbox')).toHaveLength(6);
+});
+
+it('places protein next to convenience, clears itinerary scope and removes it from subcategories', () => {
+  const {container} = render(<MemoryRouter initialEntries={['/items?day=day-5&stop=day-5-stop-6&type=food']}><ChecklistPage days={itinerary}/></MemoryRouter>);
+  expect(screen.queryByRole('option',{name:'乳清蛋白'})).toBeNull();
+  const button = screen.getByRole('button',{name:'🥤 乳清'});
+  expect(button.previousElementSibling?.textContent).toBe('🏪 超商');
+  fireEvent.click(button);
+  expect(container.querySelectorAll('article')).toHaveLength(1);
+  expect(screen.getByRole('heading',{name:'比價與入手標準'})).toBeTruthy();
+  expect(screen.queryByLabelText('細分類')).toBeNull();
+  expect((screen.getByLabelText('日期') as HTMLSelectElement).disabled).toBe(true);
+  fireEvent.click(screen.getByRole('button',{name:'🏪 超商'}));
+  expect(screen.queryByRole('heading',{name:'比價與入手標準'})).toBeNull();
 });
