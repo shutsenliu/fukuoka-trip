@@ -21,7 +21,7 @@ describe('user-provided goals', () => {
     expect(matches).toHaveLength(1);
     expect(matches[0].day).toBe(3);
     expect(matches[0].stop.name).toContain('湯之坪街道');
-    expect(itemsForStop(matches[0].stop).map(item => item.id)).toEqual(['yufuin-milch-desserts','telato-matcha-gelato','5toku-matcha-latte','kichigo-karaage']);
+    expect(itemsForStop(matches[0].stop).map(item => item.id)).toEqual(['yufuin-milch-desserts','telato-matcha-gelato','5toku-matcha-latte','kichigo-karaage','cucuchi-montblanc','cucuchi-strawberry-daifuku','bspeak-p-roll','bspeak-earl-grey']);
     expect(itemsForStop({id:'test',startTime:'09:00',endTime:'10:00',name:'Milch',type:'行程',notes:''})).toEqual([]);
   });
 });

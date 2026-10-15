@@ -301,5 +301,71 @@
     "sourceUrls": [
       "https://www.lawson.co.jp/lab/uchicafe/art/1504602_4787.html"
     ]
+  },
+  {
+    "id": "cucuchi-montblanc",
+    "name": "鞠智 cucuchi 蒙布朗銅鑼燒",
+    "type": "food",
+    "category": "甜點",
+    "priority": 3,
+    "image": "items/cucuchi-montblanc-illustration.png",
+    "imageCaption": "AI 概念插圖，非官方實拍；實際外觀、包裝與供應以門市為準。",
+    "notes": "指定蒙布朗銅鑼燒；尚未由現行官網核實當季供應，12 月是否販售待確認。到店詢問，不以一般銅鑼燒或其他蒙布朗替代。",
+    "placeIds": [
+      "yufuin-cucuchi"
+    ],
+    "sourceUrls": [
+      "https://cucuchi.jp/access/",
+      "https://cucuchi.jp/enjoy/shopping/"
+    ]
+  },
+  {
+    "id": "cucuchi-strawberry-daifuku",
+    "name": "鞠智 cucuchi 草莓大福",
+    "type": "food",
+    "category": "和菓子",
+    "priority": 3,
+    "image": "items/cucuchi-strawberry-daifuku-illustration.png",
+    "imageCaption": "AI 概念插圖，非官方實拍；實際外觀、包裝與供應以門市為準。",
+    "notes": "指定草莓大福；當季品項與 12 月供應尚未核實，依現場確認與食量安排，不以其他大福替代。",
+    "placeIds": [
+      "yufuin-cucuchi"
+    ],
+    "sourceUrls": [
+      "https://cucuchi.jp/access/",
+      "https://cucuchi.jp/enjoy/shopping/"
+    ]
+  },
+  {
+    "id": "bspeak-p-roll",
+    "name": "B-SPEAK P-roll 奶油蛋糕捲（原味／巧克力）",
+    "type": "food",
+    "category": "蛋糕",
+    "priority": 3,
+    "image": "items/bspeak-p-roll-illustration.png",
+    "imageCaption": "AI 概念插圖，非官方實拍；實際外觀、包裝與供應以門市為準。",
+    "notes": "官網確認原味與巧克力，合併一項，現場依喜好與庫存選擇。可能提早售完，散步開始時先詢問庫存、能否保留與取貨方式。需冷藏 10°C 以下、限當天食用；當天仍要散步與搭車回博多，先確認保冷方式再購買。",
+    "placeIds": [
+      "yufuin-bspeak"
+    ],
+    "sourceUrls": [
+      "https://www.b-speak.net/"
+    ]
+  },
+  {
+    "id": "bspeak-earl-grey",
+    "name": "B-SPEAK 伯爵起司蛋糕",
+    "type": "food",
+    "category": "蛋糕",
+    "priority": 3,
+    "image": "items/bspeak-earl-grey-illustration.png",
+    "imageCaption": "AI 概念插圖，非官方實拍；實際外觀、包裝與供應以門市為準。",
+    "notes": "官網品名「アールグレイのチーズケーキ」，有店頭販售。需冷藏 10°C 以下；官網列冷藏 5 日，實際依商品標示。當天仍要散步與搭車回博多，購買前確認保冷方式與可攜帶時間。",
+    "placeIds": [
+      "yufuin-bspeak"
+    ],
+    "sourceUrls": [
+      "https://www.b-speak.net/"
+    ]
   }
 ]
