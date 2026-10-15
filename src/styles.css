@@ -64,3 +64,16 @@ main { max-width: 920px; margin: 18px auto 0; padding: 0 20px calc(120px + env(s
 .itinerary-text code { background: #edf0e6; border-radius: 4px; padding: .1em .3em; white-space: pre-wrap; }
 .itinerary-text a { color: #43634b; text-decoration: underline; }
 .itinerary-details > summary { cursor: pointer; font-weight: 700; min-height: 48px; align-content: center; }
+
+.protein-card { grid-column: 1 / -1; min-width: 0; overflow-wrap: anywhere; }
+.protein-previews { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 10px; }
+.protein-previews img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 12px; }
+.protein-previews p { margin-top: 6px; font-weight: 650; overflow-wrap: anywhere; }
+.protein-details summary { min-height: 48px; align-content: center; cursor: pointer; font-weight: 700; }
+.protein-candidate, .price-record, .price-form { padding: 16px; border: 1px solid #dedfd3; border-radius: 14px; }
+.price-record > * + *, .price-form > * + * { margin-top: 10px; }
+.price-form { display: grid; gap: 8px; }
+.price-form label, .exchange-rate { display: grid; gap: 6px; }
+.price-form input, .exchange-rate input { width: 100%; min-height: 48px; padding: 10px 12px; border: 1px solid #dedfd3; border-radius: 10px; background: #fffefa; }
+.protein-card select { width: 100%; }
+.protein-card button:disabled { opacity: .65; }

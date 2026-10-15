@@ -82,3 +82,11 @@ Google Maps 導航僅使用明確核對並設定的 navigationDestination，省�
 超商項目設定 `convenienceStore` 為 `7-ELEVEN` 或 `Lawson`，`placeIds` 保持空陣列，不修改行程。`sourceUrls` 留存查證連結，圖片仍放在 `public/items/`；供應不明時於 notes 標示。
 
 行程詳情使用 `ItineraryStop.detailMarkdown`，共通提醒使用 `TripDay.remindersMarkdown`。原始文件留在 `docs/itinerary-source.md`；匯入時以後續確認的時間、飯店、站點安排為準，訂位提醒放回對應站點，原文不是重新查證的即時資訊。Markdown 只作文字呈現，不執行 HTML、不載入嵌入圖片、不從中建立清單商品。
+
+### 乳清現場比價
+
+乳清在 items.json 只放一項，以 `comparisonId` 對應 `src/data/comparisons.json` 的三個候選、圖片、使用者入手門檻與台灣 ON 比較基準。尚未確認福岡分店供應，因此不綁行程。表內價格、營養數字是使用者文件的參考，並非即時售價或各口味共通規格。
+
+現場報價可新增、編輯、刪除；重量依包裝填寫，自動算每 100g 單價。只有重量符合基準規格才提示入手門檻；免稅價須填實際報價，匯率由使用者手動輸入。選定一筆即完成整組購買，刪除選中紀錄會恢復待買。
+
+報價、手動匯率與選擇保存在 localStorage `fukuoka-trip-price-comparison-whey-protein`，完成狀態沿用原有完成紀錄。清除完成標記會保留報價供繼續比較；清除瀏覽器資料則會清除這些紀錄。無後端、不跨裝置同步。

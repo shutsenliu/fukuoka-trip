@@ -18,3 +18,5 @@ This is a static travel companion with itinerary, places, and shopping/food/expe
 - Convenience-store goals use TripItem.convenienceStore and empty placeIds; never attach them to itinerary stops or invent a branch/map.
 
 - Preserve complete itinerary prose in detailMarkdown (nested lists and emphasis) and day-wide context in remindersMarkdown. Keep the outer card concise and do not add a page-level 行前準備 section. Later confirmed schedule, hotel, goals and maps take precedence over source Markdown; imported prose is not fresh verification.
+
+- Grouped comparisons use one TripItem.comparisonId and src/data/comparisons.json. Keep price quotes and selected purchases in localStorage only; apply user target prices only to matching package weights, never infer tax-free discounts or current exchange rates. Candidate images are illustrations, and unverified branch stock must not create itinerary links.

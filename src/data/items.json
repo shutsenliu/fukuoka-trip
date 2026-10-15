@@ -367,5 +367,16 @@
     "sourceUrls": [
       "https://www.b-speak.net/"
     ]
+  },
+  {
+    "id": "whey-protein-comparison",
+    "name": "乳清蛋白｜現場比價後決定",
+    "type": "shopping",
+    "category": "乳清蛋白",
+    "priority": 3,
+    "image": "items/protein-winzone-illustration.png",
+    "notes": "日本順位：WINZONE → SAVAS Whey → VALX WPC。巧克力優先，現場比較規格、價格與口味後擇一購買。",
+    "placeIds": [],
+    "comparisonId": "whey-protein"
   }
 ]

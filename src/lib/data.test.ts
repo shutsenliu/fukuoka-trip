@@ -1,3 +1,4 @@
+import comparisonData from '../data/comparisons.json';
 import { existsSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import type { TripItem } from '../types';
@@ -87,5 +88,16 @@ describe('approved Hakata shopping plan', () => {
       }
     }
     for (const item of items) expect(existsSync(`public/${item.image}`)).toBe(true);
+  });
+});
+
+describe('grouped protein comparison', () => {
+  it('counts one goal with three illustrated candidates and keeps unverified shops out of the itinerary', () => {
+    const grouped = items.filter(item => item.comparisonId === 'whey-protein');
+    expect(grouped).toHaveLength(1);
+    expect(grouped[0].placeIds).toEqual([]);
+    expect(itinerary.flatMap(day => day.stops).flatMap(stop => itemsForStop(stop)).some(item => item.id === grouped[0].id)).toBe(false);
+    expect(comparisonData[0].candidates).toHaveLength(3);
+    for (const candidate of comparisonData[0].candidates) expect(existsSync(`public/${candidate.image}`)).toBe(true);
   });
 });

@@ -1,3 +1,4 @@
+import { ProteinComparisonCard } from './ProteinComparisonCard';
 import { PlaceInfo } from './PlaceInfo';
 import type { TripItem } from '../types';
 import { itemLabels } from '../lib/itemLabels';
@@ -7,6 +8,7 @@ export function ItemCard({ item }: { item: TripItem }) {
   const { isCompleted, toggleCompleted } = useCompletedItems();
   const labels = itemLabels[item.type];
   const purchased = isCompleted(item.id);
+  if (item.comparisonId) return <ProteinComparisonCard item={item}/>;
   return <article className={`card overflow-hidden ${purchased ? 'purchased' : ''}`}>
     <img className="product-image" src={`${import.meta.env.BASE_URL}${item.image.replace(/^\//, '')}`} alt={`${item.name} 圖片`} loading="lazy" onError={event => { event.currentTarget.onerror = null; event.currentTarget.src = `${import.meta.env.BASE_URL}items/placeholder.svg`; }}/>
     {item.imageCaption && <p className="muted px-5 pt-3 text-sm">{item.imageCaption}</p>}

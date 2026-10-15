@@ -1,0 +1,67 @@
+[
+  {
+    "id": "whey-protein",
+    "candidates": [
+      {
+        "id": "winzone",
+        "name": "WINZONE Whey",
+        "image": "items/protein-winzone-illustration.png",
+        "flavors": [
+          "Mild Chocolate",
+          "本格抹茶"
+        ],
+        "grams": 1000,
+        "targetYen": 3800,
+        "bargainYen": 3500,
+        "nutritionNote": "簡表記載蛋白質約 72%、每份約 113～115 kcal；份量與口味未核實，現場看營養標示。",
+        "availability": "品牌官網有產品資訊；博多阪急健身用品店為待詢問線索，尚未確認該店現貨或口味，不掛行程。",
+        "sourceUrls": [
+          "https://www.nippon-shinyaku-shop.com/shop/pages/winzone"
+        ]
+      },
+      {
+        "id": "savas",
+        "name": "SAVAS Whey",
+        "image": "items/protein-savas-illustration.png",
+        "flavors": [
+          "Rich Chocolate",
+          "抹茶"
+        ],
+        "grams": 980,
+        "targetYen": 3800,
+        "bargainYen": 3500,
+        "nutritionNote": "簡表記載蛋白質約 68～70%、每份約 108～112 kcal；份量與口味未核實。明治目前亦有 800g 包裝，勿套用 980g 入手門檻。",
+        "availability": "明治官網列 Rich Chocolate 800g，Yodobashi 有產品頁；福岡分店庫存未確認，不掛行程。",
+        "sourceUrls": [
+          "https://www.meiji.co.jp/products/sports/4902777302102.html",
+          "https://www.meiji.co.jp/sports/savas/products/muscle_sports/whey100.html",
+          "https://www.yodobashi.com/product/100000001005418991/"
+        ]
+      },
+      {
+        "id": "valx",
+        "name": "VALX Whey WPC",
+        "image": "items/protein-valx-illustration.png",
+        "flavors": [
+          "Chocolate",
+          "Yogurt 優格"
+        ],
+        "grams": 1000,
+        "targetYen": 4500,
+        "bargainYen": 4000,
+        "nutritionNote": "簡表記載蛋白質約 71～73%、每份約 116 kcal；份量與口味未核實，現場看營養標示。",
+        "availability": "品牌官網有 WPC 與唐吉訶德通路資訊，但不代表福岡分店販售同規格或現貨；不掛行程。",
+        "sourceUrls": [
+          "https://valx.jp/"
+        ]
+      }
+    ],
+    "baseline": {
+      "name": "ON Gold Standard Whey（台灣基準）",
+      "grams": 2267.96,
+      "priceTwd": 2400,
+      "note": "使用者簡表：5lb ≤ NT$2,400；不是日本候選，不計入待買數量。蛋白質約 76～77%、每份約 116 kcal，規格與份量未核實。",
+      "packageLabel": "5lb"
+    }
+  }
+]
