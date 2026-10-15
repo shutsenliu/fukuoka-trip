@@ -243,5 +243,63 @@
     "placeIds": [
       "yodobashi-hakata"
     ]
+  },
+  {
+    "id": "seven-nama-chocolate",
+    "name": "7-ELEVEN 生巧克力冰",
+    "type": "food",
+    "category": "冰淇淋",
+    "priority": 3,
+    "image": "items/seven-nama-chocolate-illustration.png",
+    "imageCaption": "AI 示意插圖，非官方實拍；實際商品與包裝以門市為準。",
+    "notes": "指定圖片中的杯裝「生チョコアイス」，不是生巧克力冰棒。官方有 100ml 商品頁；包裝可能改版，12 月福岡門市供應待確認。",
+    "placeIds": [],
+    "convenienceStore": "7-ELEVEN",
+    "sourceUrls": [
+      "https://7premium.jp/product/search/detail?id=7088"
+    ]
+  },
+  {
+    "id": "seven-nebaneba-tofu",
+    "name": "7-ELEVEN 5種具材のねばねば冷奴／五種配料黏滑冷豆腐",
+    "type": "food",
+    "category": "冷藏小食",
+    "priority": 3,
+    "image": "items/seven-nebaneba-tofu-illustration.png",
+    "imageCaption": "AI 示意插圖，非官方實拍；實際商品與包裝以門市為準。",
+    "notes": "保留指定品名；尚未核實現行官方商品頁與福岡販售範圍，供應待確認。路過冷藏熟食區再找，不以其他冷豆腐替代。",
+    "placeIds": [],
+    "convenienceStore": "7-ELEVEN",
+    "sourceUrls": []
+  },
+  {
+    "id": "seven-wakame-ramen",
+    "name": "7-ELEVEN PREMIUM わかめたくさん あさりだし塩ラーメン",
+    "type": "food",
+    "category": "杯麵",
+    "priority": 3,
+    "image": "items/seven-wakame-ramen-illustration.png",
+    "imageCaption": "AI 示意插圖，非官方實拍；實際商品與包裝以門市為準。",
+    "notes": "海帶蛤蜊高湯鹽味杯麵。官方列 65g 版本；實際規格與售價以門市標示為準，12 月供應待確認。",
+    "placeIds": [],
+    "convenienceStore": "7-ELEVEN",
+    "sourceUrls": [
+      "https://7premium.jp/product/search/detail?id=6832"
+    ]
+  },
+  {
+    "id": "lawson-morihan-choux",
+    "name": "Lawson × 森半 濃抹茶泡芙",
+    "type": "food",
+    "category": "甜點",
+    "priority": 3,
+    "image": "items/lawson-morihan-choux-illustration.png",
+    "imageCaption": "AI 示意插圖，非官方實拍；實際商品與包裝以門市為準。",
+    "notes": "參考官方曾推出的「濃いお抹茶クッキーシュー」。聯名商品有發售紀錄，不代表目前或 12 月仍有販售；路過冷藏甜點區再找，供應待確認。",
+    "placeIds": [],
+    "convenienceStore": "Lawson",
+    "sourceUrls": [
+      "https://www.lawson.co.jp/lab/uchicafe/art/1504602_4787.html"
+    ]
   }
 ]

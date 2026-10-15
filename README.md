@@ -23,7 +23,7 @@ npm run preview
 ## 頁面
 
 - **行程**：Day 1～6 時間軸，交通方式及路線可在「詳細資訊」展開查看。旅程期間依日本日期預設當天；旅程外記住上次選擇，首次開啟顯示 Day 1。有目標的停留點以底色與購物／美食／體驗標籤標示；點擊「查看清單」進入該站清單；行程只顯示一個已確認目的地的 Google Maps 導航按鈕，店家摘要留在清單卡片。
-- **清單**：依日期、站點、類型（購物／美食／體驗）、細分類與完成狀態篩選。相同項目在多個備案地點不重複計算。
+- **清單**：依日期、站點、類型（購物／美食／體驗）、細分類與完成狀態篩選。相同項目在多個備案地點不重複計算。「超商」可獨立查看路過再買的項目，依 7-ELEVEN／Lawson 篩選，不綁日期、站點或導航。
 - **地點詳情**：保留既有網址作次要入口，底部不再顯示地點頁籤。清單卡片直接顯示主要地點、時間、簡短地址與導航；備案與詳細資訊可展開查看，查證來源僅留在資料檔供維護，不顯示於介面。
 
 HashRouter 避免 GitHub Pages 重新整理時出現 404。舊 /wishlist 與 /stores 入口仍能開啟對應頁面。
@@ -32,7 +32,7 @@ HashRouter 避免 GitHub Pages 重新整理時出現 404。舊 /wishlist 與 /st
 
 - `src/data/itinerary.json`：TripDay（id、day、date、title、stops），ItineraryStop（id、startTime、endTime、name、type、notes、選填 placeId／placeIds）。
 - `src/data/places.json`：Place（id、name、type、area、address、notes、選填 mapUrl／shortAddress／hours／closedDays／sourceUrls）。type 為 shop／restaurant／attraction。
-- `src/data/items.json`：TripItem（id、name、type、category、priority、image、notes、placeIds、選填 color／size）。type 為 shopping／food／experience，priority 為 1～5。
+- `src/data/items.json`：TripItem（id、name、type、category、priority、image、notes、placeIds、選填 color／size／convenienceStore／sourceUrls）。type 為 shopping／food／experience，priority 為 1～5。
 - `src/types.ts`：共用 TypeScript 型別。
 - `public/items/`：項目圖片，使用 `items/photo.webp` 相對路徑，不加 repo base path。
 - `docs/itinerary-source.md`：使用者提供的行程參考文件，不是項目來源。
@@ -78,3 +78,5 @@ Vite base 從 GITHUB_REPOSITORY 或 origin 推導 repository 名称；一般 rep
 Google Maps 導航僅使用明確核對並設定的 navigationDestination，省略起點由手機使用目前位置。未核對或地址有疑義的地點不顯示地圖按鈕或佔位資訊。未關聯地點的休息、返飯店、交通等行程不會自動產生地圖按鈕，也不以行程文字推測目的地。
 
 移動段的 Google Maps 按鈕由 itinerary.json 的 maps 欄位明確指定：label、destination、選填 origin、transit／walking。轉乘路線留在詳細資訊，移動段只以一個按鈕導向最終目的地；maps 的 confirmed 欄位明確控制是否允許導航。班次與船班仍依詳細交通資訊及官方時刻表。
+
+超商項目設定 `convenienceStore` 為 `7-ELEVEN` 或 `Lawson`，`placeIds` 保持空陣列，不修改行程。`sourceUrls` 留存查證連結，圖片仍放在 `public/items/`；供應不明時於 notes 標示。
