@@ -50,3 +50,17 @@ main { max-width: 920px; margin: 18px auto 0; padding: 0 20px calc(120px + env(s
 .travel-steps li { padding: 3px 0; }
 .itinerary-map-buttons { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
 .itinerary-map-buttons a { font-size: 15px; text-align: center; }
+
+.itinerary-text { line-height: 1.8; overflow-wrap: anywhere; }
+.itinerary-text > * + * { margin-top: 1rem; }
+.itinerary-text ul, .itinerary-text ol { padding-left: 1.4rem; }
+.itinerary-text ul { list-style: disc; }
+.itinerary-text ol { list-style: decimal; }
+.itinerary-text li + li { margin-top: .45rem; }
+.itinerary-text li > ul, .itinerary-text li > ol { margin-top: .4rem; }
+.itinerary-text li > p + p { margin-top: .5rem; }
+.itinerary-text h3, .itinerary-text h4 { font-size: 1rem; font-weight: 750; margin-top: 1.25rem; }
+.itinerary-text strong { font-weight: 750; }
+.itinerary-text code { background: #edf0e6; border-radius: 4px; padding: .1em .3em; white-space: pre-wrap; }
+.itinerary-text a { color: #43634b; text-decoration: underline; }
+.itinerary-details > summary { cursor: pointer; font-weight: 700; min-height: 48px; align-content: center; }

@@ -16,3 +16,5 @@ This is a static travel companion with itinerary, places, and shopping/food/expe
 
 - In chat, provide verification source links only; do not display generated image previews. Save illustrations directly to the website.
 - Convenience-store goals use TripItem.convenienceStore and empty placeIds; never attach them to itinerary stops or invent a branch/map.
+
+- Preserve complete itinerary prose in detailMarkdown (nested lists and emphasis) and day-wide context in remindersMarkdown. Keep the outer card concise and do not add a page-level 行前準備 section. Later confirmed schedule, hotel, goals and maps take precedence over source Markdown; imported prose is not fresh verification.

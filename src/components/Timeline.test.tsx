@@ -32,3 +32,13 @@ it('preserves airport bus details with one confirmed destination link', () => {
   const url = new URL(screen.getByRole('link').getAttribute('href')!);
   expect(url.searchParams.get('destination')).toBe('日本 福岡県福岡市 博多駅');
 });
+it('keeps complete pass instructions inside a collapsed detail section', () => {
+  const stop = itinerary[0].stops.find(stop => stop.id === 'day-1-stop-2')!;
+  const {container} = render(<MemoryRouter><Timeline day={{...itinerary[0],stops:[stop]}}/></MemoryRouter>);
+  const details = container.querySelector('details')!;
+  expect(details.open).toBe(false);
+  expect(details.textContent).toContain('預約時使用的信用卡');
+  expect(details.textContent).toContain('December 13, 2026');
+  expect(details.textContent).toContain('山陽新幹線');
+  expect(details.querySelector('strong')).toBeTruthy();
+});
