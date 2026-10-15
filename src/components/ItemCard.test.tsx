@@ -7,7 +7,7 @@ import { ItemCard } from './ItemCard';
 import { itemLabels } from '../lib/itemLabels';
 afterEach(() => { cleanup(); localStorage.clear(); window.dispatchEvent(new StorageEvent('storage', { key: null })); });
 describe('trip goal completion', () => {
-  for (const type of ['shopping','food','experience'] as ItemType[]) {
+  for (const type of ['shopping','food'] as ItemType[]) {
     it(`renders and persists ${type} completion across backup places`, () => {
       const item: TripItem = { id: `test-${type}`, name: '測試目標', type, category: '測試', priority: 3, image: 'items/placeholder.svg', notes: '測試備註', placeIds: ['hoka','beams'] };
       const view = render(<MemoryRouter><ItemCard item={item}/></MemoryRouter>);
@@ -16,7 +16,7 @@ describe('trip goal completion', () => {
       expect(screen.getByText(itemLabels[type].done)).toBeTruthy();
       expect(JSON.parse(localStorage.getItem('fukuoka-trip-completed-items')!)).toContain(item.id);
       expect(screen.queryByRole('link')).toBeNull();
-      fireEvent.click(screen.getByText('其他可買／體驗地點（1）'));
+      fireEvent.click(screen.getByText('其他可買／吃到的地點（1）'));
       expect(screen.getByText('📍 BEAMS 福岡')).toBeTruthy();
       view.unmount();
       render(<MemoryRouter><ItemCard item={item}/></MemoryRouter>);

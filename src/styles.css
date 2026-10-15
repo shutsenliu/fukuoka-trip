@@ -36,7 +36,6 @@ main { max-width: 920px; margin: 18px auto 0; padding: 0 20px calc(120px + env(s
 .type-filters button { flex: 1; padding: 9px 5px; font-size: 14px; white-space: nowrap; }
 .type-shopping { background: #e8efdf; }
 .type-food { background: #fae8d4; color: #82512e; }
-.type-experience { background: #eee6f6; color: #69527d; }
 .place-info { background: #f3f3eb; border: 1px solid #e3e5d9; border-radius: 14px; padding: 14px; overflow-wrap: anywhere; }
 .navigation-button { width: 100%; }
 .place-more { margin-top: 10px; }

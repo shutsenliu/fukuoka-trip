@@ -8,7 +8,7 @@ export const places: Place[] = placesJson.map(place => {
   return { ...place, type: place.type };
 });
 export const items: TripItem[] = itemsJson.map((item) => {
-  if (item.type !== 'shopping' && item.type !== 'food' && item.type !== 'experience') throw new Error(`Invalid item type: ${item.id}`);
+  if (item.type !== 'shopping' && item.type !== 'food') throw new Error(`Invalid item type: ${item.id}`);
   if (item.convenienceStore !== undefined && item.convenienceStore !== '7-ELEVEN' && item.convenienceStore !== 'Lawson') throw new Error(`Invalid convenience store: ${item.id}`);
   if (item.convenienceStore && item.placeIds.length) throw new Error(`Convenience goal must be independent: ${item.id}`);
   return { ...item, type: item.type, convenienceStore: item.convenienceStore };

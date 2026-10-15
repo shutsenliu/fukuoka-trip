@@ -35,10 +35,10 @@ describe('Dazaifu goals', () => {
 });
 
 describe('goal relationships', () => {
-  it('collects all three goal types and deduplicates backup places', () => {
-    const source: TripItem[] = ['shopping','food','experience'].map((type, i) => ({ id: `fixture-${i}`, name: '測試', type: type as TripItem['type'], category: '測試', priority: 3, image: '', notes: '', placeIds: ['hoka','beams'] }));
+  it('collects both goal types and deduplicates backup places', () => {
+    const source: TripItem[] = ['shopping','food'].map((type, i) => ({ id: `fixture-${i}`, name: '測試', type: type as TripItem['type'], category: '測試', priority: 3, image: '', notes: '', placeIds: ['hoka','beams'] }));
     const stop = { id: 'test', startTime: '09:00', endTime: '10:00', name: '測試', type: '行程', notes: '', placeIds: ['hoka','beams'] };
-    expect(itemsForStop(stop,source)).toHaveLength(3);
+    expect(itemsForStop(stop,source)).toHaveLength(2);
     expect(itemsForStop({...stop, placeIds: []},source)).toEqual([]);
   });
 });

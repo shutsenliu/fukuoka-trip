@@ -14,7 +14,7 @@ export function ChecklistPage({ days }: { days: TripDay[] }) {
   const chain = params.get('chain') ?? 'all';
   const dayId = independent ? 'all' : params.get('day') ?? 'all';
   const stopId = independent ? 'all' : params.get('stop') ?? 'all';
-  const type = protein ? 'all' : params.get('type') ?? 'all';
+  const type = protein || params.get('type') === 'experience' ? 'all' : params.get('type') ?? 'all';
   const category = protein ? 'all' : params.get('category') ?? 'all';
   const status = (params.get('status') === 'purchased' ? 'completed' : params.get('status')) ?? 'all';
   const selectedDay = days.find(day => day.id === dayId);
@@ -47,7 +47,7 @@ export function ChecklistPage({ days }: { days: TripDay[] }) {
     {convenience && <p className="shopping-context">🏪 路過再買 · 不綁日期或行程站點，供應以現場為準。</p>}
     {selectedStop && <p className="shopping-context">Day {selectedDay?.day} · {selectedStop.startTime} · {selectedStop.name}</p>}
     <div className="product-grid">{filtered.map(item => <ItemCard key={item.id} item={item}/>)}</div>
-    {!filtered.length && <p className="card p-8">{!items.length ? '清單還是空白，提供圖片或指定想買、想吃、想體驗的內容後，就會加入這裡。' : selectedDay && !scopedItems.length ? '這一天尚未加入想買、想吃或想體驗的項目。' : '目前沒有符合條件的項目，換個日期、站點或篩選看看。'}</p>}
+    {!filtered.length && <p className="card p-8">{!items.length ? '清單還是空白，提供圖片或指定想買、想吃的內容後，就會加入這裡。' : selectedDay && !scopedItems.length ? '這一天尚未加入想買或想吃的項目。' : '目前沒有符合條件的項目，換個日期、站點或篩選看看。'}</p>}
 
     <p className="muted my-6">完成記錄只保存在此瀏覽器，不會同步到其他裝置。清除瀏覽器資料也會清除記錄。</p><button className="button secondary" onClick={() => { if (window.confirm('清除所有完成標記？')) clearCompleted(); }}>清除完成標記</button>
   </>;

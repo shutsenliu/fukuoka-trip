@@ -1,6 +1,6 @@
 # Project data rules
 
-This is a static travel companion with itinerary, places, and shopping/food/experience goals.
+This is a static travel companion with itinerary, places, and shopping/food goals.
 
 - Only add or change goal items when the user provides images or explicitly specifies the item in the conversation. Never infer items from itinerary Markdown, place names, notes, or examples in documentation.
 - Goal data belongs in src/data/items.json, places in src/data/places.json, images in public/items/, and itinerary in src/data/itinerary.json.

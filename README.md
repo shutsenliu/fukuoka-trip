@@ -1,6 +1,6 @@
 # Fukuoka Trip Companion
 
-手機優先的繁體中文福岡旅行網站，旅程為 **2026/12/12～12/17**。主軸為每一站想買、想吃、想體驗的清單；React、TypeScript、Vite、Tailwind CSS、React Router，使用 GitHub Actions 部署 GitHub Pages。純靜態，無後端、資料庫或登入。
+手機優先的繁體中文福岡旅行網站，旅程為 **2026/12/12～12/17**。主軸為每一站想買、想吃的清單；React、TypeScript、Vite、Tailwind CSS、React Router，使用 GitHub Actions 部署 GitHub Pages。純靜態，無後端、資料庫或登入。
 
 ## Local development
 
@@ -22,8 +22,8 @@ npm run preview
 
 ## 頁面
 
-- **行程**：Day 1～6 時間軸，「詳細資訊」保留原 Markdown 的巢狀清單、粗體、交通、備案、訂位與注意事項；外層只留時間、標題、清單入口與確認過的導航。每日上方可展開「當日提醒」，沒有全站「行前準備」區塊。旅程期間依日本日期預設當天；旅程外記住上次選擇，首次開啟顯示 Day 1。有目標的停留點以底色與購物／美食／體驗標籤標示；點擊「查看清單」進入該站清單；行程只顯示一個已確認目的地的 Google Maps 導航按鈕，店家摘要留在清單卡片。
-- **清單**：依日期、站點、類型（購物／美食／體驗）、細分類與完成狀態篩選。相同項目在多個備案地點不重複計算。「超商」可獨立查看路過再買的項目，依 7-ELEVEN／Lawson 篩選，不綁日期、站點或導航。
+- **行程**：Day 1～6 時間軸，「詳細資訊」保留原 Markdown 的巢狀清單、粗體、交通、備案、訂位與注意事項；外層只留時間、標題、清單入口與確認過的導航。每日上方可展開「當日提醒」，沒有全站「行前準備」區塊。旅程期間依日本日期預設當天；旅程外記住上次選擇，首次開啟顯示 Day 1。有目標的停留點以底色與購物／美食標籤標示；點擊「查看清單」進入該站清單；行程只顯示一個已確認目的地的 Google Maps 導航按鈕，店家摘要留在清單卡片。
+- **清單**：依日期、站點、類型（購物／美食）、細分類與完成狀態篩選。相同項目在多個備案地點不重複計算。「超商」可獨立查看路過再買的項目，依 7-ELEVEN／Lawson 篩選，不綁日期、站點或導航。
 - **地點詳情**：保留既有網址作次要入口，底部不再顯示地點頁籤。清單卡片直接顯示主要地點、時間、簡短地址與導航；備案與詳細資訊可展開查看，查證來源僅留在資料檔供維護，不顯示於介面。
 
 HashRouter 避免 GitHub Pages 重新整理時出現 404。舊 /wishlist 與 /stores 入口仍能開啟對應頁面。
@@ -32,7 +32,7 @@ HashRouter 避免 GitHub Pages 重新整理時出現 404。舊 /wishlist 與 /st
 
 - `src/data/itinerary.json`：TripDay（id、day、date、title、stops），ItineraryStop（id、startTime、endTime、name、type、notes、選填 placeId／placeIds）。
 - `src/data/places.json`：Place（id、name、type、area、address、notes、選填 mapUrl／shortAddress／hours／closedDays／sourceUrls）。type 為 shop／restaurant／attraction。
-- `src/data/items.json`：TripItem（id、name、type、category、priority、image、notes、placeIds、選填 color／size／convenienceStore／sourceUrls）。type 為 shopping／food／experience，priority 為 1～5。
+- `src/data/items.json`：TripItem（id、name、type、category、priority、image、notes、placeIds、選填 color／size／convenienceStore／sourceUrls）。type 為 shopping／food，priority 為 1～5。
 - `src/types.ts`：共用 TypeScript 型別。
 - `public/items/`：項目圖片，使用 `items/photo.webp` 相對路徑，不加 repo base path。
 - `docs/itinerary-source.md`：使用者提供的行程參考文件，不是項目來源。
