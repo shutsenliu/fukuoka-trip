@@ -485,5 +485,21 @@
       "https://onefukuoka-building.jp/shop/",
       "https://yukikomorita.com/shop/"
     ]
+  },
+  {
+    "id": "yodobashi-hakata",
+    "name": "ヨドバシカメラ マルチメディア博多",
+    "type": "shop",
+    "area": "博多",
+    "address": "福岡県福岡市博多区博多駅中央街6-12",
+    "shortAddress": "Yodobashi 博多・與 GU 同棟",
+    "navigationDestination": "日本 福岡県福岡市博多区博多駅中央街6-12 ヨドバシカメラ マルチメディア博多",
+    "notes": "官網確認販售ほりにし原味 100g；博多分店現貨與販售樓層尚未確認，到店先詢問服務人員。GU 位於同棟 3F，為不同店家。",
+    "sourceUrls": [
+      "https://www.yodobashi.com/product/100000001005568366/",
+      "https://www.yodobashi.com/ec/product/stock/100000001005568366/",
+      "https://www.yodobashi-hakata.com/fashion2/fashion_gugu.html",
+      "https://horinishi.jp/"
+    ]
   }
 ]

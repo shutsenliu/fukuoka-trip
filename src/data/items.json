@@ -230,5 +230,18 @@
     "imageCaption": "AI 概念插圖，非官方實拍；款式、包裝與供應以門市為準。",
     "notes": "待安排：尚未確認福岡販售分店。官方目前有酷企鵝固體香皂，角色依現場選擇；數量限定，12 月供應待確認。只找固體香皂，不以沐浴果凍或泡澡球替代。",
     "placeIds": []
+  },
+  {
+    "id": "horinishi-original",
+    "name": "ほりにし 原味萬用調味粉 100g",
+    "type": "shopping",
+    "category": "調味料",
+    "priority": 3,
+    "image": "items/horinishi-original-illustration.png",
+    "imageCaption": "AI 示意插圖，非官方實拍；實際商品與包裝以門市為準。",
+    "notes": "經典原味「アウトドアスパイス ほりにし」，可搭配肉、魚與蔬菜。Yodobashi 官網參考價含稅 ¥864（2026/10/15）。博多分店庫存待確認：同棟逛 GU 時順路詢問，不以辛口、松露或燻製版替代。",
+    "placeIds": [
+      "yodobashi-hakata"
+    ]
   }
 ]

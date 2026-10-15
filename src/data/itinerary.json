@@ -809,10 +809,30 @@
         "id": "day-5-stop-1",
         "startTime": "10:00",
         "endTime": "10:30",
-        "name": "GU ヨドバシ博多店",
+        "name": "GU・Yodobashi 順路採買",
         "type": "購物",
-        "notes": "約 30 分鐘，試衣或結帳排隊時彈性調整。",
-        "placeId": "gu-hakata"
+        "notes": "GU 在 3F；同棟 Yodobashi 順路詢問ほりにし原味調味粉，博多店庫存待確認。共約 30 分鐘，先快速詢問；若需找貨或排隊，依後續行程彈性取捨。",
+        "placeId": "gu-hakata",
+        "placeIds": [
+          "gu-hakata",
+          "yodobashi-hakata"
+        ],
+        "details": [
+          {
+            "title": "購物動線",
+            "content": [
+              "GU 與 Yodobashi 為同棟不同店家，調味粉不是在 GU 購買。",
+              "向 Yodobashi 服務人員詢問「アウトドアスパイス ほりにし 100g」原味的庫存與樓層；不預設現場一定有貨。"
+            ]
+          }
+        ],
+        "maps": [
+          {
+            "label": "Google Maps 導航",
+            "destination": "日本 福岡県福岡市博多区博多駅中央街6-12 ヨドバシカメラ マルチメディア博多",
+            "confirmed": true
+          }
+        ]
       },
       {
         "id": "day-5-uniqlo",
