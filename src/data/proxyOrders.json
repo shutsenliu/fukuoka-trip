@@ -83,6 +83,27 @@
         "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987123145428",
         "https://sundrug-online.com/products/4987123145428"
       ]
+    },
+    {
+      "id": "smile-contact-moist-mild-12",
+      "name": "獅王 SMILE CONTACT MOIST 溫和型眼藥水",
+      "image": "items/smile-contact-moist-mild-12.png",
+      "imageCaption": "獅王官方商品圖：綠色 MOIST マイルド 12mL。",
+      "size": "12mL／瓶",
+      "notes": "スマイルコンタクトモイスト マイルド，第 3 類醫藥品。",
+      "placeIds": [],
+      "purchaseOptions": [
+        {
+          "name": "松本清／可可嘉（マツキヨココカラ）",
+          "notes": "官方線上商店有販售 MOIST マイルド 12mL（綠色溫和型）；分店品項與售價依現場為準。",
+          "sourceUrl": "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4903301382188"
+        }
+      ],
+      "sourceUrls": [
+        "https://www.lion.co.jp/ja/products/618",
+        "https://smile.lion.co.jp/products/smile-contact-moist-mild",
+        "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4903301382188"
+      ]
     }
   ],
   "orders": [
@@ -104,6 +125,13 @@
       "id": "chi-alinamin-ex-plus-270",
       "personId": "chi",
       "itemId": "alinamin-ex-plus-270",
+      "quantity": 1,
+      "notes": ""
+    },
+    {
+      "id": "chi-smile-contact-moist-mild-12",
+      "personId": "chi",
+      "itemId": "smile-contact-moist-mild-12",
       "quantity": 1,
       "notes": ""
     }
