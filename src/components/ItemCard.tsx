@@ -16,7 +16,7 @@ export function ItemCard({ item }: { item: TripItem }) {
       {item.convenienceStore && <p className="font-semibold">🏪 {item.convenienceStore} · 路過再買</p>}
       <h3 className="text-xl font-semibold">{item.name}</h3>
       {item.color && <p>🎨 {item.color}</p>}{item.size && <p>尺寸：{item.size}</p>}<p className="muted whitespace-pre-line">{item.notes}</p>
-      {!!item.purchaseOptions?.length && <section className="space-y-3" aria-label="購買通路"><h4 className="font-semibold">購買通路</h4>{item.purchaseOptions.map(option => <div className="place-info" key={option.name}><p className="font-semibold">{option.name}</p><p className="muted mt-1">{option.notes}</p></div>)}</section>}
+      {!!item.purchaseOptions?.length && <details className="backup-places"><summary>購買通路</summary><div className="space-y-3 mt-3">{item.purchaseOptions.map(option => <div className="place-info" key={option.name}><p className="font-semibold">{option.name}</p><p className="muted mt-1">{option.notes}</p></div>)}</div></details>}
       {item.placeIds[0] && placesById.get(item.placeIds[0]) && <PlaceInfo place={placesById.get(item.placeIds[0])!}/>}
       {item.placeIds.length > 1 && <details className="backup-places"><summary>其他可買／吃到的地點（{item.placeIds.length - 1}）</summary><div className="space-y-3 mt-3">{item.placeIds.slice(1).map(id => { const place = placesById.get(id); return place ? <PlaceInfo key={id} place={place}/> : null; })}</div></details>}
 
