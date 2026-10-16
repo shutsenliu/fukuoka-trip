@@ -62,4 +62,10 @@ it('places protein next to convenience, clears itinerary scope and removes it fr
   expect((screen.getByLabelText('日期') as HTMLSelectElement).disabled).toBe(true);
   fireEvent.click(screen.getByRole('button',{name:'🏪 超商'}));
   expect(screen.queryByRole('heading',{name:'比價與入手標準'})).toBeNull();
+  const drugstore = screen.getByRole('button',{name:'💊 藥妝'});
+  expect(drugstore.previousElementSibling?.textContent).toBe('🥤 乳清');
+  fireEvent.click(drugstore);
+  expect(drugstore.getAttribute('aria-pressed')).toBe('true');
+  expect(container.querySelectorAll('article')).toHaveLength(0);
+  expect(screen.getByText('藥妝清單還是空白，提供商品圖片或名稱後，就會加入這裡。')).toBeTruthy();
 });
