@@ -25,17 +25,10 @@ main { max-width: 960px; margin: 0 auto; padding: 0 16px 24px; }
 .eyebrow { color: var(--caramel); font-size: 11px; font-weight: 700; letter-spacing: .12em; }
 .muted { color: var(--muted); }
 .card { border: 1px solid var(--line); border-radius: 20px 23px 20px 18px; background: var(--paper); box-shadow: 0 3px 0 #ac834308; }
-.trip-hero { position: relative; isolation: isolate; overflow: hidden; background: #fff3d7; border: 1px solid #ead6b1; border-radius: 26px 22px 28px 20px; padding: 24px 22px 0; margin-bottom: 23px; }
+.trip-hero { position: relative; isolation: isolate; overflow: hidden; background: #fff3d7; border: 1px solid #ead6b1; border-radius: 26px 22px 28px 20px; padding: 16px 18px 13px; margin-bottom: 23px; }
 .trip-hero::before { content: ''; position: absolute; z-index: -1; width: 90px; height: 24px; background: #edc88f50; transform: rotate(-25deg); left: -20px; top: 3px; }
-.hero-copy { position: relative; z-index: 1; }
-.hero-copy h1 { font-size: clamp(1.8rem, 5vw, 2.6rem); letter-spacing: .04em; margin: 12px 0 9px; }
-.hero-subtitle { color: #77604b; font-size: 14px; max-width: 260px; }
-.trip-date { font-size: 14px; margin-top: 15px; letter-spacing: .04em; font-weight: 650; }
-.trip-date span { font-size: 11px; font-weight: 500; color: #795b3b; margin-right: 5px; }
-.trip-date span:last-child { display: inline-block; margin-left: 5px; }
-.hero-art { display: block; width: 100%; height: 160px; object-fit: contain; mix-blend-mode: multiply; margin-top: 4px; }
-.postcard-stamp { position: absolute; right: 17px; top: auto; bottom: 20px; display: flex; width: 46px; height: 53px; align-items: center; justify-content: center; font-size: 12px; text-align: center; line-height: 1.5; color: #a25b42; border: 1px dashed #bd8262; border-radius: 4px; transform: rotate(9deg); }
-.hero-copy .eyebrow { max-width: calc(100% - 52px); font-size: 9px; }
+.trip-date { font-size: 13px; margin: 8px 0 0; text-align: center; letter-spacing: .04em; font-weight: 650; color: var(--muted); }
+.hero-art { display: block; width: 100%; height: auto; max-height: 225px; object-fit: contain; mix-blend-mode: multiply; margin: 0 auto; }
 .day-tabs { display: flex; gap: 8px; overflow-x: auto; padding: 3px 2px 12px; scrollbar-width: thin; scrollbar-color: #dbbf91 transparent; }
 .day-tabs button { flex: 1; min-width: 66px; min-height: 58px; padding: 9px 7px; background: #fffdf7; border: 1px solid var(--line); border-radius: 12px 14px 12px 10px; font-size: 14px; font-weight: 700; }
 .day-tabs span { display: block; font-size: 12px; font-weight: 450; color: var(--muted); }
@@ -45,7 +38,6 @@ main { max-width: 960px; margin: 0 auto; padding: 0 16px 24px; }
 .day-copy { min-width: 0; flex: 1; }
 .day-label { display: inline-block; font-size: 12px; font-weight: 750; letter-spacing: .08em; color: #8b5a2c; }
 .day-label span { color: #877258; font-weight: 500; }
-.day-caption { font-family: Georgia, serif; font-size: 9px; color: #957b5e; letter-spacing: .07em; margin-top: 3px; }
 .day-heading h2 { font-size: 20px; margin: 8px 0; }
 .day-heading .muted { font-size: 12px; }
 .day-art { width: 102px; height: 114px; object-fit: contain; flex-shrink: 0; mix-blend-mode: multiply; }
@@ -79,7 +71,6 @@ input[type=checkbox] { width: 22px; height: 22px; accent-color: #ad7036; flex-sh
 .back-link { display: inline-block; padding: 12px 0; color: var(--caramel); }
 .site-footer { max-width: 960px; margin: 16px auto 0; padding: 16px 20px calc(110px + env(safe-area-inset-bottom)); text-align: center; color: var(--muted); }
 .site-footer .egg-mark { width: 34px; height: 34px; margin: 0 auto 8px; }
-.site-footer p { font-size: 12px; letter-spacing: .1em; }
 .site-footer > span { display: block; font-size: 10px; margin-top: 8px; color: #8a7963; }
 .bottom-nav { position: fixed; bottom: max(12px, env(safe-area-inset-bottom)); left: 50%; transform: translateX(-50%); width: calc(100% - 32px); max-width: 420px; display: flex; justify-content: center; gap: 6px; background: #fffdf8f7; border: 1px solid #e4cfab; border-radius: 23px; padding: 6px; box-shadow: 0 5px 22px #79533117; backdrop-filter: blur(10px); z-index: 10; }
 .bottom-nav a { flex: 1; display: flex; align-items: center; justify-content: center; gap: 10px; color: #85715a; font-size: 15px; font-weight: 650; min-height: 49px; border-radius: 17px; }
@@ -89,9 +80,7 @@ input[type=checkbox] { width: 22px; height: 22px; accent-color: #ad7036; flex-sh
 .shopping-selects label { min-width: 0; font-weight: 600; }
 .shopping-selects select { display: block; width: 100%; min-width: 0; margin-top: 6px; font-weight: 400; }
 .shopping-selects select:disabled { opacity: .6; cursor: default; }
-.shopping-heading { position: relative; margin: 10px 0 24px; padding-bottom: 17px; border-bottom: 1px dashed #d8c19d; }
-.shopping-heading h1 { margin: 9px 0 6px; font-size: 29px; }
-.heading-scribble { display: inline-block; color: #bf7952; font-family: Georgia,serif; font-size: 29px; margin-left: 10px; transform: rotate(-12deg); }
+.shopping-heading { position: relative; margin: 4px 0 24px; padding-bottom: 12px; border-bottom: 1px dashed #d8c19d; }
 .shopping-filters { padding: 18px; margin-bottom: 22px; background: #fffcf5; }
 .shopping-filters label { font-size: 13px; color: var(--muted); }
 .shopping-filters select { color: var(--ink); font-size: 16px; padding-left: 10px; padding-right: 24px; }
@@ -138,16 +127,11 @@ input[type=checkbox] { width: 22px; height: 22px; accent-color: #ad7036; flex-sh
 @media(min-width:700px) {
   .site-header { padding: 27px 24px 23px; }
   main { padding: 0 24px 32px; }
-  .trip-hero { display: grid; grid-template-columns: 1fr 1.2fr; align-items: center; padding: 30px; min-height: 275px; }
-  .hero-copy h1 { font-size: 33px; }
-  .hero-copy .eyebrow { font-size: 10px; max-width: none; }
-  .hero-subtitle { max-width: 285px; }
-  .hero-art { height: 245px; margin: 0; }
-  .postcard-stamp { right: 25px; top: 20px; bottom: auto; }
+  .trip-hero { padding: 20px 24px 14px; }
+  .hero-art { max-height: 250px; }
   .day-tabs button { min-width: 80px; }
   .day-heading { padding: 14px 16px 22px; }
   .day-heading h2 { font-size: 25px; }
-  .day-caption { font-size: 11px; }
   .day-art { width: 148px; height: 138px; }
   .day-heading .muted { font-size: 14px; }
   .timeline-row { gap: 22px; }

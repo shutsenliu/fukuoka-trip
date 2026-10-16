@@ -32,7 +32,7 @@ export function ChecklistPage({ days }: { days: TripDay[] }) {
     setParams(next);
   }
   return <>
-    <div className="shopping-heading"><p className="eyebrow">LITTLE FINDS & HAPPY BITES</p><h1>旅途心願清單<span className="heading-scribble" aria-hidden="true">♡</span></h1><p className="muted">{invalidSelection ? '請重新選擇日期與站點' : `${scopedItems.filter(item => !isCompleted(item.id)).length} 項未完成 · 共 ${scopedItems.length} 項`}</p></div>
+    <div className="shopping-heading"><h1 className="sr-only">清單</h1><p className="muted">{invalidSelection ? '請重新選擇日期與站點' : `${scopedItems.filter(item => !isCompleted(item.id)).length} 項未完成 · 共 ${scopedItems.length} 項`}</p></div>
     <section className="card shopping-filters" aria-label="清單篩選">
       <div className="shopping-selects">
         <label>日期<select value={dayId} disabled={independent} onChange={event => update('day', event.target.value)}><option value="all">全部日期</option>{days.map(day => <option key={day.id} value={day.id}>Day {day.day} · {day.date.slice(5).replace('-', '/')}</option>)}</select></label>
