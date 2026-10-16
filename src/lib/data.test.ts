@@ -1,3 +1,4 @@
+import theme from '../data/theme.json';
 import comparisonData from '../data/comparisons.json';
 import { existsSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
@@ -88,6 +89,12 @@ describe('approved Hakata shopping plan', () => {
       }
     }
     for (const item of items) expect(existsSync(`public/${item.image}`)).toBe(true);
+    expect(existsSync(`public/${theme.heroImage}`)).toBe(true);
+    for (const day of itinerary) {
+      const art = theme.days.find(entry => entry.day === day.day);
+      expect(art).toBeDefined();
+      expect(existsSync(`public/${art!.image}`)).toBe(true);
+    }
   });
 });
 

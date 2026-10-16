@@ -1,0 +1,13 @@
+{
+  "title": "福岡，慢慢來就好。",
+  "subtitle": "和蛋黃哥一起，把想吃、想逛的收進旅途。",
+  "heroImage": "theme/fukuoka-hero.png",
+  "days": [
+    { "day": 1, "label": "HELLO, HAKATA", "image": "theme/day-1-hakata.png", "alt": "蛋黃哥帶著行李，在博多站與拉麵旁休息" },
+    { "day": 2, "label": "A LITTLE SEA BREEZE", "image": "theme/day-2-mojiko.png", "alt": "蛋黃哥搭小船，經過門司港車站" },
+    { "day": 3, "label": "SLOW DAY IN YUFUIN", "image": "theme/day-3-yufuin.png", "alt": "蛋黃哥在由布岳前泡溫泉" },
+    { "day": 4, "label": "A SWEET LITTLE WISH", "image": "theme/day-4-dazaifu.png", "alt": "蛋黃哥在太宰府鳥居與梅枝餅旁休息" },
+    { "day": 5, "label": "LITTLE FINDS IN TENJIN", "image": "theme/day-5-tenjin.png", "alt": "蛋黃哥趴在天神購物袋上" },
+    { "day": 6, "label": "TAKE MEMORIES HOME", "image": "theme/day-6-home.png", "alt": "蛋黃哥躺在行李箱上，準備搭飛機回家" }
+  ]
+}

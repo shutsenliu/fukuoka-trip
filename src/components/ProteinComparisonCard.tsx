@@ -1,3 +1,4 @@
+import { DoodleIcon } from './DoodleIcon';
 import comparisonsJson from '../data/comparisons.json';
 import type { TripItem } from '../types';
 import type { ProteinComparison } from '../lib/proteinComparison';
@@ -11,7 +12,7 @@ export function ProteinComparisonCard({item}: {item: TripItem}) {
   const comparison = comparisons.find(config => config.id === item.comparisonId);
   if (!comparison) return <article className="card p-5"><h3>{item.name}</h3><p>找不到比價設定，請更新清單資料。</p></article>;
   return <article className={`card protein-card p-5 space-y-4 ${completed ? 'purchased' : ''}`}>
-    <div className="flex flex-wrap gap-2"><span className="tag">🛍 購物</span><span className="tag">乳清</span></div>
+    <div className="flex flex-wrap gap-2"><span className="tag"><DoodleIcon name="shopping"/>購物</span><span className="tag">乳清</span></div>
     <h3 className="text-xl font-semibold">{item.name}</h3><p className="muted">{item.notes}</p>
     <h4 className="text-lg font-semibold">比價與入手標準</h4>
     <p>以下為購買簡表的個人入手標準，並非即時售價。巧克力優先；現場確認重量與口味後再決定。</p>

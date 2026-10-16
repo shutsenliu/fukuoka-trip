@@ -55,7 +55,7 @@ it('places protein next to convenience, clears itinerary scope and removes it fr
   expect(screen.queryByLabelText('細分類')).toBeNull();
   expect(screen.queryByRole('option',{name:'乳清蛋白'})).toBeNull();
   const button = screen.getByRole('button',{name:'🥤 乳清'});
-  expect(button.previousElementSibling?.textContent).toBe('🏪 超商');
+  expect(button.previousElementSibling?.getAttribute('aria-label')).toBe('🏪 超商');
   fireEvent.click(button);
   expect(container.querySelectorAll('article')).toHaveLength(1);
   expect(screen.getByRole('heading',{name:'比價與入手標準'})).toBeTruthy();
@@ -64,7 +64,7 @@ it('places protein next to convenience, clears itinerary scope and removes it fr
   fireEvent.click(screen.getByRole('button',{name:'🏪 超商'}));
   expect(screen.queryByRole('heading',{name:'比價與入手標準'})).toBeNull();
   const drugstore = screen.getByRole('button',{name:'💊 藥妝'});
-  expect(drugstore.previousElementSibling?.textContent).toBe('🥤 乳清');
+  expect(drugstore.previousElementSibling?.getAttribute('aria-label')).toBe('🥤 乳清');
   fireEvent.click(drugstore);
   expect(drugstore.getAttribute('aria-pressed')).toBe('true');
   expect(container.querySelectorAll('article')).toHaveLength(0);

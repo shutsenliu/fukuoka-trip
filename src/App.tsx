@@ -8,6 +8,8 @@ import { ChecklistPage } from './components/ChecklistPage';
 import { initialDay, rememberDay } from './lib/selectedDay';
 import { placeDirectionsUrl } from './lib/navigation';
 import { ItineraryText } from './components/ItineraryText';
+import { DoodleIcon, EggMark } from './components/DoodleIcon';
+import { TripHero, DayHeading } from './components/TripArtwork';
 import { Timeline } from './components/Timeline';
 function DayTabs({ days, selected, onSelect }: { days: TripDay[]; selected: number; onSelect: (day: number) => void }) {
   return <div className="day-tabs" aria-label="選擇旅行日期">{days.map(day => <button key={day.id} aria-pressed={selected === day.day} className={selected === day.day ? 'selected' : ''} onClick={() => onSelect(day.day)}>Day {day.day}<span>{day.date.slice(5).replace('-', '/')}</span></button>)}</div>;
@@ -28,9 +30,11 @@ function AppContent() {
   function selectDay(day: number) { setSelected(day); rememberDay(day); }
   const { isCompleted, storageError } = useCompletedItems();
   const day = days.find(d => d.day === selected) ?? days[0];
-  const dayPage = () => <><p className="eyebrow">SIX DAYS IN FUKUOKA</p><h1>六天，一路慢慢玩</h1><p className="muted mb-5">12/12 — 12/17 · 博多出發的六日旅程</p><DayTabs days={days} selected={selected} onSelect={selectDay}/><div className="day-heading"><span className="eyebrow">{day.date} · DAY {day.day}</span><h2>{day.title}</h2><p className="muted">{day.stops.length} 個停靠點 · 時間與營業資訊請出發前確認</p></div>{day.remindersMarkdown && <details key={day.id} className="card p-4 mb-5 itinerary-details"><summary>當日提醒</summary><div className="mt-3"><ItineraryText>{day.remindersMarkdown}</ItineraryText></div></details>}<Timeline day={day}/></>;
-  return <><header className="site-header"><Link to="/" className="brand"><span className="brand-icon">福</span><span>Fukuoka<span className="brand-sub">TRIP COMPANION</span></span></Link><Link to="/items" className="header-count">✓ {items.filter(item => !isCompleted(item.id)).length} 項待完成</Link></header>
+  const dayPage = () => <><TripHero/><DayTabs days={days} selected={selected} onSelect={selectDay}/><DayHeading day={day}/>{day.remindersMarkdown && <details key={day.id} className="card p-4 mb-5 itinerary-details daily-reminder"><summary>當日提醒</summary><div className="mt-3"><ItineraryText>{day.remindersMarkdown}</ItineraryText></div></details>}<Timeline day={day}/></>;
+  return <><header className="site-header"><Link to="/" className="brand"><EggMark/><span>Fukuoka<span className="brand-sub">慢慢遊 · TRAVEL DIARY</span></span></Link><Link to="/items" className="header-count"><DoodleIcon name="checklist"/> {items.filter(item => !isCompleted(item.id)).length} 項待完成</Link></header>
     <main>{storageError && <p role="alert" className="card p-4 mb-4">瀏覽器無法儲存資料。目前的操作仍有效，但重新整理後可能遺失；請允許此網站使用本機儲存空間。</p>}<Routes><Route path="/" element={<Navigate to="/itinerary" replace/>}/><Route path="/itinerary" element={dayPage()}/><Route path="/wishlist" element={<Navigate to={{ pathname: '/items', search: location.search }} replace/>}/><Route path="/stores" element={<Navigate to="/places" replace/>}/><Route path="/stores/:id" element={<PlaceDetail/>}/><Route path="/items" element={<ChecklistPage days={days}/>}/><Route path="/places" element={<PlacesPage/>}/><Route path="/places/:id" element={<PlaceDetail/>}/><Route path="*" element={<><h1>找不到頁面</h1><Link to="/">回到行程</Link></>}/></Routes></main>
-    <nav className="bottom-nav" aria-label="主要導覽">{[['/itinerary','▤','行程'],['/items','♡','清單']].map(([path,icon,label]) => <NavLink end={path === '/'} to={path} key={path}><span aria-hidden="true">{icon}</span>{label}</NavLink>)}</nav></>;
+    <footer className="site-footer"><EggMark/><p>慢慢走，把喜歡的都記下來。</p><span>個人旅行手帳 · 自製 AI 主題插圖 · 非官方聯名</span></footer>
+    <nav className="bottom-nav" aria-label="主要導覽"><NavLink to="/itinerary"><DoodleIcon name="itinerary"/><span>行程</span></NavLink><NavLink to="/items"><DoodleIcon name="checklist"/><span>清單</span></NavLink></nav></>;
+
 }
 export default function App() { return <HashRouter><AppContent/></HashRouter>; }
