@@ -33,29 +33,29 @@
       ]
     },
     {
-      "id": "transino-white-c-clear-120",
-      "name": "TRANSINO White C clear",
-      "image": "items/transino-white-c-clear-120.jpg",
-      "imageCaption": "SUNDRUG 商品圖：120 錠裝。",
-      "size": "120 錠／瓶",
-      "notes": "日文：トランシーノ ホワイトCクリア。藍盒 120 錠裝，第 3 類醫藥品。",
+      "id": "transino-white-c-premium-180",
+      "name": "TRANSINO White C PREMIUM",
+      "image": "items/transino-white-c-premium-180.jpg",
+      "imageCaption": "SUNDRUG 商品圖：PREMIUM 180 錠裝。",
+      "size": "180 錠／瓶",
+      "notes": "トランシーノ ホワイトCプレミアム，180 錠裝，第 3 類醫藥品。",
       "placeIds": [],
       "purchaseOptions": [
         {
           "name": "松本清／可可嘉（マツキヨココカラ）",
-          "notes": "官方線上商店有販售 White C clear 120 錠；分店品項與售價依現場為準。",
-          "sourceUrl": "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987107619792"
+          "notes": "官方線上商店有販售 White C PREMIUM 180 錠；分店品項與售價依現場為準。",
+          "sourceUrl": "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987107631978"
         },
         {
           "name": "SUNDRUG（サンドラッグ）",
-          "notes": "官方線上商店有販售同款 120 錠；分店品項與售價依現場為準。",
-          "sourceUrl": "https://sundrug-online.com/products/4987107619792"
+          "notes": "官方線上商店有販售同款 180 錠；分店品項與售價依現場為準。",
+          "sourceUrl": "https://sundrug-online.com/products/4987107631978"
         }
       ],
       "sourceUrls": [
         "https://www.daiichisankyo-hc.co.jp/site_transino/transino-c/",
-        "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987107619792",
-        "https://sundrug-online.com/products/4987107619792"
+        "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987107631978",
+        "https://sundrug-online.com/products/4987107631978"
       ]
     },
     {
@@ -96,7 +96,7 @@
     {
       "id": "chi-transino-white-c-clear-120",
       "personId": "chi",
-      "itemId": "transino-white-c-clear-120",
+      "itemId": "transino-white-c-premium-180",
       "quantity": 3,
       "notes": ""
     },
