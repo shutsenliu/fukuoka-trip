@@ -22,7 +22,6 @@ main { max-width: 920px; margin: 18px auto 0; padding: 0 20px calc(120px + env(s
 .shopping-heading h1 { margin-bottom: 6px; }
 .shopping-filters { padding: 18px; margin-bottom: 22px; }
 .shopping-filters .shopping-selects { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px 12px; }
-.shopping-filters .category-select { grid-column: 1 / -1; }
 .shopping-filters label { font-size: 14px; color: #646d63; }
 .shopping-filters select { color: #273c30; font-size: 16px; padding-left: 10px; padding-right: 24px; }
 .purchase-filters { margin-top: 18px; padding: 4px; border-radius: 14px; background: #eeeee5; gap: 4px; }
@@ -31,7 +30,7 @@ main { max-width: 920px; margin: 18px auto 0; padding: 0 20px calc(120px + env(s
 .filter-actions a, .filter-actions button { min-height: 44px; display: inline-flex; align-items: center; color: #43634b; font-size: 14px; }
 .filter-actions button { margin-left: auto; }
 .shopping-context { margin: 0 0 16px; font-weight: 650; }
-@media(min-width:700px) { .shopping-filters .shopping-selects { grid-template-columns: 1fr 1fr 1fr; } .shopping-filters .category-select { grid-column: auto; } }
+@media(min-width:700px) { .shopping-filters .shopping-selects { grid-template-columns: 1fr 1fr; } }
 .type-filters { margin-top: 16px; gap: 6px; }
 .type-filters button { flex: 1; padding: 9px 5px; font-size: 14px; white-space: nowrap; }
 .type-shopping { background: #e8efdf; }

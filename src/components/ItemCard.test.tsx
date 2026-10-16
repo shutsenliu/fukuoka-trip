@@ -3,6 +3,7 @@ import { afterEach, describe, expect, it } from 'vitest';
 import { cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import type { TripItem, ItemType } from '../types';
+import { items } from '../lib/data';
 import { ItemCard } from './ItemCard';
 import { itemLabels } from '../lib/itemLabels';
 afterEach(() => { cleanup(); localStorage.clear(); window.dispatchEvent(new StorageEvent('storage', { key: null })); });
@@ -32,4 +33,14 @@ describe('trip goal completion', () => {
     fireEvent.click(screen.getByRole('checkbox'));
     expect(JSON.parse(localStorage.getItem('fukuoka-trip-completed-items')!)).toEqual([]);
   });
+});
+
+it('shows researched drugstore retailers without guessing a branch or navigation', () => {
+  const item = items.find(item => item.id === 'biore-deep-clay-face-wash')!;
+  render(<MemoryRouter><ItemCard item={item}/></MemoryRouter>);
+  expect(screen.getByRole('region',{name:'購買通路'})).toBeTruthy();
+  expect(screen.getByText('松本清／Cocokara Fine')).toBeTruthy();
+  expect(screen.getByText('SUNDRUG（サンドラッグ）')).toBeTruthy();
+  expect(screen.getByText(/4901301464057/)).toBeTruthy();
+  expect(screen.queryByRole('link')).toBeNull();
 });

@@ -18,7 +18,7 @@ import { ChecklistPage } from './ChecklistPage';
 import { itinerary } from '../lib/data';
 afterEach(() => { cleanup(); localStorage.clear(); window.dispatchEvent(new StorageEvent('storage',{ key: null })); });
 it('filters shopping and food, day/stop and completed status without duplicate backup items', () => {
-  render(<MemoryRouter initialEntries={['/items?day=day-5&stop=day-5-stop-6']}><ChecklistPage days={itinerary}/></MemoryRouter>);
+  render(<MemoryRouter initialEntries={['/items?day=day-5&stop=day-5-stop-6&category=已移除分類']}><ChecklistPage days={itinerary}/></MemoryRouter>);
   expect(screen.getByText('測試購物')).toBeTruthy(); expect(screen.getByText('測試小吃')).toBeTruthy();
   fireEvent.click(screen.getByRole('button',{name:'🍡 美食'}));
   expect(screen.queryByText('測試購物')).toBeNull();
@@ -52,6 +52,7 @@ it('opens convenience goals from an itinerary filter, separates chains and persi
 
 it('places protein next to convenience, clears itinerary scope and removes it from subcategories', () => {
   const {container} = render(<MemoryRouter initialEntries={['/items?day=day-5&stop=day-5-stop-6&type=food']}><ChecklistPage days={itinerary}/></MemoryRouter>);
+  expect(screen.queryByLabelText('細分類')).toBeNull();
   expect(screen.queryByRole('option',{name:'乳清蛋白'})).toBeNull();
   const button = screen.getByRole('button',{name:'🥤 乳清'});
   expect(button.previousElementSibling?.textContent).toBe('🏪 超商');

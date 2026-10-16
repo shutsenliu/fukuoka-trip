@@ -11,7 +11,8 @@ export const items: TripItem[] = itemsJson.map((item) => {
   if (item.type !== 'shopping' && item.type !== 'food') throw new Error(`Invalid item type: ${item.id}`);
   if (item.convenienceStore !== undefined && item.convenienceStore !== '7-ELEVEN' && item.convenienceStore !== 'Lawson') throw new Error(`Invalid convenience store: ${item.id}`);
   if (item.convenienceStore && item.placeIds.length) throw new Error(`Convenience goal must be independent: ${item.id}`);
-  return { ...item, type: item.type, convenienceStore: item.convenienceStore };
+  if (item.shoppingGroup !== undefined && item.shoppingGroup !== 'drugstore') throw new Error(`Invalid shopping group: ${item.id}`);
+  return { ...item, shoppingGroup: item.shoppingGroup, type: item.type, convenienceStore: item.convenienceStore };
 });
 export const placesById = new Map(places.map(store => [store.id, store]));
 export const itemsForPlace = (id: string) => items.filter(item => item.placeIds.includes(id));

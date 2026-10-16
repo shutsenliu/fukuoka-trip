@@ -378,5 +378,36 @@
     "notes": "日本順位：WINZONE → SAVAS Whey → VALX WPC。巧克力優先，現場比較規格、價格與口味後擇一購買。",
     "placeIds": [],
     "comparisonId": "whey-protein"
+  },
+  {
+    "id": "biore-deep-clay-face-wash",
+    "name": "Biore 角栓崩壞深層礦泥洗面乳",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "洗面乳",
+    "priority": 3,
+    "image": "items/biore-deep-clay-illustration.png",
+    "imageCaption": "依使用者提供包裝製作的 AI 示意插圖，非官方實拍；包裝以門市為準。",
+    "size": "180g",
+    "notes": "正式品名：ビオレ おうちdeエステ ディープクレイ洗顔。\n不需起泡的礦泥型洗面乳，主打清潔毛孔黑頭與角栓污垢；此款為銀白軟管、金色瓶蓋，不是凝膠洗面乳。\n使用方式：沾濕臉部後，取適量輕柔畫圈約 30 秒，再充分沖淨；官網也介紹可停留約 1 分鐘後沖洗的方式，不要用力搓揉。\n門市辨識 JAN：4901301464057。",
+    "placeIds": [],
+    "purchaseOptions": [
+      {
+        "name": "松本清／Cocokara Fine",
+        "notes": "松本清／Cocokara Fine 官方線上商店列有此款 180g，可在這兩個連鎖藥妝通路尋找；門市價格與販售品項依現場為準。",
+        "sourceUrl": "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4901301464057"
+      },
+      {
+        "name": "SUNDRUG（サンドラッグ）",
+        "notes": "SUNDRUG 官方線上商店列有相同品名、容量與 JAN 的商品，也可在 SUNDRUG 藥妝門市尋找；線上與門市價格可能不同。",
+        "sourceUrl": "https://sundrug-online.com/products/4901301464057"
+      }
+    ],
+    "sourceUrls": [
+      "https://www.kao.co.jp/biore/lineup/aesthe/",
+      "https://www.kao-kirei.com/ja/item/khg/biore/4901301464057/",
+      "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4901301464057",
+      "https://sundrug-online.com/products/4901301464057"
+    ]
   }
 ]

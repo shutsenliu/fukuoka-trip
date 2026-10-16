@@ -20,3 +20,5 @@ This is a static travel companion with itinerary, places, and shopping/food goal
 - Preserve complete itinerary prose in detailMarkdown (nested lists and emphasis) and day-wide context in remindersMarkdown. Keep the outer card concise and do not add a page-level 行前準備 section. Later confirmed schedule, hotel, goals and maps take precedence over source Markdown; imported prose is not fresh verification.
 
 - Protein uses one TripItem.comparisonId and src/data/comparisons.json. Show 比價與入手標準 directly with candidate images; no quote recording, FX or conversion features. Put a 乳清 quick filter next to 超商 and exclude protein from subcategories. Retain normal completion only; unverified branch stock must not create itinerary links.
+
+- Do not show a 細分類 dropdown in the checklist. Drugstore products require researched product descriptions and verified retailer listings, but the user does not require live branch-stock checks. Do not assume retailer online listings guarantee a particular branch carries a product.
