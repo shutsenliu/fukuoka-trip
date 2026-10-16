@@ -1,5 +1,45 @@
 {
-  "people": [],
-  "products": [],
-  "orders": []
+  "people": [
+    {
+      "id": "chi",
+      "name": "chi"
+    }
+  ],
+  "products": [
+    {
+      "id": "curel-deep-barrier-water-serum",
+      "name": "Curél 潤浸保濕角層深部屏障精華液",
+      "image": "items/curel-deep-barrier-water-serum.jpg",
+      "imageCaption": "花王官方商品圖；日本包裝文字與提供照片略有不同。",
+      "size": "30mL",
+      "notes": "日文：キュレル 潤浸保湿 角層深部バリア美容液。乾燥敏感肌用保濕精華。",
+      "placeIds": [],
+      "purchaseOptions": [
+        {
+          "name": "松本清／可可嘉（マツキヨココカラ）",
+          "notes": "官方線上商店有販售此款 30mL；逛藥妝時可找，分店品項與售價依現場為準。",
+          "sourceUrl": "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4901301463937"
+        },
+        {
+          "name": "SUNDRUG（サンドラッグ）",
+          "notes": "官方線上商店有販售同款 30mL；分店品項與售價依現場為準。",
+          "sourceUrl": "https://sundrug-online.com/products/4901301463937"
+        }
+      ],
+      "sourceUrls": [
+        "https://www.kao-kirei.com/ja/item/kbb/curel/4901301463937/",
+        "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4901301463937",
+        "https://sundrug-online.com/products/4901301463937"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "chi-curel-deep-barrier-water-serum",
+      "personId": "chi",
+      "itemId": "curel-deep-barrier-water-serum",
+      "quantity": 1,
+      "notes": ""
+    }
+  ]
 }
