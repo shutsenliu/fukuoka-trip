@@ -169,6 +169,4 @@ input[type=checkbox] { width: 22px; height: 22px; accent-color: #ad7036; flex-sh
 .proxy-photo-actions { display: flex; flex-wrap: wrap; gap: 8px; }
 .proxy-photo-actions button { flex: 1; }
 .proxy-clear { min-height: 44px; text-decoration: underline; color: var(--muted); }
-.proxy-backup { display: grid; gap: 16px; margin-top: 28px; }
-.proxy-backup > p { font-size: 14px; }
-.proxy-order button:disabled, .proxy-backup button:disabled { opacity: .55; cursor: wait; }
+.proxy-order button:disabled { opacity: .55; cursor: wait; }

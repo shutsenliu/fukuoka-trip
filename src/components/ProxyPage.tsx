@@ -2,10 +2,9 @@ import { useState } from 'react';
 import { useProxyOrders } from '../hooks/useProxyOrders';
 import { proxySummary } from '../lib/proxyOrders';
 import { ProxyOrderCard } from './ProxyOrderCard';
-import { ProxyBackup } from './ProxyBackup';
 const yen=(amount:number)=>`¥${amount.toLocaleString('zh-TW')}`;
 export function ProxyPage() {
-  const {state,loading,error,refresh,save,remove,restore}=useProxyOrders();
+  const {state,loading,error,refresh,save,remove}=useProxyOrders();
   const [selected,setSelected]=useState('all');
   const {catalog,purchases}=state;
   const people=catalog.people.filter(person=>catalog.orders.some(order=>order.personId===person.id));
@@ -28,6 +27,5 @@ export function ProxyPage() {
         })}</div></section>;
       })}
     </>}
-    <ProxyBackup state={state} disabled={loading||!!error} onImport={restore}/>
   </>;
 }
