@@ -57,6 +57,32 @@
         "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987107619792",
         "https://sundrug-online.com/products/4987107619792"
       ]
+    },
+    {
+      "id": "alinamin-ex-plus-270",
+      "name": "合利他命 EX PLUS",
+      "image": "items/alinamin-ex-plus-270.jpg",
+      "imageCaption": "SUNDRUG 商品圖：日本版 270 錠裝，製造商標示與提供照片略有不同。",
+      "size": "270 錠／瓶",
+      "notes": "アリナミンEXプラス，270 錠裝，第 3 類醫藥品。",
+      "placeIds": [],
+      "purchaseOptions": [
+        {
+          "name": "松本清／可可嘉（マツキヨココカラ）",
+          "notes": "官方線上商店有販售 EX PLUS 270 錠；分店品項與售價依現場為準。",
+          "sourceUrl": "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987123145428"
+        },
+        {
+          "name": "SUNDRUG（サンドラッグ）",
+          "notes": "官方線上商店有販售同款 270 錠；分店品項與售價依現場為準。",
+          "sourceUrl": "https://sundrug-online.com/products/4987123145428"
+        }
+      ],
+      "sourceUrls": [
+        "https://alinamin.jp/lineup/alinaminexplus.html",
+        "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987123145428",
+        "https://sundrug-online.com/products/4987123145428"
+      ]
     }
   ],
   "orders": [
@@ -72,6 +98,13 @@
       "personId": "chi",
       "itemId": "transino-white-c-clear-120",
       "quantity": 3,
+      "notes": ""
+    },
+    {
+      "id": "chi-alinamin-ex-plus-270",
+      "personId": "chi",
+      "itemId": "alinamin-ex-plus-270",
+      "quantity": 1,
       "notes": ""
     }
   ]
