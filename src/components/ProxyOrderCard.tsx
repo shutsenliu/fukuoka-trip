@@ -14,6 +14,7 @@ export function ProxyOrderCard({order,person,product,purchase,disabled,onSave,on
   const [photo,setPhoto] = useState<Blob|null>(purchase?.photo??null);
   const [amount,setAmount] = useState(purchase?.amountYen?.toString()??'');
   const [photoUrl,setPhotoUrl] = useState('');
+  const [showPhoto,setShowPhoto] = useState(false);
   const [busy,setBusy] = useState(false);
   const [message,setMessage] = useState('');
   const [error,setError] = useState('');
@@ -23,7 +24,7 @@ export function ProxyOrderCard({order,person,product,purchase,disabled,onSave,on
   async function selectPhoto(event:ChangeEvent<HTMLInputElement>) {
     const file=event.target.files?.[0];event.target.value='';if(!file)return;
     setBusy(true);setMessage('');setError('');
-    try{setPhoto(await prepareProxyPhoto(file));}catch(reason){setError(reason instanceof Error?reason.message:'照片處理失敗，請重試。');}finally{setBusy(false);}
+    try{setPhoto(await prepareProxyPhoto(file));setShowPhoto(false);}catch(reason){setError(reason instanceof Error?reason.message:'照片處理失敗，請重試。');}finally{setBusy(false);}
   }
   async function submit(event:FormEvent<HTMLFormElement>) {
     event.preventDefault();const value=amount.trim()===''?null:Number(amount);
@@ -44,10 +45,10 @@ export function ProxyOrderCard({order,person,product,purchase,disabled,onSave,on
     <div className="p-5 space-y-3">
       <div className="flex flex-wrap gap-2"><span className="tag">幫{person.name}買</span><span className={`tag ${purchaseStatus(purchase)==='已購買'?'proxy-done':''}`}>{purchaseStatus(purchase)}</span></div>
       <h3 className="text-xl font-semibold">{product.name}</h3><p>數量：{order.quantity} 件{product.size?` · ${product.size}`:''}</p>
-      {product.notes&&<p className="muted whitespace-pre-line">{product.notes}</p>}{order.notes&&<p className="proxy-request">需求：{order.notes}</p>}
+      {order.notes&&<p className="proxy-request">需求：{order.notes}</p>}
       <PurchaseOptions options={product.purchaseOptions}/>{!product.purchaseOptions?.length&&place&&<PlaceInfo place={place}/>}
       <form className="proxy-form" onSubmit={submit} aria-label={`${person.name}的${product.name}購買結果`}>
-        {photoUrl&&<img className="proxy-photo" src={photoUrl} alt="購買照片"/>}
+        {photoUrl&&<><button className="button secondary" type="button" aria-expanded={showPhoto} onClick={()=>setShowPhoto(value=>!value)}>{showPhoto?'收起購買照片':'查看購買照片'}</button>{showPhoto&&<img className="proxy-photo" src={photoUrl} alt="購買照片"/>}</>}
         <input ref={camera} className="sr-only" tabIndex={-1} type="file" accept="image/*" capture="environment" aria-label="拍攝購買照片" disabled={locked} onChange={selectPhoto}/>
         <input ref={album} className="sr-only" tabIndex={-1} type="file" accept="image/*" aria-label="選擇購買照片" disabled={locked} onChange={selectPhoto}/>
         <div className="proxy-photo-actions"><button className="button secondary" type="button" disabled={locked} onClick={()=>camera.current?.click()}>拍照</button><button className="button secondary" type="button" disabled={locked} onClick={()=>album.current?.click()}>從相簿選取</button>{photo&&<button className="button secondary" type="button" disabled={locked} onClick={()=>{setPhoto(null);setMessage('');}}>移除照片</button>}</div>

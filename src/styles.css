@@ -170,3 +170,14 @@ input[type=checkbox] { width: 22px; height: 22px; accent-color: #ad7036; flex-sh
 .proxy-photo-actions button { flex: 1; }
 .proxy-clear { min-height: 44px; text-decoration: underline; color: var(--muted); }
 .proxy-order button:disabled { opacity: .55; cursor: wait; }
+.proxy-view-actions { margin-bottom: 16px; }
+.proxy-table-wrap { padding: 16px; }
+.proxy-table { width: 100%; table-layout: fixed; border-collapse: collapse; }
+.proxy-table th, .proxy-table td { padding: 14px 4px; border-bottom: 1px solid var(--line); text-align: left; overflow-wrap: anywhere; vertical-align: top; }
+.proxy-table th:first-child { width: 57%; }
+.proxy-table th:nth-child(2) { width: 16%; }
+.proxy-table td:last-child, .proxy-table thead th:last-child { text-align: right; }
+.proxy-table tbody th { font-weight: 600; }
+.proxy-table tbody th span { display: block; margin-top: 5px; font-size: 14px; font-weight: 400; }
+.proxy-table tfoot th, .proxy-table tfoot td { font-weight: 700; }
+.proxy-table-wrap > p { margin-top: 12px; font-size: 14px; }

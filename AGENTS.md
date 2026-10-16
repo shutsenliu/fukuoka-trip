@@ -26,3 +26,5 @@ This is a static travel companion with itinerary, places, and shopping/food goal
 - Keep drugstore product introductions to roughly 1–2 mobile lines. Render purchaseOptions inside a collapsed 購買通路 disclosure by default.
 
 - Proxy shopping uses src/data/proxyOrders.json (people, products, orders). Keep production orders empty until the user supplies recipients and products. Reuse existing item IDs where possible; proxy-only products must not enter the personal checklist. Keep stable order IDs for local photos and amounts. Actual purchase totals and photos stay in IndexedDB, never commit them. Do not show backup/import, storage-retention buttons or a storage explanation panel on the proxy page. Distinguish missing amounts from zero. Do not promise automatic sync or guaranteed browser retention.
+
+- Proxy purchase photos must be hidden until explicitly opened. Hide proxy product descriptions. Selecting a recipient shows a photo-free table of product, quantity, recorded JPY amount and total, with a button to switch to purchase-record cards.
