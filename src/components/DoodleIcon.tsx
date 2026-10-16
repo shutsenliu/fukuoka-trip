@@ -1,4 +1,4 @@
-type IconName = 'itinerary' | 'checklist' | 'shopping' | 'food' | 'convenience' | 'protein' | 'drugstore';
+type IconName = 'itinerary' | 'checklist' | 'shopping' | 'food' | 'convenience' | 'protein' | 'drugstore' | 'proxy';
 const paths: Record<IconName, string[]> = {
   itinerary: ['M7 4h12v16H5V4h2M8 2v4m8-4v4M9 10h6m-6 4h6'],
   checklist: ['M7 3h10l2 3v15H5V6l2-3Zm2 0v3h6V3M8 11l2 2 5-5m-7 9h7'],
@@ -6,6 +6,7 @@ const paths: Record<IconName, string[]> = {
   food: ['M3 11h18c-1 6-4 9-9 9s-8-3-9-9Zm3 10h12M8 7c-3-3 3-3 0-6m5 6c-3-3 3-3 0-6m5 6c-3-3 3-3 0-6'],
   convenience: ['M4 10v11h16V10M3 4h18l-2 6H5L3 4Zm6 17v-7h6v7M7 4l1 6m9-6-1 6'],
   protein: ['M7 7h10l-1 14H8L7 7Zm0 0L6 3h12l-1 4M9 3V1h6v2m-6 9h6'],
+  proxy: ['M9 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm6-4a3 3 0 0 1 0 6M3 17v-2c0-3 3-5 6-5 2 0 4 1 5 3m2-1h5l1 9h-8l1-9m1 0v-2a2 2 0 0 1 4 0v2'],
   drugstore: ['M9 3h6v4H9V3Zm-2 6 2-2h6l2 2v12H7V9Zm3 5h4m-2-2v4'],
 };
 export function DoodleIcon({name}: {name: IconName}) {

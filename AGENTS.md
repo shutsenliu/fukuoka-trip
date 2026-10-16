@@ -24,3 +24,5 @@ This is a static travel companion with itinerary, places, and shopping/food goal
 - Do not show a 細分類 dropdown in the checklist. Drugstore products require researched product descriptions and verified retailer listings, but the user does not require live branch-stock checks. Do not assume retailer online listings guarantee a particular branch carries a product.
 
 - Keep drugstore product introductions to roughly 1–2 mobile lines. Render purchaseOptions inside a collapsed 購買通路 disclosure by default.
+
+- Proxy shopping uses src/data/proxyOrders.json (people, products, orders). Keep production orders empty until the user supplies recipients and products. Reuse existing item IDs where possible; proxy-only products must not enter the personal checklist. Keep stable order IDs for local photos and amounts. Actual purchase totals and photos stay in IndexedDB, never commit them. Preserve self-contained photo backup/import and distinguish missing amounts from zero. Do not promise automatic sync or guaranteed browser retention.
