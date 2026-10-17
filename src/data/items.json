@@ -795,5 +795,149 @@
     "sourceUrls": [
       "https://www.kosecosmeport.co.jp/clearturn/collaboration/wcsl.html"
     ]
+  },
+  {
+    "id": "mqure-hydrogen-treatment",
+    "name": "MQURE 水素護髮療程",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "護髮用品",
+    "priority": 3,
+    "image": "items/mqure-hydrogen-treatment.webp",
+    "imageCaption": "品牌商品圖。",
+    "notes": "水素トリートメント；銀色盒裝、4 次用的沖洗式護髮。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4580632123248"
+    ],
+    "size": "13 g × 4 包"
+  },
+  {
+    "id": "tepika-gel-60",
+    "name": "手ピカジェル 手部消毒凝膠",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "清潔用品",
+    "priority": 3,
+    "image": "items/tepika-gel-60.webp",
+    "imageCaption": "品牌系列圖；清單指定左側 60 mL 小瓶。",
+    "notes": "健栄製薬；粉紅瓶蓋、無香料的攜帶瓶款。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.kenei-pharm.com/tepika/products/tepika_gel/"
+    ],
+    "size": "60 mL"
+  },
+  {
+    "id": "quality1st-super-black-face-mask",
+    "name": "QUALITY 1st DERMA LASER SUPER BLACK 面膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "面膜",
+    "priority": 3,
+    "image": "items/quality1st-super-black-face-mask.webp",
+    "imageCaption": "品牌官方商品圖。",
+    "notes": "黑金包裝的全臉面膜；標示 VC100 與 10% 菸鹼醯胺。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://q1st.jp/shop/products/QF00906"
+    ],
+    "size": "7 片"
+  },
+  {
+    "id": "feat-dreamy-gaba",
+    "name": "feat. Dreamy GABA 膠囊",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "保健食品",
+    "priority": 3,
+    "image": "items/feat-dreamy-gaba.webp",
+    "imageCaption": "同款商品實拍參考圖。",
+    "notes": "紫色星空、月亮標籤的膠囊款；容量與配方待確認。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.mobile01.com/topicdetail.php?f=405&t=7265112"
+    ]
+  },
+  {
+    "id": "lululun-hydra-ex-mask",
+    "name": "LuLuLun HYDRA EX 外泌體面膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "面膜",
+    "priority": 3,
+    "image": "items/lululun-hydra-ex-mask.webp",
+    "imageCaption": "品牌官方商品圖。",
+    "notes": "HYDRA-EX-MASK Exosome；紫色袋裝全臉面膜。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://lululun.com/shop/products/hydraexs-2310"
+    ],
+    "size": "7 片"
+  },
+  {
+    "id": "mqure-derma-pd-serum",
+    "name": "MQURE derma PDRN 臉部精華液",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "臉部保養",
+    "priority": 3,
+    "image": "items/mqure-derma-pd-serum.webp",
+    "imageCaption": "系列商品圖，圖示 PD セラム 1。",
+    "notes": "PD セラム系列，款式未指定；另售添加精華不列入。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.fashionsnap.com/article/2026-01-30/mqure-dermax-launch/"
+    ],
+    "size": "35 mL"
+  },
+  {
+    "id": "marshique-hydrogel-neck-patch",
+    "name": "MARSHIQUE 水凝膠頸膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "頸部保養",
+    "priority": 3,
+    "image": "items/marshique-hydrogel-neck-patch.webp",
+    "imageCaption": "品牌官方使用示意圖。",
+    "notes": "WRINKLE REPAIR HYDROGEL PATCH；銀色袋裝、頸部用。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://marshique.com/product/detail.html?product_no=202"
+    ],
+    "size": "4 片"
+  },
+  {
+    "id": "rishiri-color-treatment-light-brown",
+    "name": "利尻昆布 白髮染色護髮霜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "護髮用品",
+    "priority": 3,
+    "image": "items/rishiri-color-treatment-light-brown.webp",
+    "imageCaption": "系列包裝參考圖為深棕色；清單指定淺棕色。",
+    "notes": "白髪用ヘアカラートリートメント；指定ライトブラウン淺棕色。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.sastty.com/shop/pages/hct_s_c48.aspx"
+    ],
+    "size": "200 g",
+    "color": "淺棕色（ライトブラウン）"
+  },
+  {
+    "id": "fancl-sleep-fatigue-care",
+    "name": "FANCL 睡眠＆疲勞感照護",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "保健食品",
+    "priority": 3,
+    "image": "items/fancl-sleep-fatigue-care.webp",
+    "imageCaption": "品牌官方商品圖。",
+    "notes": "睡眠＆疲労感ケア；白色袋裝、藍綠與橘色圓環款。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.fancl.co.jp/healthy/item/5249a/"
+    ],
+    "size": "120 粒／30 日份"
   }
 ]
