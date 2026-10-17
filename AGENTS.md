@@ -32,3 +32,5 @@ This is a static travel companion with itinerary, places, and shopping/food goal
 - Drugstore goals are a separate user-facing group: label their cards 藥妝 and exclude them from the 購物 filter. Keep them visible in 全部 and 藥妝, with stable item IDs and completion records.
 
 - Before adding image-provided goals, compare product names, versions and sizes against existing goals. Reuse existing IDs and preserve completion records for duplicates; never add a second copy solely because a new image was supplied.
+
+- Do not display priority badges on goal cards. The bottom navigation must have an opaque full-width background extending to the viewport bottom, including safe-area padding, so page content cannot show underneath it.
