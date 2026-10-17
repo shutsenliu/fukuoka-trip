@@ -707,13 +707,13 @@
     "shoppingGroup": "drugstore",
     "category": "藥品",
     "priority": 3,
-    "image": "items/hythiol-c-plus-ex-240.jpg",
-    "imageCaption": "240 錠裝商品圖。",
-    "size": "240 錠",
+    "image": "items/hythiol-c-plus-ex-120-package.webp",
+    "imageCaption": "品牌官方 120 錠裝包裝照片。",
+    "size": "120 錠",
     "notes": "ハイチオールCプラスEX；L-半胱胺酸與維他命 C 配方，第 3 類醫藥品。",
     "placeIds": [],
     "sourceUrls": [
-      "https://www.ssp.co.jp/product/detail/hcex/"
+      "https://www.ssp.co.jp/hythiol/products/hcex/"
     ]
   },
   {
@@ -1131,6 +1131,22 @@
     "placeIds": [],
     "sourceUrls": [
       "https://jp.rohto.com/gyutto/hairmask/"
+    ]
+  },
+  {
+    "id": "dhc-l-cys-white-240ex-120",
+    "name": "DHC エルシスホワイト240EX",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "藥品",
+    "priority": 3,
+    "image": "items/dhc-l-cys-white-240ex-120.webp",
+    "imageCaption": "品牌官方 120 錠裝包裝照片。",
+    "size": "120 錠",
+    "notes": "藍色盒裝；L-半胱胺酸、維他命 C 配方，第 3 類醫藥品。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.dhc.co.jp/goods/40532.html"
     ]
   }
 ]
