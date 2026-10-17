@@ -38,6 +38,8 @@ describe('trip goal completion', () => {
 it('shows concise drugstore information without purchase channels', () => {
   const item = items.find(item => item.id === 'biore-deep-clay-face-wash')!;
   render(<MemoryRouter><ItemCard item={item}/></MemoryRouter>);
+  expect(screen.getByText('藥妝',{exact:true})).toBeTruthy();
+  expect(screen.queryByText('購物',{exact:true})).toBeNull();
   expect(screen.queryByText('購買通路')).toBeNull();
   expect(screen.queryByText('SUNDRUG（サンドラッグ）')).toBeNull();
   expect(screen.getByText('不需起泡的礦泥洗面乳，清潔黑頭與角栓污垢。')).toBeTruthy();

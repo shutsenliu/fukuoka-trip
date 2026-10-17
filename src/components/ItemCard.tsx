@@ -7,13 +7,14 @@ import { placesById } from '../lib/data';
 import { useCompletedItems } from '../hooks/useCompletedItems';
 export function ItemCard({ item }: { item: TripItem }) {
   const { isCompleted, toggleCompleted } = useCompletedItems();
-  const labels = itemLabels[item.type];
+  const drugstore = item.shoppingGroup === 'drugstore';
+  const labels = drugstore ? {...itemLabels.shopping,name:'藥妝'} : itemLabels[item.type];
   const purchased = isCompleted(item.id);
   if (item.comparisonId) return <ProteinComparisonCard item={item}/>;
   return <article className={`card overflow-hidden ${purchased ? 'purchased' : ''}`}>
     <img className="product-image" src={`${import.meta.env.BASE_URL}${item.image.replace(/^\//, '')}`} alt={`${item.name} 圖片`} loading="lazy" onError={event => { event.currentTarget.onerror = null; event.currentTarget.src = `${import.meta.env.BASE_URL}items/placeholder.svg`; }}/>
     {item.imageCaption && <p className="muted px-5 pt-3 text-sm">{item.imageCaption}</p>}
-    <div className="p-5 space-y-3"><div className="flex flex-wrap gap-2"><span className={`tag type-${item.type}`}><DoodleIcon name={item.type}/>{labels.name}</span><span className="tag">{item.category}</span><span className="tag priority">優先度 {item.priority} / 5</span></div>
+    <div className="p-5 space-y-3"><div className="flex flex-wrap gap-2"><span className={`tag type-${drugstore ? 'drugstore' : item.type}`}><DoodleIcon name={drugstore ? 'drugstore' : item.type}/>{labels.name}</span><span className="tag">{item.category}</span><span className="tag priority">優先度 {item.priority} / 5</span></div>
       {item.convenienceStore && <p className="font-semibold">🏪 {item.convenienceStore} · 路過再買</p>}
       <h3 className="text-xl font-semibold">{item.name}</h3>
       {item.color && <p>🎨 {item.color}</p>}{item.size && <p>尺寸：{item.size}</p>}<p className="muted whitespace-pre-line">{item.notes}</p>

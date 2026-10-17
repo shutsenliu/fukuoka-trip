@@ -22,8 +22,9 @@ export function ChecklistPage({ days }: { days: TripDay[] }) {
   const goalStops = selectedDay?.stops.filter(stop => itemsForStop(stop).length) ?? [];
   const selectedStop = selectedDay?.stops.find(stop => stop.id === stopId);
   const scopedItems = drugstore ? items.filter(item => item.shoppingGroup === 'drugstore') : protein ? items.filter(item => item.comparisonId) : convenience ? items.filter(item => item.convenienceStore) : selectedStop ? itemsForStop(selectedStop) : selectedDay ? items.filter(item => selectedDay.stops.some(stop => itemsForStop(stop).some(product => product.id === item.id))) : items;
+  const categoryItems = scopedItems.filter(item => (type === 'all' || item.type === type) && (independent || type !== 'shopping' || item.shoppingGroup !== 'drugstore'));
   const invalidSelection = (dayId !== 'all' && !selectedDay) || (stopId !== 'all' && !selectedStop);
-  const filtered = invalidSelection ? [] : scopedItems.filter(item => (!convenience || chain === 'all' || item.convenienceStore === chain) && (type === 'all' || item.type === type) && (status === 'all' || (status === 'completed' ? isCompleted(item.id) : !isCompleted(item.id))));
+  const filtered = invalidSelection ? [] : categoryItems.filter(item => (!convenience || chain === 'all' || item.convenienceStore === chain) && (status === 'all' || (status === 'completed' ? isCompleted(item.id) : !isCompleted(item.id))));
   function update(key: string, value: string) {
     const next = new URLSearchParams(params);
     if (value === 'all') next.delete(key); else next.set(key, value);
@@ -32,7 +33,7 @@ export function ChecklistPage({ days }: { days: TripDay[] }) {
     setParams(next);
   }
   return <>
-    <div className="shopping-heading"><h1 className="sr-only">清單</h1><p className="muted">{invalidSelection ? '請重新選擇日期與站點' : `${scopedItems.filter(item => !isCompleted(item.id)).length} 項未完成 · 共 ${scopedItems.length} 項`}</p></div>
+    <div className="shopping-heading"><h1 className="sr-only">清單</h1><p className="muted">{invalidSelection ? '請重新選擇日期與站點' : `${categoryItems.filter(item => !isCompleted(item.id)).length} 項未完成 · 共 ${categoryItems.length} 項`}</p></div>
     <section className="card shopping-filters" aria-label="清單篩選">
       <div className="shopping-selects">
         <label>日期<select value={dayId} disabled={independent} onChange={event => update('day', event.target.value)}><option value="all">全部日期</option>{days.map(day => <option key={day.id} value={day.id}>Day {day.day} · {day.date.slice(5).replace('-', '/')}</option>)}</select></label>

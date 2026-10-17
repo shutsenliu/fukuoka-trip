@@ -10,6 +10,7 @@ vi.mock('../lib/data', async importOriginal => {
     { id: 'fixture-food', name: '測試小吃', type: 'food', category: '點心', priority: 3, image: '', notes: '', placeIds: ['hoka'] },
     { id: 'fixture-seven', name: '測試超商冰', type: 'food', category: '冰淇淋', priority: 3, image: '', notes: '', placeIds: [], convenienceStore: '7-ELEVEN' },
     { id: 'fixture-lawson', name: '測試超商泡芙', type: 'food', category: '甜點', priority: 3, image: '', notes: '', placeIds: [], convenienceStore: 'Lawson' },
+    { id: 'fixture-drugstore', name: '測試藥妝', type: 'shopping', shoppingGroup: 'drugstore', category: '保養品', priority: 3, image: '', notes: '', placeIds: [] },
     { id: 'fixture-protein', name: '測試乳清', type: 'shopping', category: '乳清蛋白', priority: 3, image: '', notes: '', placeIds: [], comparisonId: 'whey-protein' },
   ];
   return { ...actual, items: fixtures, itemsForStop: (stop: ItineraryStop) => actual.itemsForStop(stop,fixtures) };
@@ -28,7 +29,7 @@ it('filters shopping and food, day/stop and completed status without duplicate b
   fireEvent.click(screen.getByRole('button',{name:'未完成'}));
   expect(screen.queryByText('測試小吃')).toBeNull();
   fireEvent.click(screen.getByRole('button',{name:'重設篩選'}));
-  expect(screen.getAllByRole('checkbox')).toHaveLength(5);
+  expect(screen.getAllByRole('checkbox')).toHaveLength(6);
   expect(screen.queryByRole('button',{name:'✨ 體驗'})).toBeNull();
 });
 
@@ -47,7 +48,7 @@ it('opens convenience goals from an itinerary filter, separates chains and persi
   fireEvent.click(screen.getByRole('button',{name:'未完成'}));
   expect(screen.queryByText('測試超商泡芙')).toBeNull();
   fireEvent.click(screen.getByRole('button',{name:'重設篩選'}));
-  expect(screen.getAllByRole('checkbox')).toHaveLength(5);
+  expect(screen.getAllByRole('checkbox')).toHaveLength(6);
 });
 
 it('places protein next to convenience, clears itinerary scope and removes it from subcategories', () => {
@@ -67,6 +68,23 @@ it('places protein next to convenience, clears itinerary scope and removes it fr
   expect(drugstore.previousElementSibling?.getAttribute('aria-label')).toBe('🥤 乳清');
   fireEvent.click(drugstore);
   expect(drugstore.getAttribute('aria-pressed')).toBe('true');
-  expect(container.querySelectorAll('article')).toHaveLength(0);
-  expect(screen.getByText('藥妝清單還是空白，提供商品圖片或名稱後，就會加入這裡。')).toBeTruthy();
+  expect(container.querySelectorAll('article')).toHaveLength(1);
+  expect(screen.getByText('測試藥妝')).toBeTruthy();
+});
+
+it('keeps drugstore items out of shopping and preserves completion when switching groups', () => {
+  render(<MemoryRouter initialEntries={['/items?type=shopping']}><ChecklistPage days={itinerary}/></MemoryRouter>);
+  expect(screen.getByText('測試購物')).toBeTruthy();
+  expect(screen.queryByText('測試藥妝')).toBeNull();
+  fireEvent.click(screen.getByRole('button',{name:'💊 藥妝'}));
+  expect(screen.getByText('測試藥妝')).toBeTruthy();
+  expect(screen.queryByText('測試購物')).toBeNull();
+  const card = screen.getByRole('article');
+  expect(card.textContent).toContain('藥妝');
+  expect(card.textContent).not.toContain('購物');
+  fireEvent.click(screen.getByRole('checkbox'));
+  fireEvent.click(screen.getByRole('button',{name:'🛍 購物'}));
+  expect(screen.queryByText('測試藥妝')).toBeNull();
+  fireEvent.click(screen.getByRole('button',{name:'💊 藥妝'}));
+  expect((screen.getByRole('checkbox') as HTMLInputElement).checked).toBe(true);
 });
