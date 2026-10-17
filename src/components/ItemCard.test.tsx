@@ -35,13 +35,11 @@ describe('trip goal completion', () => {
   });
 });
 
-it('shows researched drugstore retailers without guessing a branch or navigation', () => {
+it('shows concise drugstore information without purchase channels', () => {
   const item = items.find(item => item.id === 'biore-deep-clay-face-wash')!;
   render(<MemoryRouter><ItemCard item={item}/></MemoryRouter>);
-  const details = screen.getByText('購買通路').closest('details')!;
-  expect(details.open).toBe(false);
-  expect(screen.getByText('松本清／Cocokara Fine')).toBeTruthy();
-  expect(screen.getByText('SUNDRUG（サンドラッグ）')).toBeTruthy();
+  expect(screen.queryByText('購買通路')).toBeNull();
+  expect(screen.queryByText('SUNDRUG（サンドラッグ）')).toBeNull();
   expect(screen.getByText('不需起泡的礦泥洗面乳，清潔黑頭與角栓污垢。')).toBeTruthy();
   expect(screen.queryByRole('link')).toBeNull();
 });

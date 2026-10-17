@@ -14,18 +14,6 @@
       "size": "30mL",
       "notes": "日文：キュレル 潤浸保湿 角層深部バリア美容液。乾燥敏感肌用保濕精華。",
       "placeIds": [],
-      "purchaseOptions": [
-        {
-          "name": "松本清／可可嘉（マツキヨココカラ）",
-          "notes": "官方線上商店有販售此款 30mL；逛藥妝時可找，分店品項與售價依現場為準。",
-          "sourceUrl": "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4901301463937"
-        },
-        {
-          "name": "SUNDRUG（サンドラッグ）",
-          "notes": "官方線上商店有販售同款 30mL；分店品項與售價依現場為準。",
-          "sourceUrl": "https://sundrug-online.com/products/4901301463937"
-        }
-      ],
       "sourceUrls": [
         "https://www.kao-kirei.com/ja/item/kbb/curel/4901301463937/",
         "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4901301463937",
@@ -40,18 +28,6 @@
       "size": "180 錠／瓶",
       "notes": "トランシーノ ホワイトCプレミアム，180 錠裝，第 3 類醫藥品。",
       "placeIds": [],
-      "purchaseOptions": [
-        {
-          "name": "松本清／可可嘉（マツキヨココカラ）",
-          "notes": "官方線上商店有販售 White C PREMIUM 180 錠；分店品項與售價依現場為準。",
-          "sourceUrl": "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987107631978"
-        },
-        {
-          "name": "SUNDRUG（サンドラッグ）",
-          "notes": "官方線上商店有販售同款 180 錠；分店品項與售價依現場為準。",
-          "sourceUrl": "https://sundrug-online.com/products/4987107631978"
-        }
-      ],
       "sourceUrls": [
         "https://www.daiichisankyo-hc.co.jp/site_transino/transino-c/",
         "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987107631978",
@@ -66,18 +42,6 @@
       "size": "270 錠／瓶",
       "notes": "アリナミンEXプラス，270 錠裝，第 3 類醫藥品。",
       "placeIds": [],
-      "purchaseOptions": [
-        {
-          "name": "松本清／可可嘉（マツキヨココカラ）",
-          "notes": "官方線上商店有販售 EX PLUS 270 錠；分店品項與售價依現場為準。",
-          "sourceUrl": "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987123145428"
-        },
-        {
-          "name": "SUNDRUG（サンドラッグ）",
-          "notes": "官方線上商店有販售同款 270 錠；分店品項與售價依現場為準。",
-          "sourceUrl": "https://sundrug-online.com/products/4987123145428"
-        }
-      ],
       "sourceUrls": [
         "https://alinamin.jp/lineup/alinaminexplus.html",
         "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987123145428",
@@ -92,13 +56,6 @@
       "size": "12mL／瓶",
       "notes": "スマイルコンタクトモイスト マイルド，第 3 類醫藥品。",
       "placeIds": [],
-      "purchaseOptions": [
-        {
-          "name": "松本清／可可嘉（マツキヨココカラ）",
-          "notes": "官方線上商店有販售 MOIST マイルド 12mL（綠色溫和型）；分店品項與售價依現場為準。",
-          "sourceUrl": "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4903301382188"
-        }
-      ],
       "sourceUrls": [
         "https://www.lion.co.jp/ja/products/618",
         "https://smile.lion.co.jp/products/smile-contact-moist-mild",

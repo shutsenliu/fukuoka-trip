@@ -20,7 +20,7 @@ export function ProteinComparisonCard({item}: {item: TripItem}) {
       <img className="protein-image" src={`${import.meta.env.BASE_URL}${candidate.image}`} alt={`${candidate.name} 示意插圖`} loading="lazy"/>
       <h4 className="font-semibold">{index+1}. {candidate.name}</h4>
       <p>基準 {candidate.grams}g</p><p className="font-semibold">≤ ¥{number(candidate.targetYen)} 可買</p><p>≤ ¥{number(candidate.bargainYen)} 特別值得</p>
-      <p>口味：{candidate.flavors.join(' → ')}</p><p className="muted">{candidate.nutritionNote}</p><p className="muted">{candidate.availability}</p>
+      <p>口味：{candidate.flavors.join(' → ')}</p><p className="muted">{candidate.nutritionNote}</p>
     </section>)}</div>
     <p className="muted text-sm">AI 辨識插圖，非官方實拍；實際包裝與規格以門市為準。</p>
     <section className="protein-candidate"><h4 className="font-semibold">{comparison.baseline.name}</h4><p>{comparison.baseline.packageLabel} ≤ NT${number(comparison.baseline.priceTwd)}</p><p className="muted">{comparison.baseline.note}</p></section>

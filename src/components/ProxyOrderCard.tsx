@@ -3,9 +3,6 @@ import type { ChangeEvent, FormEvent } from 'react';
 import type { ProxyOrder, ProxyPerson, ProxyProduct, ProxyPurchase } from '../lib/proxyOrders';
 import { purchaseStatus, validAmount } from '../lib/proxyOrders';
 import { prepareProxyPhoto } from '../lib/proxyPhotos';
-import { PurchaseOptions } from './PurchaseOptions';
-import { PlaceInfo } from './PlaceInfo';
-import { placesById } from '../lib/data';
 
 export function ProxyOrderCard({order,person,product,purchase,disabled,onSave,onRemove}: {
   order:ProxyOrder;person:ProxyPerson;product:ProxyProduct;purchase?:ProxyPurchase;disabled:boolean;
@@ -39,14 +36,12 @@ export function ProxyOrderCard({order,person,product,purchase,disabled,onSave,on
     try{await onRemove(order.id);setPhoto(null);setAmount('');setMessage('已清除購買結果。');}catch{setError('清除失敗，請重試。');}finally{setBusy(false);}
   }
   const locked=disabled||busy;
-  const place=product.placeIds[0]?placesById.get(product.placeIds[0]):undefined;
   return <article className="card proxy-order overflow-hidden" aria-label={`${person.name}：${product.name}`}>
     <img className="product-image" src={`${import.meta.env.BASE_URL}${product.image}`} alt={`${product.name} 商品圖片`} loading="lazy" onError={event=>{event.currentTarget.onerror=null;event.currentTarget.src=`${import.meta.env.BASE_URL}items/placeholder.svg`;}}/>
     <div className="p-5 space-y-3">
       <div className="flex flex-wrap gap-2"><span className="tag">幫{person.name}買</span><span className={`tag ${purchaseStatus(purchase)==='已購買'?'proxy-done':''}`}>{purchaseStatus(purchase)}</span></div>
       <h3 className="text-xl font-semibold">{product.name}</h3><p>數量：{order.quantity} 件{product.size?` · ${product.size}`:''}</p>
       {order.notes&&<p className="proxy-request">需求：{order.notes}</p>}
-      <PurchaseOptions options={product.purchaseOptions}/>{!product.purchaseOptions?.length&&place&&<PlaceInfo place={place}/>}
       <form className="proxy-form" onSubmit={submit} aria-label={`${person.name}的${product.name}購買結果`}>
         {photoUrl&&<><button className="button secondary" type="button" aria-expanded={showPhoto} onClick={()=>setShowPhoto(value=>!value)}>{showPhoto?'收起購買照片':'查看購買照片'}</button>{showPhoto&&<img className="proxy-photo" src={photoUrl} alt="購買照片"/>}</>}
         <input ref={camera} className="sr-only" tabIndex={-1} type="file" accept="image/*" capture="environment" aria-label="拍攝購買照片" disabled={locked} onChange={selectPhoto}/>
