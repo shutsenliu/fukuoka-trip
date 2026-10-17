@@ -851,12 +851,13 @@
     "shoppingGroup": "drugstore",
     "category": "保健食品",
     "priority": 3,
-    "image": "items/feat-dreamy-gaba.webp",
-    "imageCaption": "同款商品實拍參考圖。",
-    "notes": "紫色星空、月亮標籤的膠囊款；容量與配方待確認。",
+    "image": "items/feat-dreamy-gaba-package.webp",
+    "imageCaption": "紫色袋裝包裝實拍。",
+    "notes": "Dreamy GABA 膠囊；圖示紫色袋裝包裝，原提供照片為瓶裝。",
     "placeIds": [],
     "sourceUrls": [
-      "https://www.mobile01.com/topicdetail.php?f=405&t=7265112"
+      "https://www.mobile01.com/topicdetail.php?f=405&t=7265112",
+      "https://static.mercdn.net/item/detail/orig/photos/m94295698194_1.jpg?1779687555"
     ]
   },
   {
@@ -898,12 +899,13 @@
     "shoppingGroup": "drugstore",
     "category": "頸部保養",
     "priority": 3,
-    "image": "items/marshique-hydrogel-neck-patch.webp",
-    "imageCaption": "品牌官方使用示意圖。",
+    "image": "items/marshique-hydrogel-neck-patch-package.webp",
+    "imageCaption": "銀色 4 片裝包裝照片。",
     "notes": "WRINKLE REPAIR HYDROGEL PATCH；銀色袋裝、頸部用。",
     "placeIds": [],
     "sourceUrls": [
-      "https://marshique.com/product/detail.html?product_no=202"
+      "https://marshique.com/product/detail.html?product_no=202",
+      "https://noticemestore.com/cdn/shop/files/noticemestore.com_Marshique-WrinkleRepairHydrogelNeckPatch_1.jpg?v=1767971431"
     ],
     "size": "4 片"
   },
