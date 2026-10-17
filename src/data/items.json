@@ -651,5 +651,149 @@
     "sourceUrls": [
       "https://www.senju.co.jp/consumer/alpitattoex/alpha7/"
     ]
+  },
+  {
+    "id": "benza-block-l-premium-dx",
+    "name": "Benza Block L PREMIUM DX 感冒藥",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "藥品",
+    "priority": 3,
+    "image": "items/benza-l-premium-dx.jpg",
+    "imageCaption": "品牌官方商品圖。",
+    "size": "12 錠（カプレット）",
+    "notes": "銀色 L PREMIUM DX 綜合感冒藥；照片中的長錠包裝。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://benza.jp/benzablock-l/premiumdx-c/"
+    ]
+  },
+  {
+    "id": "pelack-t-tablets-a",
+    "name": "第一三共 PELACK T 錠 a",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "藥品",
+    "priority": 3,
+    "image": "items/pelack-t-a.jpg",
+    "imageCaption": "第一三共官方商品圖。",
+    "size": "18 錠",
+    "notes": "ペラックT錠a；喉嚨痛、腫脹用藥，第 3 類醫藥品。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.daiichisankyo-hc.co.jp/products/details/pelack_t_tab/"
+    ]
+  },
+  {
+    "id": "pabron-50-tablets",
+    "name": "大正 PABRON 50 感冒藥",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "藥品",
+    "priority": 3,
+    "image": "items/pabron50.jpg",
+    "imageCaption": "大正製藥官方商品圖。",
+    "size": "48 錠",
+    "notes": "パブロン50錠；紅色包裝、生藥與西藥複方，第 2 類醫藥品。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.catalog-taisho.com/category/02/001/04537/"
+    ]
+  },
+  {
+    "id": "hythiol-c-plus-ex-240",
+    "name": "HYTHIOL-C PLUS EX",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "藥品",
+    "priority": 3,
+    "image": "items/hythiol-c-plus-ex-240.jpg",
+    "imageCaption": "240 錠裝商品圖。",
+    "size": "240 錠",
+    "notes": "ハイチオールCプラスEX；L-半胱胺酸與維他命 C 配方，第 3 類醫藥品。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.ssp.co.jp/product/detail/hcex/"
+    ]
+  },
+  {
+    "id": "vitamin-c-2000",
+    "name": "維他命 C「2000」",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "藥品",
+    "priority": 3,
+    "image": "items/vitamin-c2000.png",
+    "imageCaption": "品牌官方商品圖。",
+    "size": "100 錠",
+    "notes": "ビタミンC「2000」；原タケダ系列黃色包裝，第 3 類醫藥品。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://vc2000.jp/"
+    ]
+  },
+  {
+    "id": "elixir-balancing-mizu-cream",
+    "name": "ELIXIR 水油平衡水凝霜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "保養品",
+    "priority": 3,
+    "image": "items/elixir-balancing-mizu.png",
+    "imageCaption": "資生堂官方商品圖。",
+    "size": "60g",
+    "notes": "ルフレ バランシング みずクリーム；淺藍罐水凝霜，非 A 醇抗皺霜。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.shiseido.co.jp/elixir/reflet/products/mizu-cream/"
+    ]
+  },
+  {
+    "id": "lululun-hydra-eye-filler",
+    "name": "LuLuLun HYDRA EYE FILLER 夜用眼膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "眼周保養",
+    "priority": 3,
+    "image": "items/lululun-hydra-eye-filler.png",
+    "imageCaption": "LuLuLun 官方商品圖。",
+    "size": "12 片入（6 回份）",
+    "notes": "橘色包裝的局部眼周貼片；オーバーナイト夜用款。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://lululun.com/shop/products/LUAF401101"
+    ]
+  },
+  {
+    "id": "kaneka-beautifly-original",
+    "name": "Kaneka BEAUTIFLY 還原型 Q10",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "保健食品",
+    "priority": 3,
+    "image": "items/kaneka-beautifly-original.png",
+    "imageCaption": "Kaneka 官方原版商品圖。",
+    "size": "60 粒（30 日份）",
+    "notes": "還原型輔酶 Q10 與蝦紅素配方；保留照片原版，非 BEAUTIFLY ex。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.kaneka.co.jp/topics/information/2024/in2410011.html"
+    ]
+  },
+  {
+    "id": "clearturn-gomenne-kininaru-mask",
+    "name": "KOSE CLEAR TURN ごめんね素肌 キニナル面膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "面膜",
+    "priority": 3,
+    "image": "items/clearturn-gomenne-kininaru-mask.png",
+    "imageCaption": "KOSE COSMEPORT 官方商品圖。",
+    "size": "7 片入",
+    "notes": "藍色標籤、粉紅「キニナル」字樣；水楊酸與甘草酸二鉀配方，醫藥部外品。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.kosecosmeport.co.jp/clearturn/collaboration/wcsl.html"
+    ]
   }
 ]
