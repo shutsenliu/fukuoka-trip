@@ -941,5 +941,52 @@
       "https://www.fancl.co.jp/healthy/item/5249a/"
     ],
     "size": "120 粒／30 日份"
+  },
+  {
+    "id": "apagard-premio",
+    "name": "APAGARD Premio 美白牙膏",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "口腔清潔",
+    "priority": 3,
+    "image": "items/apagard-premio.webp",
+    "imageCaption": "品牌包裝圖，圖示 105 g 款。",
+    "notes": "アパガード プレミオ；白金包裝的 premium type，容量未指定。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.sangishop.jp/product/apagard_premio"
+    ]
+  },
+  {
+    "id": "lion-brilliant-more-w-peppermint",
+    "name": "LION Brilliant more W 牙膏",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "口腔清潔",
+    "priority": 3,
+    "image": "items/lion-brilliant-more-w-peppermint.webp",
+    "imageCaption": "天然薄荷款包裝照片。",
+    "notes": "ナチュラルペパーミント天然薄荷款；銀白牙膏管、藍色標示。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://oral-care-note.com/brilliant-more-w-guide/"
+    ],
+    "size": "90 g"
+  },
+  {
+    "id": "hamigakido-cool-super-mint",
+    "name": "齒磨堂「涼」PREMIUM 牙膏",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "口腔清潔",
+    "priority": 3,
+    "image": "items/hamigakido-cool-super-mint.webp",
+    "imageCaption": "品牌官方包裝照片。",
+    "notes": "歯磨き堂 薬用フレッシュペースト スーパーミント；綠色強效薄荷款。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://store.naturelab.co.jp/products/4582210598202"
+    ],
+    "size": "60 g"
   }
 ]
