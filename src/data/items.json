@@ -988,5 +988,149 @@
       "https://store.naturelab.co.jp/products/4582210598202"
     ],
     "size": "60 g"
+  },
+  {
+    "id": "rosyrosa-multi-foundation-puff-2",
+    "name": "ROSY ROSA 全粉底適用粉撲",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "彩妝工具",
+    "priority": 3,
+    "image": "items/rosyrosa-multi-foundation-puff-2.webp",
+    "imageCaption": "品牌官方包裝照片。",
+    "size": "2 入",
+    "notes": "マルチファンデパフ 2P；黑色圓形粉撲、白色緞帶款。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.chantilly.co.jp/brand/rosyrosa/products/4901604457077/"
+    ]
+  },
+  {
+    "id": "elixir-day-care-tone-up-pink",
+    "name": "ELIXIR 提亮防曬乳 粉紅款",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "防曬用品",
+    "priority": 3,
+    "image": "items/elixir-day-care-tone-up-pink.webp",
+    "imageCaption": "品牌官方粉紅款商品圖。",
+    "size": "35 g",
+    "notes": "デーケアレボリューション トーンアップ SP+ aa；SPF50+ PA++++。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.shiseido.co.jp/elixir/superieur-white/products/daycarerevolution/"
+    ]
+  },
+  {
+    "id": "lululun-hydra-az-mask",
+    "name": "LuLuLun HYDRA AZ 面膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "面膜",
+    "priority": 3,
+    "image": "items/lululun-hydra-az-mask.webp",
+    "imageCaption": "品牌官方 7 片裝包裝照片。",
+    "size": "7 片",
+    "notes": "HYDRA-AZ-MASK；藍綠色袋裝、壬二酸衍生物配方款。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://lululun.com/shop/products/hydraazs-2410"
+    ]
+  },
+  {
+    "id": "lululun-hydra-v-mask",
+    "name": "LuLuLun HYDRA V 維他命面膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "面膜",
+    "priority": 3,
+    "image": "items/lululun-hydra-v-mask.webp",
+    "imageCaption": "品牌官方 7 片裝包裝照片。",
+    "size": "7 片",
+    "notes": "HYDRA-V-MASK Vitamin；黃色袋裝、7 種維他命配方款。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://lululun.com/shop/products/hydras-2212"
+    ]
+  },
+  {
+    "id": "lululun-pure-everys-mask",
+    "name": "LuLuLun Pure Every’s 面膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "面膜",
+    "priority": 3,
+    "image": "items/lululun-pure-everys-mask.webp",
+    "imageCaption": "品牌系列包裝圖；清單指定右側 7 片袋裝。",
+    "size": "7 片",
+    "notes": "ピュア エブリーズ；粉紅色日常保濕面膜。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://lululun.com/shop/products/puev9fb-2310"
+    ]
+  },
+  {
+    "id": "kobayashi-one-drop-fresh-green",
+    "name": "小林製藥 1滴消臭元 清新綠香",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "生活用品",
+    "priority": 3,
+    "image": "items/kobayashi-one-drop-fresh-green.webp",
+    "imageCaption": "官方現行圖為ウォータリーグリーン；與指定照片的香味名稱不同。",
+    "size": "20 mL",
+    "notes": "照片指定フレッシュグリーン綠色款；滴入馬桶水面的除臭液。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.kobayashi.co.jp/seihin/tsa_1/"
+    ]
+  },
+  {
+    "id": "kobayashi-one-drop-sweet-rose",
+    "name": "小林製藥 1滴消臭元 甜玫瑰香",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "生活用品",
+    "priority": 3,
+    "image": "items/kobayashi-one-drop-sweet-rose.webp",
+    "imageCaption": "品牌官方玫瑰香包裝照片。",
+    "size": "20 mL",
+    "notes": "スウィートローズ；粉紅色包裝的馬桶滴用除臭液。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.kobayashi.co.jp/seihin/tsa_1/"
+    ]
+  },
+  {
+    "id": "curel-moisture-lip-care-cream",
+    "name": "Curél 潤浸保濕護唇膏",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "唇部保養",
+    "priority": 3,
+    "image": "items/curel-moisture-lip-care-cream.webp",
+    "imageCaption": "品牌官方包裝照片。",
+    "size": "4.2 g",
+    "notes": "リップケアクリーム；無色、無香料的白色護唇膏。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.kao-kirei.com/ja/official/curel/products/lipcare/"
+    ]
+  },
+  {
+    "id": "gyutto-corset-hair-mask",
+    "name": "ROHTO Gyutto Corset 髮膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "護髮用品",
+    "priority": 3,
+    "image": "items/gyutto-corset-hair-mask.webp",
+    "imageCaption": "品牌官方商品包裝圖。",
+    "size": "200 g",
+    "notes": "ギュット コルセットヘアマスク；綠金色軟管、沖洗式護髮。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://jp.rohto.com/gyutto/hairmask/"
+    ]
   }
 ]
