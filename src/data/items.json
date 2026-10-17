@@ -409,5 +409,284 @@
       "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4901301464057",
       "https://sundrug-online.com/products/4901301464057"
     ]
+  },
+  {
+    "id": "kobayashi-chumecure",
+    "name": "小林製藥 チュメキュア 指緣修護藥膏",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "手足護理",
+    "priority": 3,
+    "image": "items/chumecure.jpg",
+    "imageCaption": "SUNDRUG 商品圖。",
+    "notes": "針對指甲周圍乾燥、硬化與皸裂的藥膏，第 3 類醫藥品。",
+    "placeIds": [],
+    "purchaseOptions": [
+      {
+        "name": "松本清／可可嘉（マツキヨココカラ）",
+        "sourceUrl": "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987072094693",
+        "notes": "官方線上商店列有5g；分店品項與售價依現場為準。"
+      },
+      {
+        "name": "SUNDRUG（サンドラッグ）",
+        "sourceUrl": "https://sundrug-online.com/products/4987072094693",
+        "notes": "官方線上商店列有同款5g；分店品項與售價依現場為準。"
+      }
+    ],
+    "sourceUrls": [
+      "https://www.kobayashi.co.jp/seihin/chmc/",
+      "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987072094693",
+      "https://sundrug-online.com/products/4987072094693"
+    ],
+    "size": "5g"
+  },
+  {
+    "id": "schick-quattro-lite-women",
+    "name": "Schick Quattro Lite 女性除毛刀",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "除毛用品",
+    "priority": 3,
+    "image": "items/quattro-lite.jpg",
+    "imageCaption": "SUNDRUG 商品圖。",
+    "notes": "粉紅包裝、四刀片拋棄式除毛刀，木瓜精華與珍珠潤滑條款。",
+    "placeIds": [],
+    "purchaseOptions": [
+      {
+        "name": "松本清／可可嘉（マツキヨココカラ）",
+        "sourceUrl": "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4891228314101",
+        "notes": "官方線上商店列有2 支入；分店品項與售價依現場為準。"
+      },
+      {
+        "name": "SUNDRUG（サンドラッグ）",
+        "sourceUrl": "https://sundrug-online.com/products/4891228314101",
+        "notes": "官方線上商店列有同款2 支入；分店品項與售價依現場為準。"
+      }
+    ],
+    "sourceUrls": [
+      "https://schick.jp/products/swd001",
+      "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4891228314101",
+      "https://sundrug-online.com/products/4891228314101"
+    ],
+    "size": "2 支入"
+  },
+  {
+    "id": "elixir-retinol-power-wrinkle-cream",
+    "name": "ELIXIR Retinol Power 抗皺霜（照片原版）",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "保養品",
+    "priority": 3,
+    "image": "items/elixir-original.jpg",
+    "imageCaption": "@cosme 商品圖：照片原版，非現行 ba 版。",
+    "notes": "純粹 A 醇配方的局部抗皺霜；照片原版，容量未指定。",
+    "placeIds": [],
+    "purchaseOptions": [
+      {
+        "name": "SUNDRUG（現行 ba 版資訊）",
+        "sourceUrl": "https://sundrug-online.com/products/4909978214906",
+        "notes": "目前官網列新版 ba S 15g、L 22g；照片原版通路供應待確認，尚未替換成 ba。"
+      }
+    ],
+    "sourceUrls": [
+      "https://www.cosme.net/variations/1152697/",
+      "https://www.shiseido.co.jp/elixir/promotion/wrinklecream/",
+      "https://sundrug-online.com/products/4909978214906"
+    ]
+  },
+  {
+    "id": "pureal-caffeine-lift-mask",
+    "name": "Pureal 咖啡因緊緻面膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "面膜",
+    "priority": 3,
+    "image": "items/pureal-caffeine.jpg",
+    "imageCaption": "@cosme SHOPPING 商品圖。",
+    "notes": "棕色包裝 CAFFEINE LIFT；咖啡因與 PDRN 配方的保濕面膜。",
+    "placeIds": [],
+    "purchaseOptions": [
+      {
+        "name": "SEIMS（ドラッグセイムス）",
+        "sourceUrl": "https://www.seims.co.jp/shop/g/g4970458722761/",
+        "notes": "官方線上商店列有咖啡因款 7 片入；分店品項與售價依現場為準。"
+      },
+      {
+        "name": "@cosme STORE／SHOPPING",
+        "sourceUrl": "https://www.cosme.com/products/detail.php?product_id=380331",
+        "notes": "官方通販列有此款 7 片入；實體店品項依現場為準。"
+      }
+    ],
+    "sourceUrls": [
+      "https://www.purealcosme.com/clmask/",
+      "https://www.seims.co.jp/shop/g/g4970458722761/",
+      "https://www.cosme.com/products/detail.php?product_id=380331"
+    ],
+    "size": "7 片入"
+  },
+  {
+    "id": "pureal-rejuone-lipo-repair-mask",
+    "name": "Pureal PDRN REJUONE LIPO REPAIR 面膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "面膜",
+    "priority": 3,
+    "image": "items/pureal-rejuon.jpg",
+    "imageCaption": "@cosme SHOPPING 商品圖。",
+    "notes": "粉紅包裝；PDRN、穀胱甘肽與水解膠原蛋白配方的保濕面膜。",
+    "placeIds": [],
+    "purchaseOptions": [
+      {
+        "name": "KOKUMIN（コクミンドラッグ）",
+        "sourceUrl": "https://e-shop.kokumin.co.jp/view/item/000000047018?category_page_id=all_items",
+        "notes": "官方線上商店列有此款 7 片入；分店品項與售價依現場為準。"
+      },
+      {
+        "name": "@cosme STORE／SHOPPING",
+        "sourceUrl": "https://www.cosme.com/products/detail.php?product_id=403480",
+        "notes": "官方通販列有此款 7 片入；實體店品項依現場為準。"
+      }
+    ],
+    "sourceUrls": [
+      "https://www.purealcosme.com/rlrmask/",
+      "https://e-shop.kokumin.co.jp/view/item/000000047018?category_page_id=all_items",
+      "https://www.cosme.com/products/detail.php?product_id=403480"
+    ],
+    "size": "7 片入"
+  },
+  {
+    "id": "pureal-white-rice-mask",
+    "name": "Pureal 白米保濕面膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "面膜",
+    "priority": 3,
+    "image": "items/pureal-rice.png",
+    "imageCaption": "Pureal 官方商品圖。",
+    "notes": "米色包裝 WHITE RICE；米來源保濕成分配方。",
+    "placeIds": [],
+    "purchaseOptions": [
+      {
+        "name": "KOKUMIN（コクミンドラッグ）",
+        "sourceUrl": "https://e-shop.kokumin.co.jp/view/item/000000047019?category_page_id=ct1288",
+        "notes": "官方線上商店列有此款 7 片入；分店品項與售價依現場為準。"
+      },
+      {
+        "name": "@cosme STORE／SHOPPING",
+        "sourceUrl": "https://www.cosme.com/products/detail.php?product_id=380333",
+        "notes": "官方通販列有此款 7 片入；實體店品項依現場為準。"
+      }
+    ],
+    "sourceUrls": [
+      "https://www.purealcosme.com/wrmask/",
+      "https://e-shop.kokumin.co.jp/view/item/000000047019?category_page_id=ct1288",
+      "https://www.cosme.com/products/detail.php?product_id=380333"
+    ],
+    "size": "7 片入"
+  },
+  {
+    "id": "unlabel-v-moist-uv-lip",
+    "name": "unlabel LAB 維他命 C 保濕防曬護唇膏",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "護唇用品",
+    "priority": 3,
+    "image": "items/unlabel-lip.png",
+    "imageCaption": "unlabel 官方商品圖。",
+    "notes": "V MOIST 透明無色款，SPF24 PA++；黃色瓶蓋。",
+    "placeIds": [],
+    "purchaseOptions": [
+      {
+        "name": "松本清／可可嘉（マツキヨココカラ）",
+        "sourceUrl": "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4573350882610",
+        "notes": "官方線上商店列有 V モイスト UV 款 4g；分店品項與售價依現場為準。"
+      }
+    ],
+    "sourceUrls": [
+      "https://unlabel.tokyo/lab/skin_care/lip_cream/",
+      "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4573350882610"
+    ],
+    "size": "4g"
+  },
+  {
+    "id": "jintan-bifina-s",
+    "name": "森下仁丹 BIFINA S 益生菌",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "保健食品",
+    "priority": 3,
+    "image": "items/bifina-s.jpg",
+    "imageCaption": "松本清商品圖：日本版 S，與照片中文包裝不同；包數未指定。",
+    "notes": "ビフィーナS（スーパー）顆粒型；照片為中文包裝，日本版包裝不同。",
+    "placeIds": [],
+    "purchaseOptions": [
+      {
+        "name": "松本清／可可嘉（マツキヨココカラ）",
+        "sourceUrl": "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987227028276",
+        "notes": "官網列日本版 S（スーパー）30 包：比菲德氏菌 50 億／乳酸菌 10 億；照片中文包裝未確認日本販售。"
+      }
+    ],
+    "sourceUrls": [
+      "https://www.181109.com/shop/g/gH85101/",
+      "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987227028276"
+    ]
+  },
+  {
+    "id": "the-answer-complete-lamellar-milk",
+    "name": "THE ANSWER 免沖洗護髮乳",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "護髮用品",
+    "priority": 3,
+    "image": "items/answer-milk.jpg",
+    "imageCaption": "SUNDRUG 商品圖。",
+    "notes": "COMPLETE LAMELLAR MILK；洗後使用的免沖洗護髮乳。",
+    "placeIds": [],
+    "purchaseOptions": [
+      {
+        "name": "松本清／可可嘉（マツキヨココカラ）",
+        "sourceUrl": "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4901301459909",
+        "notes": "官方線上商店列有70g；分店品項與售價依現場為準。"
+      },
+      {
+        "name": "SUNDRUG（サンドラッグ）",
+        "sourceUrl": "https://sundrug-online.com/products/4901301459909",
+        "notes": "官方線上商店列有同款70g；分店品項與售價依現場為準。"
+      }
+    ],
+    "sourceUrls": [
+      "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4901301459909",
+      "https://sundrug-online.com/products/4901301459909"
+    ],
+    "size": "70g"
+  },
+  {
+    "id": "the-answer-color-repair-treatment",
+    "name": "THE ANSWER 染後修護護髮素",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "護髮用品",
+    "priority": 3,
+    "image": "items/answer-color.jpg",
+    "imageCaption": "SUNDRUG 商品圖。",
+    "notes": "綠色標記 EX REPAIR／FOR COLOR DAMAGE；需沖洗的染後修護款。",
+    "placeIds": [],
+    "purchaseOptions": [
+      {
+        "name": "松本清／可可嘉（マツキヨココカラ）",
+        "sourceUrl": "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4901301462022",
+        "notes": "官方線上商店列有220g；分店品項與售價依現場為準。"
+      },
+      {
+        "name": "SUNDRUG（サンドラッグ）",
+        "sourceUrl": "https://sundrug-online.com/products/4901301462022",
+        "notes": "官方線上商店列有同款220g；分店品項與售價依現場為準。"
+      }
+    ],
+    "sourceUrls": [
+      "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4901301462022",
+      "https://sundrug-online.com/products/4901301462022"
+    ],
+    "size": "220g"
   }
 ]
