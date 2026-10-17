@@ -571,5 +571,85 @@
       "https://sundrug-online.com/products/4901301462022"
     ],
     "size": "220g"
+  },
+  {
+    "id": "quality1st-eye-super-black-vcr",
+    "name": "QUALITY 1st DERMA LASER 黑色 VCR 眼膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "眼周保養",
+    "priority": 3,
+    "image": "items/quality1st-eye-super-black-vcr.jpg",
+    "imageCaption": "@cosme 商品圖，外包裝貼紙可能不同。",
+    "size": "10 片入（5 回份）",
+    "notes": "黑金 SUPER BLACK VCR 夜用眼周面膜，維他命 C、A 醇與穀胱甘肽配方。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.cosme.com/products/detail.php?product_id=402294"
+    ]
+  },
+  {
+    "id": "mentholatum-soft-skin-cream-u",
+    "name": "曼秀雷敦 柔膚修護乳霜 U",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "手足護理",
+    "priority": 3,
+    "image": "items/mentholatum-soft-145.jpg",
+    "imageCaption": "樂敦官方商品圖。",
+    "size": "145g",
+    "notes": "やわらか素肌クリームU；尿素 20% 配方，手部與腳跟角質護理用，第 3 類醫藥品。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://jp.rohto.com/yawaraka/cream/"
+    ]
+  },
+  {
+    "id": "coenrich-q10-night-renew",
+    "name": "CoenRich Q10 夜用修護護手霜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "手部保養",
+    "priority": 3,
+    "image": "items/coenrich-q10-night.png",
+    "imageCaption": "KOSE COSMEPORT 官方商品圖。",
+    "size": "80g",
+    "notes": "金色紫標 NIGHT RENEW MOIST REPAIR 夜用款，果香花香。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.kosecosmeport.co.jp/coenrich/nightrenew.html"
+    ]
+  },
+  {
+    "id": "rohto-alguard-clearblock-z",
+    "name": "樂敦 ALGUARD Clear Block Z 抗過敏眼藥水",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "眼部用品",
+    "priority": 3,
+    "image": "items/rohto-alguard-clearblock-z.jpg",
+    "imageCaption": "樂敦官方商品圖。",
+    "size": "13mL",
+    "notes": "ロート アルガード クリアブロックZ；過敏性眼癢用，第 2 類醫藥品。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://jp.rohto.com/rohto-alguard/eyedrop-clearblock-z/"
+    ]
+  },
+  {
+    "id": "mytear-alpitat-ex-alpha7",
+    "name": "Mytear Alpitat EXα7 抗過敏眼藥水",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "眼部用品",
+    "priority": 3,
+    "image": "items/mytear-alpitat-ex-alpha7.png",
+    "imageCaption": "千壽製藥官方商品圖。",
+    "size": "15mL",
+    "notes": "マイティア アルピタットEXα7；清涼型（クール），第 2 類醫藥品。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.senju.co.jp/consumer/alpitattoex/alpha7/"
+    ]
   }
 ]
