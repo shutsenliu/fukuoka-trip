@@ -1266,5 +1266,71 @@
       "https://dfree.fukuoka-airport.jp/about.php"
     ],
     "size": "6 片（照片款）"
+  },
+  {
+    "id": "chaoriya-gran-tea-crunch",
+    "name": "CHAORI-YA 茶巧克力脆餅（抹茶／焙茶）",
+    "type": "shopping",
+    "category": "伴手禮",
+    "priority": 3,
+    "image": "items/chaoriya-gran-tea-crunch.webp",
+    "imageCaption": "品牌官方綜合盒包裝照片。",
+    "size": "6 枚／12 枚綜合（照片款）",
+    "notes": "グラン抹茶／グランアソート。官網列福岡國際線 10 月限定出店；12 月販售尚未確認，到機場先詢問。",
+    "placeIds": [
+      "fukuoka-international-duty-free"
+    ],
+    "sourceUrls": [
+      "https://chaoriya.jp/"
+    ]
+  },
+  {
+    "id": "jiichiro-pudding",
+    "name": "治一郎 布丁",
+    "type": "food",
+    "category": "布丁",
+    "priority": 3,
+    "image": "items/jiichiro-pudding.webp",
+    "imageCaption": "品牌官方商品照片。",
+    "notes": "治一郎のプリン；Day 1 博多 DEITOS いっぴん通り順路找。需冷藏，適合在當地吃，不當常溫伴手禮攜帶。",
+    "placeIds": [
+      "jiichiro-hakata"
+    ],
+    "sourceUrls": [
+      "https://jiichiro.com/products/3245/",
+      "https://jiichiro.com/shop/"
+    ]
+  },
+  {
+    "id": "morinaga-bifidus-bentsu-yogurt",
+    "name": "森永 Bifidus「便通改善」優格（一般／零脂肪）",
+    "type": "food",
+    "category": "冷藏優格",
+    "priority": 3,
+    "image": "items/morinaga-bifidus-bentsu-yogurt.webp",
+    "imageCaption": "森永官方零脂肪款包裝照片。",
+    "size": "100 g",
+    "notes": "ビヒダス ヨーグルト 便通改善；照片有一般與脂肪ゼロ兩款。路過超商／超市冷藏區再找，分店供應未確認。",
+    "placeIds": [],
+    "convenienceStore": "any",
+    "sourceUrls": [
+      "https://www.morinagamilk.co.jp/products/yoghurt/bentsu/7721.html",
+      "https://www.morinagamilk.co.jp/products/yoghurt/bifidus_bentsu_zerofat/7788.html"
+    ]
+  },
+  {
+    "id": "oikos-four-mixed-berries",
+    "name": "Oikos 四種綜合莓果高蛋白優格",
+    "type": "food",
+    "category": "冷藏優格",
+    "priority": 3,
+    "image": "items/oikos-four-mixed-berries.webp",
+    "imageCaption": "Danone 官方四種綜合莓果款包裝照片。",
+    "notes": "4種のミックスベリー；指定季節限定口味。路過超商／超市冷藏區再找，12 月供應待確認，不以其他口味替代。",
+    "placeIds": [],
+    "convenienceStore": "any",
+    "sourceUrls": [
+      "https://www.danone.co.jp/news/20260114-2/"
+    ]
   }
 ]

@@ -36,3 +36,5 @@ This is a static travel companion with itinerary, places, and shopping/food goal
 - Do not display priority badges on goal cards. The bottom navigation must have an opaque full-width background extending to the viewport bottom, including safe-area padding, so page content cannot show underneath it.
 
 - Keep drugstore goals with the same category adjacent in items.json; merge synonymous category labels. Do not add category filters or extra controls for this grouping. Preserve IDs and the relative order of non-drugstore goals.
+
+- Convenience goals without a user-specified chain use convenienceStore: "any" and display 超商／超市; do not assign an invented chain or branch. Keep them independent from itinerary stops.
