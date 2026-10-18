@@ -1148,5 +1148,20 @@
     "sourceUrls": [
       "https://www.dhc.co.jp/goods/40532.html"
     ]
+  },
+  {
+    "id": "dhc-blueberry-extract",
+    "name": "DHC 藍莓萃取膠囊",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "保健食品",
+    "priority": 3,
+    "image": "items/dhc-blueberry-extract.webp",
+    "imageCaption": "品牌官方包裝照片，圖示 30 日份。",
+    "notes": "ブルーベリーエキス一般版；藍莓（歐洲越橘）萃取軟膠囊，容量未指定。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.dhc.co.jp/goods/2161.html"
+    ]
   }
 ]
