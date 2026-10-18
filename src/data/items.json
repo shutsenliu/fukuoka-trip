@@ -1163,5 +1163,20 @@
     "sourceUrls": [
       "https://www.dhc.co.jp/goods/2161.html"
     ]
+  },
+  {
+    "id": "dhc-sustained-vitamin-c",
+    "name": "DHC 持續型維他命 C",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "保健食品",
+    "priority": 3,
+    "image": "items/dhc-sustained-vitamin-c.webp",
+    "imageCaption": "品牌官方包裝照片，圖示 30 日份。",
+    "notes": "持続型ビタミンC；緩釋型維他命 C，容量未指定。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.dhc.co.jp/goods/32738.html"
+    ]
   }
 ]
