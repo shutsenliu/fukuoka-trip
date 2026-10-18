@@ -399,47 +399,11 @@
     ]
   },
   {
-    "id": "kobayashi-chumecure",
-    "name": "小林製藥 チュメキュア 指緣修護藥膏",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "手足護理",
-    "priority": 3,
-    "image": "items/chumecure.jpg",
-    "imageCaption": "SUNDRUG 商品圖。",
-    "notes": "針對指甲周圍乾燥、硬化與皸裂的藥膏，第 3 類醫藥品。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://www.kobayashi.co.jp/seihin/chmc/",
-      "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987072094693",
-      "https://sundrug-online.com/products/4987072094693"
-    ],
-    "size": "5g"
-  },
-  {
-    "id": "schick-quattro-lite-women",
-    "name": "Schick Quattro Lite 女性除毛刀",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "除毛用品",
-    "priority": 3,
-    "image": "items/quattro-lite.jpg",
-    "imageCaption": "SUNDRUG 商品圖。",
-    "notes": "粉紅包裝、四刀片拋棄式除毛刀，木瓜精華與珍珠潤滑條款。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://schick.jp/products/swd001",
-      "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4891228314101",
-      "https://sundrug-online.com/products/4891228314101"
-    ],
-    "size": "2 支入"
-  },
-  {
     "id": "elixir-retinol-power-wrinkle-cream",
     "name": "ELIXIR Retinol Power 抗皺霜（照片原版）",
     "type": "shopping",
     "shoppingGroup": "drugstore",
-    "category": "保養品",
+    "category": "臉部保養",
     "priority": 3,
     "image": "items/elixir-original.jpg",
     "imageCaption": "@cosme 商品圖：照片原版，非現行 ba 版。",
@@ -449,6 +413,54 @@
       "https://www.cosme.net/variations/1152697/",
       "https://www.shiseido.co.jp/elixir/promotion/wrinklecream/",
       "https://sundrug-online.com/products/4909978214906"
+    ]
+  },
+  {
+    "id": "elixir-balancing-mizu-cream",
+    "name": "ELIXIR 水油平衡水凝霜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "臉部保養",
+    "priority": 3,
+    "image": "items/elixir-balancing-mizu.png",
+    "imageCaption": "資生堂官方商品圖。",
+    "size": "60g",
+    "notes": "ルフレ バランシング みずクリーム；淺藍罐水凝霜，非 A 醇抗皺霜。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.shiseido.co.jp/elixir/reflet/products/mizu-cream/"
+    ]
+  },
+  {
+    "id": "mqure-derma-pd-serum",
+    "name": "MQURE derma PDRN 臉部精華液",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "臉部保養",
+    "priority": 3,
+    "image": "items/mqure-derma-pd-serum.webp",
+    "imageCaption": "系列商品圖，圖示 PD セラム 1。",
+    "notes": "PD セラム系列，款式未指定；另售添加精華不列入。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.fashionsnap.com/article/2026-01-30/mqure-dermax-launch/"
+    ],
+    "size": "35 mL"
+  },
+  {
+    "id": "elixir-day-care-tone-up-pink",
+    "name": "ELIXIR 提亮防曬乳 粉紅款",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "防曬用品",
+    "priority": 3,
+    "image": "items/elixir-day-care-tone-up-pink.webp",
+    "imageCaption": "品牌官方粉紅款商品圖。",
+    "size": "35 g",
+    "notes": "デーケアレボリューション トーンアップ SP+ aa；SPF50+ PA++++。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.shiseido.co.jp/elixir/superieur-white/products/daycarerevolution/"
     ]
   },
   {
@@ -506,11 +518,172 @@
     "size": "7 片入"
   },
   {
+    "id": "clearturn-gomenne-kininaru-mask",
+    "name": "KOSE CLEAR TURN ごめんね素肌 キニナル面膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "面膜",
+    "priority": 3,
+    "image": "items/clearturn-gomenne-kininaru-mask.png",
+    "imageCaption": "KOSE COSMEPORT 官方商品圖。",
+    "size": "7 片入",
+    "notes": "藍色標籤、粉紅「キニナル」字樣；水楊酸與甘草酸二鉀配方，醫藥部外品。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.kosecosmeport.co.jp/clearturn/collaboration/wcsl.html"
+    ]
+  },
+  {
+    "id": "quality1st-super-black-face-mask",
+    "name": "QUALITY 1st DERMA LASER SUPER BLACK 面膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "面膜",
+    "priority": 3,
+    "image": "items/quality1st-super-black-face-mask.webp",
+    "imageCaption": "品牌官方商品圖。",
+    "notes": "黑金包裝的全臉面膜；標示 VC100 與 10% 菸鹼醯胺。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://q1st.jp/shop/products/QF00906"
+    ],
+    "size": "7 片"
+  },
+  {
+    "id": "lululun-hydra-ex-mask",
+    "name": "LuLuLun HYDRA EX 外泌體面膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "面膜",
+    "priority": 3,
+    "image": "items/lululun-hydra-ex-mask.webp",
+    "imageCaption": "品牌官方商品圖。",
+    "notes": "HYDRA-EX-MASK Exosome；紫色袋裝全臉面膜。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://lululun.com/shop/products/hydraexs-2310"
+    ],
+    "size": "7 片"
+  },
+  {
+    "id": "lululun-hydra-az-mask",
+    "name": "LuLuLun HYDRA AZ 面膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "面膜",
+    "priority": 3,
+    "image": "items/lululun-hydra-az-mask.webp",
+    "imageCaption": "品牌官方 7 片裝包裝照片。",
+    "size": "7 片",
+    "notes": "HYDRA-AZ-MASK；藍綠色袋裝、壬二酸衍生物配方款。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://lululun.com/shop/products/hydraazs-2410"
+    ]
+  },
+  {
+    "id": "lululun-hydra-v-mask",
+    "name": "LuLuLun HYDRA V 維他命面膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "面膜",
+    "priority": 3,
+    "image": "items/lululun-hydra-v-mask.webp",
+    "imageCaption": "品牌官方 7 片裝包裝照片。",
+    "size": "7 片",
+    "notes": "HYDRA-V-MASK Vitamin；黃色袋裝、7 種維他命配方款。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://lululun.com/shop/products/hydras-2212"
+    ]
+  },
+  {
+    "id": "lululun-pure-everys-mask",
+    "name": "LuLuLun Pure Every’s 面膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "面膜",
+    "priority": 3,
+    "image": "items/lululun-pure-everys-mask.webp",
+    "imageCaption": "品牌系列包裝圖；清單指定右側 7 片袋裝。",
+    "size": "7 片",
+    "notes": "ピュア エブリーズ；粉紅色日常保濕面膜。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://lululun.com/shop/products/puev9fb-2310"
+    ]
+  },
+  {
+    "id": "quality1st-super-nmn100-mask",
+    "name": "QUALITY 1st DERMA LASER NMN100 面膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "面膜",
+    "priority": 3,
+    "image": "items/quality1st-super-nmn100-mask.webp",
+    "imageCaption": "品牌官方 7 片裝包裝照片。",
+    "size": "7 片",
+    "notes": "スーパーNMN100；淡粉色包裝、NMN＋菸鹼醯胺配方。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://q1st.jp/shop/products/QF00507"
+    ]
+  },
+  {
+    "id": "quality1st-eye-super-black-vcr",
+    "name": "QUALITY 1st DERMA LASER 黑色 VCR 眼膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "眼周保養",
+    "priority": 3,
+    "image": "items/quality1st-eye-super-black-vcr.jpg",
+    "imageCaption": "@cosme 商品圖，外包裝貼紙可能不同。",
+    "size": "10 片入（5 回份）",
+    "notes": "黑金 SUPER BLACK VCR 夜用眼周面膜，維他命 C、A 醇與穀胱甘肽配方。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.cosme.com/products/detail.php?product_id=402294"
+    ]
+  },
+  {
+    "id": "lululun-hydra-eye-filler",
+    "name": "LuLuLun HYDRA EYE FILLER 夜用眼膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "眼周保養",
+    "priority": 3,
+    "image": "items/lululun-hydra-eye-filler.png",
+    "imageCaption": "LuLuLun 官方商品圖。",
+    "size": "12 片入（6 回份）",
+    "notes": "橘色包裝的局部眼周貼片；オーバーナイト夜用款。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://lululun.com/shop/products/LUAF401101"
+    ]
+  },
+  {
+    "id": "marshique-hydrogel-neck-patch",
+    "name": "MARSHIQUE 水凝膠頸膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "頸部保養",
+    "priority": 3,
+    "image": "items/marshique-hydrogel-neck-patch-package.webp",
+    "imageCaption": "銀色 4 片裝包裝照片。",
+    "notes": "WRINKLE REPAIR HYDROGEL PATCH；銀色袋裝、頸部用。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://marshique.com/product/detail.html?product_no=202",
+      "https://noticemestore.com/cdn/shop/files/noticemestore.com_Marshique-WrinkleRepairHydrogelNeckPatch_1.jpg?v=1767971431"
+    ],
+    "size": "4 片"
+  },
+  {
     "id": "unlabel-v-moist-uv-lip",
     "name": "unlabel LAB 維他命 C 保濕防曬護唇膏",
     "type": "shopping",
     "shoppingGroup": "drugstore",
-    "category": "護唇用品",
+    "category": "唇部保養",
     "priority": 3,
     "image": "items/unlabel-lip.png",
     "imageCaption": "unlabel 官方商品圖。",
@@ -523,19 +696,19 @@
     "size": "4g"
   },
   {
-    "id": "jintan-bifina-s",
-    "name": "森下仁丹 BIFINA S 益生菌",
+    "id": "curel-moisture-lip-care-cream",
+    "name": "Curél 潤浸保濕護唇膏",
     "type": "shopping",
     "shoppingGroup": "drugstore",
-    "category": "保健食品",
+    "category": "唇部保養",
     "priority": 3,
-    "image": "items/bifina-s.jpg",
-    "imageCaption": "松本清商品圖：日本版 S，與照片中文包裝不同；包數未指定。",
-    "notes": "ビフィーナS（スーパー）顆粒型；照片為中文包裝，日本版包裝不同。",
+    "image": "items/curel-moisture-lip-care-cream.webp",
+    "imageCaption": "品牌官方包裝照片。",
+    "size": "4.2 g",
+    "notes": "リップケアクリーム；無色、無香料的白色護唇膏。",
     "placeIds": [],
     "sourceUrls": [
-      "https://www.181109.com/shop/g/gH85101/",
-      "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987227028276"
+      "https://www.kao-kirei.com/ja/official/curel/products/lipcare/"
     ]
   },
   {
@@ -573,20 +746,71 @@
     "size": "220g"
   },
   {
-    "id": "quality1st-eye-super-black-vcr",
-    "name": "QUALITY 1st DERMA LASER 黑色 VCR 眼膜",
+    "id": "mqure-hydrogen-treatment",
+    "name": "MQURE 水素護髮療程",
     "type": "shopping",
     "shoppingGroup": "drugstore",
-    "category": "眼周保養",
+    "category": "護髮用品",
     "priority": 3,
-    "image": "items/quality1st-eye-super-black-vcr.jpg",
-    "imageCaption": "@cosme 商品圖，外包裝貼紙可能不同。",
-    "size": "10 片入（5 回份）",
-    "notes": "黑金 SUPER BLACK VCR 夜用眼周面膜，維他命 C、A 醇與穀胱甘肽配方。",
+    "image": "items/mqure-hydrogen-treatment.webp",
+    "imageCaption": "品牌商品圖。",
+    "notes": "水素トリートメント；銀色盒裝、4 次用的沖洗式護髮。",
     "placeIds": [],
     "sourceUrls": [
-      "https://www.cosme.com/products/detail.php?product_id=402294"
+      "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4580632123248"
+    ],
+    "size": "13 g × 4 包"
+  },
+  {
+    "id": "rishiri-color-treatment-light-brown",
+    "name": "利尻昆布 白髮染色護髮霜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "護髮用品",
+    "priority": 3,
+    "image": "items/rishiri-color-treatment-light-brown.webp",
+    "imageCaption": "系列包裝參考圖為深棕色；清單指定淺棕色。",
+    "notes": "白髪用ヘアカラートリートメント；指定ライトブラウン淺棕色。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.sastty.com/shop/pages/hct_s_c48.aspx"
+    ],
+    "size": "200 g",
+    "color": "淺棕色（ライトブラウン）"
+  },
+  {
+    "id": "gyutto-corset-hair-mask",
+    "name": "ROHTO Gyutto Corset 髮膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "護髮用品",
+    "priority": 3,
+    "image": "items/gyutto-corset-hair-mask.webp",
+    "imageCaption": "品牌官方商品包裝圖。",
+    "size": "200 g",
+    "notes": "ギュット コルセットヘアマスク；綠金色軟管、沖洗式護髮。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://jp.rohto.com/gyutto/hairmask/"
     ]
+  },
+  {
+    "id": "kobayashi-chumecure",
+    "name": "小林製藥 チュメキュア 指緣修護藥膏",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "手足護理",
+    "priority": 3,
+    "image": "items/chumecure.jpg",
+    "imageCaption": "SUNDRUG 商品圖。",
+    "notes": "針對指甲周圍乾燥、硬化與皸裂的藥膏，第 3 類醫藥品。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.kobayashi.co.jp/seihin/chmc/",
+      "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987072094693",
+      "https://sundrug-online.com/products/4987072094693"
+    ],
+    "size": "5g"
   },
   {
     "id": "mentholatum-soft-skin-cream-u",
@@ -609,7 +833,7 @@
     "name": "CoenRich Q10 夜用修護護手霜",
     "type": "shopping",
     "shoppingGroup": "drugstore",
-    "category": "手部保養",
+    "category": "手足護理",
     "priority": 3,
     "image": "items/coenrich-q10-night.png",
     "imageCaption": "KOSE COSMEPORT 官方商品圖。",
@@ -621,35 +845,132 @@
     ]
   },
   {
-    "id": "rohto-alguard-clearblock-z",
-    "name": "樂敦 ALGUARD Clear Block Z 抗過敏眼藥水",
+    "id": "schick-quattro-lite-women",
+    "name": "Schick Quattro Lite 女性除毛刀",
     "type": "shopping",
     "shoppingGroup": "drugstore",
-    "category": "眼部用品",
+    "category": "除毛用品",
     "priority": 3,
-    "image": "items/rohto-alguard-clearblock-z.jpg",
-    "imageCaption": "樂敦官方商品圖。",
-    "size": "13mL",
-    "notes": "ロート アルガード クリアブロックZ；過敏性眼癢用，第 2 類醫藥品。",
+    "image": "items/quattro-lite.jpg",
+    "imageCaption": "SUNDRUG 商品圖。",
+    "notes": "粉紅包裝、四刀片拋棄式除毛刀，木瓜精華與珍珠潤滑條款。",
     "placeIds": [],
     "sourceUrls": [
-      "https://jp.rohto.com/rohto-alguard/eyedrop-clearblock-z/"
+      "https://schick.jp/products/swd001",
+      "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4891228314101",
+      "https://sundrug-online.com/products/4891228314101"
+    ],
+    "size": "2 支入"
+  },
+  {
+    "id": "rosyrosa-multi-foundation-puff-2",
+    "name": "ROSY ROSA 全粉底適用粉撲",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "彩妝工具",
+    "priority": 3,
+    "image": "items/rosyrosa-multi-foundation-puff-2.webp",
+    "imageCaption": "品牌官方包裝照片。",
+    "size": "2 入",
+    "notes": "マルチファンデパフ 2P；黑色圓形粉撲、白色緞帶款。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.chantilly.co.jp/brand/rosyrosa/products/4901604457077/"
     ]
   },
   {
-    "id": "mytear-alpitat-ex-alpha7",
-    "name": "Mytear Alpitat EXα7 抗過敏眼藥水",
+    "id": "apagard-premio",
+    "name": "APAGARD Premio 美白牙膏",
     "type": "shopping",
     "shoppingGroup": "drugstore",
-    "category": "眼部用品",
+    "category": "口腔清潔",
     "priority": 3,
-    "image": "items/mytear-alpitat-ex-alpha7.png",
-    "imageCaption": "千壽製藥官方商品圖。",
-    "size": "15mL",
-    "notes": "マイティア アルピタットEXα7；清涼型（クール），第 2 類醫藥品。",
+    "image": "items/apagard-premio.webp",
+    "imageCaption": "品牌包裝圖，圖示 105 g 款。",
+    "notes": "アパガード プレミオ；白金包裝的 premium type，容量未指定。",
     "placeIds": [],
     "sourceUrls": [
-      "https://www.senju.co.jp/consumer/alpitattoex/alpha7/"
+      "https://www.sangishop.jp/product/apagard_premio"
+    ]
+  },
+  {
+    "id": "lion-brilliant-more-w-peppermint",
+    "name": "LION Brilliant more W 牙膏",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "口腔清潔",
+    "priority": 3,
+    "image": "items/lion-brilliant-more-w-peppermint.webp",
+    "imageCaption": "天然薄荷款包裝照片。",
+    "notes": "ナチュラルペパーミント天然薄荷款；銀白牙膏管、藍色標示。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://oral-care-note.com/brilliant-more-w-guide/"
+    ],
+    "size": "90 g"
+  },
+  {
+    "id": "hamigakido-cool-super-mint",
+    "name": "齒磨堂「涼」PREMIUM 牙膏",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "口腔清潔",
+    "priority": 3,
+    "image": "items/hamigakido-cool-super-mint.webp",
+    "imageCaption": "品牌官方包裝照片。",
+    "notes": "歯磨き堂 薬用フレッシュペースト スーパーミント；綠色強效薄荷款。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://store.naturelab.co.jp/products/4582210598202"
+    ],
+    "size": "60 g"
+  },
+  {
+    "id": "tepika-gel-60",
+    "name": "手ピカジェル 手部消毒凝膠",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "清潔用品",
+    "priority": 3,
+    "image": "items/tepika-gel-60.webp",
+    "imageCaption": "品牌系列圖；清單指定左側 60 mL 小瓶。",
+    "notes": "健栄製薬；粉紅瓶蓋、無香料的攜帶瓶款。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.kenei-pharm.com/tepika/products/tepika_gel/"
+    ],
+    "size": "60 mL"
+  },
+  {
+    "id": "kobayashi-one-drop-fresh-green",
+    "name": "小林製藥 1滴消臭元 清新綠香",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "生活用品",
+    "priority": 3,
+    "image": "items/kobayashi-one-drop-fresh-green.webp",
+    "imageCaption": "官方現行圖為ウォータリーグリーン；與指定照片的香味名稱不同。",
+    "size": "20 mL",
+    "notes": "照片指定フレッシュグリーン綠色款；滴入馬桶水面的除臭液。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.kobayashi.co.jp/seihin/tsa_1/"
+    ]
+  },
+  {
+    "id": "kobayashi-one-drop-sweet-rose",
+    "name": "小林製藥 1滴消臭元 甜玫瑰香",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "生活用品",
+    "priority": 3,
+    "image": "items/kobayashi-one-drop-sweet-rose.webp",
+    "imageCaption": "品牌官方玫瑰香包裝照片。",
+    "size": "20 mL",
+    "notes": "スウィートローズ；粉紅色包裝的馬桶滴用除臭液。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.kobayashi.co.jp/seihin/tsa_1/"
     ]
   },
   {
@@ -733,35 +1054,67 @@
     ]
   },
   {
-    "id": "elixir-balancing-mizu-cream",
-    "name": "ELIXIR 水油平衡水凝霜",
+    "id": "dhc-l-cys-white-240ex-120",
+    "name": "DHC エルシスホワイト240EX",
     "type": "shopping",
     "shoppingGroup": "drugstore",
-    "category": "保養品",
+    "category": "藥品",
     "priority": 3,
-    "image": "items/elixir-balancing-mizu.png",
-    "imageCaption": "資生堂官方商品圖。",
-    "size": "60g",
-    "notes": "ルフレ バランシング みずクリーム；淺藍罐水凝霜，非 A 醇抗皺霜。",
+    "image": "items/dhc-l-cys-white-240ex-120.webp",
+    "imageCaption": "品牌官方 120 錠裝包裝照片。",
+    "size": "120 錠",
+    "notes": "藍色盒裝；L-半胱胺酸、維他命 C 配方，第 3 類醫藥品。",
     "placeIds": [],
     "sourceUrls": [
-      "https://www.shiseido.co.jp/elixir/reflet/products/mizu-cream/"
+      "https://www.dhc.co.jp/goods/40532.html"
     ]
   },
   {
-    "id": "lululun-hydra-eye-filler",
-    "name": "LuLuLun HYDRA EYE FILLER 夜用眼膜",
+    "id": "rohto-alguard-clearblock-z",
+    "name": "樂敦 ALGUARD Clear Block Z 抗過敏眼藥水",
     "type": "shopping",
     "shoppingGroup": "drugstore",
-    "category": "眼周保養",
+    "category": "眼部用品",
     "priority": 3,
-    "image": "items/lululun-hydra-eye-filler.png",
-    "imageCaption": "LuLuLun 官方商品圖。",
-    "size": "12 片入（6 回份）",
-    "notes": "橘色包裝的局部眼周貼片；オーバーナイト夜用款。",
+    "image": "items/rohto-alguard-clearblock-z.jpg",
+    "imageCaption": "樂敦官方商品圖。",
+    "size": "13mL",
+    "notes": "ロート アルガード クリアブロックZ；過敏性眼癢用，第 2 類醫藥品。",
     "placeIds": [],
     "sourceUrls": [
-      "https://lululun.com/shop/products/LUAF401101"
+      "https://jp.rohto.com/rohto-alguard/eyedrop-clearblock-z/"
+    ]
+  },
+  {
+    "id": "mytear-alpitat-ex-alpha7",
+    "name": "Mytear Alpitat EXα7 抗過敏眼藥水",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "眼部用品",
+    "priority": 3,
+    "image": "items/mytear-alpitat-ex-alpha7.png",
+    "imageCaption": "千壽製藥官方商品圖。",
+    "size": "15mL",
+    "notes": "マイティア アルピタットEXα7；清涼型（クール），第 2 類醫藥品。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.senju.co.jp/consumer/alpitattoex/alpha7/"
+    ]
+  },
+  {
+    "id": "jintan-bifina-s",
+    "name": "森下仁丹 BIFINA S 益生菌",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "保健食品",
+    "priority": 3,
+    "image": "items/bifina-s.jpg",
+    "imageCaption": "松本清商品圖：日本版 S，與照片中文包裝不同；包數未指定。",
+    "notes": "ビフィーナS（スーパー）顆粒型；照片為中文包裝，日本版包裝不同。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.181109.com/shop/g/gH85101/",
+      "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4987227028276"
     ]
   },
   {
@@ -781,70 +1134,6 @@
     ]
   },
   {
-    "id": "clearturn-gomenne-kininaru-mask",
-    "name": "KOSE CLEAR TURN ごめんね素肌 キニナル面膜",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "面膜",
-    "priority": 3,
-    "image": "items/clearturn-gomenne-kininaru-mask.png",
-    "imageCaption": "KOSE COSMEPORT 官方商品圖。",
-    "size": "7 片入",
-    "notes": "藍色標籤、粉紅「キニナル」字樣；水楊酸與甘草酸二鉀配方，醫藥部外品。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://www.kosecosmeport.co.jp/clearturn/collaboration/wcsl.html"
-    ]
-  },
-  {
-    "id": "mqure-hydrogen-treatment",
-    "name": "MQURE 水素護髮療程",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "護髮用品",
-    "priority": 3,
-    "image": "items/mqure-hydrogen-treatment.webp",
-    "imageCaption": "品牌商品圖。",
-    "notes": "水素トリートメント；銀色盒裝、4 次用的沖洗式護髮。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4580632123248"
-    ],
-    "size": "13 g × 4 包"
-  },
-  {
-    "id": "tepika-gel-60",
-    "name": "手ピカジェル 手部消毒凝膠",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "清潔用品",
-    "priority": 3,
-    "image": "items/tepika-gel-60.webp",
-    "imageCaption": "品牌系列圖；清單指定左側 60 mL 小瓶。",
-    "notes": "健栄製薬；粉紅瓶蓋、無香料的攜帶瓶款。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://www.kenei-pharm.com/tepika/products/tepika_gel/"
-    ],
-    "size": "60 mL"
-  },
-  {
-    "id": "quality1st-super-black-face-mask",
-    "name": "QUALITY 1st DERMA LASER SUPER BLACK 面膜",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "面膜",
-    "priority": 3,
-    "image": "items/quality1st-super-black-face-mask.webp",
-    "imageCaption": "品牌官方商品圖。",
-    "notes": "黑金包裝的全臉面膜；標示 VC100 與 10% 菸鹼醯胺。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://q1st.jp/shop/products/QF00906"
-    ],
-    "size": "7 片"
-  },
-  {
     "id": "feat-dreamy-gaba",
     "name": "feat. Dreamy GABA 膠囊",
     "type": "shopping",
@@ -861,72 +1150,6 @@
     ]
   },
   {
-    "id": "lululun-hydra-ex-mask",
-    "name": "LuLuLun HYDRA EX 外泌體面膜",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "面膜",
-    "priority": 3,
-    "image": "items/lululun-hydra-ex-mask.webp",
-    "imageCaption": "品牌官方商品圖。",
-    "notes": "HYDRA-EX-MASK Exosome；紫色袋裝全臉面膜。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://lululun.com/shop/products/hydraexs-2310"
-    ],
-    "size": "7 片"
-  },
-  {
-    "id": "mqure-derma-pd-serum",
-    "name": "MQURE derma PDRN 臉部精華液",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "臉部保養",
-    "priority": 3,
-    "image": "items/mqure-derma-pd-serum.webp",
-    "imageCaption": "系列商品圖，圖示 PD セラム 1。",
-    "notes": "PD セラム系列，款式未指定；另售添加精華不列入。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://www.fashionsnap.com/article/2026-01-30/mqure-dermax-launch/"
-    ],
-    "size": "35 mL"
-  },
-  {
-    "id": "marshique-hydrogel-neck-patch",
-    "name": "MARSHIQUE 水凝膠頸膜",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "頸部保養",
-    "priority": 3,
-    "image": "items/marshique-hydrogel-neck-patch-package.webp",
-    "imageCaption": "銀色 4 片裝包裝照片。",
-    "notes": "WRINKLE REPAIR HYDROGEL PATCH；銀色袋裝、頸部用。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://marshique.com/product/detail.html?product_no=202",
-      "https://noticemestore.com/cdn/shop/files/noticemestore.com_Marshique-WrinkleRepairHydrogelNeckPatch_1.jpg?v=1767971431"
-    ],
-    "size": "4 片"
-  },
-  {
-    "id": "rishiri-color-treatment-light-brown",
-    "name": "利尻昆布 白髮染色護髮霜",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "護髮用品",
-    "priority": 3,
-    "image": "items/rishiri-color-treatment-light-brown.webp",
-    "imageCaption": "系列包裝參考圖為深棕色；清單指定淺棕色。",
-    "notes": "白髪用ヘアカラートリートメント；指定ライトブラウン淺棕色。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://www.sastty.com/shop/pages/hct_s_c48.aspx"
-    ],
-    "size": "200 g",
-    "color": "淺棕色（ライトブラウン）"
-  },
-  {
     "id": "fancl-sleep-fatigue-care",
     "name": "FANCL 睡眠＆疲勞感照護",
     "type": "shopping",
@@ -941,213 +1164,6 @@
       "https://www.fancl.co.jp/healthy/item/5249a/"
     ],
     "size": "120 粒／30 日份"
-  },
-  {
-    "id": "apagard-premio",
-    "name": "APAGARD Premio 美白牙膏",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "口腔清潔",
-    "priority": 3,
-    "image": "items/apagard-premio.webp",
-    "imageCaption": "品牌包裝圖，圖示 105 g 款。",
-    "notes": "アパガード プレミオ；白金包裝的 premium type，容量未指定。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://www.sangishop.jp/product/apagard_premio"
-    ]
-  },
-  {
-    "id": "lion-brilliant-more-w-peppermint",
-    "name": "LION Brilliant more W 牙膏",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "口腔清潔",
-    "priority": 3,
-    "image": "items/lion-brilliant-more-w-peppermint.webp",
-    "imageCaption": "天然薄荷款包裝照片。",
-    "notes": "ナチュラルペパーミント天然薄荷款；銀白牙膏管、藍色標示。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://oral-care-note.com/brilliant-more-w-guide/"
-    ],
-    "size": "90 g"
-  },
-  {
-    "id": "hamigakido-cool-super-mint",
-    "name": "齒磨堂「涼」PREMIUM 牙膏",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "口腔清潔",
-    "priority": 3,
-    "image": "items/hamigakido-cool-super-mint.webp",
-    "imageCaption": "品牌官方包裝照片。",
-    "notes": "歯磨き堂 薬用フレッシュペースト スーパーミント；綠色強效薄荷款。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://store.naturelab.co.jp/products/4582210598202"
-    ],
-    "size": "60 g"
-  },
-  {
-    "id": "rosyrosa-multi-foundation-puff-2",
-    "name": "ROSY ROSA 全粉底適用粉撲",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "彩妝工具",
-    "priority": 3,
-    "image": "items/rosyrosa-multi-foundation-puff-2.webp",
-    "imageCaption": "品牌官方包裝照片。",
-    "size": "2 入",
-    "notes": "マルチファンデパフ 2P；黑色圓形粉撲、白色緞帶款。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://www.chantilly.co.jp/brand/rosyrosa/products/4901604457077/"
-    ]
-  },
-  {
-    "id": "elixir-day-care-tone-up-pink",
-    "name": "ELIXIR 提亮防曬乳 粉紅款",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "防曬用品",
-    "priority": 3,
-    "image": "items/elixir-day-care-tone-up-pink.webp",
-    "imageCaption": "品牌官方粉紅款商品圖。",
-    "size": "35 g",
-    "notes": "デーケアレボリューション トーンアップ SP+ aa；SPF50+ PA++++。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://www.shiseido.co.jp/elixir/superieur-white/products/daycarerevolution/"
-    ]
-  },
-  {
-    "id": "lululun-hydra-az-mask",
-    "name": "LuLuLun HYDRA AZ 面膜",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "面膜",
-    "priority": 3,
-    "image": "items/lululun-hydra-az-mask.webp",
-    "imageCaption": "品牌官方 7 片裝包裝照片。",
-    "size": "7 片",
-    "notes": "HYDRA-AZ-MASK；藍綠色袋裝、壬二酸衍生物配方款。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://lululun.com/shop/products/hydraazs-2410"
-    ]
-  },
-  {
-    "id": "lululun-hydra-v-mask",
-    "name": "LuLuLun HYDRA V 維他命面膜",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "面膜",
-    "priority": 3,
-    "image": "items/lululun-hydra-v-mask.webp",
-    "imageCaption": "品牌官方 7 片裝包裝照片。",
-    "size": "7 片",
-    "notes": "HYDRA-V-MASK Vitamin；黃色袋裝、7 種維他命配方款。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://lululun.com/shop/products/hydras-2212"
-    ]
-  },
-  {
-    "id": "lululun-pure-everys-mask",
-    "name": "LuLuLun Pure Every’s 面膜",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "面膜",
-    "priority": 3,
-    "image": "items/lululun-pure-everys-mask.webp",
-    "imageCaption": "品牌系列包裝圖；清單指定右側 7 片袋裝。",
-    "size": "7 片",
-    "notes": "ピュア エブリーズ；粉紅色日常保濕面膜。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://lululun.com/shop/products/puev9fb-2310"
-    ]
-  },
-  {
-    "id": "kobayashi-one-drop-fresh-green",
-    "name": "小林製藥 1滴消臭元 清新綠香",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "生活用品",
-    "priority": 3,
-    "image": "items/kobayashi-one-drop-fresh-green.webp",
-    "imageCaption": "官方現行圖為ウォータリーグリーン；與指定照片的香味名稱不同。",
-    "size": "20 mL",
-    "notes": "照片指定フレッシュグリーン綠色款；滴入馬桶水面的除臭液。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://www.kobayashi.co.jp/seihin/tsa_1/"
-    ]
-  },
-  {
-    "id": "kobayashi-one-drop-sweet-rose",
-    "name": "小林製藥 1滴消臭元 甜玫瑰香",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "生活用品",
-    "priority": 3,
-    "image": "items/kobayashi-one-drop-sweet-rose.webp",
-    "imageCaption": "品牌官方玫瑰香包裝照片。",
-    "size": "20 mL",
-    "notes": "スウィートローズ；粉紅色包裝的馬桶滴用除臭液。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://www.kobayashi.co.jp/seihin/tsa_1/"
-    ]
-  },
-  {
-    "id": "curel-moisture-lip-care-cream",
-    "name": "Curél 潤浸保濕護唇膏",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "唇部保養",
-    "priority": 3,
-    "image": "items/curel-moisture-lip-care-cream.webp",
-    "imageCaption": "品牌官方包裝照片。",
-    "size": "4.2 g",
-    "notes": "リップケアクリーム；無色、無香料的白色護唇膏。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://www.kao-kirei.com/ja/official/curel/products/lipcare/"
-    ]
-  },
-  {
-    "id": "gyutto-corset-hair-mask",
-    "name": "ROHTO Gyutto Corset 髮膜",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "護髮用品",
-    "priority": 3,
-    "image": "items/gyutto-corset-hair-mask.webp",
-    "imageCaption": "品牌官方商品包裝圖。",
-    "size": "200 g",
-    "notes": "ギュット コルセットヘアマスク；綠金色軟管、沖洗式護髮。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://jp.rohto.com/gyutto/hairmask/"
-    ]
-  },
-  {
-    "id": "dhc-l-cys-white-240ex-120",
-    "name": "DHC エルシスホワイト240EX",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "藥品",
-    "priority": 3,
-    "image": "items/dhc-l-cys-white-240ex-120.webp",
-    "imageCaption": "品牌官方 120 錠裝包裝照片。",
-    "size": "120 錠",
-    "notes": "藍色盒裝；L-半胱胺酸、維他命 C 配方，第 3 類醫藥品。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://www.dhc.co.jp/goods/40532.html"
-    ]
   },
   {
     "id": "dhc-blueberry-extract",
