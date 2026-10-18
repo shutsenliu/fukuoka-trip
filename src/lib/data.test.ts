@@ -59,12 +59,16 @@ describe('itinerary map audit', () => {
 });
 
 describe('approved Hakata shopping plan', () => {
-  it('assigns nine station purchases to Day 1 and Imonne to Day 5', () => {
+  it('groups station souvenirs in Day 1 and keeps airside purchases in Day 6', () => {
     const day1 = itinerary[0];
     const hankyu = day1.stops.find(stop => stop.id === 'day-1-hankyu-souvenirs')!;
     const station = day1.stops.find(stop => stop.id === 'day-1-station-souvenirs')!;
     expect(itemsForStop(hankyu).map(item => item.id)).toEqual(['ivorish-financier','sugarbutter-amaou','amanberry-strawberry']);
-    expect(itemsForStop(station).map(item => item.id)).toEqual(['leclerc-caneles','hanafukudo-ichigo-langue','butterbee-honey-chocolat','hakata-mentai-ebi','fukusaya-castella','menbei-plain']);
+    expect(itemsForStop(station).map(item => item.id)).toEqual(['leclerc-caneles','hanafukudo-ichigo-langue','butterbee-honey-chocolat','hakata-mentai-ebi','fukusaya-castella','menbei-plain','hanafukudo-ichigo-millefeuille','itoking-hakata-pieou','itoking-fukuoka-ichigo-cookies']);
+    const airport = itinerary[5].stops.find(stop => stop.id === 'day-6-stop-5')!;
+    expect(itemsForStop(airport).map(item => item.id)).toEqual(['tsukiji-chitose-tempura-senbei']);
+    expect(airport.notes).toContain('出境手續後');
+    expect(station.endTime).toBe('16:15');
     const imonne = itinerary[4].stops.find(stop => stop.id === 'day-5-imonne')!;
     expect(itemsForStop(imonne).map(item => item.id)).toEqual(['imonne-matcha-mochi']);
     expect(imonne.startTime).toBe('10:55');

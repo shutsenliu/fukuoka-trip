@@ -148,11 +148,15 @@
     "type": "shopping",
     "category": "伴手禮",
     "priority": 3,
-    "image": "items/hakata-bee-illustration.png",
-    "imageCaption": "AI 概念示意圖，非已核實商品或官方包裝；供應需現場確認。",
-    "notes": "供應待確認：現行官方商品頁未找到完全同名的 Honey Chocolat Sand。到門市詢問是否仍有販售；未確認前不改成其他商品。",
+    "image": "items/butterbee-honey-chocolat-package.webp",
+    "imageCaption": "品牌官方發售新聞稿包裝照片。",
+    "notes": "ハニーショコラサンド；官方確認曾在冬季限定發售。Day 1 到 BUTTER&bee Ming 店詢問，12 月供應待確認。",
     "placeIds": [
       "butterbee-ming"
+    ],
+    "sourceUrls": [
+      "https://sucreyshopping.jp/butterandbee/",
+      "https://prtimes.jp/main/html/rd/p/000000460.000007503.html"
     ]
   },
   {
@@ -1194,5 +1198,73 @@
     "sourceUrls": [
       "https://www.dhc.co.jp/goods/32738.html"
     ]
+  },
+  {
+    "id": "hanafukudo-ichigo-millefeuille",
+    "name": "花福堂 博多草莓巧克力千層酥",
+    "type": "shopping",
+    "category": "伴手禮",
+    "priority": 3,
+    "image": "items/hanafukudo-ichigo-millefeuille.webp",
+    "imageCaption": "花福堂官方商品照片。",
+    "notes": "博多まっかな苺のミルフィユ；草莓奶油夾酥皮、外層白巧克力。Day 1 到 DEITOS 花福堂選盒裝。",
+    "placeIds": [
+      "hanafukudo-deitos"
+    ],
+    "sourceUrls": [
+      "https://www.hanafukudo.co.jp/"
+    ]
+  },
+  {
+    "id": "itoking-hakata-pieou",
+    "name": "伊都きんぐ 博多ぱいおう 草莓派",
+    "type": "shopping",
+    "category": "伴手禮",
+    "priority": 3,
+    "image": "items/itoking-hakata-pieou.webp",
+    "imageCaption": "JAL PLAZA 官方商品照片，含綠色盒裝。",
+    "notes": "綠色盒裝的あまおう草莓酥派。Day 1 在博多站 Ming 店購買，入數依需求選。",
+    "placeIds": [
+      "itoking-ming"
+    ],
+    "sourceUrls": [
+      "https://www.itoking.jp/info.html",
+      "https://jalplaza-airport.jalux.com/product/detail/9200907241925/"
+    ]
+  },
+  {
+    "id": "itoking-fukuoka-ichigo-cookies",
+    "name": "伊都きんぐ 福岡いちご 草莓曲奇",
+    "type": "shopping",
+    "category": "伴手禮",
+    "priority": 3,
+    "image": "items/itoking-fukuoka-ichigo-cookies.webp",
+    "imageCaption": "品牌官方三種口味商品圖；綜合外盒以現場為準。",
+    "notes": "指定照片的三種綜合盒：原味、巧克力、白巧克力。Ming 店列有此餅乾系列，綜合盒款式與入數現場確認。",
+    "placeIds": [
+      "itoking-ming"
+    ],
+    "sourceUrls": [
+      "https://www.itoking.jp/shohin2.html",
+      "https://www.itoking.jp/info.html"
+    ]
+  },
+  {
+    "id": "tsukiji-chitose-tempura-senbei",
+    "name": "築地ちとせ 天婦羅仙貝",
+    "type": "shopping",
+    "category": "伴手禮",
+    "priority": 3,
+    "image": "items/tsukiji-chitose-tempura-senbei.webp",
+    "imageCaption": "福岡空港免稅店官方 6 片裝包裝照片。",
+    "notes": "天然蝦與蔬菜風味的天ぷらせんべい。Day 6 國際線出境後在免稅店找，12 月現貨待確認。",
+    "placeIds": [
+      "fukuoka-international-duty-free"
+    ],
+    "sourceUrls": [
+      "https://dfree.fukuoka-airport.jp/productDetail.php?product_cd=6701200835",
+      "https://dfree.fukuoka-airport.jp/about.php"
+    ],
+    "size": "6 片（照片款）"
   }
 ]

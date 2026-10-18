@@ -532,5 +532,35 @@
     "sourceUrls": [
       "https://www.b-speak.net/"
     ]
+  },
+  {
+    "id": "itoking-ming",
+    "name": "伊都きんぐ 博多 Ming 店",
+    "type": "shop",
+    "area": "博多",
+    "address": "福岡県福岡市博多区博多駅中央街1-1 JR博多駅 マイング内",
+    "shortAddress": "博多站 1F・Ming 和菓子通り",
+    "navigationDestination": "日本 福岡県福岡市博多区博多駅中央街1-1 JR博多駅 マイング内 伊都きんぐ 博多 Ming 店",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%9C%AC%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%8D%9A%E5%A4%9A%E9%A7%85%E4%B8%AD%E5%A4%AE%E8%A1%971-1%20JR%E5%8D%9A%E5%A4%9A%E9%A7%85%20%E3%83%9E%E3%82%A4%E3%83%B3%E3%82%B0%E5%86%85%20%E4%BC%8A%E9%83%BD%E3%81%8D%E3%82%93%E3%81%90%20%E5%8D%9A%E5%A4%9A%20Ming%20%E5%BA%97",
+    "notes": "官網列有博多ぱいおう、福岡いちご餅乾。位於一般可進入的 Ming，不是新幹線閘內店；照片的三種綜合盒需現場確認。",
+    "sourceUrls": [
+      "https://www.itoking.jp/info.html"
+    ],
+    "hours": "9:00–21:00"
+  },
+  {
+    "id": "fukuoka-international-duty-free",
+    "name": "福岡空港 國際線免稅店",
+    "type": "shop",
+    "area": "福岡機場",
+    "address": "福岡県福岡市博多区大字青木739 福岡空港 国際線ターミナル",
+    "shortAddress": "國際線・出境手續後",
+    "navigationDestination": "日本 福岡県福岡市博多区大字青木739 福岡空港 国際線ターミナル",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%9C%AC%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E5%A4%A7%E5%AD%97%E9%9D%92%E6%9C%A8739%20%E7%A6%8F%E5%B2%A1%E7%A9%BA%E6%B8%AF%20%E5%9B%BD%E9%9A%9B%E7%B7%9A%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB",
+    "notes": "免稅店官網列「築地ちとせ 天ぷらせんべい 6枚入」。限完成國際線出境手續後的購物區；12 月現貨與具體櫃位依機場當日資訊確認。",
+    "sourceUrls": [
+      "https://dfree.fukuoka-airport.jp/productDetail.php?product_cd=6701200835",
+      "https://dfree.fukuoka-airport.jp/about.php"
+    ]
   }
 ]
