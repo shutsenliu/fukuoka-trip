@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useLayoutEffect, useState } from 'react';
 import { HashRouter, NavLink, Route, Routes, Link, useParams, Navigate, useLocation } from 'react-router-dom';
 import { itinerary, places, items, itemsForPlace } from './lib/data';
 import type { TripDay } from './types';
@@ -27,6 +27,9 @@ function PlaceDetail() {
 }
 function AppContent() {
   const location = useLocation();
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }, [location.pathname]);
   const days = itinerary;
   const [selected, setSelected] = useState(() => initialDay(days));
   function selectDay(day: number) { setSelected(day); rememberDay(day); }
