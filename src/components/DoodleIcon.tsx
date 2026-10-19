@@ -1,5 +1,6 @@
-type IconName = 'itinerary' | 'checklist' | 'shopping' | 'food' | 'convenience' | 'protein' | 'drugstore' | 'proxy';
+type IconName = 'itinerary' | 'checklist' | 'shopping' | 'food' | 'convenience' | 'protein' | 'drugstore' | 'proxy' | 'coupon';
 const paths: Record<IconName, string[]> = {
+  coupon: ['M3 5h18v5a2 2 0 0 0 0 4v5H3v-5a2 2 0 0 0 0-4V5Zm12 0v2m0 3v2m0 3v4'],
   itinerary: ['M7 4h12v16H5V4h2M8 2v4m8-4v4M9 10h6m-6 4h6'],
   checklist: ['M7 3h10l2 3v15H5V6l2-3Zm2 0v3h6V3M8 11l2 2 5-5m-7 9h7'],
   shopping: ['M5 8h14l1 12H4L5 8Zm3 1V6a4 4 0 0 1 8 0v3'],

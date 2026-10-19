@@ -6,6 +6,7 @@ import { useCompletedItems } from './hooks/useCompletedItems';
 import { ItemCard } from './components/ItemCard';
 import { ProxyPage } from './components/ProxyPage';
 import { ChecklistPage } from './components/ChecklistPage';
+import { CouponsPage } from './components/CouponsPage';
 import { initialDay, rememberDay } from './lib/selectedDay';
 import { placeDirectionsUrl } from './lib/navigation';
 import { ItineraryText } from './components/ItineraryText';
@@ -33,9 +34,9 @@ function AppContent() {
   const day = days.find(d => d.day === selected) ?? days[0];
   const dayPage = () => <><TripHero/><DayTabs days={days} selected={selected} onSelect={selectDay}/><DayHeading day={day}/>{day.remindersMarkdown && <details key={day.id} className="card p-4 mb-5 itinerary-details daily-reminder"><summary>當日提醒</summary><div className="mt-3"><ItineraryText>{day.remindersMarkdown}</ItineraryText></div></details>}<Timeline day={day}/></>;
   return <><header className="site-header"><Link to="/" className="brand"><EggMark/><span>Fukuoka<span className="brand-sub">TRIP COMPANION</span></span></Link><Link to="/items" className="header-count"><DoodleIcon name="checklist"/> {items.filter(item => !isCompleted(item.id)).length} 項待完成</Link></header>
-    <main>{storageError && <p role="alert" className="card p-4 mb-4">瀏覽器無法儲存資料。目前的操作仍有效，但重新整理後可能遺失；請允許此網站使用本機儲存空間。</p>}<Routes><Route path="/" element={<Navigate to="/itinerary" replace/>}/><Route path="/itinerary" element={dayPage()}/><Route path="/wishlist" element={<Navigate to={{ pathname: '/items', search: location.search }} replace/>}/><Route path="/stores" element={<Navigate to="/places" replace/>}/><Route path="/stores/:id" element={<PlaceDetail/>}/><Route path="/items" element={<ChecklistPage days={days}/>}/><Route path="/proxy" element={<ProxyPage/>}/><Route path="/places" element={<PlacesPage/>}/><Route path="/places/:id" element={<PlaceDetail/>}/><Route path="*" element={<><h1>找不到頁面</h1><Link to="/">回到行程</Link></>}/></Routes></main>
+    <main>{storageError && <p role="alert" className="card p-4 mb-4">瀏覽器無法儲存資料。目前的操作仍有效，但重新整理後可能遺失；請允許此網站使用本機儲存空間。</p>}<Routes><Route path="/" element={<Navigate to="/itinerary" replace/>}/><Route path="/itinerary" element={dayPage()}/><Route path="/wishlist" element={<Navigate to={{ pathname: '/items', search: location.search }} replace/>}/><Route path="/stores" element={<Navigate to="/places" replace/>}/><Route path="/stores/:id" element={<PlaceDetail/>}/><Route path="/items" element={<ChecklistPage days={days}/>}/><Route path="/proxy" element={<ProxyPage/>}/><Route path="/coupons" element={<CouponsPage/>}/><Route path="/places" element={<PlacesPage/>}/><Route path="/places/:id" element={<PlaceDetail/>}/><Route path="*" element={<><h1>找不到頁面</h1><Link to="/">回到行程</Link></>}/></Routes></main>
     <footer className="site-footer"><EggMark/><span>個人旅行手帳 · 自製 AI 主題插圖 · 非官方聯名</span></footer>
-    <div className="bottom-nav-shell"><nav className="bottom-nav" aria-label="主要導覽"><NavLink to="/itinerary"><DoodleIcon name="itinerary"/><span>行程</span></NavLink><NavLink to="/items"><DoodleIcon name="checklist"/><span>清單</span></NavLink><NavLink to="/proxy"><DoodleIcon name="proxy"/><span>代購</span></NavLink></nav></div></>;
+    <div className="bottom-nav-shell"><nav className="bottom-nav" aria-label="主要導覽"><NavLink to="/itinerary"><DoodleIcon name="itinerary"/><span>行程</span></NavLink><NavLink to="/items"><DoodleIcon name="checklist"/><span>清單</span></NavLink><NavLink to="/proxy"><DoodleIcon name="proxy"/><span>代購</span></NavLink><NavLink to="/coupons"><DoodleIcon name="coupon"/><span>優惠券</span></NavLink></nav></div></>;
 
 }
 export default function App() { return <HashRouter><AppContent/></HashRouter>; }

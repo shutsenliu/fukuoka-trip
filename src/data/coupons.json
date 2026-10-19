@@ -1,0 +1,424 @@
+[
+  {
+    "id": "cosmos",
+    "merchant": "COSMOS 科摩思藥妝",
+    "aliases": [
+      "コスモス",
+      "科摩斯",
+      "天神大丸前店"
+    ],
+    "offer": "額外 5%／7%／9% OFF",
+    "validity": "截止日待確認（網頁與券圖不一致）",
+    "stores": "僅限天神大丸前、歌舞伎町1丁目、道頓堀、廣尾站店。",
+    "limits": [
+      "僅限符合免稅資格的旅客，結帳時出示護照；每張限用一次。",
+      "不可與其他優惠券併用，菸酒不適用。",
+      "第 1 類藥品需有藥劑師在場。"
+    ],
+    "mode": "image",
+    "tripStatus": "check",
+    "sourceUrls": [
+      "https://matcha-jp.com/tw/coupon/12"
+    ],
+    "thresholds": [
+      "未稅滿 ¥10,000：5% OFF",
+      "未稅滿 ¥30,000：7% OFF",
+      "未稅滿 ¥50,000：9% OFF"
+    ],
+    "notice": "網頁寫 2026/12/31，券圖寫 2027/12/31；使用前請店員確認期限與適用條件。",
+    "image": "coupons/cosmos.jpg"
+  },
+  {
+    "id": "alpen",
+    "merchant": "Alpen Group",
+    "aliases": [
+      "Alpen FUKUOKA",
+      "Sports Depo",
+      "Golf5",
+      "Alpen Outdoors",
+      "運河城",
+      "HOKA"
+    ],
+    "offer": "額外 5% OFF",
+    "validity": "至 2026/12/31",
+    "stores": "Alpen FUKUOKA、Sports DEPO、Alpen Outdoors、GOLF5 等指定免稅門市。",
+    "limits": [
+      "訪日旅客結帳前出示券圖與護照；部分商品不適用。",
+      "不可與其他折扣併用；券面列含稅滿 ¥5,500 為免稅門檻。",
+      "5% 為店家優惠，免稅／退稅的資格與程序另行確認。"
+    ],
+    "mode": "image",
+    "tripStatus": "in-trip",
+    "sourceUrls": [
+      "https://app.likejapan.com/en-us/coupon/alpen-coupon-en"
+    ],
+    "image": "coupons/alpen.jpg"
+  },
+  {
+    "id": "donki",
+    "merchant": "唐吉訶德 Donki",
+    "aliases": [
+      "ドン・キホーテ",
+      "Don Quijote",
+      "唐吉訶徳",
+      "天神本店"
+    ],
+    "offer": "額外 7% OFF",
+    "validity": "至 2026/12/31",
+    "stores": "參與活動的 Don Quijote 等指定門市，實際以券頁為準。",
+    "limits": [
+      "單次結帳未稅滿 ¥10,000，限用一次；付款前出示。",
+      "菸酒、POSA 卡、單品未稅 ¥100,000 以上等不適用。",
+      "不可與其他折扣、服務及 majica 併用。"
+    ],
+    "mode": "web",
+    "tripStatus": "in-trip",
+    "sourceUrls": [
+      "https://matcha-jp.com/tw/coupon/11"
+    ],
+    "thresholds": [
+      "單次未稅滿 ¥10,000：7% OFF"
+    ],
+    "redeemAt": "開啟優惠券頁給收銀員確認，最後依現場指示按「使用」。",
+    "notice": "禁止使用截圖或下載券圖代替網頁。請到結帳現場才按「使用」。",
+    "actionUrl": "https://japanportal.donki-global.com/coupon/?ptcd=0056000103",
+    "actionLabel": "開啟優惠券"
+  },
+  {
+    "id": "matsukiyo",
+    "merchant": "松本清 Matsukiyo",
+    "aliases": [
+      "マツモトキヨシ",
+      "Matsumoto Kiyoshi",
+      "天神渡邊通"
+    ],
+    "offer": "額外 3%／5%／7% OFF",
+    "validity": "至 2027/03/31",
+    "stores": "參與活動的松本清門市；Outlet 等部分店舖不適用。",
+    "limits": [
+      "付款前出示券圖；不可與其他優惠併用。",
+      "專櫃保養品、菸、雜誌、嬰兒尿布與食品等不適用。",
+      "門檻金額的稅別未明示，結帳前請店員確認。"
+    ],
+    "mode": "image",
+    "tripStatus": "in-trip",
+    "sourceUrls": [
+      "https://matcha-jp.com/tw/coupon/72"
+    ],
+    "thresholds": [
+      "滿 ¥10,000：3% OFF",
+      "滿 ¥30,000：5% OFF",
+      "滿 ¥50,000：7% OFF"
+    ],
+    "image": "coupons/matsukiyo.jpg"
+  },
+  {
+    "id": "cocokara",
+    "merchant": "Cocokara Fine 可開嘉來",
+    "aliases": [
+      "ココカラファイン",
+      "可可卡拉",
+      "可開嘉來"
+    ],
+    "offer": "額外 3%／5%／7% OFF",
+    "validity": "至 2027/03/31",
+    "stores": "提供免稅服務並參與活動的 Cocokara Fine 門市。",
+    "limits": [
+      "付款前出示券圖；部分分店不適用，不可併用其他優惠。",
+      "專櫃保養品、菸酒、雜誌、POSA 卡、指定垃圾袋、嬰兒尿布與食品等不適用。",
+      "第 1 類藥品需有藥劑師在場。"
+    ],
+    "mode": "image",
+    "tripStatus": "in-trip",
+    "sourceUrls": [
+      "https://matcha-jp.com/tw/coupon/73"
+    ],
+    "thresholds": [
+      "未稅滿 ¥10,000：3% OFF",
+      "未稅滿 ¥30,000：5% OFF",
+      "未稅滿 ¥50,000：7% OFF"
+    ],
+    "image": "coupons/cocokara.jpg"
+  },
+  {
+    "id": "sugi",
+    "merchant": "SUGI 杉藥局",
+    "aliases": [
+      "スギ薬局",
+      "スギ藥局",
+      "杉薬局",
+      "杉藥妝"
+    ],
+    "offer": "額外 4%／6%／8% OFF",
+    "validity": "至 2027/02/28",
+    "stores": "提供免稅服務並參與活動的 SUGI 杉藥局。",
+    "limits": [
+      "結帳前出示券圖；不可與其他優惠券併用。",
+      "部分商品不適用，消費門檻稅別請依券面與店員認定。"
+    ],
+    "mode": "image",
+    "tripStatus": "in-trip",
+    "sourceUrls": [
+      "https://matcha-jp.com/tw/coupon/133"
+    ],
+    "thresholds": [
+      "滿 ¥10,000：4% OFF",
+      "滿 ¥30,000：6% OFF",
+      "滿 ¥50,000：8% OFF"
+    ],
+    "image": "coupons/sugi.png"
+  },
+  {
+    "id": "welcia",
+    "merchant": "Welcia 藥妝",
+    "aliases": [
+      "ウエルシア",
+      "HAC",
+      "HAC XPRESS",
+      "金光藥品",
+      "TOWOSHIYA"
+    ],
+    "offer": "額外 3%／5%／8% OFF",
+    "validity": "至 2027/04/30",
+    "stores": "Welcia、HAC、HAC XPRESS、金光藥品、TOWOSHIYA 等有免稅服務的指定門市。",
+    "limits": [
+      "僅限短期滯留的訪日旅客免稅結帳；日本居民不適用。",
+      "不可與其他優惠併用；門檻稅別請向店員確認。",
+      "處方藥、部分專櫃化妝品、菸酒、郵票、代收帳單、書籍、POSA 卡、折價貼紙商品等不適用。"
+    ],
+    "mode": "image",
+    "tripStatus": "in-trip",
+    "sourceUrls": [
+      "https://matcha-jp.com/tw/coupon/96"
+    ],
+    "thresholds": [
+      "滿 ¥10,000：3% OFF",
+      "滿 ¥30,000：5% OFF",
+      "滿 ¥50,000：8% OFF"
+    ],
+    "image": "coupons/welcia.png"
+  },
+  {
+    "id": "tsuruha",
+    "merchant": "TSURUHA 鶴羽藥妝",
+    "aliases": [
+      "ツルハドラッグ",
+      "鶴羽",
+      "鹤羽",
+      "福岡",
+      "佐賀",
+      "長崎"
+    ],
+    "offer": "地區券額外 3%／5%／7% OFF",
+    "validity": "至 2027/03/31（地區適用性待確認）",
+    "stores": "頁面寫福岡／佐賀／長崎，但目前券圖標示其他地區。",
+    "limits": [
+      "先確認券圖確實適用欲購買的福岡門市，再使用。",
+      "僅限免稅旅客；部分商品不適用，不可併用其他優惠。"
+    ],
+    "mode": "web",
+    "tripStatus": "check",
+    "sourceUrls": [
+      "https://matcha-jp.com/tw/coupon/139"
+    ],
+    "notice": "目前券圖寫 Wants 廣島／山口、Wellness 鳥取／島根，與網頁地區不一致；不提供該圖作為福岡可掃描券。",
+    "actionUrl": "https://matcha-jp.com/tw/coupon/139",
+    "actionLabel": "開啟地區券入口"
+  },
+  {
+    "id": "sundrug",
+    "merchant": "SUNDRUG 尚都樂客藥妝",
+    "aliases": [
+      "サンドラッグ",
+      "尚都樂客",
+      "Sundrug"
+    ],
+    "offer": "額外 3%／5%／7% OFF",
+    "validity": "未標示明確截止日，使用前確認",
+    "stores": "參與活動且提供免稅結帳的 SUNDRUG 門市。",
+    "limits": [
+      "僅適用免稅購買，付款前出示券圖；不可併用其他折扣券或代金券。",
+      "部分藥品與化妝品不享額外折扣。"
+    ],
+    "mode": "image",
+    "tripStatus": "check",
+    "sourceUrls": [
+      "https://matcha-jp.com/tw/coupon/79"
+    ],
+    "thresholds": [
+      "含稅滿 ¥10,000：3% OFF",
+      "含稅滿 ¥30,000：5% OFF",
+      "含稅滿 ¥50,000：7% OFF"
+    ],
+    "notice": "不將網頁的 2099 年欄位視為保證有效期限；現場請確認此券仍可使用。",
+    "image": "coupons/sundrug.jpg"
+  },
+  {
+    "id": "hankyu",
+    "merchant": "博多阪急 Guest Coupon",
+    "aliases": [
+      "Hakata Hankyu",
+      "阪急",
+      "Guest Card"
+    ],
+    "offer": "指定商品 5% OFF",
+    "validity": "發行當日起 7 天，可重複使用",
+    "stores": "博多阪急適用專櫃。",
+    "limits": [
+      "食品、餐廳、咖啡、特價品、福袋、商品券及部分品牌不適用；單件未稅低於 ¥1,000 不適用。",
+      "限領卡本人使用，結帳前出示；可能需要再次出示護照，不可併用其他優惠。",
+      "銀聯、WeChat Pay、Alipay 有另一種直接折扣辦法，不能與此券重複使用。"
+    ],
+    "mode": "counter",
+    "tripStatus": "check",
+    "sourceUrls": [
+      "https://global.hankyu-hanshin-dept.co.jp/store/hakata/service/"
+    ],
+    "redeemAt": "購物前攜帶護照，到 1F 服務台或 M3F 免稅櫃檯領取；實際發卡條件依門市。"
+  },
+  {
+    "id": "mitsukoshi",
+    "merchant": "福岡三越 Guest Card",
+    "aliases": [
+      "Fukuoka Mitsukoshi",
+      "三越"
+    ],
+    "offer": "指定商品 5% OFF",
+    "validity": "卡片期限以領取時標示為準",
+    "stores": "該百貨指定專櫃。",
+    "limits": [
+      "食品、餐飲、特價品及單件低於 ¥3,000 的商品不適用；部分精品、服務等除外。",
+      "限短期滯留旅客本人申請使用；付款卡片姓名須與護照及 Guest Card 相符。"
+    ],
+    "mode": "counter",
+    "tripStatus": "check",
+    "sourceUrls": [
+      "https://www.iwataya-mitsukoshi.mistore.jp/mitsukoshi/event_calendar/globalcustomer/guest-card.html"
+    ],
+    "redeemAt": "購物前持護照至B2 免稅櫃檯申請；受理 10:00–19:45，營業時間依館方。"
+  },
+  {
+    "id": "iwataya",
+    "merchant": "岩田屋本店 Guest Card",
+    "aliases": [
+      "Iwataya",
+      "岩田屋"
+    ],
+    "offer": "指定商品 5% OFF",
+    "validity": "卡片期限以領取時標示為準",
+    "stores": "該百貨指定專櫃。",
+    "limits": [
+      "食品、餐飲、特價品及單件低於 ¥3,000 的商品不適用；部分精品、服務等除外。",
+      "限短期滯留旅客本人申請使用；付款卡片姓名須與護照及 Guest Card 相符。"
+    ],
+    "mode": "counter",
+    "tripStatus": "check",
+    "sourceUrls": [
+      "https://www.iwataya-mitsukoshi.mistore.jp/iwataya/event_calendar/globalcustomer/guest-card.html"
+    ],
+    "redeemAt": "購物前持護照至新館 7F 免稅櫃檯申請；受理 10:00–19:45，營業時間依館方。"
+  },
+  {
+    "id": "daimaru",
+    "merchant": "大丸福岡天神店 旅客優惠",
+    "aliases": [
+      "Daimaru",
+      "大丸",
+      "天神大丸"
+    ],
+    "offer": "適用專櫃 5% OFF",
+    "validity": "頁面未列固定截止日，使用前確認",
+    "stores": "大丸福岡天神店的適用專櫃。",
+    "limits": [
+      "付款前向專櫃出示護照，確認商品及品牌是否適用。",
+      "不是通用食品折扣；不以百貨建築照片或本頁文字當作掃描券。"
+    ],
+    "mode": "counter",
+    "tripStatus": "check",
+    "sourceUrls": [
+      "https://www.daimaru-fukuoka.jp/info/detail/?cd=001997"
+    ],
+    "redeemAt": "在適用專櫃結帳前出示護照，由店員確認旅客優惠。"
+  },
+  {
+    "id": "canal",
+    "merchant": "運河城「見せておトク」",
+    "aliases": [
+      "Canal City",
+      "キャナルシティ",
+      "f-JOY",
+      "JINS",
+      "Cafe MUJI",
+      "運河城博多"
+    ],
+    "offer": "指定店家折扣或餐飲加贈",
+    "validity": "2026/09/04–2027/02/28",
+    "stores": "運河城活動名單中的指定店家；各店優惠不同。",
+    "limits": [
+      "物販於結帳時出示；餐飲於預約／點餐時出示。",
+      "當日電影或劇場票才有效；限持有者本人使用，不可併用其他優惠。",
+      "服務內容可能變更，餐飲優惠限有用餐的顧客。"
+    ],
+    "mode": "membership",
+    "tripStatus": "in-trip",
+    "sourceUrls": [
+      "https://canalcity.co.jp/sale/detail/miseteotoku"
+    ],
+    "redeemAt": "出示 f-JOY App 會員證、f-JOY 信用卡、當日電影／劇場票或わくわくパス其中一項。",
+    "notice": "需持有符合條件的會員證或票券，不能只出示本頁。",
+    "actionUrl": "https://canalcity.co.jp/sale/detail/miseteotoku",
+    "actionLabel": "開啟店家優惠表"
+  },
+  {
+    "id": "jr-city",
+    "merchant": "JR 博多 City／AMU 旅客券",
+    "aliases": [
+      "JR Hakata City",
+      "AMU PLAZA",
+      "アミュプラザ",
+      "JR博多城"
+    ],
+    "offer": "購物滿額折 ¥250／500／1,000；餐飲券另計",
+    "validity": "券至 2027/03/31，但 12 月不在公告發放期",
+    "stores": "JR 博多 City 指定商店與餐廳。",
+    "limits": [
+      "購物含稅滿 ¥5,500／11,000／22,000，分別可使用 ¥250／500／1,000 券；指定餐廳滿 ¥2,000 可用 ¥500 券。",
+      "申領與使用均需護照；每筆限用一張，不找零、不可轉讓或併用其他折扣。"
+    ],
+    "mode": "counter",
+    "tripStatus": "out-of-trip",
+    "sourceUrls": [
+      "https://www.jrhakatacity.com/translation/coupon/"
+    ],
+    "redeemAt": "公告發放期至 2026/11/01，下一期為 2027/02/01–02/14；發放時至 3F 服務台旁兌換櫃檯。",
+    "notice": "你的 12/12–12/17 不在目前公告發放期間，不先計入可取得的優惠。"
+  },
+  {
+    "id": "bic",
+    "merchant": "Bic Camera／Kojima",
+    "aliases": [
+      "BicCamera",
+      "ビックカメラ",
+      "必客",
+      "比酷",
+      "コジマ",
+      "小島"
+    ],
+    "offer": "依商品額外 3%／5%／7% OFF",
+    "validity": "目前券至 2026/10/31",
+    "stores": "日本 Bic Camera、Kojima 參與活動的門市。",
+    "limits": [
+      "目前券不涵蓋 12 月，需取得之後發布的新版。",
+      "Apple、部分精品手錶、遊戲主機／軟體、部分電子產品、特價、Outlet 與二手商品等不適用。",
+      "符合旅客資格並攜帶護照，付款前出示，不可與其他活動併用。"
+    ],
+    "mode": "web",
+    "tripStatus": "out-of-trip",
+    "sourceUrls": [
+      "https://livejapan.com/public/operation/coupon/biccamera/zh-tw.html"
+    ],
+    "notice": "11 月以後的新版預定在同一入口更新；尚未將未發布的新券視為有效。",
+    "actionUrl": "https://livejapan.com/public/operation/coupon/biccamera/zh-tw.html?sc_lid=lj_article_a0005298",
+    "actionLabel": "開啟新版券入口"
+  }
+]

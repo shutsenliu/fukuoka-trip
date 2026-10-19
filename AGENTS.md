@@ -38,3 +38,5 @@ This is a static travel companion with itinerary, places, and shopping/food goal
 - Keep drugstore goals with the same category adjacent in items.json; merge synonymous category labels. Do not add category filters or extra controls for this grouping. Preserve IDs and the relative order of non-drugstore goals.
 
 - Convenience goals without a user-specified chain use convenienceStore: "any" and display 超商／超市; do not assign an invented chain or branch. Keep them independent from itinerary stops.
+
+- Coupons belong in src/data/coupons.json and original downloaded images in public/coupons/. Never generate or redraw coupon codes. Keep source URLs as metadata only; do not display source links or last-checked dates. Web-only redemption and counter/member offers must retain their actual usage flow, with conflicting validity or eligibility clearly marked.
