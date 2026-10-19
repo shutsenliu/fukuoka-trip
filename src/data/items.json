@@ -798,6 +798,21 @@
     ]
   },
   {
+    "id": "canmake-botanical-nail-oil",
+    "name": "CANMAKE Botanical Nail Oil 植物指緣油",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "手足護理",
+    "priority": 3,
+    "image": "items/canmake-botanical-nail-oil.jpg",
+    "imageCaption": "品牌官方包裝照片。",
+    "notes": "紫色軟管、尖嘴滴用；滋潤指甲與甘皮，無添加合成香料。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.canmake.com/item/detail/botanical-nail-oil/"
+    ]
+  },
+  {
     "id": "kobayashi-chumecure",
     "name": "小林製藥 チュメキュア 指緣修護藥膏",
     "type": "shopping",
