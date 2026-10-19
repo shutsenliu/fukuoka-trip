@@ -1040,22 +1040,6 @@
     ]
   },
   {
-    "id": "vitamin-c-2000",
-    "name": "維他命 C「2000」",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "藥品",
-    "priority": 3,
-    "image": "items/vitamin-c2000.png",
-    "imageCaption": "品牌官方商品圖。",
-    "size": "100 錠",
-    "notes": "ビタミンC「2000」；原タケダ系列黃色包裝，第 3 類醫藥品。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://vc2000.jp/"
-    ]
-  },
-  {
     "id": "dhc-l-cys-white-240ex-120",
     "name": "DHC エルシスホワイト240EX",
     "type": "shopping",
