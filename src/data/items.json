@@ -1120,22 +1120,6 @@
     ]
   },
   {
-    "id": "feat-dreamy-gaba",
-    "name": "feat. Dreamy GABA 膠囊",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "保健食品",
-    "priority": 3,
-    "image": "items/feat-dreamy-gaba-package.webp",
-    "imageCaption": "紫色袋裝包裝實拍。",
-    "notes": "Dreamy GABA 膠囊；圖示紫色袋裝包裝，原提供照片為瓶裝。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://www.mobile01.com/topicdetail.php?f=405&t=7265112",
-      "https://static.mercdn.net/item/detail/orig/photos/m94295698194_1.jpg?1779687555"
-    ]
-  },
-  {
     "id": "fancl-sleep-fatigue-care",
     "name": "FANCL 睡眠＆疲勞感照護",
     "type": "shopping",
