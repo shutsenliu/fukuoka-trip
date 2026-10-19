@@ -976,22 +976,6 @@
     ]
   },
   {
-    "id": "kobayashi-one-drop-sweet-rose",
-    "name": "小林製藥 1滴消臭元 甜玫瑰香",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "生活用品",
-    "priority": 3,
-    "image": "items/kobayashi-one-drop-sweet-rose.webp",
-    "imageCaption": "品牌官方玫瑰香包裝照片。",
-    "size": "20 mL",
-    "notes": "スウィートローズ；粉紅色包裝的馬桶滴用除臭液。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://www.kobayashi.co.jp/seihin/tsa_1/"
-    ]
-  },
-  {
     "id": "benza-block-l-premium-dx",
     "name": "Benza Block L PREMIUM DX 感冒藥",
     "type": "shopping",
