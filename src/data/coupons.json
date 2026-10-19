@@ -113,34 +113,6 @@
     "image": "coupons/matsukiyo.jpg"
   },
   {
-    "id": "cocokara",
-    "merchant": "Cocokara Fine 可開嘉來",
-    "aliases": [
-      "ココカラファイン",
-      "可可卡拉",
-      "可開嘉來"
-    ],
-    "offer": "額外 3%／5%／7% OFF",
-    "validity": "至 2027/03/31",
-    "stores": "提供免稅服務並參與活動的 Cocokara Fine 門市。",
-    "limits": [
-      "付款前出示券圖；部分分店不適用，不可併用其他優惠。",
-      "專櫃保養品、菸酒、雜誌、POSA 卡、指定垃圾袋、嬰兒尿布與食品等不適用。",
-      "第 1 類藥品需有藥劑師在場。"
-    ],
-    "mode": "image",
-    "tripStatus": "in-trip",
-    "sourceUrls": [
-      "https://matcha-jp.com/tw/coupon/73"
-    ],
-    "thresholds": [
-      "未稅滿 ¥10,000：3% OFF",
-      "未稅滿 ¥30,000：5% OFF",
-      "未稅滿 ¥50,000：7% OFF"
-    ],
-    "image": "coupons/cocokara.jpg"
-  },
-  {
     "id": "sugi",
     "merchant": "SUGI 杉藥局",
     "aliases": [
@@ -167,36 +139,6 @@
       "滿 ¥50,000：8% OFF"
     ],
     "image": "coupons/sugi.png"
-  },
-  {
-    "id": "welcia",
-    "merchant": "Welcia 藥妝",
-    "aliases": [
-      "ウエルシア",
-      "HAC",
-      "HAC XPRESS",
-      "金光藥品",
-      "TOWOSHIYA"
-    ],
-    "offer": "額外 3%／5%／8% OFF",
-    "validity": "至 2027/04/30",
-    "stores": "Welcia、HAC、HAC XPRESS、金光藥品、TOWOSHIYA 等有免稅服務的指定門市。",
-    "limits": [
-      "僅限短期滯留的訪日旅客免稅結帳；日本居民不適用。",
-      "不可與其他優惠併用；門檻稅別請向店員確認。",
-      "處方藥、部分專櫃化妝品、菸酒、郵票、代收帳單、書籍、POSA 卡、折價貼紙商品等不適用。"
-    ],
-    "mode": "image",
-    "tripStatus": "in-trip",
-    "sourceUrls": [
-      "https://matcha-jp.com/tw/coupon/96"
-    ],
-    "thresholds": [
-      "滿 ¥10,000：3% OFF",
-      "滿 ¥30,000：5% OFF",
-      "滿 ¥50,000：8% OFF"
-    ],
-    "image": "coupons/welcia.png"
   },
   {
     "id": "tsuruha",
@@ -317,57 +259,6 @@
       "https://www.iwataya-mitsukoshi.mistore.jp/iwataya/event_calendar/globalcustomer/guest-card.html"
     ],
     "redeemAt": "購物前持護照至新館 7F 免稅櫃檯申請；受理 10:00–19:45，營業時間依館方。"
-  },
-  {
-    "id": "daimaru",
-    "merchant": "大丸福岡天神店 旅客優惠",
-    "aliases": [
-      "Daimaru",
-      "大丸",
-      "天神大丸"
-    ],
-    "offer": "適用專櫃 5% OFF",
-    "validity": "頁面未列固定截止日，使用前確認",
-    "stores": "大丸福岡天神店的適用專櫃。",
-    "limits": [
-      "付款前向專櫃出示護照，確認商品及品牌是否適用。",
-      "不是通用食品折扣；不以百貨建築照片或本頁文字當作掃描券。"
-    ],
-    "mode": "counter",
-    "tripStatus": "check",
-    "sourceUrls": [
-      "https://www.daimaru-fukuoka.jp/info/detail/?cd=001997"
-    ],
-    "redeemAt": "在適用專櫃結帳前出示護照，由店員確認旅客優惠。"
-  },
-  {
-    "id": "canal",
-    "merchant": "運河城「見せておトク」",
-    "aliases": [
-      "Canal City",
-      "キャナルシティ",
-      "f-JOY",
-      "JINS",
-      "Cafe MUJI",
-      "運河城博多"
-    ],
-    "offer": "指定店家折扣或餐飲加贈",
-    "validity": "2026/09/04–2027/02/28",
-    "stores": "運河城活動名單中的指定店家；各店優惠不同。",
-    "limits": [
-      "物販於結帳時出示；餐飲於預約／點餐時出示。",
-      "當日電影或劇場票才有效；限持有者本人使用，不可併用其他優惠。",
-      "服務內容可能變更，餐飲優惠限有用餐的顧客。"
-    ],
-    "mode": "membership",
-    "tripStatus": "in-trip",
-    "sourceUrls": [
-      "https://canalcity.co.jp/sale/detail/miseteotoku"
-    ],
-    "redeemAt": "出示 f-JOY App 會員證、f-JOY 信用卡、當日電影／劇場票或わくわくパス其中一項。",
-    "notice": "需持有符合條件的會員證或票券，不能只出示本頁。",
-    "actionUrl": "https://canalcity.co.jp/sale/detail/miseteotoku",
-    "actionLabel": "開啟店家優惠表"
   },
   {
     "id": "jr-city",

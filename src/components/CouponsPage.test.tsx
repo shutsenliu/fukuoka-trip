@@ -18,21 +18,19 @@ it('searches merchant aliases, clears search and explains empty results', () => 
   fireEvent.change(screen.getByLabelText('搜尋店家'), { target: { value: '不存在的店' } });
   expect(screen.getByText(/找不到符合的店家/)).toBeTruthy();
   fireEvent.click(screen.getByRole('button', { name: '清除搜尋' }));
-  expect(screen.getAllByRole('article')).toHaveLength(16);
+  expect(screen.getAllByRole('article')).toHaveLength(12);
   expect(screen.queryByText(/最後核對日期|原始網頁連結/)).toBeNull();
 });
-it('opens original coupon, zooms and restores scroll and focus when closed', () => {
+it('opens the full coupon immediately and restores scroll and focus when closed', () => {
   page('?q=Alpen');
   const opener = screen.getByRole('button', { name: /放大Alpen/ });
   opener.focus();
   fireEvent.click(opener);
   expect(screen.getByRole('dialog')).toBeTruthy();
   expect(document.body.style.overflow).toBe('hidden');
-  const image = screen.getByAltText('Alpen Group 原始優惠券');
-  fireEvent.click(screen.getByRole('button', { name: '放大優惠券' }));
-  expect(image.style.width).toBe('150%');
-  fireEvent.click(screen.getByRole('button', { name: '顯示完整券面' }));
-  expect(image.style.width).toBe('');
+  expect(screen.getByAltText('Alpen Group 原始優惠券')).toBeTruthy();
+  expect(screen.queryByRole('button', { name: '放大優惠券' })).toBeNull();
+  expect(screen.queryByRole('button', { name: '顯示完整券面' })).toBeNull();
   fireEvent.click(screen.getByRole('button', { name: '關閉' }));
   expect(screen.queryByRole('dialog')).toBeNull();
   expect(document.body.style.overflow).toBe('');
