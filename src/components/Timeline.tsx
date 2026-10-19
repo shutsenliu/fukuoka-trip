@@ -17,7 +17,7 @@ export function Timeline({ day }: { day: TripDay }) {
     return <article className="timeline-row" key={`${day.id}-${stop.id}`}>
       <div className="time"><strong>{stop.startTime}</strong><span>{stop.endTime}</span></div>
       <div className={`card p-4 flex-1 min-w-0 ${items.length ? 'shopping-stop' : ''}`}>
-        <span className="eyebrow goal-eyebrow">{items.length ? <><EggMark/>這站有心願</> : stop.type}</span>
+        {!!items.length && <span className="eyebrow goal-eyebrow"><EggMark/>這站有心願</span>}
         <h3 className="text-lg font-semibold mt-1">{stop.name}</h3>
         {(stop.detailMarkdown || stop.details?.length || stop.notes) && <details className="stop-places itinerary-details"><summary>詳細資訊</summary><div className="mt-3">
           {stop.detailMarkdown ? <><p className="muted text-sm mb-4">依原行程與後續確認內容整理；時間以卡片為準，班次、營業與訂位規則仍需向官方確認。</p><ItineraryText>{stop.detailMarkdown}</ItineraryText></> : <div className="space-y-3">{stop.notes && <p className="whitespace-pre-line">{stop.notes}</p>}{stop.details?.map((detail,index) => <section key={`${detail.title}-${index}`}><h4 className="font-semibold">{detail.title}</h4><ul className="travel-steps">{detail.content.map((text,i) => <li key={i}>{text}</li>)}</ul></section>)}</div>}

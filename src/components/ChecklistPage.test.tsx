@@ -29,12 +29,11 @@ it('filters shopping and food, day/stop and completed status without duplicate b
   expect(screen.getByText('測試小吃')).toBeTruthy();
   fireEvent.click(screen.getByRole('button',{name:'未完成'}));
   expect(screen.queryByText('測試小吃')).toBeNull();
-  fireEvent.click(screen.getByRole('button',{name:'重設篩選'}));
-  expect(screen.getAllByRole('checkbox')).toHaveLength(7);
+  expect(screen.queryByRole('button',{name:'重設篩選'})).toBeNull();
   expect(screen.queryByRole('button',{name:'✨ 體驗'})).toBeNull();
 });
 
-it('opens convenience goals from an itinerary filter, separates chains and persists completion', () => {
+it('opens convenience goals from an itinerary filter, shows all chains and persists completion', () => {
   render(<MemoryRouter initialEntries={['/items?day=day-5&stop=day-5-stop-6&type=shopping&category=衣物']}><ChecklistPage days={itinerary}/></MemoryRouter>);
   fireEvent.click(screen.getByRole('button',{name:'🏪 超商'}));
   expect(screen.getByText('測試超商冰')).toBeTruthy();
@@ -43,16 +42,14 @@ it('opens convenience goals from an itinerary filter, separates chains and persi
   expect(screen.getByText('🏪 超商／超市 · 路過再買')).toBeTruthy();
   expect(screen.queryByText('測試購物')).toBeNull();
   expect((screen.getByLabelText('日期') as HTMLSelectElement).disabled).toBe(true);
-  fireEvent.change(screen.getByLabelText('超商品牌'),{target:{value:'Lawson'}});
-  expect(screen.queryByText('測試超商冰')).toBeNull();
-  expect(screen.queryByText('測試冷藏優格')).toBeNull();
-  fireEvent.click(screen.getByRole('checkbox'));
+  expect(screen.queryByLabelText('超商品牌')).toBeNull();
+  expect(screen.queryByText('🏪 路過再買 · 不綁日期或行程站點，供應以現場為準。')).toBeNull();
+  fireEvent.click(screen.getAllByRole('checkbox')[1]);
   fireEvent.click(screen.getByRole('button',{name:'已完成'}));
   expect(screen.getByText('測試超商泡芙')).toBeTruthy();
   fireEvent.click(screen.getByRole('button',{name:'未完成'}));
   expect(screen.queryByText('測試超商泡芙')).toBeNull();
-  fireEvent.click(screen.getByRole('button',{name:'重設篩選'}));
-  expect(screen.getAllByRole('checkbox')).toHaveLength(7);
+  expect(screen.queryByRole('button',{name:'重設篩選'})).toBeNull();
 });
 
 it('places protein next to convenience, clears itinerary scope and removes it from subcategories', () => {

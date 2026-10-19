@@ -93,7 +93,7 @@
   {
     "id": "leclerc-caneles",
     "name": "LeClerc 可麗露／法式甜點",
-    "type": "shopping",
+    "type": "food",
     "category": "法式甜點",
     "priority": 3,
     "image": "items/hakata-leclerc-illustration.png",

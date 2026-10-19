@@ -12,7 +12,7 @@ export function TripHero() {
 export function DayHeading({day}: {day: TripDay}) {
   const art = theme.days.find(entry => entry.day === day.day);
   return <section className="day-heading" aria-label={`Day ${day.day} 行程摘要`}>
-    <div className="day-copy"><span className="day-label">DAY {String(day.day).padStart(2,'0')} <span>／ {day.date.slice(5).replace('-','.')}</span></span><h2>{day.title}</h2><p className="muted">{day.stops.length} 個停靠點</p></div>
+    <div className="day-copy"><span className="day-label">DAY {String(day.day).padStart(2,'0')} <span>／ {day.date.slice(5).replace('-','.')}</span></span><h2>{day.title}</h2></div>
     {art && <img key={art.image} className="day-art" src={asset(art.image)} alt={art.alt} width="1024" height="1024"/>}
   </section>;
 }
