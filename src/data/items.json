@@ -734,18 +734,17 @@
   },
   {
     "id": "the-answer-color-repair-treatment",
-    "name": "THE ANSWER 染後修護護髮素",
+    "name": "THE ANSWER 熱損傷修護護髮素",
     "type": "shopping",
     "shoppingGroup": "drugstore",
     "category": "護髮用品",
     "priority": 3,
-    "image": "items/answer-color.jpg",
-    "imageCaption": "SUNDRUG 商品圖。",
-    "notes": "綠色標記 EX REPAIR／FOR COLOR DAMAGE；需沖洗的染後修護款。",
+    "image": "items/answer-heat.jpg",
+    "imageCaption": "品牌官方包裝照片。",
+    "notes": "EX GLOSS／FOR HEAT DAMAGE；針對電棒、離子夾等熱傷害的需沖洗護髮款。",
     "placeIds": [],
     "sourceUrls": [
-      "https://www.matsukiyococokara-online.com/store/catalog/product/view/id/4901301462022",
-      "https://sundrug-online.com/products/4901301462022"
+      "https://www.kao-kirei.com/ja/item/khg/theanswer/4901301446220/"
     ],
     "size": "220g"
   },
