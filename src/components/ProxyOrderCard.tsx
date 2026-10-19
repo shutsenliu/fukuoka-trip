@@ -48,7 +48,6 @@ export function ProxyOrderCard({order,person,product,purchase,disabled,onSave,on
         <input ref={album} className="sr-only" tabIndex={-1} type="file" accept="image/*" aria-label="選擇購買照片" disabled={locked} onChange={selectPhoto}/>
         <div className="proxy-photo-actions"><button className="button secondary" type="button" disabled={locked} onClick={()=>camera.current?.click()}>拍照</button><button className="button secondary" type="button" disabled={locked} onClick={()=>album.current?.click()}>從相簿選取</button>{photo&&<button className="button secondary" type="button" disabled={locked} onClick={()=>{setPhoto(null);setMessage('');}}>移除照片</button>}</div>
         <label>實付總額（日圓，這 {order.quantity} 件合計）<input type="number" inputMode="numeric" min="0" max="1000000000" step="1" value={amount} disabled={locked} onChange={event=>{setAmount(event.target.value);setMessage('');}} placeholder="尚未填寫"/></label>
-        <p className="muted text-sm">照片與金額按儲存後才會保留；只填一項也可先儲存。</p>
         {error&&<p role="alert">{error}</p>}{message&&<p role="status">{message}</p>}
         <button className="button" type="submit" disabled={locked}>{busy?'處理中…':'儲存購買結果'}</button>
         {purchase&&<button className="proxy-clear" type="button" disabled={locked} onClick={()=>{void clear();}}>清除已存紀錄</button>}
