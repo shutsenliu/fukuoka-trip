@@ -1056,16 +1056,16 @@
     ]
   },
   {
-    "id": "mytear-alpitat-n-ex-alpha7",
-    "name": "Mytear Alpitat N EXα7 抗過敏眼藥水（溫和型）",
+    "id": "mytear-alpitat-ex-alpha7",
+    "name": "Mytear Alpitat EXα7 抗過敏眼藥水（清涼型）",
     "type": "shopping",
     "shoppingGroup": "drugstore",
     "category": "眼部用品",
     "priority": 3,
-    "image": "items/mytear-alpitat-n-ex-alpha7.png",
-    "imageCaption": "品牌官方現行包裝圖，與提供照片的包裝版面不同。",
+    "image": "items/mytear-alpitat-ex-alpha7.png",
+    "imageCaption": "千壽製藥官方商品圖。",
     "size": "15mL",
-    "notes": "マイティア アルピタットN EXα7；照片指定的非清涼型（ノンクール），第 2 類醫藥品。",
+    "notes": "マイティア アルピタットEXα7；清涼型（クール），第 2 類醫藥品。",
     "placeIds": [],
     "sourceUrls": [
       "https://www.senju.co.jp/consumer/alpitattoex/alpha7/"
