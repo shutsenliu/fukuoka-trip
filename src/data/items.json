@@ -782,22 +782,6 @@
     "color": "淺棕色（ライトブラウン）"
   },
   {
-    "id": "gyutto-corset-hair-mask",
-    "name": "ROHTO Gyutto Corset 髮膜",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "護髮用品",
-    "priority": 3,
-    "image": "items/gyutto-corset-hair-mask.webp",
-    "imageCaption": "品牌官方商品包裝圖。",
-    "size": "200 g",
-    "notes": "ギュット コルセットヘアマスク；綠金色軟管、沖洗式護髮。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://jp.rohto.com/gyutto/hairmask/"
-    ]
-  },
-  {
     "id": "canmake-botanical-nail-oil",
     "name": "CANMAKE Botanical Nail Oil 植物指緣油",
     "type": "shopping",
