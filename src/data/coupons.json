@@ -8,25 +8,25 @@
       "天神大丸前店"
     ],
     "offer": "額外 5%／7%／9% OFF",
-    "validity": "截止日待確認（網頁與券圖不一致）",
-    "stores": "僅限天神大丸前、歌舞伎町1丁目、道頓堀、廣尾站店。",
+    "validity": "至 2026/12/31",
+    "stores": "僅限天神大丸前、心齋橋南、道頓堀、廣尾站、歌舞伎町1丁目，共 5 店。",
     "limits": [
-      "僅限符合免稅資格的旅客，結帳時出示護照；每張限用一次。",
-      "不可與其他優惠券併用，菸酒不適用。",
-      "第 1 類藥品需有藥劑師在場。"
+      "僅限免稅顧客，結帳前出示護照與券圖；每天限用一次。",
+      "不可與其他優惠券併用，菸草、酒類、預付卡及其他指定商品不適用。",
+      "藥劑師不在時，不能購買第 1 類醫藥品及需指導醫藥品。"
     ],
     "mode": "image",
-    "tripStatus": "check",
+    "tripStatus": "in-trip",
     "sourceUrls": [
-      "https://matcha-jp.com/tw/coupon/12"
+      "https://gogojp.tw/cosmos/"
     ],
     "thresholds": [
       "未稅滿 ¥10,000：5% OFF",
       "未稅滿 ¥30,000：7% OFF",
       "未稅滿 ¥50,000：9% OFF"
     ],
-    "notice": "網頁寫 2026/12/31，券圖寫 2027/12/31；使用前請店員確認期限與適用條件。",
-    "image": "coupons/cosmos.jpg"
+    "notice": "福岡適用店為天神大丸前店；可作 Day 5 天神藥妝採買備用，其他分店不適用。",
+    "image": "coupons/cosmos-2026.jpg"
   },
   {
     "id": "alpen",
@@ -311,5 +311,34 @@
     "notice": "11 月以後的新版預定在同一入口更新；尚未將未發布的新券視為有效。",
     "actionUrl": "https://livejapan.com/public/operation/coupon/biccamera/zh-tw.html?sc_lid=lj_article_a0005298",
     "actionLabel": "開啟新版券入口"
+  },
+  {
+    "id": "fukuoka-airport",
+    "merchant": "福岡機場免稅店",
+    "aliases": [
+      "Fukuoka Airport Duty Free",
+      "機場",
+      "伴手禮小町",
+      "衝日本"
+    ],
+    "offer": "指定商品額外 5% OFF",
+    "validity": "至 2027/03/31",
+    "stores": "福岡機場國際線出境後免稅店之參與櫃位；非全機場通用。",
+    "limits": [
+      "結帳前出示原始券圖；單筆限用一張，不可與其他優惠同時使用。",
+      "可重複使用；影印無效，不可兌換現金、不找零。",
+      "CHANEL、Christian Dior、ALBION、Elegance、PAUL & JOE、Aesop、LE LABO 等指定品牌不適用；ISSEY MIYAKE 旗下品牌不適用，惟香水可享優惠。",
+      "Air BicCamera、UNIQLO、伊東屋、宗家源吉兆庵、Butter Butler、BUTTER&bee、BACHA 等，以及餐廳、便利店不適用；完整排除清單見券面。",
+      "部分三得利商品、特價商品、高價酒類、稀缺商品、期間限定商品及部分兌換券不適用。"
+    ],
+    "mode": "image",
+    "tripStatus": "in-trip",
+    "image": "coupons/fukuoka-airport.jpg",
+    "redeemAt": "Day 6（12/17）10:30 出境後補買伴手禮時，付款前出示給收銀員。",
+    "notice": "適合回程補買時備用。THE MATCHA TOKYO、CHAORI-YA 及築地ちとせ是否適用，需向實際販售櫃位確認；不能視為必有折扣。",
+    "sourceUrls": [
+      "https://gogojp.tw/fukuoka-airport/",
+      "https://www.fuk-ab.com.tw/"
+    ]
   }
 ]
