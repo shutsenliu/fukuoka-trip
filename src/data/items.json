@@ -960,6 +960,22 @@
     ]
   },
   {
+    "id": "traful-direct-a-12",
+    "name": "第一三共 Traful Direct 嘴破貼片",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "藥品",
+    "priority": 3,
+    "image": "items/traful-direct-a-12.jpg",
+    "imageCaption": "品牌官方現行包裝圖（トラフルダイレクトa）。",
+    "size": "12 片",
+    "notes": "トラフルダイレクトa；可溶解的口內炎薄型貼片，含類固醇成分，指定第 2 類醫藥品。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.daiichisankyo-hc.co.jp/products/details/traful_direct/"
+    ]
+  },
+  {
     "id": "benza-block-l-premium-dx",
     "name": "Benza Block L PREMIUM DX 感冒藥",
     "type": "shopping",
