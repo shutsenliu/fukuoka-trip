@@ -91,6 +91,13 @@
       "itemId": "smile-contact-moist-mild-12",
       "quantity": 1,
       "notes": ""
+    },
+    {
+      "id": "chi-coenrich-q10-night-renew",
+      "personId": "chi",
+      "itemId": "coenrich-q10-night-renew",
+      "quantity": 1,
+      "notes": ""
     }
   ]
 }
