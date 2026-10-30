@@ -1150,6 +1150,38 @@
     ]
   },
   {
+    "id": "nightmin-nemuru-stress-15",
+    "name": "小林製藥 Nightmin 眠る力 壓力對策補充品",
+    "size": "15 粒／15 日份",
+    "image": "items/nightmin-stress-15.png",
+    "notes": "ナイトミン 眠る力 ストレス対策サプリ；GABA 配方的機能性表示食品，紫色袋裝。",
+    "sourceUrls": [
+      "https://www.kobayashi.co.jp/seihin/nm_stress_m/"
+    ],
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "保健食品",
+    "priority": 3,
+    "imageCaption": "品牌官方商品包裝照片。",
+    "placeIds": []
+  },
+  {
+    "id": "my-monsters-min-katsu-60",
+    "name": "MY MONSTERS M.I.N活 MONSTER",
+    "size": "60 粒／30 日份",
+    "image": "items/min-katsu-monster-60.jpg",
+    "notes": "夜間放鬆用營養補充品；深藍月亮袋裝，含 L-茶胺酸、GABA 與色胺酸等成分。",
+    "sourceUrls": [
+      "https://mymonsters.growx.co.jp/products/min-katsu-monster"
+    ],
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "保健食品",
+    "priority": 3,
+    "imageCaption": "品牌官方商品包裝照片。",
+    "placeIds": []
+  },
+  {
     "id": "hanafukudo-ichigo-millefeuille",
     "name": "花福堂 博多草莓巧克力千層酥",
     "type": "shopping",
