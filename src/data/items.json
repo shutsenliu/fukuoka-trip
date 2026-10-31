@@ -1320,7 +1320,7 @@
     "name": "CHAORI-YA 焙茶奶油夾心酥",
     "size": "4 個入",
     "image": "items/chaoriya-hojicha-pie.webp",
-    "notes": "パイサンドほうじ茶；照片中的米黃色禮盒，酥皮夾焙茶奶油。",
+    "notes": "パイサンドほうじ茶；照片中的米黃色禮盒，酥皮夾焙茶奶油。 福岡機場僅公告 10/1～10/31 限定出店，12 月未確認；Day 6 先詢問，沒有就略過。",
     "sourceUrls": [
       "https://chaoriya.jp/"
     ],
@@ -1328,7 +1328,9 @@
     "category": "伴手禮",
     "priority": 3,
     "imageCaption": "品牌官方商品包裝照片。",
-    "placeIds": []
+    "placeIds": [
+      "fukuoka-international-duty-free"
+    ]
   },
   {
     "id": "butterstates-amaou-butter-sand",
@@ -1343,14 +1345,16 @@
     "category": "伴手禮",
     "priority": 3,
     "imageCaption": "品牌官方商品包裝照片。",
-    "placeIds": []
+    "placeIds": [
+      "butterstates-daimaru-tenjin"
+    ]
   },
   {
     "id": "calbee-jagarico-mentaiko-gift",
     "name": "Calbee Jagarico 九州明太子味薯條棒",
     "size": "8 袋入",
     "image": "items/jagarico-mentaiko.jpg",
-    "notes": "じゃがりこ 九州土産 明太子味；紅色禮盒、獨立小袋裝，微辣鹹香。",
+    "notes": "じゃがりこ 九州土産 明太子味；紅色禮盒、獨立小袋裝，微辣鹹香。 Day 1 博多銘品蔵詢問，分店庫存以現場為準。",
     "sourceUrls": [
       "https://www.calbee.co.jp/jagarico/products/detail/kyusyu_mentai1911"
     ],
@@ -1358,6 +1362,8 @@
     "category": "伴手禮",
     "priority": 3,
     "imageCaption": "品牌官方商品包裝照片。",
-    "placeIds": []
+    "placeIds": [
+      "hakata-meihingura-hakataguchi"
+    ]
   }
 ]

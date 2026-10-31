@@ -40,3 +40,5 @@ This is a static travel companion with itinerary, places, and shopping/food goal
 - Convenience goals without a user-specified chain use convenienceStore: "any" and display 超商／超市; do not assign an invented chain or branch. Keep them independent from itinerary stops.
 
 - Coupons belong in src/data/coupons.json and original downloaded images in public/coupons/. Never generate or redraw coupon codes. Keep source URLs as metadata only; do not display source links or last-checked dates. Web-only redemption and counter/member offers must retain their actual usage flow, with conflicting validity or eligibility clearly marked.
+
+- Souvenir goals must also be linked to an appropriate itinerary stop after researching where to buy them. Preserve existing goal IDs for duplicates. Mark uncertain seasonal or branch availability explicitly; do not imply confirmed trip-date stock.

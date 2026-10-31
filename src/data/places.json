@@ -577,5 +577,31 @@
       "https://jiichiro.com/shop/",
       "https://jiichiro.com/products/3245/"
     ]
+  },
+  {
+    "id": "butterstates-daimaru-tenjin",
+    "name": "BUTTER STATE’s 大丸福岡天神店",
+    "type": "shop",
+    "area": "天神",
+    "address": "福岡県福岡市中央区天神1-4-1 大丸福岡天神店 本館B2 食品フロア",
+    "shortAddress": "大丸福岡天神店 本館 B2",
+    "notes": "品牌官網列有此店與甘王草莓奶油夾心餅乾；到店品項與庫存仍以現場為準。",
+    "sourceUrls": [
+      "https://www.butterstates.jp/",
+      "https://www.butterstates.jp/fukuoka.html"
+    ]
+  },
+  {
+    "id": "hakata-meihingura-hakataguchi",
+    "name": "博多銘品蔵 博多口店",
+    "type": "shop",
+    "area": "博多",
+    "address": "福岡県福岡市博多区博多駅中央街1-1 JR博多駅構内1F",
+    "shortAddress": "JR 博多站 1F・博多口側",
+    "notes": "JR 博多 City 官網確認門市。銘品蔵有明太子味 Jagarico 販售紀錄；當天此分店庫存需確認，無需進新幹線閘內。",
+    "sourceUrls": [
+      "https://www.jrhakatacity.com/floor/detail/?cd=000414",
+      "https://www.instagram.com/meihingura/"
+    ]
   }
 ]
