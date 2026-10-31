@@ -1314,5 +1314,50 @@
     "sourceUrls": [
       "https://www.danone.co.jp/news/20260114-2/"
     ]
+  },
+  {
+    "id": "chaoriya-hojicha-pie-sand",
+    "name": "CHAORI-YA 焙茶奶油夾心酥",
+    "size": "4 個入",
+    "image": "items/chaoriya-hojicha-pie.webp",
+    "notes": "パイサンドほうじ茶；照片中的米黃色禮盒，酥皮夾焙茶奶油。",
+    "sourceUrls": [
+      "https://chaoriya.jp/"
+    ],
+    "type": "shopping",
+    "category": "伴手禮",
+    "priority": 3,
+    "imageCaption": "品牌官方商品包裝照片。",
+    "placeIds": []
+  },
+  {
+    "id": "butterstates-amaou-butter-sand",
+    "name": "BUTTER STATE’s 甘王草莓奶油夾心餅乾",
+    "size": "4 個／8 個入，入數依現場選擇",
+    "image": "items/butterstates-amaou-sand.png",
+    "notes": "あまおう苺のバターサンド あまバタージュ；紅金色禮盒，草莓果醬與奶油巧克力夾心。",
+    "sourceUrls": [
+      "https://www.butterstates.jp/fukuoka.html"
+    ],
+    "type": "shopping",
+    "category": "伴手禮",
+    "priority": 3,
+    "imageCaption": "品牌官方商品包裝照片。",
+    "placeIds": []
+  },
+  {
+    "id": "calbee-jagarico-mentaiko-gift",
+    "name": "Calbee Jagarico 九州明太子味薯條棒",
+    "size": "8 袋入",
+    "image": "items/jagarico-mentaiko.jpg",
+    "notes": "じゃがりこ 九州土産 明太子味；紅色禮盒、獨立小袋裝，微辣鹹香。",
+    "sourceUrls": [
+      "https://www.calbee.co.jp/jagarico/products/detail/kyusyu_mentai1911"
+    ],
+    "type": "shopping",
+    "category": "伴手禮",
+    "priority": 3,
+    "imageCaption": "品牌官方商品包裝照片。",
+    "placeIds": []
   }
 ]
