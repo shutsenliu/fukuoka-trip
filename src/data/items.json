@@ -109,11 +109,14 @@
     "type": "shopping",
     "category": "伴手禮",
     "priority": 3,
-    "image": "items/hakata-ivorish-illustration.png",
-    "imageCaption": "AI 示意插圖，非官方實拍；實際商品與包裝以門市為準。",
+    "image": "items/ivorish-financier-package.jpg",
+    "imageCaption": "品牌官方 6 個裝外盒照片；入數依現場選擇。",
     "notes": "吐司造型的費南雪；依送禮人數挑選盒裝入數。",
     "placeIds": [
       "ivorish-hakata"
+    ],
+    "sourceUrls": [
+      "https://sucreyshopping.jp/shop/g/givo021004/"
     ]
   },
   {
@@ -122,11 +125,14 @@
     "type": "shopping",
     "category": "伴手禮",
     "priority": 3,
-    "image": "items/hakata-sugar-illustration.png",
-    "imageCaption": "AI 示意插圖，非官方實拍；實際商品與包裝以門市為準。",
+    "image": "items/sugarbutter-amaou-package.png",
+    "imageCaption": "品牌官方 12 個裝包裝照片；入數依現場選擇。",
     "notes": "優先找博多限定「あまおう苺バター」，不要拿成其他草莓口味；供應以門市為準。",
     "placeIds": [
       "sugarbutter-hakata"
+    ],
+    "sourceUrls": [
+      "https://www.sugarbuttertree.jp/sand_amaou.html"
     ]
   },
   {
@@ -135,11 +141,14 @@
     "type": "shopping",
     "category": "伴手禮",
     "priority": 3,
-    "image": "items/hakata-hana-illustration.png",
-    "imageCaption": "AI 示意插圖，非官方實拍；實際商品與包裝以門市為準。",
+    "image": "items/hanafukudo-langue-package.png",
+    "imageCaption": "花福堂官方外盒照片；入數依現場選擇。",
     "notes": "依使用者確認改用此品項：薄餅乾夾甘王草莓巧克力，按送禮需求選入數。",
     "placeIds": [
       "hanafukudo-deitos"
+    ],
+    "sourceUrls": [
+      "https://www.hanafukudo.co.jp/"
     ]
   },
   {
@@ -165,11 +174,14 @@
     "type": "shopping",
     "category": "伴手禮",
     "priority": 3,
-    "image": "items/hakata-ebi-illustration.png",
-    "imageCaption": "AI 示意插圖，非官方實拍；實際商品與包裝以門市為準。",
+    "image": "items/hakata-mentai-ebi-package.png",
+    "imageCaption": "博多風美庵官方各入數包裝照片。",
     "notes": "博多風美庵的明太子蝦餅；依需求挑選盒裝，當日庫存以門市為準。",
     "placeIds": [
       "fubian-ming"
+    ],
+    "sourceUrls": [
+      "https://fuubian.co.jp/lp/campaign/ebisenbei/2026/"
     ]
   },
   {
@@ -178,11 +190,14 @@
     "type": "shopping",
     "category": "伴手禮",
     "priority": 3,
-    "image": "items/hakata-aman-illustration.png",
-    "imageCaption": "AI 示意插圖，非官方實拍；實際商品與包裝以門市為準。",
+    "image": "items/amanberry-package.jpg",
+    "imageCaption": "品牌發售新聞稿外盒照片；入數依現場選擇。",
     "notes": "品牌 AMANBERRY：チュイール餅乾搭配白巧克力奶油與あまおう草莓，依需求選入數。",
     "placeIds": [
       "amanberry-hankyu"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000000001.000131591.html"
     ]
   },
   {
@@ -191,11 +206,14 @@
     "type": "shopping",
     "category": "伴手禮",
     "priority": 3,
-    "image": "items/fukusaya-illustration.png",
-    "imageCaption": "AI 概念插圖，非官方實拍；款式、包裝與供應以門市為準。",
+    "image": "items/fukusaya-castella-package.png",
+    "imageCaption": "福砂屋官方小切れ 0.6 號單盒照片；規格依現場選擇。",
     "notes": "福砂屋經典長崎蛋糕；依送禮需求選擇盒裝，購買時確認保存期限。",
     "placeIds": [
       "fukusaya-ming"
+    ],
+    "sourceUrls": [
+      "https://www.fukusaya.co.jp/item_price/castella.html"
     ]
   },
   {
@@ -204,11 +222,14 @@
     "type": "shopping",
     "category": "伴手禮",
     "priority": 3,
-    "image": "items/menbei-illustration.png",
-    "imageCaption": "AI 概念插圖，非官方實拍；款式、包裝與供應以門市為準。",
+    "image": "items/menbei-plain-package.jpg",
+    "imageCaption": "福太郎官方原味外盒與個別包裝照片。",
     "notes": "指定原味「プレーン」，不要拿成其他口味；依送禮需求選擇入數。",
     "placeIds": [
       "fukutaro-ming"
+    ],
+    "sourceUrls": [
+      "https://www.fukutaro.co.jp/menbei/"
     ]
   },
   {
@@ -1187,14 +1208,15 @@
     "type": "shopping",
     "category": "伴手禮",
     "priority": 3,
-    "image": "items/hanafukudo-ichigo-millefeuille.webp",
-    "imageCaption": "花福堂官方商品照片。",
+    "image": "items/hanafukudo-millefeuille-package.jpg",
+    "imageCaption": "JAL PLAZA 官方 6 個裝外盒與個別包裝照片；入數依現場選擇。",
     "notes": "博多まっかな苺のミルフィユ；草莓奶油夾酥皮、外層白巧克力。Day 1 到 DEITOS 花福堂選盒裝。",
     "placeIds": [
       "hanafukudo-deitos"
     ],
     "sourceUrls": [
-      "https://www.hanafukudo.co.jp/"
+      "https://www.hanafukudo.co.jp/",
+      "https://jalplaza-airport.jalux.com/product/detail/9200907241456/"
     ]
   },
   {
@@ -1220,15 +1242,16 @@
     "type": "shopping",
     "category": "伴手禮",
     "priority": 3,
-    "image": "items/itoking-fukuoka-ichigo-cookies.webp",
-    "imageCaption": "品牌官方三種口味商品圖；綜合外盒以現場為準。",
+    "image": "items/itoking-cookies-package.jpg",
+    "imageCaption": "粉綠格紋三種綜合盒實拍參考圖（食べログ mayupapa）。",
     "notes": "指定照片的三種綜合盒：原味、巧克力、白巧克力。Ming 店列有此餅乾系列，綜合盒款式與入數現場確認。",
     "placeIds": [
       "itoking-ming"
     ],
     "sourceUrls": [
       "https://www.itoking.jp/shohin2.html",
-      "https://www.itoking.jp/info.html"
+      "https://www.itoking.jp/info.html",
+      "https://tabelog.com/fukuoka/A4001/A400202/40073655/dtlrvwlst/B527261649/?type=0"
     ]
   },
   {
