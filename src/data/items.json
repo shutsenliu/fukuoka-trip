@@ -655,6 +655,22 @@
     ]
   },
   {
+    "id": "yunth-pure-pdrn-sheet-mask",
+    "name": "Yunth Pure PDRN 保濕面膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "面膜",
+    "priority": 3,
+    "image": "items/yunth-pure-pdrn-mask.webp",
+    "imageCaption": "品牌官方現行 PurePDRN-α 包裝圖；與提供照片的標示略有不同。",
+    "size": "7 片入",
+    "notes": "生PDRNシートマスク；紅橘色袋裝的保濕面膜，購買時核對 Pure PDRN 款。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://yunth.jp/shop/products/YB-124-004"
+    ]
+  },
+  {
     "id": "quality1st-eye-super-black-vcr",
     "name": "QUALITY 1st DERMA LASER 黑色 VCR 眼膜",
     "type": "shopping",
