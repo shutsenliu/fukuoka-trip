@@ -1339,6 +1339,55 @@
     ]
   },
   {
+    "id": "lawson-captain-butterscotch-burger",
+    "name": "CAPTAIN SWEETS BURGER 奶油焦糖漢堡夾心餅乾",
+    "image": "items/lawson-butterscotch-burger.jpg",
+    "imageCaption": "Lawson 官方 2 個入包裝照片。",
+    "size": "2 個入",
+    "notes": "バタースコッチバーガー；黃黑色袋裝，奶油巧克力與焦糖夾心。",
+    "convenienceStore": "Lawson",
+    "sourceUrls": [
+      "https://www.lawson.co.jp/sp/recommend/original/detail/1533669_2168.html",
+      "https://www.lawson.co.jp/lab/tsuushin/art/1533158_4659.html"
+    ],
+    "type": "food",
+    "category": "餅乾",
+    "priority": 3,
+    "placeIds": []
+  },
+  {
+    "id": "meiji-dark-chocolate-matcha",
+    "name": "明治 Dark Chocolate MATCHA 抹茶黑巧克力",
+    "image": "items/meiji-dark-matcha.png",
+    "imageCaption": "明治官方外盒與個別包裝照片。",
+    "size": "15 枚入（圖示包裝）",
+    "notes": "華やかな深み抹茶；西尾抹茶搭配黑巧克力，黑金綠色盒裝。",
+    "convenienceStore": "any",
+    "sourceUrls": [
+      "https://www.meiji.co.jp/products/brand/global/choco/ja/products/others/detail/0001/"
+    ],
+    "type": "food",
+    "category": "巧克力",
+    "priority": 3,
+    "placeIds": []
+  },
+  {
+    "id": "meiji-namanotoki-milk",
+    "name": "明治 生のとき 濃密柔軟牛奶巧克力",
+    "image": "items/meiji-namanotoki-milk.jpg",
+    "imageCaption": "明治官方「しっとりミルク」包裝照片。",
+    "size": "4 枚入",
+    "notes": "生のとき しっとりミルク；生ねり製法製成的柔軟口感巧克力點心，橘棕色盒裝。",
+    "convenienceStore": "any",
+    "sourceUrls": [
+      "https://www.meiji.co.jp/products/chocolate/4902777237268.html"
+    ],
+    "type": "food",
+    "category": "巧克力",
+    "priority": 3,
+    "placeIds": []
+  },
+  {
     "id": "chaoriya-hojicha-pie-sand",
     "name": "CHAORI-YA 焙茶奶油夾心酥",
     "size": "4 個入",
