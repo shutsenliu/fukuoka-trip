@@ -1173,23 +1173,6 @@
     ]
   },
   {
-    "id": "fuji-stomach-plus-18",
-    "name": "新富士胃腸藥 PLUS（部分批次回收，待確認）",
-    "type": "shopping",
-    "shoppingGroup": "drugstore",
-    "category": "藥品",
-    "priority": 3,
-    "image": "items/fuji-stomach-plus.png",
-    "imageCaption": "品牌官方商品包裝照片。",
-    "size": "18 包",
-    "notes": "新富士胃腸薬プラス；第 2 類醫藥品。2026/10/22 起部分批次自主回收，購買前請藥師核對批號，勿購買回收品。",
-    "placeIds": [],
-    "sourceUrls": [
-      "https://www.fujiyaku-direct.com/shop/g/g498752407132n/",
-      "https://www.rakuten.co.jp/fujiyaku/contents/shinfuji/"
-    ]
-  },
-  {
     "id": "ohta-isan-a-tablets-45",
     "name": "太田胃散 A 錠劑",
     "type": "shopping",
