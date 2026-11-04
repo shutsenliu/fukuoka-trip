@@ -1516,6 +1516,22 @@
     "placeIds": []
   },
   {
+    "id": "fujiya-countrymaam-chocomamire",
+    "name": "不二家 COUNTRY MA’AM 巧克力滿滿餅乾",
+    "type": "food",
+    "category": "餅乾",
+    "priority": 3,
+    "image": "items/fujiya-countrymaam-chocomamire.jpg",
+    "imageCaption": "品牌官方現行中袋裝照片；促銷貼紙可能不同。",
+    "size": "中袋裝（官方現行 122g）",
+    "notes": "カントリーマアム チョコまみれ；白棕色袋裝，巧克力豆餅乾外裹巧克力。",
+    "convenienceStore": "any",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.fujiya-peko.co.jp/sweets/item/27807.html"
+    ]
+  },
+  {
     "id": "chaoriya-hojicha-pie-sand",
     "name": "CHAORI-YA 焙茶奶油夾心酥",
     "size": "4 個入",
