@@ -671,6 +671,22 @@
     ]
   },
   {
+    "id": "quality1st-pro-super-bright",
+    "name": "QUALITY 1st DERMA LASER PRO SUPER BRIGHT 面膜",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "面膜",
+    "priority": 3,
+    "image": "items/q1st-pro-bright.jpg",
+    "imageCaption": "品牌官方商品包裝照片。",
+    "size": "7 片入",
+    "notes": "ダーマレーザーPRO 超白玉マスク；銀灰漸層袋裝，穀胱甘肽與甘胺醯甘胺酸保濕配方。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://q1st.jp/shop/products/QF01102"
+    ]
+  },
+  {
     "id": "quality1st-eye-super-black-vcr",
     "name": "QUALITY 1st DERMA LASER 黑色 VCR 眼膜",
     "type": "shopping",
@@ -700,6 +716,22 @@
     "placeIds": [],
     "sourceUrls": [
       "https://lululun.com/shop/products/LUAF401101"
+    ]
+  },
+  {
+    "id": "chifure-brightening-ta-na",
+    "name": "CHIFURE 藥用美白眼周／雙頰乳霜 TA＆NA",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "眼周保養",
+    "priority": 3,
+    "image": "items/chifure-ta-na.jpg",
+    "imageCaption": "品牌官方商品包裝照片。",
+    "size": "20g",
+    "notes": "藥用 美白クリーム TA＆NA；傳明酸與菸鹼醯胺配方，醫藥部外品。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.chifure.co.jp/products/moisturecream/8109"
     ]
   },
   {
@@ -902,6 +934,54 @@
     "size": "2 支入"
   },
   {
+    "id": "canmake-moon-glow-01",
+    "name": "CANMAKE Moon Glow Highlighter 打亮餅 01",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "彩妝",
+    "priority": 3,
+    "image": "items/canmake-moon-01.jpg",
+    "imageCaption": "品牌官方商品包裝照片。",
+    "size": "01 Moon Glow White",
+    "notes": "ムーングロウハイライター；照片指定 01 白米色，透明方盒打亮餅。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.canmake.com/item/detail/moon-glow-hightlighter/"
+    ]
+  },
+  {
+    "id": "canmake-marshmallow-abloom-mini-01",
+    "name": "CANMAKE Marshmallow Finish Powder Abloom mini",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "彩妝",
+    "priority": 3,
+    "image": "items/canmake-abloom-mini-01.jpg",
+    "imageCaption": "品牌官方商品包裝照片。",
+    "size": "01 Dearest Bouquet",
+    "notes": "マシュマロフィニッシュパウダー ～Abloom～ mini；照片左側金色花瓣盒，柔霧蜜粉。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.canmake.com/item/detail/marshmallow-finish-powder-abloom-mini/"
+    ]
+  },
+  {
+    "id": "canmake-illuminating-abloom-mini-01",
+    "name": "CANMAKE Illuminating Finish Powder Abloom mini",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "彩妝",
+    "priority": 3,
+    "image": "items/canmake-illuminating-mini-01.jpg",
+    "imageCaption": "品牌官方商品包裝照片。",
+    "size": "01 Hydrangea Garden",
+    "notes": "イルミネイティングフィニッシュパウダー ～Abloom～ mini；照片右側藍銀花瓣盒，光澤蜜粉。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.canmake.com/item/detail/illuminating-finish-powder-abloom-mini/"
+    ]
+  },
+  {
     "id": "rosyrosa-multi-foundation-puff-2",
     "name": "ROSY ROSA 全粉底適用粉撲",
     "type": "shopping",
@@ -1090,6 +1170,55 @@
     "placeIds": [],
     "sourceUrls": [
       "https://www.dhc.co.jp/goods/40532.html"
+    ]
+  },
+  {
+    "id": "fuji-stomach-plus-18",
+    "name": "新富士胃腸藥 PLUS（部分批次回收，待確認）",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "藥品",
+    "priority": 3,
+    "image": "items/fuji-stomach-plus.png",
+    "imageCaption": "品牌官方商品包裝照片。",
+    "size": "18 包",
+    "notes": "新富士胃腸薬プラス；第 2 類醫藥品。2026/10/22 起部分批次自主回收，購買前請藥師核對批號，勿購買回收品。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.fujiyaku-direct.com/shop/g/g498752407132n/",
+      "https://www.rakuten.co.jp/fujiyaku/contents/shinfuji/"
+    ]
+  },
+  {
+    "id": "ohta-isan-a-tablets-45",
+    "name": "太田胃散 A 錠劑",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "藥品",
+    "priority": 3,
+    "image": "items/ohta-isan-a-45.png",
+    "imageCaption": "品牌官方 120 錠裝參考圖；需求為照片中的 45 錠裝。",
+    "size": "45 錠（照片指定）",
+    "notes": "太田胃散A〈錠剤〉；藍黃盒裝胃腸藥，第 2 類醫藥品。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://ohta-isan.co.jp/product/medicine/ohtaisana/"
+    ]
+  },
+  {
+    "id": "alinamin-a-270",
+    "name": "合利他命 Alinamin A 紅色款",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "藥品",
+    "priority": 3,
+    "image": "items/alinamin-a.png",
+    "imageCaption": "品牌官方現行 180 錠裝參考圖；需求為照片中的 270 錠裝。",
+    "size": "270 錠（照片指定）",
+    "notes": "アリナミンA；紅色 A 標示的維他命 B 群藥品，第 3 類醫藥品，與 EX PLUS 不同。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://alinamin.jp/lineup/alinamina.html"
     ]
   },
   {
