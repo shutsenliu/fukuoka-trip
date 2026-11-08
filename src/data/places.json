@@ -603,5 +603,18 @@
       "https://www.jrhakatacity.com/floor/detail/?cd=000414",
       "https://www.instagram.com/meihingura/"
     ]
+  },
+  {
+    "id": "hanamidori-hakata-ekimae",
+    "name": "博多華味鳥 博多駅前店",
+    "type": "restaurant",
+    "area": "博多",
+    "address": "福岡県福岡市博多区博多駅前3-23-17 第2福岡ONビル1F",
+    "shortAddress": "博多站博多口步行約 5 分鐘",
+    "navigationDestination": "日本 福岡県福岡市博多区博多駅前3-23-17 第2福岡ONビル1F 博多華味鳥 博多駅前店",
+    "notes": "官方門市頁確認地址與味コース；行程預訂資訊為 12/15 18:00、2 人，是否訂位成功以確認信為準。",
+    "sourceUrls": [
+      "https://www.hanamidori.net/stores/0924321801/"
+    ]
   }
 ]
