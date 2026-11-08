@@ -115,3 +115,19 @@ describe('grouped protein comparison', () => {
     for (const candidate of comparisonData[0].candidates) expect(existsSync(`public/${candidate.image}`)).toBe(true);
   });
 });
+
+it('keeps the revised dinners and Yufuin return independent of dinner reservations', () => {
+  const first = itinerary[0];
+  const third = itinerary[2];
+  const kawa = first.stops.find(s => s.id === 'day-1-stop-10')!;
+  expect(kawa.name).toContain('かわ屋');
+  expect(kawa.startTime).toBe('18:30');
+  expect(third.stops.find(s => s.id === 'day-3-stop-4')?.startTime).toBe('16:30');
+  const train = third.stops.find(s => s.id === 'day-3-stop-5')!;
+  expect([train.startTime, train.endTime]).toEqual(['17:17','19:27']);
+  const dinner = third.stops.find(s => s.id === 'day-3-stop-6')!;
+  expect(dinner.name).toContain('不預訂');
+  expect([dinner.startTime,dinner.endTime]).toEqual(['20:15','21:30']);
+  expect(dinner.detailMarkdown).toContain('不需要為了晚餐提前離開由布院');
+  expect(third.remindersMarkdown).not.toContain('20:00／20:15');
+});
