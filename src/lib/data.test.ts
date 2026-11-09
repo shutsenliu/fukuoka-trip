@@ -71,7 +71,7 @@ describe('approved Hakata shopping plan', () => {
     const tenjin = itinerary[4].stops.find(stop => stop.id === 'day-5-stop-8')!;
     expect(itemsForStop(tenjin).some(item => item.id === 'butterstates-amaou-butter-sand')).toBe(true);
     expect(airport.detailMarkdown).toContain('12 月確定販售');
-    expect(station.endTime).toBe('16:15');
+    expect(station.endTime).toBe('16:00');
     const imonne = itinerary[4].stops.find(stop => stop.id === 'day-5-imonne')!;
     expect(itemsForStop(imonne).map(item => item.id)).toEqual(['imonne-matcha-mochi']);
     expect(imonne.startTime).toBe('10:55');
@@ -121,7 +121,7 @@ it('keeps the revised dinners and Yufuin return independent of dinner reservatio
   const third = itinerary[2];
   const kawa = first.stops.find(s => s.id === 'day-1-stop-10')!;
   expect(kawa.name).toContain('かわ屋');
-  expect(kawa.startTime).toBe('18:30');
+  expect(kawa.startTime).toBe('17:00');
   expect(third.stops.find(s => s.id === 'day-3-stop-4')?.startTime).toBe('16:30');
   const train = third.stops.find(s => s.id === 'day-3-stop-5')!;
   expect([train.startTime, train.endTime]).toEqual(['17:17','19:27']);
@@ -130,4 +130,14 @@ it('keeps the revised dinners and Yufuin return independent of dinner reservatio
   expect([dinner.startTime,dinner.endTime]).toEqual(['20:15','21:30']);
   expect(dinner.detailMarkdown).toContain('不需要為了晚餐提前離開由布院');
   expect(third.remindersMarkdown).not.toContain('20:00／20:15');
+});
+
+it('exchanges passes at Hakata after the bus and keeps Mojiko return flexible', () => {
+  const stops = itinerary[0].stops;
+  const busIndex = stops.findIndex(s => s.id === 'day-1-stop-3');
+  const passIndex = stops.findIndex(s => s.id === 'day-1-stop-2');
+  expect(passIndex).toBeGreaterThan(busIndex);
+  expect(stops[passIndex].name).toContain('博多站');
+  expect(stops[passIndex].detailMarkdown).toContain('門司港回程先不劃固定班次');
+  expect(stops.find(s => s.id === 'day-1-stop-10')?.startTime).toBe('17:00');
 });
