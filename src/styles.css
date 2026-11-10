@@ -240,3 +240,31 @@ dialog.coupon-viewer::backdrop { background: #fff; }
   .coupon-thumbnail img { height: 90px; }
   .coupon-card h2 { font-size: 18px; }
 }
+
+.tax-page { max-width: 760px; margin: 0 auto; }
+.tax-intro, .tax-search-note { font-size: 14px; }
+.tax-important { background: #fff0c8; border-left: 4px solid #ba8436; padding: 14px; margin: 18px 0; }
+.tax-important strong { display: block; margin-top: 6px; }
+.tax-page section { margin-top: 26px; }
+.tax-page h2 { font-size: 21px; margin-bottom: 12px; }
+.tax-page h3 { font-size: 18px; margin: 8px 0; }
+.tax-steps, .tax-locations, .tax-company-list { display: grid; gap: 12px; }
+.tax-page article, .tax-wifi, .tax-faq > details, .tax-empty { padding: 18px; min-width: 0; overflow-wrap: anywhere; }
+.tax-page article p, .tax-wifi p { font-size: 14px; margin: 6px 0; }
+.tax-page summary { cursor: pointer; min-height: 44px; padding: 10px 0; font-weight: 650; color: var(--caramel); }
+.tax-page article details { border-top: 1px dashed var(--line); margin-top: 10px; }
+.tax-wifi { margin-top: 12px; }
+.tax-wifi > summary { padding: 0; display: list-item; }
+.tax-copy { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin: 16px 0; }
+.tax-copy > div { min-width: 0; }
+.tax-copy span, .tax-copy code { display: block; }
+.tax-copy code { font-size: 14px; overflow-wrap: anywhere; user-select: all; }
+.tax-copy span { font-size: 13px; color: var(--muted); }
+.tax-search-note { margin: 12px 0; }
+.tax-company-list { margin-top: 12px; }
+.tax-faq > details + details { margin-top: 10px; }
+.tax-faq p, .tax-faq li { font-size: 14px; }
+.tax-faq ul { list-style: disc; padding-left: 22px; }
+.bottom-nav a { flex-direction: column; gap: 2px; min-width: 0; min-height: 54px; font-size: 12px; }
+.bottom-nav .doodle-icon { width: 22px; height: 22px; }
+@media (min-width: 700px) { .tax-steps { grid-template-columns: repeat(3,minmax(0,1fr)); } .tax-locations { grid-template-columns: repeat(2,minmax(0,1fr)); } }

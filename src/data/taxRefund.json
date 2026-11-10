@@ -1,0 +1,10 @@
+{
+  "wifi": { "ssid": "Customs_WiFi_For_TaxRefund", "password": "jcustoms" },
+  "companies": [
+    {"id":"global-blue","name":"Global Blue","aliases":["環球藍聯","SUGI","杉藥局","Yodobashi","友都八喜","EDION","愛電王","大丸","松坂屋","阪急","高島屋"],"stores":"大丸、松坂屋、阪急、高島屋、SUGI、Yodobashi、EDION 等（文件列舉，分店及交易需確認）","cash":"Cash JAPAN","qr":"部分交易可憑護照辨識；依店家與業者指示。"},
+    {"id":"j-taxrefund","name":"J-TaxRefund（J&J）","aliases":["UNIQLO","優衣庫","GU","無印良品","MUJI","Bic Camera","Kojima","唐吉訶德","Donki","松本清","Matsukiyo","Cocokara Fine","鶴羽","TSURUHA","札幌藥妝","多慶屋","山田電機","LABI","東武百貨","伊藤洋華堂","ABC-MART","駿河屋","松屋銀座"],"stores":"UNIQLO、GU、無印良品、Bic Camera、唐吉訶德、松本清等（實際分店及交易需確認）","cash":"Cash JAPAN","qr":"依業者指示登記退款方式；部分交易可憑護照辨識。"},
+    {"id":"jprefund","name":"JPrefund（Smart Detax）","aliases":["Smart Technologies","3COINS","Loft","Hands","東急手創館","PARCO","阿卡將","思夢樂","MURASAKI SPORTS","FANCL"],"stores":"3COINS、Loft、Hands、PARCO、阿卡將、思夢樂、MURASAKI SPORTS、FANCL 等（文件列舉，分店及交易需確認）","cash":"Cash JAPAN","qr":"建議掃店家提供的退款 QR Code，依指示完成現金退款設定並保存資訊。"},
+    {"id":"pie-vat","name":"PIE VAT","aliases":["PIE","VAT"],"stores":"依實際店家公告；未列入已確認的 Cash JAPAN 合作業者。","cash":"未確認支援福岡機場現金機台","qr":"依 App／店家指示確認退款方式，勿預設可到 Cash JAPAN 領現。"}
+  ],
+  "sourceUrls":["https://www.fukuoka-airport.jp/taxrefund_info.html","https://www.customs.go.jp/kaigairyoko/taxrefund.htm","https://www.cashjapan.com/zh-tw/get-your-refund/","https://services.digital.go.jp/en/visit-japan-web/guide/"]
+}

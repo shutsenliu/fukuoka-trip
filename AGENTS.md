@@ -44,3 +44,5 @@ This is a static travel companion with itinerary, places, and shopping/food goal
 - Souvenir goals must also be linked to an appropriate itinerary stop after researching where to buy them. Preserve existing goal IDs for duplicates. Mark uncertain seasonal or branch availability explicitly; do not imply confirmed trip-date stock.
 
 - Every souvenir goal must use a real photo showing its recognizable box, bag, or individual packaging. Do not use AI illustrations or unwrapped-food-only images for souvenirs. Identify the photographed pack size and any reference-photo source in the caption without changing the requested product.
+
+- Tax-refund reference data belongs in src/data/taxRefund.json. Keep customs confirmation before baggage drop distinct from cash collection after immigration. Retailer/operator mappings are conditional references, not guaranteed all-branch participation; preserve those labels and do not invent cash eligibility.
