@@ -489,6 +489,22 @@
     ]
   },
   {
+    "id": "decorte-sunshelter-tone-up-10",
+    "name": "黛珂 SUN SHELTER 多重防禦素顏霜",
+    "category": "防曬用品",
+    "image": "items/decorte-sunshelter-10.png",
+    "size": "35g・10 薰衣草玫瑰色",
+    "notes": "TONE UP CC；SPF50+／PA++++，薰衣草色潤色防曬妝前乳。",
+    "sourceUrls": [
+      "https://www.decorte.com/site/g/gJSUL010/"
+    ],
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "priority": 3,
+    "placeIds": [],
+    "imageCaption": "品牌官方商品圖，與照片指定款式相符。"
+  },
+  {
     "id": "pureal-caffeine-lift-mask",
     "name": "Pureal 咖啡因緊緻面膜",
     "type": "shopping",
@@ -1077,6 +1093,22 @@
     ]
   },
   {
+    "id": "kincho-shinkatori-200",
+    "name": "KINCHO 金鳥 SHINKATORI 室內滅蚊器",
+    "category": "生活用品",
+    "image": "items/kincho-shinkatori-200.jpg",
+    "size": "200 日用・無臭套組",
+    "notes": "シンカトリ；免插電，含專用容器與藥劑匣。200 日以每天使用 12 小時計。",
+    "sourceUrls": [
+      "https://www.kincho.co.jp/seihin/insecticide/katori/shinkatori/index.html"
+    ],
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "priority": 3,
+    "placeIds": [],
+    "imageCaption": "品牌官方商品圖，與照片指定款式相符。"
+  },
+  {
     "id": "traful-direct-a-12",
     "name": "第一三共 Traful Direct 嘴破貼片",
     "type": "shopping",
@@ -1203,6 +1235,22 @@
     "sourceUrls": [
       "https://alinamin.jp/lineup/alinamina.html"
     ]
+  },
+  {
+    "id": "bio-three-hi-540",
+    "name": "BIO-THREE Hi 整腸錠",
+    "category": "藥品",
+    "image": "items/bio-three-hi.png",
+    "size": "540 錠",
+    "notes": "ビオスリーHi錠；含酪酸菌、乳酸菌與糖化菌，用於整腸、便秘、軟便與腹脹，指定醫藥部外品。",
+    "sourceUrls": [
+      "https://bio-three.jp/products/"
+    ],
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "priority": 3,
+    "placeIds": [],
+    "imageCaption": "品牌官方商品圖，與照片指定款式相符。"
   },
   {
     "id": "mytear-alpitat-ex-alpha7",
