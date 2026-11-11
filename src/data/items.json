@@ -932,6 +932,22 @@
     ]
   },
   {
+    "id": "ceevs-moist-oil-white-lily-8ml",
+    "name": "Ceevs. 三重保濕指緣油 白百合香",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "手足護理",
+    "priority": 3,
+    "image": "items/ceevs-white-lily-8ml.jpg",
+    "imageCaption": "品牌官方商品圖，白百合香筆刷款。",
+    "size": "8mL・White Lily 筆刷款",
+    "notes": "モイストオイル スリーレイヤード；粉膚色軟管、銀色筆蓋，含荷荷芭、猴麵包樹與向日葵植物油，滋潤指甲與指緣。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://ceevs.jp/cvs-no-01/"
+    ]
+  },
+  {
     "id": "schick-quattro-lite-women",
     "name": "Schick Quattro Lite 女性除毛刀",
     "type": "shopping",
