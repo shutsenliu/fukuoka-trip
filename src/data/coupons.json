@@ -340,5 +340,36 @@
       "https://gogojp.tw/fukuoka-airport/",
       "https://www.fuk-ab.com.tw/"
     ]
+  },
+  {
+    "id": "fukuoka-airport-cathay",
+    "merchant": "福岡機場免稅店｜國泰世華專屬券",
+    "aliases": [
+      "Fukuoka Airport Duty Free",
+      "機場",
+      "伴手禮小町",
+      "國泰",
+      "國泰世華",
+      "Cathay United Bank"
+    ],
+    "offer": "指定商品額外 5% OFF",
+    "validity": "至 2027/03/31",
+    "stores": "福岡機場國際線出境後免稅店之參與櫃位；非全機場通用。",
+    "limits": [
+      "結帳前出示原始券圖；單筆限用一張，不可與其他優惠同時使用。",
+      "可重複使用；影印無效，不可兌換現金、不找零。",
+      "CHANEL、Christian Dior、ALBION、Elegance、PAUL & JOE、Aesop、LE LABO 等指定品牌不適用；ISSEY MIYAKE 旗下品牌不適用，惟香水可享優惠。",
+      "Air BicCamera、UNIQLO、伊東屋、宗家源吉兆庵、Butter Butler、BUTTER&bee、BACHA 等，以及餐廳、便利店不適用；完整排除清單見券面。",
+      "部分三得利商品、特價商品、高價酒類、稀缺商品、期間限定商品及部分兌換券不適用。"
+    ],
+    "mode": "image",
+    "tripStatus": "in-trip",
+    "image": "coupons/fukuoka-airport-cathay-20270331.jpg",
+    "redeemAt": "Day 6（12/17）10:30 出境後補買伴手禮時，付款前出示給收銀員。",
+    "notice": "國泰世華專屬優惠；券面未另載刷卡條件，使用資格以櫃位確認為準。與其他優惠券擇一使用。",
+    "sourceUrls": [
+      "https://fuk-ab.com.tw/cathaybk-coupon.html",
+      "https://fuk-ab.com.tw/coupon/cathaybk20270331coupon.jpg"
+    ]
   }
 ]

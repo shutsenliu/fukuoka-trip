@@ -3,6 +3,7 @@ import { afterEach, beforeAll, expect, it, vi } from 'vitest';
 import { cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import { CouponsPage } from './CouponsPage';
+import { coupons } from '../lib/coupons';
 beforeAll(() => {
   HTMLDialogElement.prototype.showModal = vi.fn(function (this: HTMLDialogElement) { this.setAttribute('open', ''); });
   HTMLDialogElement.prototype.close = vi.fn(function (this: HTMLDialogElement) { this.removeAttribute('open'); });
@@ -18,7 +19,7 @@ it('searches merchant aliases, clears search and explains empty results', () => 
   fireEvent.change(screen.getByLabelText('搜尋店家'), { target: { value: '不存在的店' } });
   expect(screen.getByText(/找不到符合的店家/)).toBeTruthy();
   fireEvent.click(screen.getByRole('button', { name: '清除搜尋' }));
-  expect(screen.getAllByRole('article')).toHaveLength(13);
+  expect(screen.getAllByRole('article')).toHaveLength(coupons.length);
   expect(screen.queryByText(/最後核對日期|原始網頁連結/)).toBeNull();
 });
 it('opens the full coupon immediately and restores scroll and focus when closed', () => {
