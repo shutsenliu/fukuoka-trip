@@ -1708,5 +1708,39 @@
     "sourceUrls": [
       "https://www.toraku.co.jp/products/detail/4055/"
     ]
+  },
+  {
+    "id": "cio-smartcoby-pro-slim-ss-10000-35w",
+    "name": "CIO SMARTCOBY Pro SLIM SS 行動電源",
+    "size": "10000mAh・35W",
+    "image": "items/cio-smartcoby-pro-slim-ss.jpg",
+    "imageCaption": "CIO 官方黑色款商品介紹圖。",
+    "notes": "型號 CIO-MB35W2C1A-SSA10K-S；黑 BK／白 WH，半固態電池、USB-C×2＋USB-A×1。圖片參考價 ¥6,280，現價與博多店現貨待確認。",
+    "sourceUrls": [
+      "https://connectinternationalone.co.jp/cioproduct/mobilebattery/smartcoby/cio-mb35w2c1a-ssa10k-s/"
+    ],
+    "type": "shopping",
+    "category": "3C 配件",
+    "priority": 3,
+    "placeIds": [
+      "yodobashi-hakata"
+    ]
+  },
+  {
+    "id": "anker-nano-ii-65w-a2663n13",
+    "name": "Anker Nano II 65W 充電器",
+    "size": "A2663N13・黑色",
+    "image": "items/anker-nano-ii-65w.png",
+    "imageCaption": "Anker 官方 Nano II 65W 系列外觀參考圖；購買時核對 A2663N13 型號。",
+    "notes": "單 USB-C 急速充電器；指定找 A2663N13，不自動改買 A2663N11。圖片參考價 ¥4,210～4,490，現價與博多店現貨待確認。",
+    "sourceUrls": [
+      "https://www.ankerjapan.com/products/a2663"
+    ],
+    "type": "shopping",
+    "category": "3C 配件",
+    "priority": 3,
+    "placeIds": [
+      "yodobashi-hakata"
+    ]
   }
 ]
