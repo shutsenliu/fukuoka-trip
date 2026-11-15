@@ -40,19 +40,21 @@
       "HOKA"
     ],
     "offer": "額外 5% OFF",
-    "validity": "至 2026/12/31",
+    "validity": "至 2027/12/31",
     "stores": "Alpen FUKUOKA、Sports DEPO、Alpen Outdoors、GOLF5 等指定免稅門市。",
     "limits": [
-      "訪日旅客結帳前出示券圖與護照；部分商品不適用。",
+      "訪日旅客結帳前出示券圖與本人護照或有效入境證明。",
       "不可與其他折扣併用；券面列含稅滿 ¥5,500 為免稅門檻。",
-      "5% 為店家優惠，免稅／退稅的資格與程序另行確認。"
+      "5% 為店家優惠；退稅須經海關等機關核准並出境後辦理，並非現場立即退還。"
     ],
     "mode": "image",
     "tripStatus": "in-trip",
     "sourceUrls": [
-      "https://app.likejapan.com/en-us/coupon/alpen-coupon-en"
+      "https://app.likejapan.com/en-us/coupon/alpen-coupon-en",
+      "https://cdn.likejapan.com/japan-coupon/2026/11/fc3c9105-085e-4563-a3b1-0c9d60398969.jpg"
     ],
-    "image": "coupons/alpen.jpg"
+    "image": "coupons/alpen-20271231.jpg",
+    "notice": "採用原發布頁目前提供的新版券（至 2027/12/31），與截圖中至 2027/06/30 的版本不同。"
   },
   {
     "id": "donki",
