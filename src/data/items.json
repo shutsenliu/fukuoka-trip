@@ -473,6 +473,21 @@
     "size": "35 mL"
   },
   {
+    "id": "duo-cleansing-balm-black-repair",
+    "name": "DUO 五效合一卸妝膏 黑色 Black Repair",
+    "category": "臉部保養",
+    "image": "items/duo-black-repair.png",
+    "notes": "ザ クレンジングバーム ブラックリペア；照片指定黑色毛孔清潔款，卸妝時以乾手乾臉取用並加水乳化。",
+    "sourceUrls": [
+      "https://www.p-antiaging.com/item/duo/clbb-ex/"
+    ],
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "priority": 3,
+    "placeIds": [],
+    "imageCaption": "品牌官方商品圖。"
+  },
+  {
     "id": "elixir-day-care-tone-up-pink",
     "name": "ELIXIR 提亮防曬乳 粉紅款",
     "type": "shopping",
@@ -1030,6 +1045,22 @@
     ]
   },
   {
+    "id": "rosyrosa-portable-brush-five",
+    "name": "ROSY ROSA 便攜迷你化妝刷五支組",
+    "category": "彩妝工具",
+    "size": "5 支・附收納盒（數量限定）",
+    "image": "items/rosyrosa-portable-five.jpg",
+    "notes": "ポータブルメイクブラシセット〈5本入り〉；含臉部、眼影、細節、眉眼線與螺旋刷，紅白袋裝限定組。",
+    "sourceUrls": [
+      "https://www.chantilly.co.jp/brand/rosyrosa/products/4901604458807/"
+    ],
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "priority": 3,
+    "placeIds": [],
+    "imageCaption": "品牌官方商品圖。"
+  },
+  {
     "id": "apagard-premio",
     "name": "APAGARD Premio 美白牙膏",
     "type": "shopping",
@@ -1267,6 +1298,22 @@
     "priority": 3,
     "placeIds": [],
     "imageCaption": "品牌官方商品圖，與照片指定款式相符。"
+  },
+  {
+    "id": "kenei-healmild-cream",
+    "name": "健榮製藥 HEALMILD 乾燥肌治療乳霜",
+    "category": "藥品",
+    "size": "乳霜款・容量待確認",
+    "image": "items/healmild-cream.jpg",
+    "notes": "ヒルマイルド クリーム；含 0.3% 類肝素成分的乾燥肌治療藥，第 2 類醫藥品，非一般保養乳霜。",
+    "sourceUrls": [
+      "https://www.kenei-pharm.com/healmild/products/"
+    ],
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "priority": 3,
+    "placeIds": [],
+    "imageCaption": "品牌官方 60g 裝參考圖；照片指定乳霜款，需求容量待確認。"
   },
   {
     "id": "mytear-alpitat-ex-alpha7",
@@ -1644,6 +1691,22 @@
     "imageCaption": "品牌官方商品包裝照片。",
     "placeIds": [
       "hakata-meihingura-hakataguchi"
+    ]
+  },
+  {
+    "id": "toraku-kobe-royal-custard-pudding",
+    "name": "TORAKU 神戶 Chef Club 皇家卡士達布丁",
+    "type": "food",
+    "category": "冷藏甜點",
+    "priority": 3,
+    "image": "items/toraku-royal-custard.jpg",
+    "imageCaption": "品牌官方現行包裝圖，含另附焦糖醬。",
+    "size": "布丁 105g＋焦糖醬 6g",
+    "notes": "神戸シェフクラブ ロイヤルカスタードプリン；黑金杯蓋、紅色「とろ〜り感動」標籤，另附微苦焦糖醬。須冷藏 0–10°C，旅途中買來吃；分店供應未確認。",
+    "placeIds": [],
+    "convenienceStore": "any",
+    "sourceUrls": [
+      "https://www.toraku.co.jp/products/detail/4055/"
     ]
   }
 ]
