@@ -631,5 +631,19 @@
       "https://www.hotpepper.jp/strJ004403555/",
       "https://www.instagram.com/hakatarobata_tumamu/"
     ]
+  },
+  {
+    "id": "daimyo-hete",
+    "name": "本格焼鳥 大名へて（壱・弐・参）",
+    "type": "restaurant",
+    "area": "大名",
+    "address": "福岡県福岡市中央区大名1-10-6 サンセーヌ大名ビル",
+    "shortAddress": "大名 1-10-6 サンセーヌ大名ビル",
+    "navigationDestination": "日本 福岡県福岡市中央区大名1-10-6 サンセーヌ大名ビル 本格焼鳥 大名へて",
+    "notes": "壱・弐・参相鄰，訂位時不指定樓層，到店由店家安排。12/16 18:00，2 人、只訂座位、一般桌位、禁菸，用餐 2 小時 20 分鐘；依使用者提供的訂位設定，尚未判定新訂位已完成。",
+    "sourceUrls": [
+      "https://www.daimyou-hete.com/yakitori",
+      "https://www.hotpepper.jp/strJ001062497/"
+    ]
   }
 ]
