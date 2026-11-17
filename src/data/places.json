@@ -660,5 +660,19 @@
       "https://www.jrhakatacity.com/floor/detail/?cd=000286",
       "https://www.palcloset.jp/addons/pal/shoplist/detail/?brandshop_no=883"
     ]
+  },
+  {
+    "id": "sugi-tenjin-1chome",
+    "name": "SUGI 杉藥局 天神1丁目店",
+    "type": "shop",
+    "area": "天神",
+    "address": "福岡県福岡市中央区天神一丁目13番6号 西鉄天神ビル1階",
+    "shortAddress": "天神 1-13-6 西鐵天神大樓 1F",
+    "hours": "店舖 08:00–23:00／調劑 09:00–22:00（依官方公告）",
+    "navigationDestination": "日本 福岡県福岡市中央区天神1-13-6 西鉄天神ビル1階 スギ薬局 天神1丁目店",
+    "notes": "官方現行店舖時間每日 08:00～23:00、無固定店休。Day 5 晚餐後主要藥妝採買，缺貨再到唐吉訶德補找；不保證指定商品現貨。",
+    "sourceUrls": [
+      "https://www.sugi-net.jp/stores/2376"
+    ]
   }
 ]
