@@ -68,13 +68,14 @@ describe('approved Hakata shopping plan', () => {
     const airport = itinerary[5].stops.find(stop => stop.id === 'day-6-stop-5')!;
     expect(itemsForStop(airport).map(item => item.id)).toEqual(['tsukiji-chitose-tempura-senbei','chaoriya-gran-tea-crunch','chaoriya-hojicha-pie-sand']);
     expect(airport.notes).toContain('出境手續後');
-    const tenjin = itinerary[4].stops.find(stop => stop.id === 'day-5-stop-8')!;
+    const tenjin = itinerary[4].stops.find(stop => stop.id === 'day-5-stop-7')!;
     expect(itemsForStop(tenjin).some(item => item.id === 'butterstates-amaou-butter-sand')).toBe(true);
+    expect(tenjin.detailMarkdown).toContain('不另綁時段');
     expect(airport.detailMarkdown).toContain('12 月確定販售');
     expect(station.endTime).toBe('16:00');
     const imonne = itinerary[4].stops.find(stop => stop.id === 'day-5-imonne')!;
     expect(itemsForStop(imonne).map(item => item.id)).toEqual(['imonne-matcha-mochi']);
-    expect(imonne.startTime).toBe('10:55');
+    expect(imonne.startTime).toBe('11:25');
     expect(items.find(item => item.id === 'butterbee-honey-chocolat')?.notes).toContain('供應待確認');
   });
   it('keeps the approved MoMA goal in Day 5 and unlocated LUSH off the itinerary', () => {
@@ -140,4 +141,14 @@ it('exchanges passes at Hakata after the bus and keeps Mojiko return flexible', 
   expect(stops[passIndex].name).toContain('博多站');
   expect(stops[passIndex].detailMarkdown).toContain('門司港回程先不劃固定班次');
   expect(stops.find(s => s.id === 'day-1-stop-10')?.startTime).toBe('17:00');
+});
+
+it('prioritizes morning clothing and 3COINS without moving fixed pickup and dinner', () => {
+  const stops = itinerary[4].stops;
+  const coins = stops.find(s => s.id === 'day-5-3coins')!;
+  expect(coins.placeId).toBe('3coins-amuest-hakata');
+  expect(coins.endTime <= '12:30').toBe(true);
+  expect(stops.find(s => s.id === 'day-5-nintendo')?.name).toContain('彈性');
+  expect(stops.find(s => s.id === 'day-5-stop-10')?.startTime).toBe('17:00');
+  expect(stops.find(s => s.id === 'day-5-stop-14')?.startTime).toBe('18:00');
 });

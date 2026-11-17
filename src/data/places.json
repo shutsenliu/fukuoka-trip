@@ -645,5 +645,20 @@
       "https://www.daimyou-hete.com/yakitori",
       "https://www.hotpepper.jp/strJ001062497/"
     ]
+  },
+  {
+    "id": "3coins-amuest-hakata",
+    "name": "3COINS AMU EST 博多店",
+    "type": "shop",
+    "area": "博多",
+    "address": "福岡県福岡市博多区博多駅中央街1-1 AMU EST 1F",
+    "shortAddress": "博多站 AMU EST 1F",
+    "hours": "10:00–20:00（依館方公告）",
+    "navigationDestination": "日本 福岡県福岡市博多区博多駅中央街1-1 AMU EST 1F 3COINS",
+    "notes": "JR 博多城官方樓層指南確認 AMU EST 1F，營業時間 10:00～20:00；12/16 上午購物主線之一。",
+    "sourceUrls": [
+      "https://www.jrhakatacity.com/floor/detail/?cd=000286",
+      "https://www.palcloset.jp/addons/pal/shoplist/detail/?brandshop_no=883"
+    ]
   }
 ]
