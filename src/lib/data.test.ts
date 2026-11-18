@@ -140,6 +140,10 @@ it('exchanges passes at Hakata after the bus and keeps Mojiko return flexible', 
   expect(passIndex).toBeGreaterThan(busIndex);
   expect(stops[passIndex].name).toContain('博多站');
   expect(stops[passIndex].detailMarkdown).toContain('門司港回程先不劃固定班次');
+  expect(stops[passIndex].detailMarkdown).toContain('08:02');
+  expect(stops[passIndex].detailMarkdown).toContain('Sonic 5 號');
+  expect(itinerary[1].stops[0].startTime).toBe('08:02');
+  expect(itinerary[1].stops[0].endTime).toBe('09:20');
   expect(stops.find(s => s.id === 'day-1-stop-10')?.startTime).toBe('17:00');
 });
 
