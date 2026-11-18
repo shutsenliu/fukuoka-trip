@@ -1,34 +1,5 @@
 [
   {
-    "id": "cosmos",
-    "merchant": "COSMOS 科摩思藥妝",
-    "aliases": [
-      "コスモス",
-      "科摩斯",
-      "天神大丸前店"
-    ],
-    "offer": "額外 5%／7%／9% OFF",
-    "validity": "至 2026/12/31",
-    "stores": "僅限天神大丸前、心齋橋南、道頓堀、廣尾站、歌舞伎町1丁目，共 5 店。",
-    "limits": [
-      "僅限免稅顧客，結帳前出示護照與券圖；每天限用一次。",
-      "不可與其他優惠券併用，菸草、酒類、預付卡及其他指定商品不適用。",
-      "藥劑師不在時，不能購買第 1 類醫藥品及需指導醫藥品。"
-    ],
-    "mode": "image",
-    "tripStatus": "in-trip",
-    "sourceUrls": [
-      "https://gogojp.tw/cosmos/"
-    ],
-    "thresholds": [
-      "未稅滿 ¥10,000：5% OFF",
-      "未稅滿 ¥30,000：7% OFF",
-      "未稅滿 ¥50,000：9% OFF"
-    ],
-    "notice": "福岡適用店為天神大丸前店；可作 Day 5 天神藥妝採買備用，其他分店不適用。",
-    "image": "coupons/cosmos-2026.jpg"
-  },
-  {
     "id": "alpen",
     "merchant": "Alpen Group",
     "aliases": [
@@ -55,6 +26,62 @@
     ],
     "image": "coupons/alpen-20271231.jpg",
     "notice": "採用原發布頁目前提供的新版券（至 2027/12/31），與截圖中至 2027/06/30 的版本不同。"
+  },
+  {
+    "id": "sugi",
+    "merchant": "SUGI 杉藥局",
+    "aliases": [
+      "スギ薬局",
+      "スギ藥局",
+      "杉薬局",
+      "杉藥妝"
+    ],
+    "offer": "額外 4%／6%／8% OFF",
+    "validity": "至 2027/02/28",
+    "stores": "提供免稅服務並參與活動的 SUGI 杉藥局。",
+    "limits": [
+      "結帳前出示券圖；不可與其他優惠券併用。",
+      "部分商品不適用，消費門檻稅別請依券面與店員認定。"
+    ],
+    "mode": "image",
+    "tripStatus": "in-trip",
+    "sourceUrls": [
+      "https://matcha-jp.com/tw/coupon/133"
+    ],
+    "thresholds": [
+      "滿 ¥10,000：4% OFF",
+      "滿 ¥30,000：6% OFF",
+      "滿 ¥50,000：8% OFF"
+    ],
+    "image": "coupons/sugi.png"
+  },
+  {
+    "id": "sundrug",
+    "merchant": "SUNDRUG 尚都樂客藥妝",
+    "aliases": [
+      "サンドラッグ",
+      "尚都樂客",
+      "Sundrug"
+    ],
+    "offer": "額外 3%／5%／7% OFF",
+    "validity": "未標示明確截止日，使用前確認",
+    "stores": "參與活動且提供免稅結帳的 SUNDRUG 門市。",
+    "limits": [
+      "僅適用免稅購買，付款前出示券圖；不可併用其他折扣券或代金券。",
+      "部分藥品與化妝品不享額外折扣。"
+    ],
+    "mode": "image",
+    "tripStatus": "check",
+    "sourceUrls": [
+      "https://matcha-jp.com/tw/coupon/79"
+    ],
+    "thresholds": [
+      "含稅滿 ¥10,000：3% OFF",
+      "含稅滿 ¥30,000：5% OFF",
+      "含稅滿 ¥50,000：7% OFF"
+    ],
+    "notice": "不將網頁的 2099 年欄位視為保證有效期限；現場請確認此券仍可使用。",
+    "image": "coupons/sundrug.jpg"
   },
   {
     "id": "donki",
@@ -87,6 +114,118 @@
     "actionLabel": "開啟優惠券"
   },
   {
+    "id": "hankyu",
+    "merchant": "博多阪急 Guest Coupon",
+    "aliases": [
+      "Hakata Hankyu",
+      "阪急",
+      "Guest Card"
+    ],
+    "offer": "指定商品 5% OFF",
+    "validity": "發行當日起 7 天，可重複使用",
+    "stores": "博多阪急適用專櫃。",
+    "limits": [
+      "食品、餐廳、咖啡、特價品、福袋、商品券及部分品牌不適用；單件未稅低於 ¥1,000 不適用。",
+      "限領卡本人使用，結帳前出示；可能需要再次出示護照，不可併用其他優惠。",
+      "銀聯、WeChat Pay、Alipay 有另一種直接折扣辦法，不能與此券重複使用。"
+    ],
+    "mode": "counter",
+    "tripStatus": "check",
+    "sourceUrls": [
+      "https://global.hankyu-hanshin-dept.co.jp/store/hakata/service/"
+    ],
+    "redeemAt": "購物前攜帶護照，到 1F 服務台或 M3F 免稅櫃檯領取；實際發卡條件依門市。"
+  },
+  {
+    "id": "fukuoka-airport",
+    "merchant": "福岡機場免稅店",
+    "aliases": [
+      "Fukuoka Airport Duty Free",
+      "機場",
+      "伴手禮小町",
+      "衝日本"
+    ],
+    "offer": "指定商品額外 5% OFF",
+    "validity": "至 2027/03/31",
+    "stores": "福岡機場國際線出境後免稅店之參與櫃位；非全機場通用。",
+    "limits": [
+      "結帳前出示原始券圖；單筆限用一張，不可與其他優惠同時使用。",
+      "可重複使用；影印無效，不可兌換現金、不找零。",
+      "CHANEL、Christian Dior、ALBION、Elegance、PAUL & JOE、Aesop、LE LABO 等指定品牌不適用；ISSEY MIYAKE 旗下品牌不適用，惟香水可享優惠。",
+      "Air BicCamera、UNIQLO、伊東屋、宗家源吉兆庵、Butter Butler、BUTTER&bee、BACHA 等，以及餐廳、便利店不適用；完整排除清單見券面。",
+      "部分三得利商品、特價商品、高價酒類、稀缺商品、期間限定商品及部分兌換券不適用。"
+    ],
+    "mode": "image",
+    "tripStatus": "in-trip",
+    "image": "coupons/fukuoka-airport.jpg",
+    "redeemAt": "Day 6（12/17）10:30 出境後補買伴手禮時，付款前出示給收銀員。",
+    "notice": "適合回程補買時備用。THE MATCHA TOKYO、CHAORI-YA 及築地ちとせ是否適用，需向實際販售櫃位確認；不能視為必有折扣。",
+    "sourceUrls": [
+      "https://gogojp.tw/fukuoka-airport/",
+      "https://www.fuk-ab.com.tw/"
+    ]
+  },
+  {
+    "id": "fukuoka-airport-cathay",
+    "merchant": "福岡機場免稅店｜國泰世華專屬券",
+    "aliases": [
+      "Fukuoka Airport Duty Free",
+      "機場",
+      "伴手禮小町",
+      "國泰",
+      "國泰世華",
+      "Cathay United Bank"
+    ],
+    "offer": "指定商品額外 5% OFF",
+    "validity": "至 2027/03/31",
+    "stores": "福岡機場國際線出境後免稅店之參與櫃位；非全機場通用。",
+    "limits": [
+      "結帳前出示原始券圖；單筆限用一張，不可與其他優惠同時使用。",
+      "可重複使用；影印無效，不可兌換現金、不找零。",
+      "CHANEL、Christian Dior、ALBION、Elegance、PAUL & JOE、Aesop、LE LABO 等指定品牌不適用；ISSEY MIYAKE 旗下品牌不適用，惟香水可享優惠。",
+      "Air BicCamera、UNIQLO、伊東屋、宗家源吉兆庵、Butter Butler、BUTTER&bee、BACHA 等，以及餐廳、便利店不適用；完整排除清單見券面。",
+      "部分三得利商品、特價商品、高價酒類、稀缺商品、期間限定商品及部分兌換券不適用。"
+    ],
+    "mode": "image",
+    "tripStatus": "in-trip",
+    "image": "coupons/fukuoka-airport-cathay-20270331.jpg",
+    "redeemAt": "Day 6（12/17）10:30 出境後補買伴手禮時，付款前出示給收銀員。",
+    "notice": "國泰世華專屬優惠；券面未另載刷卡條件，使用資格以櫃位確認為準。與其他優惠券擇一使用。",
+    "sourceUrls": [
+      "https://fuk-ab.com.tw/cathaybk-coupon.html",
+      "https://fuk-ab.com.tw/coupon/cathaybk20270331coupon.jpg"
+    ]
+  },
+  {
+    "id": "cosmos",
+    "merchant": "COSMOS 科摩思藥妝",
+    "aliases": [
+      "コスモス",
+      "科摩斯",
+      "天神大丸前店"
+    ],
+    "offer": "額外 5%／7%／9% OFF",
+    "validity": "至 2026/12/31",
+    "stores": "僅限天神大丸前、心齋橋南、道頓堀、廣尾站、歌舞伎町1丁目，共 5 店。",
+    "limits": [
+      "僅限免稅顧客，結帳前出示護照與券圖；每天限用一次。",
+      "不可與其他優惠券併用，菸草、酒類、預付卡及其他指定商品不適用。",
+      "藥劑師不在時，不能購買第 1 類醫藥品及需指導醫藥品。"
+    ],
+    "mode": "image",
+    "tripStatus": "in-trip",
+    "sourceUrls": [
+      "https://gogojp.tw/cosmos/"
+    ],
+    "thresholds": [
+      "未稅滿 ¥10,000：5% OFF",
+      "未稅滿 ¥30,000：7% OFF",
+      "未稅滿 ¥50,000：9% OFF"
+    ],
+    "notice": "福岡適用店為天神大丸前店；可作 Day 5 天神藥妝採買備用，其他分店不適用。",
+    "image": "coupons/cosmos-2026.jpg"
+  },
+  {
     "id": "matsukiyo",
     "merchant": "松本清 Matsukiyo",
     "aliases": [
@@ -115,34 +254,6 @@
     "image": "coupons/matsukiyo.jpg"
   },
   {
-    "id": "sugi",
-    "merchant": "SUGI 杉藥局",
-    "aliases": [
-      "スギ薬局",
-      "スギ藥局",
-      "杉薬局",
-      "杉藥妝"
-    ],
-    "offer": "額外 4%／6%／8% OFF",
-    "validity": "至 2027/02/28",
-    "stores": "提供免稅服務並參與活動的 SUGI 杉藥局。",
-    "limits": [
-      "結帳前出示券圖；不可與其他優惠券併用。",
-      "部分商品不適用，消費門檻稅別請依券面與店員認定。"
-    ],
-    "mode": "image",
-    "tripStatus": "in-trip",
-    "sourceUrls": [
-      "https://matcha-jp.com/tw/coupon/133"
-    ],
-    "thresholds": [
-      "滿 ¥10,000：4% OFF",
-      "滿 ¥30,000：6% OFF",
-      "滿 ¥50,000：8% OFF"
-    ],
-    "image": "coupons/sugi.png"
-  },
-  {
     "id": "tsuruha",
     "merchant": "TSURUHA 鶴羽藥妝",
     "aliases": [
@@ -168,57 +279,6 @@
     "notice": "目前券圖寫 Wants 廣島／山口、Wellness 鳥取／島根，與網頁地區不一致；不提供該圖作為福岡可掃描券。",
     "actionUrl": "https://matcha-jp.com/tw/coupon/139",
     "actionLabel": "開啟地區券入口"
-  },
-  {
-    "id": "sundrug",
-    "merchant": "SUNDRUG 尚都樂客藥妝",
-    "aliases": [
-      "サンドラッグ",
-      "尚都樂客",
-      "Sundrug"
-    ],
-    "offer": "額外 3%／5%／7% OFF",
-    "validity": "未標示明確截止日，使用前確認",
-    "stores": "參與活動且提供免稅結帳的 SUNDRUG 門市。",
-    "limits": [
-      "僅適用免稅購買，付款前出示券圖；不可併用其他折扣券或代金券。",
-      "部分藥品與化妝品不享額外折扣。"
-    ],
-    "mode": "image",
-    "tripStatus": "check",
-    "sourceUrls": [
-      "https://matcha-jp.com/tw/coupon/79"
-    ],
-    "thresholds": [
-      "含稅滿 ¥10,000：3% OFF",
-      "含稅滿 ¥30,000：5% OFF",
-      "含稅滿 ¥50,000：7% OFF"
-    ],
-    "notice": "不將網頁的 2099 年欄位視為保證有效期限；現場請確認此券仍可使用。",
-    "image": "coupons/sundrug.jpg"
-  },
-  {
-    "id": "hankyu",
-    "merchant": "博多阪急 Guest Coupon",
-    "aliases": [
-      "Hakata Hankyu",
-      "阪急",
-      "Guest Card"
-    ],
-    "offer": "指定商品 5% OFF",
-    "validity": "發行當日起 7 天，可重複使用",
-    "stores": "博多阪急適用專櫃。",
-    "limits": [
-      "食品、餐廳、咖啡、特價品、福袋、商品券及部分品牌不適用；單件未稅低於 ¥1,000 不適用。",
-      "限領卡本人使用，結帳前出示；可能需要再次出示護照，不可併用其他優惠。",
-      "銀聯、WeChat Pay、Alipay 有另一種直接折扣辦法，不能與此券重複使用。"
-    ],
-    "mode": "counter",
-    "tripStatus": "check",
-    "sourceUrls": [
-      "https://global.hankyu-hanshin-dept.co.jp/store/hakata/service/"
-    ],
-    "redeemAt": "購物前攜帶護照，到 1F 服務台或 M3F 免稅櫃檯領取；實際發卡條件依門市。"
   },
   {
     "id": "mitsukoshi",
@@ -313,65 +373,5 @@
     "notice": "11 月以後的新版預定在同一入口更新；尚未將未發布的新券視為有效。",
     "actionUrl": "https://livejapan.com/public/operation/coupon/biccamera/zh-tw.html?sc_lid=lj_article_a0005298",
     "actionLabel": "開啟新版券入口"
-  },
-  {
-    "id": "fukuoka-airport",
-    "merchant": "福岡機場免稅店",
-    "aliases": [
-      "Fukuoka Airport Duty Free",
-      "機場",
-      "伴手禮小町",
-      "衝日本"
-    ],
-    "offer": "指定商品額外 5% OFF",
-    "validity": "至 2027/03/31",
-    "stores": "福岡機場國際線出境後免稅店之參與櫃位；非全機場通用。",
-    "limits": [
-      "結帳前出示原始券圖；單筆限用一張，不可與其他優惠同時使用。",
-      "可重複使用；影印無效，不可兌換現金、不找零。",
-      "CHANEL、Christian Dior、ALBION、Elegance、PAUL & JOE、Aesop、LE LABO 等指定品牌不適用；ISSEY MIYAKE 旗下品牌不適用，惟香水可享優惠。",
-      "Air BicCamera、UNIQLO、伊東屋、宗家源吉兆庵、Butter Butler、BUTTER&bee、BACHA 等，以及餐廳、便利店不適用；完整排除清單見券面。",
-      "部分三得利商品、特價商品、高價酒類、稀缺商品、期間限定商品及部分兌換券不適用。"
-    ],
-    "mode": "image",
-    "tripStatus": "in-trip",
-    "image": "coupons/fukuoka-airport.jpg",
-    "redeemAt": "Day 6（12/17）10:30 出境後補買伴手禮時，付款前出示給收銀員。",
-    "notice": "適合回程補買時備用。THE MATCHA TOKYO、CHAORI-YA 及築地ちとせ是否適用，需向實際販售櫃位確認；不能視為必有折扣。",
-    "sourceUrls": [
-      "https://gogojp.tw/fukuoka-airport/",
-      "https://www.fuk-ab.com.tw/"
-    ]
-  },
-  {
-    "id": "fukuoka-airport-cathay",
-    "merchant": "福岡機場免稅店｜國泰世華專屬券",
-    "aliases": [
-      "Fukuoka Airport Duty Free",
-      "機場",
-      "伴手禮小町",
-      "國泰",
-      "國泰世華",
-      "Cathay United Bank"
-    ],
-    "offer": "指定商品額外 5% OFF",
-    "validity": "至 2027/03/31",
-    "stores": "福岡機場國際線出境後免稅店之參與櫃位；非全機場通用。",
-    "limits": [
-      "結帳前出示原始券圖；單筆限用一張，不可與其他優惠同時使用。",
-      "可重複使用；影印無效，不可兌換現金、不找零。",
-      "CHANEL、Christian Dior、ALBION、Elegance、PAUL & JOE、Aesop、LE LABO 等指定品牌不適用；ISSEY MIYAKE 旗下品牌不適用，惟香水可享優惠。",
-      "Air BicCamera、UNIQLO、伊東屋、宗家源吉兆庵、Butter Butler、BUTTER&bee、BACHA 等，以及餐廳、便利店不適用；完整排除清單見券面。",
-      "部分三得利商品、特價商品、高價酒類、稀缺商品、期間限定商品及部分兌換券不適用。"
-    ],
-    "mode": "image",
-    "tripStatus": "in-trip",
-    "image": "coupons/fukuoka-airport-cathay-20270331.jpg",
-    "redeemAt": "Day 6（12/17）10:30 出境後補買伴手禮時，付款前出示給收銀員。",
-    "notice": "國泰世華專屬優惠；券面未另載刷卡條件，使用資格以櫃位確認為準。與其他優惠券擇一使用。",
-    "sourceUrls": [
-      "https://fuk-ab.com.tw/cathaybk-coupon.html",
-      "https://fuk-ab.com.tw/coupon/cathaybk20270331coupon.jpg"
-    ]
   }
 ]
