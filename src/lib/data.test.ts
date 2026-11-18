@@ -156,3 +156,14 @@ it('prioritizes morning clothing and 3COINS without moving fixed pickup and dinn
   expect(stops.find(s => s.id === 'day-5-stop-10')?.startTime).toBe('17:00');
   expect(stops.find(s => s.id === 'day-5-stop-14')?.startTime).toBe('18:00');
 });
+
+it('uses the confirmed Yufuin no Mori tickets for both directions', () => {
+  const day = itinerary[2];
+  const outbound = day.stops.find(s => s.id === 'day-3-stop-1')!;
+  const inbound = day.stops.find(s => s.id === 'day-3-stop-5')!;
+  expect(outbound.startTime).toBe('09:17');
+  expect(outbound.detailMarkdown).toContain('2 號車廂，8C、8D');
+  expect(inbound.name).toContain('由布院之森 6 號');
+  expect(inbound.detailMarkdown).toContain('4 號車廂，6A、6B');
+  expect(JSON.stringify(itinerary)).not.toContain('由布號');
+});
