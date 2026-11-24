@@ -1578,21 +1578,20 @@
     ]
   },
   {
-    "id": "lawson-captain-butterscotch-burger",
-    "name": "CAPTAIN SWEETS BURGER 奶油焦糖漢堡夾心餅乾",
-    "image": "items/lawson-butterscotch-burger.jpg",
-    "imageCaption": "Lawson 官方 2 個入包裝照片。",
-    "size": "2 個入",
-    "notes": "バタースコッチバーガー；黃黑色袋裝，奶油巧克力與焦糖夾心。",
-    "convenienceStore": "Lawson",
-    "sourceUrls": [
-      "https://www.lawson.co.jp/sp/recommend/original/detail/1533669_2168.html",
-      "https://www.lawson.co.jp/lab/tsuushin/art/1533158_4659.html"
-    ],
+    "id": "seven-chocolate-rusks-48g",
+    "name": "7-PREMIUM 巧克力浸潤脆麵包",
     "type": "food",
     "category": "餅乾",
     "priority": 3,
-    "placeIds": []
+    "image": "items/seven-chocolate-rusks-48g.jpg",
+    "imageCaption": "7-PREMIUM 官方 48g 夾鏈袋包裝照片。",
+    "size": "48g",
+    "notes": "しみこみチョコラスク（Chocolate Rusks）；全粒粉脆麵包浸入巧克力，棕色夾鏈袋裝。分店供應以現場為準。",
+    "convenienceStore": "7-ELEVEN",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://7premium.jp/product/search/detail?id=7204"
+    ]
   },
   {
     "id": "meiji-dark-chocolate-matcha",
