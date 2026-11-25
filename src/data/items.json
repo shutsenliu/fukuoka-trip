@@ -1821,5 +1821,21 @@
     "priority": 3,
     "placeIds": [],
     "imageCaption": "品牌官方現行包裝圖。"
+  },
+  {
+    "id": "seven-sugarbutter-apple-brulee",
+    "name": "7-PREMIUM 砂糖奶油樹 烤蘋果布蕾",
+    "type": "food",
+    "category": "餅乾",
+    "priority": 3,
+    "image": "items/seven-sugarbutter-apple-brulee.jpg",
+    "imageCaption": "7-PREMIUM 官方秋冬限定 3 個入包裝照片。",
+    "size": "3 個入",
+    "notes": "シュガーバターの木 焼きりんごブリュレ仕立て；紅橘袋裝，蘋果巧克力搭配布蕾風味穀物餅乾與肉桂香。秋冬限定，福岡分店與旅程期間供應待確認。",
+    "convenienceStore": "7-ELEVEN",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://7premium.jp/product/search/detail?id=13212"
+    ]
   }
 ]
