@@ -520,6 +520,22 @@
     "imageCaption": "品牌官方商品圖，與照片指定款式相符。"
   },
   {
+    "id": "biore-uv-airy-hold-cream-70",
+    "name": "Biore UV Aqua Rich 呼吸感防曬乳霜",
+    "category": "防曬用品",
+    "size": "70g・SPF50+／PA++++",
+    "image": "items/biore-airy-hold-cream-70.jpg",
+    "imageCaption": "花王官方現行包裝參考圖；與影片中的銀色軟管外觀略有不同。",
+    "notes": "アクアリッチ エアリーホールドクリーム；呼吸感ベールUV，輕盈舒芙蕾乳霜質地，臉與身體適用。",
+    "sourceUrls": [
+      "https://www.kao-kirei.com/ja/item/khg/bioresarasarauv/4901301463593/"
+    ],
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "priority": 3,
+    "placeIds": []
+  },
+  {
     "id": "pureal-caffeine-lift-mask",
     "name": "Pureal 咖啡因緊緻面膜",
     "type": "shopping",
@@ -766,6 +782,22 @@
     ]
   },
   {
+    "id": "shimbi-method-derma-eye-cream-15",
+    "name": "SHIMBI METHOD Derma Eye Cream 眼霜",
+    "category": "眼周保養",
+    "size": "15g",
+    "image": "items/shimbi-derma-eye-cream-15.jpg",
+    "notes": "ダーマアイクリーム；白色軟管、銀色瓶蓋，含 Volufiline、發酵玻尿酸、BotoPept 與 Haloxyl，保濕眼周與乾燥細紋。",
+    "sourceUrls": [
+      "https://www.shimbimethod.jp/products/serum-eyecream.html"
+    ],
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "priority": 3,
+    "placeIds": [],
+    "imageCaption": "品牌官方商品圖。"
+  },
+  {
     "id": "marshique-hydrogel-neck-patch",
     "name": "MARSHIQUE 水凝膠頸膜",
     "type": "shopping",
@@ -880,6 +912,22 @@
     ],
     "size": "200 g",
     "color": "淺棕色（ライトブラウン）"
+  },
+  {
+    "id": "rohto-gyutto-corset-hair-milk-120",
+    "name": "ROHTO Gyutto Corset 修護護髮乳",
+    "category": "護髮用品",
+    "size": "120g・免沖洗護髮乳",
+    "image": "items/rohto-gyutto-hair-milk-120.jpg",
+    "notes": "ギュット コルセットヘアミルク；綠金色按壓瓶，保濕修護、整理毛躁與彎翹，綠茶與洋梨香。",
+    "sourceUrls": [
+      "https://jp.rohto.com/gyutto/corsethairmilk/"
+    ],
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "priority": 3,
+    "placeIds": [],
+    "imageCaption": "品牌官方商品圖。"
   },
   {
     "id": "canmake-botanical-nail-oil",
@@ -1741,5 +1789,37 @@
     "placeIds": [
       "yodobashi-hakata"
     ]
+  },
+  {
+    "id": "seven-charcoal-chicken-thigh-salt-70",
+    "name": "7-PREMIUM 炭火燒雞腿肉 鹽味",
+    "category": "冷藏熟食",
+    "size": "70g",
+    "image": "items/seven-charcoal-chicken-salt-70.jpg",
+    "convenienceStore": "7-ELEVEN",
+    "notes": "国産鶏使用 炭火焼もも塩；白色托盤裝，須冷藏 10°C 以下，加熱方式依包裝。分店供應以現場為準。",
+    "sourceUrls": [
+      "https://7premium.jp/product/search/detail?id=12885"
+    ],
+    "type": "food",
+    "priority": 3,
+    "placeIds": [],
+    "imageCaption": "品牌官方現行包裝圖。"
+  },
+  {
+    "id": "megumi-gasseri-sp-drink-100",
+    "name": "雪印惠乳 Megumi Gasseri SP 菌優格飲",
+    "category": "冷藏優格",
+    "size": "100g・原味飲用型",
+    "image": "items/megumi-gasseri-drink-100.png",
+    "convenienceStore": "any",
+    "notes": "恵 megumi ガセリ菌SP株ヨーグルト ドリンクタイプ；紅白瓶裝，冷藏乳酸菌優格飲，非莓果或草莓口味。分店供應以現場為準。",
+    "sourceUrls": [
+      "https://www.meg-snow.com/products/detail.php?p=megumi_gaseri_d"
+    ],
+    "type": "food",
+    "priority": 3,
+    "placeIds": [],
+    "imageCaption": "品牌官方現行包裝圖。"
   }
 ]
