@@ -424,6 +424,22 @@
     ]
   },
   {
+    "id": "hadabisei-choi-acne-facewash-110",
+    "name": "肌美精 CHOI 藥用痘痘護理洗面乳",
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "category": "洗面乳",
+    "priority": 3,
+    "image": "items/hadabisei-choi-acne-facewash-110.jpg",
+    "imageCaption": "Kracie 官方 110g 軟管款商品圖。",
+    "size": "110g・軟管款",
+    "notes": "CHOI薬用フェイスウォッシュ ニキビケア；白管藍蓋，含殺菌與抗發炎有效成分的藥用潔面乳，醫藥部外品。",
+    "placeIds": [],
+    "sourceUrls": [
+      "https://www.kracie.co.jp/products/khp/10167455_21121.html"
+    ]
+  },
+  {
     "id": "elixir-retinol-power-wrinkle-cream",
     "name": "ELIXIR Retinol Power 抗皺霜（照片原版）",
     "type": "shopping",
