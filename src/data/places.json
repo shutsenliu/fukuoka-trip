@@ -674,5 +674,20 @@
     "sourceUrls": [
       "https://www.sugi-net.jp/stores/2376"
     ]
+  },
+  {
+    "id": "brick-bake-bakers-mitsukoshi",
+    "name": "Brick bake bakers 福岡三越店",
+    "type": "shop",
+    "area": "天神",
+    "address": "福岡県福岡市中央区天神2-1-1 福岡三越 B2F",
+    "shortAddress": "福岡三越 B2F",
+    "hours": "10:00–20:00（依百貨公告）",
+    "navigationDestination": "日本 福岡県福岡市中央区天神2-1-1 福岡三越 地下2階 Brick bake bakers",
+    "notes": "現烤費南雪。Day 5 福岡三越備選，有餘裕再去、不一定要買，不縮短 Honeys 或影響 17:00 取麵包、18:00 晚餐；品項與庫存以現場為準。",
+    "sourceUrls": [
+      "https://www.iwataya-mitsukoshi.mistore.jp/iwataya/shops/foods/foods/shopnews_list/shopnews0285.html",
+      "https://www.ec-corp.jp/info/Ru9CNxyM"
+    ]
   }
 ]

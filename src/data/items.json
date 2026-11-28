@@ -1853,5 +1853,21 @@
     "sourceUrls": [
       "https://7premium.jp/product/search/detail?id=13212"
     ]
+  },
+  {
+    "id": "brick-bake-bakers-financiers",
+    "name": "Brick bake bakers 現烤費南雪（備選）",
+    "type": "food",
+    "category": "費南雪",
+    "priority": 3,
+    "image": "items/brick-bake-bakers-financiers.png",
+    "imageCaption": "岩田屋三越官方費南雪商品照片；照片含不同口味，實際供應以現場為準。",
+    "notes": "福岡三越 B2；現烤費南雪。Day 5 順路且有餘裕再買，不一定要去；排隊長或時間不足就略過，不影響 Honeys、取麵包與晚餐。",
+    "placeIds": [
+      "brick-bake-bakers-mitsukoshi"
+    ],
+    "sourceUrls": [
+      "https://www.iwataya-mitsukoshi.mistore.jp/iwataya/shops/foods/foods/shopnews_list/shopnews0285.html"
+    ]
   }
 ]
