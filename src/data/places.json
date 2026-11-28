@@ -689,5 +689,19 @@
       "https://www.iwataya-mitsukoshi.mistore.jp/iwataya/shops/foods/foods/shopnews_list/shopnews0285.html",
       "https://www.ec-corp.jp/info/Ru9CNxyM"
     ]
+  },
+  {
+    "id": "cheesetocake-hakata",
+    "name": "ちーずとけーき。博多站店",
+    "type": "shop",
+    "area": "博多",
+    "address": "福岡県福岡市博多区博多駅中央街1-1 いっぴん通り 1F",
+    "shortAddress": "博多站 1F いっぴん通り",
+    "hours": "08:00–21:00（依官方公告）",
+    "navigationDestination": "日本 福岡県福岡市博多区博多駅中央街1-1 いっぴん通り ちーずとけーき。",
+    "notes": "起司蛋糕專門店；博多站路過備選，不另固定採買時段，口味與保冷方式到店確認。",
+    "sourceUrls": [
+      "https://www.jrhakatacity.com/floor/detail/?cd=000389"
+    ]
   }
 ]

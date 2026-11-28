@@ -488,6 +488,22 @@
     "imageCaption": "品牌官方商品圖。"
   },
   {
+    "id": "astery-royal-moist-rich-cream",
+    "name": "Royal Moist Rich Cream 蜂王乳保濕小金罐",
+    "category": "臉部保養",
+    "size": "75g",
+    "image": "items/astery-royal-moist-rich-cream.jpg",
+    "imageCaption": "Astery 官方 75g 金罐商品照片。",
+    "notes": "ローヤルモイストリッチクリーム；含蜂王乳萃取、蜂膠與蜂蜜等保濕成分的乳霜。",
+    "sourceUrls": [
+      "https://www.astery.jp/product-page/cp-lip-リップエッセンス-1"
+    ],
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "priority": 3,
+    "placeIds": []
+  },
+  {
     "id": "elixir-day-care-tone-up-pink",
     "name": "ELIXIR 提亮防曬乳 粉紅款",
     "type": "shopping",
@@ -1204,6 +1220,22 @@
     "imageCaption": "品牌官方商品圖，與照片指定款式相符。"
   },
   {
+    "id": "danitori-robo-soft-large",
+    "name": "日革研究所 ダニ捕りロボ 除蟎墊 本體 L",
+    "category": "生活用品",
+    "size": "L／ラージ，本體＋誘引墊各 1",
+    "image": "items/danitori-robo-soft-large.webp",
+    "imageCaption": "日革研究所官方 L 軟殼使用示意照片；需求為本體組，非單買替換誘引墊。",
+    "notes": "軟殼本體搭配誘引墊，放在床墊或沙發下誘捕塵蟎；誘引墊約 3 個月更換。",
+    "sourceUrls": [
+      "https://nikkaku-j.com/products/danitori_robo/"
+    ],
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "priority": 3,
+    "placeIds": []
+  },
+  {
     "id": "traful-direct-a-12",
     "name": "第一三共 Traful Direct 嘴破貼片",
     "type": "shopping",
@@ -1362,6 +1394,22 @@
     "priority": 3,
     "placeIds": [],
     "imageCaption": "品牌官方 60g 裝參考圖；照片指定乳霜款，需求容量待確認。"
+  },
+  {
+    "id": "dolmycin-12g",
+    "name": "Zeria ドルマイシン 外用抗生素軟膏",
+    "category": "藥品",
+    "size": "12g",
+    "image": "items/dolmycin-12g.jpg",
+    "imageCaption": "Zeria 官方 ドルマイシン軟膏 12g 包裝與軟管照片。",
+    "notes": "第2類醫藥品，含兩種抗生素，用於外傷等的化膿預防與治療；指定 ドルマイシン款。",
+    "sourceUrls": [
+      "https://www.zeria.co.jp/dolmy/"
+    ],
+    "type": "shopping",
+    "shoppingGroup": "drugstore",
+    "priority": 3,
+    "placeIds": []
   },
   {
     "id": "mytear-alpitat-ex-alpha7",
@@ -1852,6 +1900,23 @@
     ],
     "sourceUrls": [
       "https://www.iwataya-mitsukoshi.mistore.jp/iwataya/shops/foods/foods/shopnews_list/shopnews0285.html"
+    ]
+  },
+  {
+    "id": "cheesetocake-cheesecake",
+    "name": "ちーずとけーき。起司蛋糕（備選）",
+    "type": "food",
+    "category": "起司蛋糕",
+    "priority": 3,
+    "image": "items/cheesetocake-hakata-cheesecake.jpg",
+    "imageCaption": "ARNE 博多站分店報導照片；口味依現場供應選擇。",
+    "notes": "博多站 1F いっぴん通り；經過有空再買，不另排必去時段。冷藏甜點，購買前確認保冷與食用時間。",
+    "placeIds": [
+      "cheesetocake-hakata"
+    ],
+    "sourceUrls": [
+      "https://www.jrhakatacity.com/floor/detail/?cd=000389",
+      "https://arne.media/gourmet/459431/"
     ]
   }
 ]
