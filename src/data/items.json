@@ -169,22 +169,6 @@
     ]
   },
   {
-    "id": "hakata-mentai-ebi",
-    "name": "博多明太えびせんべい／博多明太子蝦餅",
-    "type": "shopping",
-    "category": "伴手禮",
-    "priority": 3,
-    "image": "items/hakata-mentai-ebi-package.png",
-    "imageCaption": "博多風美庵官方各入數包裝照片。",
-    "notes": "博多風美庵的明太子蝦餅；依需求挑選盒裝，當日庫存以門市為準。",
-    "placeIds": [
-      "fubian-ming"
-    ],
-    "sourceUrls": [
-      "https://fuubian.co.jp/lp/campaign/ebisenbei/2026/"
-    ]
-  },
-  {
     "id": "amanberry-strawberry",
     "name": "AMANBERRY 草莓奶油夾心餅乾",
     "type": "shopping",
@@ -1862,7 +1846,7 @@
     "priority": 3,
     "image": "items/brick-bake-bakers-financiers.png",
     "imageCaption": "岩田屋三越官方費南雪商品照片；照片含不同口味，實際供應以現場為準。",
-    "notes": "福岡三越 B2；現烤費南雪。Day 5 順路且有餘裕再買，不一定要去；排隊長或時間不足就略過，不影響 Honeys、取麵包與晚餐。",
+    "notes": "福岡三越 B2；現烤費南雪。Day 5 順路且有餘裕再買，不一定要去；排隊長或時間不足就略過，不影響主要購物、取麵包與晚餐。",
     "placeIds": [
       "brick-bake-bakers-mitsukoshi"
     ],
