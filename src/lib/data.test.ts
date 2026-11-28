@@ -72,7 +72,7 @@ describe('approved Hakata shopping plan', () => {
     expect(itemsForStop(tenjin).some(item => item.id === 'butterstates-amaou-butter-sand')).toBe(true);
     expect(tenjin.detailMarkdown).toContain('不另綁時段');
     expect(airport.detailMarkdown).toContain('12 月確定販售');
-    expect(station.endTime).toBe('16:00');
+    expect(station.optional).toBe(true);
     const imonne = itinerary[4].stops.find(stop => stop.id === 'day-5-imonne')!;
     expect(itemsForStop(imonne).map(item => item.id)).toEqual(['imonne-matcha-mochi']);
     expect(imonne.startTime).toBe('11:25');
@@ -89,11 +89,12 @@ describe('approved Hakata shopping plan', () => {
   it('retains ordered non-overlapping times and real image assets', () => {
     for (const day of itinerary) {
       expect(new Set(day.stops.map(stop => stop.id)).size).toBe(day.stops.length);
-      for (let index = 0; index < day.stops.length; index++) {
-        const stop = day.stops[index];
+      const fixed = day.stops.filter(stop => !stop.optional);
+      for (let index = 0; index < fixed.length; index++) {
+        const stop = fixed[index];
         expect(stop.startTime).toMatch(/^([01]\d|2[0-3]):[0-5]\d$/);
         expect(stop.endTime > stop.startTime).toBe(true);
-        if (index) expect(stop.startTime >= day.stops[index - 1].endTime).toBe(true);
+        if (index) expect(stop.startTime >= fixed[index - 1].endTime).toBe(true);
       }
     }
     for (const item of items) expect(existsSync(`public/${item.image}`)).toBe(true);
@@ -147,12 +148,13 @@ it('exchanges passes at Hakata after the bus and keeps Mojiko return flexible', 
   expect(stops.find(s => s.id === 'day-1-stop-10')?.startTime).toBe('17:00');
 });
 
-it('prioritizes morning clothing and 3COINS without moving fixed pickup and dinner', () => {
+it('keeps Hakata shops optional without moving fixed pickup and dinner', () => {
   const stops = itinerary[4].stops;
   const coins = stops.find(s => s.id === 'day-5-3coins')!;
   expect(coins.placeId).toBe('3coins-amuest-hakata');
   expect(coins.endTime <= '12:30').toBe(true);
-  expect(stops.find(s => s.id === 'day-5-nintendo')?.name).toContain('彈性');
+  expect(stops.find(s => s.id === 'day-5-nintendo')?.optional).toBe(true);
+  expect(coins.optional).toBe(true);
   expect(stops.find(s => s.id === 'day-5-stop-10')?.startTime).toBe('17:00');
   expect(stops.find(s => s.id === 'day-5-stop-14')?.startTime).toBe('18:00');
 });
@@ -166,4 +168,17 @@ it('uses the confirmed Yufuin no Mori tickets for both directions', () => {
   expect(inbound.name).toContain('由布院之森 6 號');
   expect(inbound.detailMarkdown).toContain('4 號車廂，6A、6B');
   expect(JSON.stringify(itinerary)).not.toContain('由布號');
+});
+
+it('keeps Hakata shopping optional across returning days and goes to coffee after Day 1 lunch', () => {
+  for (const day of itinerary.slice(0,5)) {
+    const hankyu = day.stops.find(s => s.id === 'day-1-hankyu-souvenirs')!;
+    expect(hankyu.optional).toBe(true);
+    expect(day.stops.find(s => s.id === 'day-5-uniqlo')?.optional).toBe(true);
+  }
+  const fixed = itinerary[0].stops.filter(s => !s.optional);
+  const lunch = fixed.findIndex(s => s.id === 'day-1-stop-5');
+  expect(fixed[lunch+1].id).toBe('day-1-stop-6');
+  expect(fixed[lunch+1].startTime).toBe('14:50');
+  expect(fixed[lunch+2].startTime).toBe('15:10');
 });

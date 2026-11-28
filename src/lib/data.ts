@@ -1,8 +1,9 @@
 import itineraryJson from '../data/itinerary.json';
+import hakataOptions from '../data/hakataOptions.json';
 import placesJson from '../data/places.json';
 import itemsJson from '../data/items.json';
 import type { TripDay, Place, TripItem, ItineraryStop } from '../types';
-export const itinerary: TripDay[] = itineraryJson;
+export const itinerary: TripDay[] = itineraryJson.map(day => ({ ...day, stops: [...day.stops, ...(day.hakataOptions ? hakataOptions : [])] }));
 export const places: Place[] = placesJson.map(place => {
   if (place.type !== 'shop' && place.type !== 'restaurant' && place.type !== 'attraction' && place.type !== 'hotel') throw new Error(`Invalid place type: ${place.id}`);
   return { ...place, type: place.type };

@@ -110,3 +110,5 @@ Google Maps 導航僅使用明確核對並設定的 navigationDestination，省�
 退稅頁籤位於 `#/tax-refund`：包含福岡機場海關確認／出境後領現流程、位置與時間、Wi-Fi 複製、店家與業者搜尋及收合問答。資料在 `src/data/taxRefund.json`，來源僅作 metadata；店家合作關係須由使用者依實際交易確認。
 
 Pages 發布只暫存部署所需的 `github-pages` artifact；`cleanup` job 在 build/deploy 結束後刪除該次執行的暫存產物（成功、失敗均執行）。上傳保留期限 1 天僅作清理異常時的備援，不另外保留下載用建置產物。此調整不會自動刪除舊執行紀錄內的 artifacts。
+
+博多站購物／美食的共用路過選項在 `src/data/hakataOptions.json`，Day 1～5 以 `hakataOptions: true` 引用。展開後不顯示固定時間，仍可依日期與站點查看清單；同一商品完成紀錄跨天共用。固定行程只讀取非 `optional` 站點。

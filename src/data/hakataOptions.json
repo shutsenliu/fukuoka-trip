@@ -1,0 +1,139 @@
+[
+  {
+    "id": "day-1-hankyu-souvenirs",
+    "startTime": "14:50",
+    "endTime": "15:20",
+    "name": "博多阪急 B1 伴手禮（路過選項）",
+    "type": "購物",
+    "notes": "經過阪急且營業中再買，不必第一天買齊。要用 Guest Coupon 先領券；食品不適用折扣。",
+    "placeIds": [
+      "ivorish-hakata",
+      "sugarbutter-hakata",
+      "amanberry-hankyu"
+    ],
+    "maps": [
+      {
+        "label": "Google Maps 導航",
+        "destination": "日本 福岡県福岡市博多区博多駅中央街1-1 博多阪急",
+        "confirmed": true
+      }
+    ],
+    "detailMarkdown": "### 購物前先領 Guest Coupon\n\n* 先攜帶 **護照** 到 **1F 服務台或 M3F 免稅櫃檯**，領取 **博多阪急 Guest Coupon**，實際發卡條件依現場。\n* 適用商品結帳前出示，指定商品可享 5% OFF；發行日起 7 天可重複使用。\n* **食品、餐廳、咖啡、特價品及部分品牌不適用**；這站 B1 伴手禮不預設可使用折扣。單件未稅低於 ¥1,000 也不適用，完整限制見優惠券頁。\n* 到店有需要再領取，依櫃台排隊與當天剩餘時間取捨。\n\n### 目前安排\n\nIvorish、甘王草莓砂糖樹、AMANBERRY；優先買清單品項，依排隊與庫存彈性調整。\n\n**交通**\n\n* 由當時所在位置前往博多阪急 B1，不固定哪天、哪餐後前往。\n* 同樓層依櫃位順路採買；過門而未買齊，可在其他天再來。\n\n### 行程內容\n\n* **Ivorish｜博多阪急 B1F**\n\n  * 推薦：**法式吐司費南雪（French Toast Financier）**\n  * 吐司造型的費南雪，主打奶油、楓糖香氣。\n  * 就是黑色包裝、吐司造型的那款。\n  * 如果看到 **法式吐司塔（French Toast Tart）**也可以買。\n  * 若有福岡 / 博多限定口味，可優先考慮。\n\n* **SUGAR BUTTER TREE｜甘王草莓砂糖樹**\n\n  * 草莓巧克力搭配酥脆穀物餅乾。\n  * 可優先找福岡限定的甘王草莓口味。",
+    "optional": true
+  },
+  {
+    "id": "day-1-station-souvenirs",
+    "startTime": "15:20",
+    "endTime": "16:00",
+    "name": "博多站伴手禮・LeClerc（路過選項）",
+    "type": "購物",
+    "notes": "Ming、DEITOS、LeClerc、治一郎等，路過有空再買／吃；先確認當日營業與保冷需求，不必一天買齊。",
+    "placeIds": [
+      "butterbee-ming",
+      "hanafukudo-deitos",
+      "leclerc-hakata",
+      "fukusaya-ming",
+      "fukutaro-ming",
+      "itoking-ming",
+      "jiichiro-hakata",
+      "hakata-meihingura-hakataguchi"
+    ],
+    "maps": [
+      {
+        "label": "Google Maps 導航",
+        "destination": "日本 福岡県福岡市博多区博多駅中央街1-1 博多駅",
+        "confirmed": true
+      }
+    ],
+    "detailMarkdown": "### 目前安排\n\nMing：伊都きんぐ草莓派／曲奇、BUTTER&bee、福砂屋、福太郎；DEITOS：花福堂草莓千層酥／貓舌餅乾；いっぴん東通り：LeClerc。蜂蜜巧克力夾心餅乾為季節限定，12 月供應待確認。\n\n**交通**\n\n* 由當時位置前往站內 Ming、DEITOS 或いっぴん東通り，依想買的店家選擇。\n* 全部位於站內／站旁，依店家營業、庫存及排隊選擇，不固定採買順序。\n\n### 行程內容\n\n* **Ming 博多 / 博多阪急 B1 / JR 博多城 / DEITOS**\n\n     * 集中購買伴手禮。\n\n* **鈴懸 博多 DEITOS 店**\n\n  * 推薦：草莓大福、銅鑼燒。\n\n* **LeClerc（ルクレール）**\n\n  * 推薦：可麗露、法式甜點。\n\n* **めんべい｜明太子仙貝**\n\n  * 福岡經典伴手禮。\n  * 鹹香、帶明太子風味，適合不愛甜食的人。\n\n* **花福堂｜博多甘王草莓夾心餅乾**\n\n  * 甘王草莓口味甜點。\n  * 適合當福岡特色伴手禮。\n\n* **福砂屋｜長崎蛋糕**\n\n  * 九州經典長崎蛋糕。\n  * 可以挑小包裝或方便分送的版本。\n\n* **⚠️ 購買提醒**：\n\n  * **鈴懸草莓大福優先買**，太晚可能售完。\n  * **Ivorish 就在博多阪急 B1F**，逛伴手禮時一起買，不需要另外跑一趟。\n  * 伴手禮不限定 Day 1；多天會經過博多站，可分次採買，想吃的生鮮甜點以當天能妥善保冷或食用為準。\n  * 買太多可依位置、體力回飯店放東西，無須一路帶著逛；注意後續固定時間。\n\n### 新增伴手禮順路採買\n\n* **Ming 和菓子通り・伊都きんぐ**：博多ぱいおう草莓派、福岡いちご曲奇。官方門市頁列有兩款系列；照片的三種綜合盒與入數到店確認，不需要進入新幹線閘內。\n* **DEITOS 1F・花福堂**：博多まっかな苺のミルフィユ草莓巧克力千層酥，與原本的貓舌餅乾是不同品項。\n* **BUTTER&bee**：蜂蜜巧克力夾心餅乾已有季節限定發售紀錄；12 月是否販售仍需確認。\n* 原有 AMANBERRY 安排在前一站博多阪急 B1，沿用原清單，無重複新增。\n* 不另綁採買時段，依想買程度、排隊與庫存取捨。\n\n### 治一郎布丁\n\n* **治一郎 JR博多シティ店**：官方列博多 DEITOS いっぴん通り 1F，與原本博多站採買合併，不另增時段。\n* 原味布丁需冷藏，購買前詢問保冷與可攜帶時間；可在博多站當地吃，避免常溫一路攜帶。依食量與排隊取捨。\n\n### 明太子味 Jagarico\n\n* **博多銘品蔵 博多口店（JR 博多站 1F）**：與站內伴手禮採買合併，詢問九州土產明太子味 8 袋禮盒。銘品蔵有販售紀錄，分店當天庫存需確認；不用進新幹線閘內。",
+    "optional": true
+  },
+  {
+    "id": "day-5-stop-1",
+    "startTime": "10:00",
+    "endTime": "10:40",
+    "name": "GU 博多店（路過選項）",
+    "type": "購物",
+    "notes": "Yodobashi 博多 3F；有空再挑衣服、試衣，不固定 Day 5 上午逛。",
+    "placeId": "gu-hakata",
+    "placeIds": [
+      "gu-hakata",
+      "yodobashi-hakata"
+    ],
+    "maps": [
+      {
+        "label": "Google Maps 導航",
+        "destination": "日本 福岡県福岡市博多区博多駅中央街6-12 ヨドバシカメラ マルチメディア博多",
+        "confirmed": true
+      }
+    ],
+    "detailMarkdown": "### 路過有空再逛\n\n* **GU 博多店：Yodobashi 博多 3F**。不限定日期，不另綁停留分鐘數。\n* 先看營業時間及試衣／結帳隊伍，不影響交通、晚餐與取貨。\n* 同棟 Yodobashi 可順路詢問ほりにし原味 100g，分店庫存待確認；找貨或排隊較久就略過。CIO 與 Anker 也列在路過選項，不再綁定 12/15 晚餐後採買。",
+    "optional": true
+  },
+  {
+    "id": "day-5-uniqlo",
+    "startTime": "10:45",
+    "endTime": "11:25",
+    "name": "UNIQLO KITTE 博多店（路過選項）",
+    "type": "購物",
+    "notes": "KITTE 博多 8F；經過有空再逛，不必跟 GU 同一天完成。",
+    "placeId": "uniqlo-hakata",
+    "detailMarkdown": "### 路過有空再逛\n\n* **UNIQLO KITTE 博多店：8F**。經過博多站有空再逛，不限定 Day 5 上午。\n* 試衣與結帳需要時間；先看當日營業與後續行程，不為逛齊品牌而趕路。\n* Imonne 在同棟 1F，想吃且沒排長隊時可順路選擇。",
+    "optional": true
+  },
+  {
+    "id": "day-5-3coins",
+    "startTime": "11:40",
+    "endTime": "12:00",
+    "name": "3COINS AMU EST 博多店（路過選項）",
+    "type": "購物",
+    "placeId": "3coins-amuest-hakata",
+    "notes": "AMU EST 1F，官方現行 10:00–20:00；經過有空再看雜貨。",
+    "detailMarkdown": "### 路過有空再逛\n\n* 博多站 **AMU EST 1F**，官方目前列 **10:00～20:00**。\n* 與站內採買合併選擇，不固定 Day 5 上午。回博多太晚已關店時就留別天，不為此趕車或晚餐。",
+    "optional": true
+  },
+  {
+    "id": "day-5-imonne",
+    "startTime": "11:25",
+    "endTime": "11:35",
+    "name": "Imonne Hakata 抹茶麻糬冰淇淋（路過選項）",
+    "type": "美食",
+    "notes": "KITTE 博多／博多丸井 1F；想吃且營業中再買，不固定哪天吃。",
+    "placeId": "imonne-hakata",
+    "detailMarkdown": "### 路過想吃再吃\n\n* **KITTE 博多／博多丸井 1F Imonne Hakata**，想試抹茶麻糬冰淇淋。\n* 可在 UNIQLO 下樓後、回博多站或其他經過的日子順路選擇。\n* 依食量、店家營業與現場口味供應，不排長隊、不必特地補吃。",
+    "optional": true
+  },
+  {
+    "id": "day-5-nintendo",
+    "startTime": "12:05",
+    "endTime": "12:30",
+    "name": "Nintendo FUKUOKA（路過選項）",
+    "type": "購物",
+    "notes": "AMU PLAZA 博多 8F；有空、營業中再逛，遇整理券或長隊可換天或略過。",
+    "placeId": "nintendo",
+    "detailMarkdown": "### 路過有空再逛\n\n* **AMU PLAZA 博多 8F Nintendo FUKUOKA**。不固定 Day 5 上午，也不用只逛一次。\n* 店內挑商品、試衣及結帳可能超時；遇整理券或長隊，依當天時間決定改天或略過。\n* 博多丸井的哥吉拉商店、らしんばん維持原本備選，時間與興趣足夠再考慮，不另新增必去停靠點。",
+    "optional": true
+  },
+  {
+    "id": "day-5-stop-3",
+    "startTime": "13:00",
+    "endTime": "14:00",
+    "name": "博多鐵人（用餐選項）",
+    "type": "行程",
+    "notes": "想吃鐵板燒肉定食時再去，不固定 Day 5 午餐；依當日營業與排隊選擇。",
+    "placeId": "ironman",
+    "detailMarkdown": "### 博多周邊用餐選項\n\n* **博多鐵人**：想吃鐵板燒肉定食時，可放在經過博多的午餐或其他合適時段。\n* 不預設晚間一定營業，到店前確認當日供餐時間；排隊太長改吃附近其他餐廳。\n* 已訂位的晚餐不因這個備選而改動，也不為了補吃而壓縮移動。",
+    "optional": true
+  },
+  {
+    "id": "day-4-yodobashi-electronics",
+    "startTime": "19:45",
+    "endTime": "20:30",
+    "name": "博多 Yodobashi：行動電源與充電器（路過選項）",
+    "type": "購物",
+    "placeId": "yodobashi-hakata",
+    "notes": "CIO SMARTCOBY Pro SLIM SS 與 Anker Nano II 65W，經過有空再買，庫存與價格現場確認。",
+    "detailMarkdown": "### 路過有空再買\n\n* Yodobashi 博多：博多駅中央街 6-12，與 GU 同棟；不固定 Day 4 晚餐後採買。\n* **CIO SMARTCOBY Pro SLIM SS**：10000mAh、35W，官方型號 CIO-MB35W2C1A-SSA10K-S，黑色 BK／白色 WH。圖片參考價 ¥6,280，現價另確認。\n* **Anker Nano II 65W**：指定 A2663N13，不自動改買 A2663N11；圖片參考價 ¥4,210～4,490，現價另確認。\n* 博多分店現貨與樓層待確認，先向店員出示型號；不保證到店一定買得到。\n* 經過且營業中、有時間再買，不影響已訂晚餐、火車與取貨。",
+    "optional": true
+  }
+]

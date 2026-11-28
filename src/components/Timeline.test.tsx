@@ -1,5 +1,5 @@
 // @vitest-environment jsdom
-import { cleanup, render, screen } from '@testing-library/react';
+import { cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { afterEach, expect, it } from 'vitest';
 import { MemoryRouter } from 'react-router-dom';
 import { Timeline } from './Timeline';
@@ -41,4 +41,15 @@ it('keeps complete pass instructions inside a collapsed detail section', () => {
   expect(details.textContent).toContain('2026/12/13');
   expect(details.textContent).toContain('山陽新幹線');
   expect(details.querySelector('strong')).toBeTruthy();
+});
+
+it('shows shared Hakata choices without fixed times and keeps day-specific checklist links', () => {
+  render(<MemoryRouter><Timeline day={itinerary[1]}/></MemoryRouter>);
+  const summary = screen.getByText('博多站路過選項 · 有空再逛／吃');
+  expect(summary.closest('details')?.open).toBe(false);
+  fireEvent.click(summary);
+  const article = screen.getByRole('heading', { name: '博多站伴手禮・LeClerc（路過選項）' }).closest('article')!;
+  expect(article.querySelector('.time')?.textContent).toBe('路過');
+  expect(article.querySelector('a.buy-link')?.getAttribute('href')).toContain('day=day-2');
+  expect(article.querySelector('a.buy-link')?.getAttribute('href')).toContain('stop=day-1-station-souvenirs');
 });

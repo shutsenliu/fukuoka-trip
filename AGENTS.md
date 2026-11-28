@@ -46,3 +46,5 @@ This is a static travel companion with itinerary, places, and shopping/food goal
 - Every souvenir goal must use a real photo showing its recognizable box, bag, or individual packaging. Do not use AI illustrations or unwrapped-food-only images for souvenirs. Identify the photographed pack size and any reference-photo source in the caption without changing the requested product.
 
 - Tax-refund reference data belongs in src/data/taxRefund.json. Keep customs confirmation before baggage drop distinct from cash collection after immigration. Retailer/operator mappings are conditional references, not guaranteed all-branch participation; preserve those labels and do not invent cash eligibility.
+
+- Shared optional Hakata shopping/food stops belong in src/data/hakataOptions.json. Days 1–5 opt in with hakataOptions: true; lib/data.ts joins these into day.stops. optional stops appear in the collapsed route-past section without fixed times, and keep item IDs and checklist links. Do not copy shared options into each day or turn them into mandatory timed shopping.
